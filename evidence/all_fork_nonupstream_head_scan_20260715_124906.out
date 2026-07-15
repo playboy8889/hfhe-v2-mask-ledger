@@ -1,0 +1,272 @@
+# all fork non-upstream head marker scan 20260715_124906
+forks 31
+fork 0xTaaa/hfhe-challenge heads [('main', '019380c97543620091409b0fbf73a8a773a9a0da')]
+fork zhaoge7786/hfhe-challenge heads [('main', '019380c97543620091409b0fbf73a8a773a9a0da')]
+fork erlanggada/hfhe-challenge heads [('main', '019380c97543620091409b0fbf73a8a773a9a0da')]
+fork SNAKBILLION/hfhe-challenge heads [('main', 'd9d29d505e2840c0028d7a91a2a8ba59e163b9a4')]
+fork vansham/hfhe-challenge heads [('main', 'd9d29d505e2840c0028d7a91a2a8ba59e163b9a4')]
+fork akidry/hfhe-challenge heads [('main', '0d08e9622921e5930175a660df0061a65548972f')]
+fork ifeoluwaaj/hfhe-challenge heads [('hfhe-v2-cryptanalysis', 'ffed46e744bb17871120fbc7e27102c92896567f'), ('main', '0d08e9622921e5930175a660df0061a65548972f')]
+fork JH-321/hfhe-challenge-1 heads [('main', '0d08e9622921e5930175a660df0061a65548972f')]
+fork k3llgh/hfhe-challenge heads [('main', '0d08e9622921e5930175a660df0061a65548972f')]
+fork emma31-dev/hfhe-challenge heads [('main', '0d08e9622921e5930175a660df0061a65548972f')]
+fork nxpath/hfhe-challenge heads [('main', '8a8df807bc12858a3076eb2d026f5d0ed1f2eceb')]
+fork Eienel/hfhe-challenge-eienel heads [('claude/hfhe-challenge-progress-b6ld5x', 'c2897e67bbd511ac50606ec3157b0b7a1adadf81'), ('claude/hfhe-challenge-v2-8bntzl', '93ff858fb9471d0252cc76092c681daa9f6a1879'), ('main', 'efb24174ac4c24c723b6c5bd99d289f89cf141c6')]
+fork TonyLegend-77/hfhe-challenge heads [('main', '0d08e9622921e5930175a660df0061a65548972f'), ('patch-1', '832890554fff9794871ebd462cf7b917e6222eb5')]
+fork Giri-Aayush/hfhe-challenge heads [('main', '0d08e9622921e5930175a660df0061a65548972f')]
+fork 0xjagadbumi/hfhe-challenge heads [('main', '0d08e9622921e5930175a660df0061a65548972f')]
+fork Yanu403/hfhe-challenge heads [('main', '5e25d305429d3efbb4a11a6d0748f0fd99f8d57d')]
+fork jigggyzigggy/hfhe-challenge heads [('main', '0d08e9622921e5930175a660df0061a65548972f')]
+fork pymparticles/hfhe-challenge heads [('main', '6d845e07f82ce924868ddac849ba92277150cfd9')]
+fork uChiron/hfhe-challenge heads [('main', '0d08e9622921e5930175a660df0061a65548972f')]
+fork Wezix/hfhe-challenge-test heads [('main', '0d08e9622921e5930175a660df0061a65548972f')]
+fork Instant-Futures-Trading/hfhe-challenge heads [('main', '0d08e9622921e5930175a660df0061a65548972f')]
+fork benevolentcyka/hfhe-challenge heads [('main', '0d08e9622921e5930175a660df0061a65548972f')]
+fork Instantfutures/hfhe-challenge heads [('main', '25ab0aaee0f53438c999ac46799fb02fdbc0bacf')]
+fork syt4sh1/hfhe-challenge heads [('main', '900255d11fabe64292b1626f1c681bd2d6044136')]
+fork Naazj/hfhe-challenge heads [('main', '900255d11fabe64292b1626f1c681bd2d6044136')]
+fork Olisehgenesis/hfhe-challenge heads [('main', '900255d11fabe64292b1626f1c681bd2d6044136')]
+fork zh469525-sudo/hfhe-challenge heads [('main', '900255d11fabe64292b1626f1c681bd2d6044136')]
+fork talented634/challenge heads [('main', '900255d11fabe64292b1626f1c681bd2d6044136')]
+fork gunksd/hfhe-challenge heads [('main', '900255d11fabe64292b1626f1c681bd2d6044136')]
+fork debbiesempert/hfhe-challenge heads [('main', '900255d11fabe64292b1626f1c681bd2d6044136')]
+fork harf101/hfhe-challenge heads [('main', '900255d11fabe64292b1626f1c681bd2d6044136')]
+
+non_upstream_heads 32
+ non_upstream ('SNAKBILLION/hfhe-challenge', 'main', 'd9d29d505e2840c0028d7a91a2a8ba59e163b9a4', '2026-07-11T03:35:26Z', '2026-07-11T07:41:01Z')
+ non_upstream ('vansham/hfhe-challenge', 'main', 'd9d29d505e2840c0028d7a91a2a8ba59e163b9a4', '2026-07-11T03:35:26Z', '2026-07-11T07:32:57Z')
+ non_upstream ('akidry/hfhe-challenge', 'main', '0d08e9622921e5930175a660df0061a65548972f', '2026-07-09T21:49:59Z', '2026-07-10T16:49:14Z')
+ non_upstream ('ifeoluwaaj/hfhe-challenge', 'hfhe-v2-cryptanalysis', 'ffed46e744bb17871120fbc7e27102c92896567f', '2026-07-12T06:03:19Z', '2026-07-10T16:37:04Z')
+ non_upstream ('ifeoluwaaj/hfhe-challenge', 'main', '0d08e9622921e5930175a660df0061a65548972f', '2026-07-12T06:03:19Z', '2026-07-10T16:37:04Z')
+ non_upstream ('JH-321/hfhe-challenge-1', 'main', '0d08e9622921e5930175a660df0061a65548972f', '2026-07-09T21:49:59Z', '2026-07-10T16:31:08Z')
+ non_upstream ('k3llgh/hfhe-challenge', 'main', '0d08e9622921e5930175a660df0061a65548972f', '2026-07-09T21:49:59Z', '2026-07-10T15:32:53Z')
+ non_upstream ('emma31-dev/hfhe-challenge', 'main', '0d08e9622921e5930175a660df0061a65548972f', '2026-07-09T21:49:59Z', '2026-07-10T12:22:42Z')
+ non_upstream ('nxpath/hfhe-challenge', 'main', '8a8df807bc12858a3076eb2d026f5d0ed1f2eceb', '2026-07-10T17:46:22Z', '2026-07-10T10:18:16Z')
+ non_upstream ('Eienel/hfhe-challenge-eienel', 'claude/hfhe-challenge-progress-b6ld5x', 'c2897e67bbd511ac50606ec3157b0b7a1adadf81', '2026-07-14T09:17:06Z', '2026-07-14T09:17:16Z')
+ non_upstream ('Eienel/hfhe-challenge-eienel', 'claude/hfhe-challenge-v2-8bntzl', '93ff858fb9471d0252cc76092c681daa9f6a1879', '2026-07-14T09:17:06Z', '2026-07-14T09:17:16Z')
+ non_upstream ('Eienel/hfhe-challenge-eienel', 'main', 'efb24174ac4c24c723b6c5bd99d289f89cf141c6', '2026-07-14T09:17:06Z', '2026-07-14T09:17:16Z')
+ non_upstream ('TonyLegend-77/hfhe-challenge', 'main', '0d08e9622921e5930175a660df0061a65548972f', '2026-07-10T08:23:41Z', '2026-07-10T08:23:04Z')
+ non_upstream ('TonyLegend-77/hfhe-challenge', 'patch-1', '832890554fff9794871ebd462cf7b917e6222eb5', '2026-07-10T08:23:41Z', '2026-07-10T08:23:04Z')
+ non_upstream ('Giri-Aayush/hfhe-challenge', 'main', '0d08e9622921e5930175a660df0061a65548972f', '2026-07-09T21:49:59Z', '2026-07-10T08:20:38Z')
+ non_upstream ('0xjagadbumi/hfhe-challenge', 'main', '0d08e9622921e5930175a660df0061a65548972f', '2026-07-09T21:49:59Z', '2026-07-10T07:34:41Z')
+ non_upstream ('Yanu403/hfhe-challenge', 'main', '5e25d305429d3efbb4a11a6d0748f0fd99f8d57d', '2026-07-10T06:43:21Z', '2026-07-10T06:43:34Z')
+ non_upstream ('jigggyzigggy/hfhe-challenge', 'main', '0d08e9622921e5930175a660df0061a65548972f', '2026-07-09T21:49:59Z', '2026-07-10T05:49:15Z')
+ non_upstream ('pymparticles/hfhe-challenge', 'main', '6d845e07f82ce924868ddac849ba92277150cfd9', '2026-07-10T05:23:30Z', '2026-07-10T05:23:34Z')
+ non_upstream ('uChiron/hfhe-challenge', 'main', '0d08e9622921e5930175a660df0061a65548972f', '2026-07-09T21:49:59Z', '2026-07-10T01:12:08Z')
+ non_upstream ('Wezix/hfhe-challenge-test', 'main', '0d08e9622921e5930175a660df0061a65548972f', '2026-07-09T21:49:59Z', '2026-07-10T00:52:35Z')
+ non_upstream ('Instant-Futures-Trading/hfhe-challenge', 'main', '0d08e9622921e5930175a660df0061a65548972f', '2026-07-09T21:49:59Z', '2026-07-10T00:34:14Z')
+ non_upstream ('benevolentcyka/hfhe-challenge', 'main', '0d08e9622921e5930175a660df0061a65548972f', '2026-07-09T21:49:59Z', '2026-07-09T23:24:23Z')
+ non_upstream ('Instantfutures/hfhe-challenge', 'main', '25ab0aaee0f53438c999ac46799fb02fdbc0bacf', '2026-07-07T12:42:32Z', '2026-07-07T18:57:45Z')
+ non_upstream ('syt4sh1/hfhe-challenge', 'main', '900255d11fabe64292b1626f1c681bd2d6044136', '2026-07-07T09:15:33Z', '2026-07-07T12:33:19Z')
+ non_upstream ('Naazj/hfhe-challenge', 'main', '900255d11fabe64292b1626f1c681bd2d6044136', '2026-07-07T09:15:33Z', '2026-07-07T12:17:17Z')
+ non_upstream ('Olisehgenesis/hfhe-challenge', 'main', '900255d11fabe64292b1626f1c681bd2d6044136', '2026-07-07T09:15:33Z', '2026-07-07T12:06:12Z')
+ non_upstream ('zh469525-sudo/hfhe-challenge', 'main', '900255d11fabe64292b1626f1c681bd2d6044136', '2026-07-07T09:15:33Z', '2026-07-07T11:08:55Z')
+ non_upstream ('talented634/challenge', 'main', '900255d11fabe64292b1626f1c681bd2d6044136', '2026-07-07T09:15:33Z', '2026-07-07T10:53:01Z')
+ non_upstream ('gunksd/hfhe-challenge', 'main', '900255d11fabe64292b1626f1c681bd2d6044136', '2026-07-07T09:15:33Z', '2026-07-07T10:37:01Z')
+ non_upstream ('debbiesempert/hfhe-challenge', 'main', '900255d11fabe64292b1626f1c681bd2d6044136', '2026-07-07T09:15:33Z', '2026-07-07T09:51:38Z')
+ non_upstream ('harf101/hfhe-challenge', 'main', '900255d11fabe64292b1626f1c681bd2d6044136', '2026-07-07T09:15:33Z', '2026-07-07T09:37:50Z')
+
+## marker scan non-upstream heads
+
+### SNAKBILLION/hfhe-challenge main d9d29d505e2840c0028d7a91a2a8ba59e163b9a4 pushed 2026-07-11T03:35:26Z updated 2026-07-11T07:41:01Z
+tree_items 57 truncated False
+path_hits 45
+ path ('lpn_samples/ct00_l0_s0_pvac_prf_r_1.jsonl', 'blob', 17176022)
+ path ('lpn_samples/ct00_l1_s0_pvac_prf_r_1.jsonl', 'blob', 17176023)
+ path ('lpn_samples/ct01_l0_s0_pvac_prf_r_1.jsonl', 'blob', 17176022)
+ path ('lpn_samples/ct01_l1_s0_pvac_prf_r_1.jsonl', 'blob', 17176023)
+ path ('lpn_samples/ct02_l0_s0_pvac_prf_r_1.jsonl', 'blob', 17176021)
+ path ('lpn_samples/ct02_l1_s0_pvac_prf_r_1.jsonl', 'blob', 17176022)
+ path ('lpn_samples/ct03_l0_s0_pvac_prf_r_1.jsonl', 'blob', 17176022)
+ path ('lpn_samples/ct03_l1_s0_pvac_prf_r_1.jsonl', 'blob', 17176022)
+ path ('lpn_samples/ct04_l0_s0_pvac_prf_r_1.jsonl', 'blob', 17176023)
+ path ('lpn_samples/ct04_l1_s0_pvac_prf_r_1.jsonl', 'blob', 17176023)
+ path ('lpn_samples/ct05_l0_s0_pvac_prf_r_1.jsonl', 'blob', 17176023)
+ path ('lpn_samples/ct05_l1_s0_pvac_prf_r_1.jsonl', 'blob', 17176022)
+ path ('lpn_samples/ct06_l0_s0_pvac_prf_r_1.jsonl', 'blob', 17176023)
+ path ('lpn_samples/ct06_l1_s0_pvac_prf_r_1.jsonl', 'blob', 17176022)
+ path ('lpn_samples/ct07_l0_s0_pvac_prf_r_1.jsonl', 'blob', 17176023)
+ path ('lpn_samples/ct07_l1_s0_pvac_prf_r_1.jsonl', 'blob', 17176022)
+ path ('lpn_samples/ct08_l0_s0_pvac_prf_r_1.jsonl', 'blob', 17176022)
+ path ('lpn_samples/ct08_l1_s0_pvac_prf_r_1.jsonl', 'blob', 17176023)
+ path ('lpn_samples/ct09_l0_s0_pvac_prf_r_1.jsonl', 'blob', 17176023)
+ path ('lpn_samples/ct09_l1_s0_pvac_prf_r_1.jsonl', 'blob', 17176023)
+ path ('lpn_samples/ct10_l0_s0_pvac_prf_r_1.jsonl', 'blob', 17176022)
+ path ('lpn_samples/ct10_l1_s0_pvac_prf_r_1.jsonl', 'blob', 17176024)
+ path ('lpn_samples/ct11_l0_s0_pvac_prf_r_1.jsonl', 'blob', 17176024)
+ path ('lpn_samples/ct11_l1_s0_pvac_prf_r_1.jsonl', 'blob', 17176024)
+ path ('lpn_samples/ct12_l0_s0_pvac_prf_r_1.jsonl', 'blob', 17176024)
+ path ('lpn_samples/ct12_l1_s0_pvac_prf_r_1.jsonl', 'blob', 17176023)
+ path ('lpn_samples/ct13_l0_s0_pvac_prf_r_1.jsonl', 'blob', 17176024)
+ path ('lpn_samples/ct13_l1_s0_pvac_prf_r_1.jsonl', 'blob', 17176024)
+ path ('lpn_samples/ct14_l0_s0_pvac_prf_r_1.jsonl', 'blob', 17176024)
+ path ('lpn_samples/ct14_l1_s0_pvac_prf_r_1.jsonl', 'blob', 17176022)
+ path ('lpn_samples/ct15_l0_s0_pvac_prf_r_1.jsonl', 'blob', 17176023)
+ path ('lpn_samples/ct15_l1_s0_pvac_prf_r_1.jsonl', 'blob', 17176023)
+ path ('lpn_samples/ct16_l0_s0_pvac_prf_r_1.jsonl', 'blob', 17176022)
+ path ('lpn_samples/ct16_l1_s0_pvac_prf_r_1.jsonl', 'blob', 17176024)
+ path ('lpn_samples/ct17_l0_s0_pvac_prf_r_1.jsonl', 'blob', 17176023)
+ path ('lpn_samples/ct17_l1_s0_pvac_prf_r_1.jsonl', 'blob', 17176024)
+ path ('lpn_samples/ct18_l0_s0_pvac_prf_r_1.jsonl', 'blob', 17176023)
+ path ('lpn_samples/ct18_l1_s0_pvac_prf_r_1.jsonl', 'blob', 17176022)
+ path ('lpn_samples/ct19_l0_s0_pvac_prf_r_1.jsonl', 'blob', 17176023)
+ path ('lpn_samples/ct19_l1_s0_pvac_prf_r_1.jsonl', 'blob', 17176023)
+ path ('lpn_samples/ct20_l0_s0_pvac_prf_r_1.jsonl', 'blob', 17176023)
+ path ('lpn_samples/ct20_l1_s0_pvac_prf_r_1.jsonl', 'blob', 17176024)
+ path ('lpn_samples/ct21_l0_s0_pvac_prf_r_1.jsonl', 'blob', 17176023)
+ path ('lpn_samples/ct21_l1_s0_pvac_prf_r_1.jsonl', 'blob', 17176022)
+ path ('secret.ct', 'blob', 1963107)
+content_hits 4
+ content ('README.md', ['private key', 'plaintext', 'wallet', 'octC5eR9pLGKbpzTbDgHowkFt8HW7LZYb2gzehzxHamxuAZ'])
+ content ('manifest.json', ['plaintext'])
+ content ('source/hfhe_bounty_artifact.cpp', ['plaintext'])
+ content ('source/pvac_artifact_serialize.hpp', ['sk.prf_k'])
+
+### vansham/hfhe-challenge main d9d29d505e2840c0028d7a91a2a8ba59e163b9a4 pushed 2026-07-11T03:35:26Z updated 2026-07-11T07:32:57Z
+tree_items 57 truncated False
+path_hits 45
+ path ('lpn_samples/ct00_l0_s0_pvac_prf_r_1.jsonl', 'blob', 17176022)
+ path ('lpn_samples/ct00_l1_s0_pvac_prf_r_1.jsonl', 'blob', 17176023)
+ path ('lpn_samples/ct01_l0_s0_pvac_prf_r_1.jsonl', 'blob', 17176022)
+ path ('lpn_samples/ct01_l1_s0_pvac_prf_r_1.jsonl', 'blob', 17176023)
+ path ('lpn_samples/ct02_l0_s0_pvac_prf_r_1.jsonl', 'blob', 17176021)
+ path ('lpn_samples/ct02_l1_s0_pvac_prf_r_1.jsonl', 'blob', 17176022)
+ path ('lpn_samples/ct03_l0_s0_pvac_prf_r_1.jsonl', 'blob', 17176022)
+ path ('lpn_samples/ct03_l1_s0_pvac_prf_r_1.jsonl', 'blob', 17176022)
+ path ('lpn_samples/ct04_l0_s0_pvac_prf_r_1.jsonl', 'blob', 17176023)
+ path ('lpn_samples/ct04_l1_s0_pvac_prf_r_1.jsonl', 'blob', 17176023)
+ path ('lpn_samples/ct05_l0_s0_pvac_prf_r_1.jsonl', 'blob', 17176023)
+ path ('lpn_samples/ct05_l1_s0_pvac_prf_r_1.jsonl', 'blob', 17176022)
+ path ('lpn_samples/ct06_l0_s0_pvac_prf_r_1.jsonl', 'blob', 17176023)
+ path ('lpn_samples/ct06_l1_s0_pvac_prf_r_1.jsonl', 'blob', 17176022)
+ path ('lpn_samples/ct07_l0_s0_pvac_prf_r_1.jsonl', 'blob', 17176023)
+ path ('lpn_samples/ct07_l1_s0_pvac_prf_r_1.jsonl', 'blob', 17176022)
+ path ('lpn_samples/ct08_l0_s0_pvac_prf_r_1.jsonl', 'blob', 17176022)
+ path ('lpn_samples/ct08_l1_s0_pvac_prf_r_1.jsonl', 'blob', 17176023)
+ path ('lpn_samples/ct09_l0_s0_pvac_prf_r_1.jsonl', 'blob', 17176023)
+ path ('lpn_samples/ct09_l1_s0_pvac_prf_r_1.jsonl', 'blob', 17176023)
+ path ('lpn_samples/ct10_l0_s0_pvac_prf_r_1.jsonl', 'blob', 17176022)
+ path ('lpn_samples/ct10_l1_s0_pvac_prf_r_1.jsonl', 'blob', 17176024)
+ path ('lpn_samples/ct11_l0_s0_pvac_prf_r_1.jsonl', 'blob', 17176024)
+ path ('lpn_samples/ct11_l1_s0_pvac_prf_r_1.jsonl', 'blob', 17176024)
+ path ('lpn_samples/ct12_l0_s0_pvac_prf_r_1.jsonl', 'blob', 17176024)
+ path ('lpn_samples/ct12_l1_s0_pvac_prf_r_1.jsonl', 'blob', 17176023)
+ path ('lpn_samples/ct13_l0_s0_pvac_prf_r_1.jsonl', 'blob', 17176024)
+ path ('lpn_samples/ct13_l1_s0_pvac_prf_r_1.jsonl', 'blob', 17176024)
+ path ('lpn_samples/ct14_l0_s0_pvac_prf_r_1.jsonl', 'blob', 17176024)
+ path ('lpn_samples/ct14_l1_s0_pvac_prf_r_1.jsonl', 'blob', 17176022)
+ path ('lpn_samples/ct15_l0_s0_pvac_prf_r_1.jsonl', 'blob', 17176023)
+ path ('lpn_samples/ct15_l1_s0_pvac_prf_r_1.jsonl', 'blob', 17176023)
+ path ('lpn_samples/ct16_l0_s0_pvac_prf_r_1.jsonl', 'blob', 17176022)
+ path ('lpn_samples/ct16_l1_s0_pvac_prf_r_1.jsonl', 'blob', 17176024)
+ path ('lpn_samples/ct17_l0_s0_pvac_prf_r_1.jsonl', 'blob', 17176023)
+ path ('lpn_samples/ct17_l1_s0_pvac_prf_r_1.jsonl', 'blob', 17176024)
+ path ('lpn_samples/ct18_l0_s0_pvac_prf_r_1.jsonl', 'blob', 17176023)
+ path ('lpn_samples/ct18_l1_s0_pvac_prf_r_1.jsonl', 'blob', 17176022)
+ path ('lpn_samples/ct19_l0_s0_pvac_prf_r_1.jsonl', 'blob', 17176023)
+ path ('lpn_samples/ct19_l1_s0_pvac_prf_r_1.jsonl', 'blob', 17176023)
+ path ('lpn_samples/ct20_l0_s0_pvac_prf_r_1.jsonl', 'blob', 17176023)
+ path ('lpn_samples/ct20_l1_s0_pvac_prf_r_1.jsonl', 'blob', 17176024)
+ path ('lpn_samples/ct21_l0_s0_pvac_prf_r_1.jsonl', 'blob', 17176023)
+ path ('lpn_samples/ct21_l1_s0_pvac_prf_r_1.jsonl', 'blob', 17176022)
+ path ('secret.ct', 'blob', 1963107)
+content_hits 4
+ content ('README.md', ['private key', 'plaintext', 'wallet', 'octC5eR9pLGKbpzTbDgHowkFt8HW7LZYb2gzehzxHamxuAZ'])
+ content ('manifest.json', ['plaintext'])
+ content ('source/hfhe_bounty_artifact.cpp', ['plaintext'])
+ content ('source/pvac_artifact_serialize.hpp', ['sk.prf_k'])
+
+### akidry/hfhe-challenge main 0d08e9622921e5930175a660df0061a65548972f pushed 2026-07-09T21:49:59Z updated 2026-07-10T16:49:14Z
+tree_items 10 truncated False
+path_hits 1
+ path ('secret.ct', 'blob', 1963107)
+content_hits 2
+ content ('README.md', ['private key', 'plaintext', 'wallet', 'octC5eR9pLGKbpzTbDgHowkFt8HW7LZYb2gzehzxHamxuAZ'])
+ content ('manifest.json', ['plaintext'])
+
+### ifeoluwaaj/hfhe-challenge hfhe-v2-cryptanalysis ffed46e744bb17871120fbc7e27102c92896567f pushed 2026-07-12T06:03:19Z updated 2026-07-10T16:37:04Z
+tree_error HTTPError HTTP Error 403: rate limit exceeded
+
+### ifeoluwaaj/hfhe-challenge main 0d08e9622921e5930175a660df0061a65548972f pushed 2026-07-12T06:03:19Z updated 2026-07-10T16:37:04Z
+tree_error HTTPError HTTP Error 403: rate limit exceeded
+
+### JH-321/hfhe-challenge-1 main 0d08e9622921e5930175a660df0061a65548972f pushed 2026-07-09T21:49:59Z updated 2026-07-10T16:31:08Z
+tree_error HTTPError HTTP Error 403: rate limit exceeded
+
+### k3llgh/hfhe-challenge main 0d08e9622921e5930175a660df0061a65548972f pushed 2026-07-09T21:49:59Z updated 2026-07-10T15:32:53Z
+tree_error HTTPError HTTP Error 403: rate limit exceeded
+
+### emma31-dev/hfhe-challenge main 0d08e9622921e5930175a660df0061a65548972f pushed 2026-07-09T21:49:59Z updated 2026-07-10T12:22:42Z
+tree_error HTTPError HTTP Error 403: rate limit exceeded
+
+### nxpath/hfhe-challenge main 8a8df807bc12858a3076eb2d026f5d0ed1f2eceb pushed 2026-07-10T17:46:22Z updated 2026-07-10T10:18:16Z
+tree_error HTTPError HTTP Error 403: rate limit exceeded
+
+### Eienel/hfhe-challenge-eienel claude/hfhe-challenge-progress-b6ld5x c2897e67bbd511ac50606ec3157b0b7a1adadf81 pushed 2026-07-14T09:17:06Z updated 2026-07-14T09:17:16Z
+tree_error HTTPError HTTP Error 403: rate limit exceeded
+
+### Eienel/hfhe-challenge-eienel claude/hfhe-challenge-v2-8bntzl 93ff858fb9471d0252cc76092c681daa9f6a1879 pushed 2026-07-14T09:17:06Z updated 2026-07-14T09:17:16Z
+tree_error HTTPError HTTP Error 403: rate limit exceeded
+
+### Eienel/hfhe-challenge-eienel main efb24174ac4c24c723b6c5bd99d289f89cf141c6 pushed 2026-07-14T09:17:06Z updated 2026-07-14T09:17:16Z
+tree_error HTTPError HTTP Error 403: rate limit exceeded
+
+### TonyLegend-77/hfhe-challenge main 0d08e9622921e5930175a660df0061a65548972f pushed 2026-07-10T08:23:41Z updated 2026-07-10T08:23:04Z
+tree_error HTTPError HTTP Error 403: rate limit exceeded
+
+### TonyLegend-77/hfhe-challenge patch-1 832890554fff9794871ebd462cf7b917e6222eb5 pushed 2026-07-10T08:23:41Z updated 2026-07-10T08:23:04Z
+tree_error HTTPError HTTP Error 403: rate limit exceeded
+
+### Giri-Aayush/hfhe-challenge main 0d08e9622921e5930175a660df0061a65548972f pushed 2026-07-09T21:49:59Z updated 2026-07-10T08:20:38Z
+tree_error HTTPError HTTP Error 403: rate limit exceeded
+
+### 0xjagadbumi/hfhe-challenge main 0d08e9622921e5930175a660df0061a65548972f pushed 2026-07-09T21:49:59Z updated 2026-07-10T07:34:41Z
+tree_error HTTPError HTTP Error 403: rate limit exceeded
+
+### Yanu403/hfhe-challenge main 5e25d305429d3efbb4a11a6d0748f0fd99f8d57d pushed 2026-07-10T06:43:21Z updated 2026-07-10T06:43:34Z
+tree_error HTTPError HTTP Error 403: rate limit exceeded
+
+### jigggyzigggy/hfhe-challenge main 0d08e9622921e5930175a660df0061a65548972f pushed 2026-07-09T21:49:59Z updated 2026-07-10T05:49:15Z
+tree_error HTTPError HTTP Error 403: rate limit exceeded
+
+### pymparticles/hfhe-challenge main 6d845e07f82ce924868ddac849ba92277150cfd9 pushed 2026-07-10T05:23:30Z updated 2026-07-10T05:23:34Z
+tree_error HTTPError HTTP Error 403: rate limit exceeded
+
+### uChiron/hfhe-challenge main 0d08e9622921e5930175a660df0061a65548972f pushed 2026-07-09T21:49:59Z updated 2026-07-10T01:12:08Z
+tree_error HTTPError HTTP Error 403: rate limit exceeded
+
+### Wezix/hfhe-challenge-test main 0d08e9622921e5930175a660df0061a65548972f pushed 2026-07-09T21:49:59Z updated 2026-07-10T00:52:35Z
+tree_error HTTPError HTTP Error 403: rate limit exceeded
+
+### Instant-Futures-Trading/hfhe-challenge main 0d08e9622921e5930175a660df0061a65548972f pushed 2026-07-09T21:49:59Z updated 2026-07-10T00:34:14Z
+tree_error HTTPError HTTP Error 403: rate limit exceeded
+
+### benevolentcyka/hfhe-challenge main 0d08e9622921e5930175a660df0061a65548972f pushed 2026-07-09T21:49:59Z updated 2026-07-09T23:24:23Z
+tree_error HTTPError HTTP Error 403: rate limit exceeded
+
+### Instantfutures/hfhe-challenge main 25ab0aaee0f53438c999ac46799fb02fdbc0bacf pushed 2026-07-07T12:42:32Z updated 2026-07-07T18:57:45Z
+tree_error HTTPError HTTP Error 403: rate limit exceeded
+
+### syt4sh1/hfhe-challenge main 900255d11fabe64292b1626f1c681bd2d6044136 pushed 2026-07-07T09:15:33Z updated 2026-07-07T12:33:19Z
+tree_error HTTPError HTTP Error 403: rate limit exceeded
+
+### Naazj/hfhe-challenge main 900255d11fabe64292b1626f1c681bd2d6044136 pushed 2026-07-07T09:15:33Z updated 2026-07-07T12:17:17Z
+tree_error HTTPError HTTP Error 403: rate limit exceeded
+
+### Olisehgenesis/hfhe-challenge main 900255d11fabe64292b1626f1c681bd2d6044136 pushed 2026-07-07T09:15:33Z updated 2026-07-07T12:06:12Z
+tree_error HTTPError HTTP Error 403: rate limit exceeded
+
+### zh469525-sudo/hfhe-challenge main 900255d11fabe64292b1626f1c681bd2d6044136 pushed 2026-07-07T09:15:33Z updated 2026-07-07T11:08:55Z
+tree_error HTTPError HTTP Error 403: rate limit exceeded
+
+### talented634/challenge main 900255d11fabe64292b1626f1c681bd2d6044136 pushed 2026-07-07T09:15:33Z updated 2026-07-07T10:53:01Z
+tree_error HTTPError HTTP Error 403: rate limit exceeded
+
+### gunksd/hfhe-challenge main 900255d11fabe64292b1626f1c681bd2d6044136 pushed 2026-07-07T09:15:33Z updated 2026-07-07T10:37:01Z
+tree_error HTTPError HTTP Error 403: rate limit exceeded
+
+### debbiesempert/hfhe-challenge main 900255d11fabe64292b1626f1c681bd2d6044136 pushed 2026-07-07T09:15:33Z updated 2026-07-07T09:51:38Z
+tree_error HTTPError HTTP Error 403: rate limit exceeded
+
+### harf101/hfhe-challenge main 900255d11fabe64292b1626f1c681bd2d6044136 pushed 2026-07-07T09:15:33Z updated 2026-07-07T09:37:50Z
+tree_error HTTPError HTTP Error 403: rate limit exceeded

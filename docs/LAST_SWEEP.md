@@ -1,28 +1,30 @@
-# Last sweep — 20260715_121851 UTC
+# Last sweep — 20260715_132118 UTC
 
-This checkpoint records a fork-count-31 and open-PR branch pass for the mask ledger.
+This checkpoint records an all-fork unique-head marker scan for the mask ledger.
 
 ## Result
-No plaintext, private key, `PRF_R2`/`PRF_R3`, `sk.prf_k`, PC opening values, mnemonic, seed phrase, or candidate wallet secret was recovered.
+No plaintext, private key, `PRF_R2`/`PRF_R3`, `sk.prf_k` value, PC opening values, mnemonic, seed phrase, or target-wallet candidate was recovered.
 
 ## Delta
-- Target wallet is unchanged: balance `500001.000001`, nonce `0`, has_public_key `false`, tx_count `5`.
-- GitHub now consistently reports `31` forks.
-- Official challenge and PVAC refs did not move.
-- Public X/search produced no Day 7 recovery candidate and no concrete secret artifact.
-- Open PR #3 branch `ifeoluwaaj/hfhe-challenge@ffed46e744bb17871120fbc7e27102c92896567f` was scanned directly.
+- Wallet/account is unchanged: balance `500001.000001`, nonce `0`, has_public_key `false`, tx_count `5`.
+- GitHub state is unchanged: forks `31`, pulls `4`, issues `4`, upstream pushed_at `2026-07-11T08:49:01Z`.
+- Public X/search produced no candidate URLs.
+- Unauthenticated GitHub API rate-limited during broad enumeration, so the follow-up used the token only as an API rate-limit credential; the token is not stored in remotes or logs.
 
-## PR #3 branch scan
-The branch has 65 tree items and is not truncated. The extra surface is analysis/report/tooling. Marker scan found zero direct hits for missing decryption-critical objects or target-wallet candidates. Its `REPORT.md` is a corroborating negative report: LPN, AES/SAT, ciphertext structure, and OSINT routes are all reported negative.
+## Unique-head scan
+`auth_unique_head_scan_20260715_124906.out` groups all fork branch heads by SHA before scanning. Across 31 forks it found 12 unique non-upstream head SHAs. Every unique tree was scanned for secret/recovery markers.
+
+Findings:
+- no fork tree exposes `PRF_R2`, `PRF_R3`, secret openings, plaintext file, private key, or target-wallet candidate;
+- positive marker strings are labels in upstream README/source, analysis markdown, or tool code;
+- `ifeoluwaaj`, `nxpath`, and `Eienel` remain analysis/tooling branches, not secret-bearing branches.
 
 ## Evidence files
-- `evidence/monitor_once_20260715_121851.out`
-- `evidence/git_lsremote_refresh_20260715_121851.out`
-- `evidence/github_api_refresh_20260715_121851.out`
-- `evidence/twitter_public_search_refresh_20260715_121851.out`
-- `evidence/ifeoluwaaj_pr_branch_scan_20260715_121851.out`
-- `evidence/ifeoluwaaj_report_excerpt_20260715_121851.out`
-- `evidence/status_20260715_121851.md`
+- `evidence/auth_monitor_refresh_20260715_132118.out`
+- `evidence/twitter_public_search_refresh_20260715_132118.out`
+- `evidence/auth_unique_head_scan_20260715_124906.out`
+- `evidence/all_fork_nonupstream_head_scan_20260715_124906.out`
+- `evidence/status_20260715_132118.md`
 
 ## Interpretation
-This does not change the recovery blocker. The public surface still stops at `pvac.prf.r.1` samples and report/tooling artifacts; it does not expose the hidden multiplicative mask components or opening material required to validate a plaintext/private-key candidate.
+The fork surface now has a compact baseline: 12 unique non-upstream SHAs and no secret-bearing tree. Future monitoring can diff against this SHA set and scan only new heads first.

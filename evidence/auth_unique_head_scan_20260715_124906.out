@@ -1,0 +1,266 @@
+# authenticated unique non-upstream head marker scan 20260715_124906 auth True
+forks 31
+unique_non_upstream_shas 12
+sha_group d9d29d505e2840c0028d7a91a2a8ba59e163b9a4 repos 2 [('SNAKBILLION/hfhe-challenge', 'main', '2026-07-11T03:35:26Z', '2026-07-11T07:41:01Z'), ('vansham/hfhe-challenge', 'main', '2026-07-11T03:35:26Z', '2026-07-11T07:32:57Z')]
+sha_group 0d08e9622921e5930175a660df0061a65548972f repos 13 [('akidry/hfhe-challenge', 'main', '2026-07-09T21:49:59Z', '2026-07-10T16:49:14Z'), ('ifeoluwaaj/hfhe-challenge', 'main', '2026-07-12T06:03:19Z', '2026-07-10T16:37:04Z'), ('JH-321/hfhe-challenge-1', 'main', '2026-07-09T21:49:59Z', '2026-07-10T16:31:08Z'), ('k3llgh/hfhe-challenge', 'main', '2026-07-09T21:49:59Z', '2026-07-10T15:32:53Z'), ('emma31-dev/hfhe-challenge', 'main', '2026-07-09T21:49:59Z', '2026-07-10T12:22:42Z'), ('TonyLegend-77/hfhe-challenge', 'main', '2026-07-10T08:23:41Z', '2026-07-10T08:23:04Z'), ('Giri-Aayush/hfhe-challenge', 'main', '2026-07-09T21:49:59Z', '2026-07-10T08:20:38Z'), ('0xjagadbumi/hfhe-challenge', 'main', '2026-07-09T21:49:59Z', '2026-07-10T07:34:41Z')]
+sha_group ffed46e744bb17871120fbc7e27102c92896567f repos 1 [('ifeoluwaaj/hfhe-challenge', 'hfhe-v2-cryptanalysis', '2026-07-12T06:03:19Z', '2026-07-10T16:37:04Z')]
+sha_group 8a8df807bc12858a3076eb2d026f5d0ed1f2eceb repos 1 [('nxpath/hfhe-challenge', 'main', '2026-07-10T17:46:22Z', '2026-07-10T10:18:16Z')]
+sha_group c2897e67bbd511ac50606ec3157b0b7a1adadf81 repos 1 [('Eienel/hfhe-challenge-eienel', 'claude/hfhe-challenge-progress-b6ld5x', '2026-07-14T09:17:06Z', '2026-07-14T09:17:16Z')]
+sha_group 93ff858fb9471d0252cc76092c681daa9f6a1879 repos 1 [('Eienel/hfhe-challenge-eienel', 'claude/hfhe-challenge-v2-8bntzl', '2026-07-14T09:17:06Z', '2026-07-14T09:17:16Z')]
+sha_group efb24174ac4c24c723b6c5bd99d289f89cf141c6 repos 1 [('Eienel/hfhe-challenge-eienel', 'main', '2026-07-14T09:17:06Z', '2026-07-14T09:17:16Z')]
+sha_group 832890554fff9794871ebd462cf7b917e6222eb5 repos 1 [('TonyLegend-77/hfhe-challenge', 'patch-1', '2026-07-10T08:23:41Z', '2026-07-10T08:23:04Z')]
+sha_group 5e25d305429d3efbb4a11a6d0748f0fd99f8d57d repos 1 [('Yanu403/hfhe-challenge', 'main', '2026-07-10T06:43:21Z', '2026-07-10T06:43:34Z')]
+sha_group 6d845e07f82ce924868ddac849ba92277150cfd9 repos 1 [('pymparticles/hfhe-challenge', 'main', '2026-07-10T05:23:30Z', '2026-07-10T05:23:34Z')]
+sha_group 25ab0aaee0f53438c999ac46799fb02fdbc0bacf repos 1 [('Instantfutures/hfhe-challenge', 'main', '2026-07-07T12:42:32Z', '2026-07-07T18:57:45Z')]
+sha_group 900255d11fabe64292b1626f1c681bd2d6044136 repos 8 [('syt4sh1/hfhe-challenge', 'main', '2026-07-07T09:15:33Z', '2026-07-07T12:33:19Z'), ('Naazj/hfhe-challenge', 'main', '2026-07-07T09:15:33Z', '2026-07-07T12:17:17Z'), ('Olisehgenesis/hfhe-challenge', 'main', '2026-07-07T09:15:33Z', '2026-07-07T12:06:12Z'), ('zh469525-sudo/hfhe-challenge', 'main', '2026-07-07T09:15:33Z', '2026-07-07T11:08:55Z'), ('talented634/challenge', 'main', '2026-07-07T09:15:33Z', '2026-07-07T10:53:01Z'), ('gunksd/hfhe-challenge', 'main', '2026-07-07T09:15:33Z', '2026-07-07T10:37:01Z'), ('debbiesempert/hfhe-challenge', 'main', '2026-07-07T09:15:33Z', '2026-07-07T09:51:38Z'), ('harf101/hfhe-challenge', 'main', '2026-07-07T09:15:33Z', '2026-07-07T09:37:50Z')]
+
+## scanning unique shas
+
+### d9d29d505e2840c0028d7a91a2a8ba59e163b9a4 representative SNAKBILLION/hfhe-challenge main also 1
+tree_items 57 truncated False
+path_hits 45
+ path ('lpn_samples/ct00_l0_s0_pvac_prf_r_1.jsonl', 'blob', 17176022)
+ path ('lpn_samples/ct00_l1_s0_pvac_prf_r_1.jsonl', 'blob', 17176023)
+ path ('lpn_samples/ct01_l0_s0_pvac_prf_r_1.jsonl', 'blob', 17176022)
+ path ('lpn_samples/ct01_l1_s0_pvac_prf_r_1.jsonl', 'blob', 17176023)
+ path ('lpn_samples/ct02_l0_s0_pvac_prf_r_1.jsonl', 'blob', 17176021)
+ path ('lpn_samples/ct02_l1_s0_pvac_prf_r_1.jsonl', 'blob', 17176022)
+ path ('lpn_samples/ct03_l0_s0_pvac_prf_r_1.jsonl', 'blob', 17176022)
+ path ('lpn_samples/ct03_l1_s0_pvac_prf_r_1.jsonl', 'blob', 17176022)
+ path ('lpn_samples/ct04_l0_s0_pvac_prf_r_1.jsonl', 'blob', 17176023)
+ path ('lpn_samples/ct04_l1_s0_pvac_prf_r_1.jsonl', 'blob', 17176023)
+ path ('lpn_samples/ct05_l0_s0_pvac_prf_r_1.jsonl', 'blob', 17176023)
+ path ('lpn_samples/ct05_l1_s0_pvac_prf_r_1.jsonl', 'blob', 17176022)
+ path ('lpn_samples/ct06_l0_s0_pvac_prf_r_1.jsonl', 'blob', 17176023)
+ path ('lpn_samples/ct06_l1_s0_pvac_prf_r_1.jsonl', 'blob', 17176022)
+ path ('lpn_samples/ct07_l0_s0_pvac_prf_r_1.jsonl', 'blob', 17176023)
+ path ('lpn_samples/ct07_l1_s0_pvac_prf_r_1.jsonl', 'blob', 17176022)
+ path ('lpn_samples/ct08_l0_s0_pvac_prf_r_1.jsonl', 'blob', 17176022)
+ path ('lpn_samples/ct08_l1_s0_pvac_prf_r_1.jsonl', 'blob', 17176023)
+ path ('lpn_samples/ct09_l0_s0_pvac_prf_r_1.jsonl', 'blob', 17176023)
+ path ('lpn_samples/ct09_l1_s0_pvac_prf_r_1.jsonl', 'blob', 17176023)
+ path ('lpn_samples/ct10_l0_s0_pvac_prf_r_1.jsonl', 'blob', 17176022)
+ path ('lpn_samples/ct10_l1_s0_pvac_prf_r_1.jsonl', 'blob', 17176024)
+ path ('lpn_samples/ct11_l0_s0_pvac_prf_r_1.jsonl', 'blob', 17176024)
+ path ('lpn_samples/ct11_l1_s0_pvac_prf_r_1.jsonl', 'blob', 17176024)
+ path ('lpn_samples/ct12_l0_s0_pvac_prf_r_1.jsonl', 'blob', 17176024)
+ path ('lpn_samples/ct12_l1_s0_pvac_prf_r_1.jsonl', 'blob', 17176023)
+ path ('lpn_samples/ct13_l0_s0_pvac_prf_r_1.jsonl', 'blob', 17176024)
+ path ('lpn_samples/ct13_l1_s0_pvac_prf_r_1.jsonl', 'blob', 17176024)
+ path ('lpn_samples/ct14_l0_s0_pvac_prf_r_1.jsonl', 'blob', 17176024)
+ path ('lpn_samples/ct14_l1_s0_pvac_prf_r_1.jsonl', 'blob', 17176022)
+ path ('lpn_samples/ct15_l0_s0_pvac_prf_r_1.jsonl', 'blob', 17176023)
+ path ('lpn_samples/ct15_l1_s0_pvac_prf_r_1.jsonl', 'blob', 17176023)
+ path ('lpn_samples/ct16_l0_s0_pvac_prf_r_1.jsonl', 'blob', 17176022)
+ path ('lpn_samples/ct16_l1_s0_pvac_prf_r_1.jsonl', 'blob', 17176024)
+ path ('lpn_samples/ct17_l0_s0_pvac_prf_r_1.jsonl', 'blob', 17176023)
+ path ('lpn_samples/ct17_l1_s0_pvac_prf_r_1.jsonl', 'blob', 17176024)
+ path ('lpn_samples/ct18_l0_s0_pvac_prf_r_1.jsonl', 'blob', 17176023)
+ path ('lpn_samples/ct18_l1_s0_pvac_prf_r_1.jsonl', 'blob', 17176022)
+ path ('lpn_samples/ct19_l0_s0_pvac_prf_r_1.jsonl', 'blob', 17176023)
+ path ('lpn_samples/ct19_l1_s0_pvac_prf_r_1.jsonl', 'blob', 17176023)
+ path ('lpn_samples/ct20_l0_s0_pvac_prf_r_1.jsonl', 'blob', 17176023)
+ path ('lpn_samples/ct20_l1_s0_pvac_prf_r_1.jsonl', 'blob', 17176024)
+ path ('lpn_samples/ct21_l0_s0_pvac_prf_r_1.jsonl', 'blob', 17176023)
+ path ('lpn_samples/ct21_l1_s0_pvac_prf_r_1.jsonl', 'blob', 17176022)
+ path ('secret.ct', 'blob', 1963107)
+content_hits 4
+ content ('README.md', ['private key', 'plaintext', 'wallet', 'octC5eR9pLGKbpzTbDgHowkFt8HW7LZYb2gzehzxHamxuAZ'])
+ content ('manifest.json', ['plaintext'])
+ content ('source/hfhe_bounty_artifact.cpp', ['plaintext'])
+ content ('source/pvac_artifact_serialize.hpp', ['sk.prf_k'])
+
+### 0d08e9622921e5930175a660df0061a65548972f representative akidry/hfhe-challenge main also 12
+tree_items 10 truncated False
+path_hits 1
+ path ('secret.ct', 'blob', 1963107)
+content_hits 4
+ content ('README.md', ['private key', 'plaintext', 'wallet', 'octC5eR9pLGKbpzTbDgHowkFt8HW7LZYb2gzehzxHamxuAZ'])
+ content ('manifest.json', ['plaintext'])
+ content ('source/hfhe_bounty_artifact.cpp', ['plaintext'])
+ content ('source/pvac_artifact_serialize.hpp', ['sk.prf_k'])
+
+### ffed46e744bb17871120fbc7e27102c92896567f representative ifeoluwaaj/hfhe-challenge hfhe-v2-cryptanalysis also 0
+tree_items 65 truncated False
+path_hits 46
+ path ('REPORT.md', 'blob', 5410)
+ path ('lpn_samples/ct00_l0_s0_pvac_prf_r_1.jsonl', 'blob', 17176022)
+ path ('lpn_samples/ct00_l1_s0_pvac_prf_r_1.jsonl', 'blob', 17176023)
+ path ('lpn_samples/ct01_l0_s0_pvac_prf_r_1.jsonl', 'blob', 17176022)
+ path ('lpn_samples/ct01_l1_s0_pvac_prf_r_1.jsonl', 'blob', 17176023)
+ path ('lpn_samples/ct02_l0_s0_pvac_prf_r_1.jsonl', 'blob', 17176021)
+ path ('lpn_samples/ct02_l1_s0_pvac_prf_r_1.jsonl', 'blob', 17176022)
+ path ('lpn_samples/ct03_l0_s0_pvac_prf_r_1.jsonl', 'blob', 17176022)
+ path ('lpn_samples/ct03_l1_s0_pvac_prf_r_1.jsonl', 'blob', 17176022)
+ path ('lpn_samples/ct04_l0_s0_pvac_prf_r_1.jsonl', 'blob', 17176023)
+ path ('lpn_samples/ct04_l1_s0_pvac_prf_r_1.jsonl', 'blob', 17176023)
+ path ('lpn_samples/ct05_l0_s0_pvac_prf_r_1.jsonl', 'blob', 17176023)
+ path ('lpn_samples/ct05_l1_s0_pvac_prf_r_1.jsonl', 'blob', 17176022)
+ path ('lpn_samples/ct06_l0_s0_pvac_prf_r_1.jsonl', 'blob', 17176023)
+ path ('lpn_samples/ct06_l1_s0_pvac_prf_r_1.jsonl', 'blob', 17176022)
+ path ('lpn_samples/ct07_l0_s0_pvac_prf_r_1.jsonl', 'blob', 17176023)
+ path ('lpn_samples/ct07_l1_s0_pvac_prf_r_1.jsonl', 'blob', 17176022)
+ path ('lpn_samples/ct08_l0_s0_pvac_prf_r_1.jsonl', 'blob', 17176022)
+ path ('lpn_samples/ct08_l1_s0_pvac_prf_r_1.jsonl', 'blob', 17176023)
+ path ('lpn_samples/ct09_l0_s0_pvac_prf_r_1.jsonl', 'blob', 17176023)
+ path ('lpn_samples/ct09_l1_s0_pvac_prf_r_1.jsonl', 'blob', 17176023)
+ path ('lpn_samples/ct10_l0_s0_pvac_prf_r_1.jsonl', 'blob', 17176022)
+ path ('lpn_samples/ct10_l1_s0_pvac_prf_r_1.jsonl', 'blob', 17176024)
+ path ('lpn_samples/ct11_l0_s0_pvac_prf_r_1.jsonl', 'blob', 17176024)
+ path ('lpn_samples/ct11_l1_s0_pvac_prf_r_1.jsonl', 'blob', 17176024)
+ path ('lpn_samples/ct12_l0_s0_pvac_prf_r_1.jsonl', 'blob', 17176024)
+ path ('lpn_samples/ct12_l1_s0_pvac_prf_r_1.jsonl', 'blob', 17176023)
+ path ('lpn_samples/ct13_l0_s0_pvac_prf_r_1.jsonl', 'blob', 17176024)
+ path ('lpn_samples/ct13_l1_s0_pvac_prf_r_1.jsonl', 'blob', 17176024)
+ path ('lpn_samples/ct14_l0_s0_pvac_prf_r_1.jsonl', 'blob', 17176024)
+ path ('lpn_samples/ct14_l1_s0_pvac_prf_r_1.jsonl', 'blob', 17176022)
+ path ('lpn_samples/ct15_l0_s0_pvac_prf_r_1.jsonl', 'blob', 17176023)
+ path ('lpn_samples/ct15_l1_s0_pvac_prf_r_1.jsonl', 'blob', 17176023)
+ path ('lpn_samples/ct16_l0_s0_pvac_prf_r_1.jsonl', 'blob', 17176022)
+ path ('lpn_samples/ct16_l1_s0_pvac_prf_r_1.jsonl', 'blob', 17176024)
+ path ('lpn_samples/ct17_l0_s0_pvac_prf_r_1.jsonl', 'blob', 17176023)
+ path ('lpn_samples/ct17_l1_s0_pvac_prf_r_1.jsonl', 'blob', 17176024)
+ path ('lpn_samples/ct18_l0_s0_pvac_prf_r_1.jsonl', 'blob', 17176023)
+ path ('lpn_samples/ct18_l1_s0_pvac_prf_r_1.jsonl', 'blob', 17176022)
+ path ('lpn_samples/ct19_l0_s0_pvac_prf_r_1.jsonl', 'blob', 17176023)
+ path ('lpn_samples/ct19_l1_s0_pvac_prf_r_1.jsonl', 'blob', 17176023)
+ path ('lpn_samples/ct20_l0_s0_pvac_prf_r_1.jsonl', 'blob', 17176023)
+ path ('lpn_samples/ct20_l1_s0_pvac_prf_r_1.jsonl', 'blob', 17176024)
+ path ('lpn_samples/ct21_l0_s0_pvac_prf_r_1.jsonl', 'blob', 17176023)
+ path ('lpn_samples/ct21_l1_s0_pvac_prf_r_1.jsonl', 'blob', 17176022)
+ path ('secret.ct', 'blob', 1963107)
+content_hits 9
+ content ('ANALYSIS.md', ['sk.prf_k', 'private key', 'plaintext', 'mnemonic', 'wallet', 'octC5eR9pLGKbpzTbDgHowkFt8HW7LZYb2gzehzxHamxuAZ', 'solution', 'solved'])
+ content ('LPN_ANALYSIS.md', ['sk.prf_k', 'plaintext', 'solution'])
+ content ('LPN_SAMPLE_ANALYSIS.md', ['solution'])
+ content ('README.md', ['private key', 'plaintext', 'wallet', 'octC5eR9pLGKbpzTbDgHowkFt8HW7LZYb2gzehzxHamxuAZ'])
+ content ('REPORT.md', ['plaintext', 'wallet', 'solution'])
+ content ('manifest.json', ['plaintext'])
+ content ('source/hfhe_bounty_artifact.cpp', ['plaintext'])
+ content ('source/pvac_artifact_serialize.hpp', ['sk.prf_k'])
+ content ('tools/probe.cpp', ['plaintext'])
+
+### 8a8df807bc12858a3076eb2d026f5d0ed1f2eceb representative nxpath/hfhe-challenge main also 0
+tree_items 19 truncated False
+path_hits 3
+ path ('secret.ct', 'blob', 1963107)
+ path ('tools/attack_pubkey_analysis.cpp', 'blob', 5976)
+ path ('tools/plaintext_recovery.cpp', 'blob', 6732)
+content_hits 9
+ content ('BUILD.md', ['plaintext'])
+ content ('CMakeLists.txt', ['plaintext'])
+ content ('README.md', ['private key', 'plaintext', 'wallet', 'octC5eR9pLGKbpzTbDgHowkFt8HW7LZYb2gzehzxHamxuAZ'])
+ content ('README_RECOVERY.md', ['private key', 'plaintext'])
+ content ('manifest.json', ['plaintext'])
+ content ('source/hfhe_bounty_artifact.cpp', ['plaintext'])
+ content ('source/pvac_artifact_serialize.hpp', ['sk.prf_k'])
+ content ('tools/attack_syndrome_decoder.cpp', ['private key'])
+ content ('tools/plaintext_recovery.cpp', ['private key', 'plaintext'])
+
+### c2897e67bbd511ac50606ec3157b0b7a1adadf81 representative Eienel/hfhe-challenge-eienel claude/hfhe-challenge-progress-b6ld5x also 0
+tree_items 35 truncated False
+path_hits 3
+ path ('report', 'tree', None)
+ path ('report/index.html', 'blob', 10683)
+ path ('secret.ct', 'blob', 1963107)
+content_hits 14
+ content ('ANALYSIS.md', ['sk.prf_k', 'private key', 'plaintext', 'mnemonic', 'wallet', 'octC5eR9pLGKbpzTbDgHowkFt8HW7LZYb2gzehzxHamxuAZ', 'solved'])
+ content ('LPN_ANALYSIS.md', ['sk.prf_k', 'plaintext', 'wallet'])
+ content ('README.md', ['private key', 'plaintext', 'wallet', 'octC5eR9pLGKbpzTbDgHowkFt8HW7LZYb2gzehzxHamxuAZ'])
+ content ('manifest.json', ['plaintext'])
+ content ('source/hfhe_bounty_artifact.cpp', ['plaintext'])
+ content ('source/pvac_artifact_serialize.hpp', ['sk.prf_k'])
+ content ('tools/brain_test.py', ['mnemonic', 'wallet', 'octC5eR9pLGKbpzTbDgHowkFt8HW7LZYb2gzehzxHamxuAZ'])
+ content ('tools/distinguish.cpp', ['plaintext'])
+ content ('tools/flip_weak.py', ['mnemonic'])
+ content ('tools/lpn_demo.py', ['sk.prf_k'])
+ content ('tools/lpn_load.py', ['sk.prf_k'])
+ content ('tools/octra_check.py', ['mnemonic', 'octC5eR9pLGKbpzTbDgHowkFt8HW7LZYb2gzehzxHamxuAZ'])
+ content ('tools/theory_test.py', ['mnemonic', 'wallet', 'octC5eR9pLGKbpzTbDgHowkFt8HW7LZYb2gzehzxHamxuAZ'])
+ content ('tools/v1rel.py', ['mnemonic', 'octC5eR9pLGKbpzTbDgHowkFt8HW7LZYb2gzehzxHamxuAZ'])
+
+### 93ff858fb9471d0252cc76092c681daa9f6a1879 representative Eienel/hfhe-challenge-eienel claude/hfhe-challenge-v2-8bntzl also 0
+tree_items 24 truncated False
+path_hits 3
+ path ('report', 'tree', None)
+ path ('report/index.html', 'blob', 13093)
+ path ('secret.ct', 'blob', 1963107)
+content_hits 8
+ content ('ANALYSIS.md', ['sk.prf_k', 'private key', 'plaintext', 'wallet', 'octC5eR9pLGKbpzTbDgHowkFt8HW7LZYb2gzehzxHamxuAZ', 'solved'])
+ content ('LPN_ANALYSIS.md', ['sk.prf_k', 'plaintext'])
+ content ('README.md', ['private key', 'plaintext', 'wallet', 'octC5eR9pLGKbpzTbDgHowkFt8HW7LZYb2gzehzxHamxuAZ'])
+ content ('manifest.json', ['plaintext'])
+ content ('source/hfhe_bounty_artifact.cpp', ['plaintext'])
+ content ('source/pvac_artifact_serialize.hpp', ['sk.prf_k'])
+ content ('tools/distinguish.cpp', ['plaintext'])
+ content ('tools/lpn_demo.py', ['sk.prf_k'])
+
+### efb24174ac4c24c723b6c5bd99d289f89cf141c6 representative Eienel/hfhe-challenge-eienel main also 0
+tree_items 35 truncated False
+path_hits 3
+ path ('report', 'tree', None)
+ path ('report/index.html', 'blob', 10683)
+ path ('secret.ct', 'blob', 1963107)
+content_hits 14
+ content ('ANALYSIS.md', ['sk.prf_k', 'private key', 'plaintext', 'mnemonic', 'wallet', 'octC5eR9pLGKbpzTbDgHowkFt8HW7LZYb2gzehzxHamxuAZ', 'solved'])
+ content ('LPN_ANALYSIS.md', ['sk.prf_k', 'plaintext', 'wallet'])
+ content ('README.md', ['private key', 'plaintext', 'wallet', 'octC5eR9pLGKbpzTbDgHowkFt8HW7LZYb2gzehzxHamxuAZ'])
+ content ('manifest.json', ['plaintext'])
+ content ('source/hfhe_bounty_artifact.cpp', ['plaintext'])
+ content ('source/pvac_artifact_serialize.hpp', ['sk.prf_k'])
+ content ('tools/brain_test.py', ['mnemonic', 'wallet', 'octC5eR9pLGKbpzTbDgHowkFt8HW7LZYb2gzehzxHamxuAZ'])
+ content ('tools/distinguish.cpp', ['plaintext'])
+ content ('tools/flip_weak.py', ['mnemonic'])
+ content ('tools/lpn_demo.py', ['sk.prf_k'])
+ content ('tools/lpn_load.py', ['sk.prf_k'])
+ content ('tools/octra_check.py', ['mnemonic', 'octC5eR9pLGKbpzTbDgHowkFt8HW7LZYb2gzehzxHamxuAZ'])
+ content ('tools/theory_test.py', ['mnemonic', 'wallet', 'octC5eR9pLGKbpzTbDgHowkFt8HW7LZYb2gzehzxHamxuAZ'])
+ content ('tools/v1rel.py', ['mnemonic', 'octC5eR9pLGKbpzTbDgHowkFt8HW7LZYb2gzehzxHamxuAZ'])
+
+### 832890554fff9794871ebd462cf7b917e6222eb5 representative TonyLegend-77/hfhe-challenge patch-1 also 0
+tree_items 10 truncated False
+path_hits 0
+content_hits 4
+ content ('README.md', ['private key', 'plaintext', 'wallet', 'octC5eR9pLGKbpzTbDgHowkFt8HW7LZYb2gzehzxHamxuAZ'])
+ content ('manifest.json', ['plaintext'])
+ content ('source/hfhe_bounty_artifact.cpp', ['plaintext'])
+ content ('source/pvac_artifact_serialize.hpp', ['sk.prf_k'])
+
+### 5e25d305429d3efbb4a11a6d0748f0fd99f8d57d representative Yanu403/hfhe-challenge main also 0
+tree_items 10 truncated False
+path_hits 1
+ path ('secret.ct', 'blob', 1963107)
+content_hits 4
+ content ('README.md', ['plaintext'])
+ content ('manifest.json', ['plaintext'])
+ content ('source/hfhe_bounty_artifact.cpp', ['plaintext'])
+ content ('source/pvac_artifact_serialize.hpp', ['sk.prf_k'])
+
+### 6d845e07f82ce924868ddac849ba92277150cfd9 representative pymparticles/hfhe-challenge main also 0
+tree_items 10 truncated False
+path_hits 1
+ path ('secret.ct', 'blob', 1963107)
+content_hits 3
+ content ('manifest.json', ['plaintext'])
+ content ('source/hfhe_bounty_artifact.cpp', ['plaintext'])
+ content ('source/pvac_artifact_serialize.hpp', ['sk.prf_k'])
+
+### 25ab0aaee0f53438c999ac46799fb02fdbc0bacf representative Instantfutures/hfhe-challenge main also 0
+tree_items 10 truncated False
+path_hits 0
+content_hits 5
+ content ('README.md', ['plaintext', 'wallet'])
+ content ('manifest.json', ['plaintext', 'mnemonic', 'wallet'])
+ content ('params.json', ['plaintext'])
+ content ('source/hfhe_seed_artifact.cpp', ['plaintext', 'mnemonic'])
+ content ('source/pvac_artifact_serialize.hpp', ['sk.prf_k'])
+
+### 900255d11fabe64292b1626f1c681bd2d6044136 representative syt4sh1/hfhe-challenge main also 7
+tree_items 10 truncated False
+path_hits 0
+content_hits 5
+ content ('README.md', ['plaintext', 'mnemonic', 'wallet'])
+ content ('manifest.json', ['plaintext', 'mnemonic', 'wallet'])
+ content ('params.json', ['plaintext'])
+ content ('source/hfhe_seed_artifact.cpp', ['plaintext', 'mnemonic'])
+ content ('source/pvac_artifact_serialize.hpp', ['sk.prf_k'])
