@@ -1,0 +1,5 @@
+# R_com wire absence audit
+cipher_count=22 layers=44 rcom_zero=44 rcom_nonzero=0
+pc_nonzero_layers=44
+serializer_write_layer_fields=rule,seed_or_parents,PC_count,PC_points_only
+assessment=deserialized public artifact has zero/default R_com for every layer while PC points are present; v1-style R_com verifier is absent from wire format
