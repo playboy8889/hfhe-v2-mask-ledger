@@ -1,0 +1,72 @@
+# PC commitment/opening public-surface audit 2026-07-15T05:12:55.774321+00:00
+
+## pvac_hfhe_cpp/include/pvac/core/types.hpp sha256 25568e31ba962eeb5990ea0c72ea4dfe755af3c19124b618433b488f6bf5966f bytes 5340
+96:     std::vector<std::array<uint8_t, 32>> PC;
+145:             if (layer.rule == RRule::PROD && !layer.PC.empty())
+147:             if (!layer.PC.empty() && layer.PC.size() != cipher.slots)
+
+## source/pvac_artifact_serialize.hpp sha256 87115033ab8a248c6c0067916a562c4922703197d220416985da24b2d646c5a5 bytes 14434
+67:     void rist_point(const pvac::RistrettoPoint& pt) {
+160:     pvac::RistrettoPoint rist_point() {
+224:         if (layer.rule == pvac::RRule::PROD && !layer.PC.empty())
+225:             throw std::runtime_error("pvac_ser: product layer must not contain PC");
+226:         if (!layer.PC.empty() && layer.PC.size() != cipher.slots)
+227:             throw std::runtime_error("pvac_ser: layer PC/slots size mismatch");
+303:     w.u64(L.PC.size());
+304:     for (const auto& pc : L.PC)
+324:     L.PC.resize(nPC);
+326:         L.PC[i] = r.rist_point();
+
+## pvac_hfhe_cpp/include/pvac/ops/commit.hpp sha256 9d55f4d224d5d0a17465662a47e2a393dfbcbd2451efc00070283b6d69686587 bytes 2446
+12: inline std::array<uint8_t, 32> commit_ct(const PubKey & pk, const Cipher & C)
+39:         sha256_acc_u64(s, (uint64_t)L.PC.size());
+40:         for (const auto& pc : L.PC) {
+
+## pvac_hfhe_cpp/include/pvac/ops/recrypt_com.hpp sha256 dafd77f53788f0e10021423bd3205c90260c4b81574cfd85654b300d0d17a2bf bytes 9805
+34: struct ComOpen {
+35:     Fp value;
+36:     std::array<uint8_t, 32> blind = {};
+39: struct ComCell {
+80: inline std::array<uint8_t, 32> com_cell_digest(const std::array<uint8_t, 32>& tag, const ComOpen& open) {
+85:     com_acc_fp(h, open.value);
+86:     h.update(open.blind.data(), open.blind.size());
+105: inline ComOpen make_com_open(Fp value, const std::array<uint8_t, 32>& blind) {
+106:     ComOpen open;
+107:     open.value = value;
+108:     open.blind = blind;
+112: inline std::array<uint8_t, 32> com_blind_expr(ComOp op, const std::array<uint8_t, 32>& left, const std::array<uint8_t, 32>& right, const Fp& scalar) {
+115:     h.update("pvac.native.com.blind", std::strlen("pvac.native.com.blind"));
+125: inline ComOpen com_open_add(const ComOpen& left, const ComOpen& right) {
+126:     return make_com_open(fp_add(left.value, right.value), com_blind_expr(ComOp::ADD, left.blind, right.blind, fp_from_u64(0)));
+129: inline ComOpen com_open_sub(const ComOpen& left, const ComOpen& right) {
+130:     return make_com_open(fp_sub(left.value, right.value), com_blind_expr(ComOp::SUB, left.blind, right.blind, fp_from_u64(0)));
+133: inline ComOpen com_open_scale(const ComOpen& source, const Fp& scalar) {
+135:     return make_com_open(fp_mul(source.value, scalar), com_blind_expr(ComOp::SCALE, source.blind, zero, scalar));
+138: inline ComOpen com_open_add_const(const ComOpen& source, const Fp& constant) {
+140:     return make_com_open(fp_add(source.value, constant), com_blind_expr(ComOp::ADD_CONST, source.blind, zero, constant));
+143: inline ComOpen com_open_product(const ComOpen& left, const ComOpen& right) {
+144:     return make_com_open(fp_mul(left.value, right.value), com_blind_expr(ComOp::PRODUCT, left.blind, right.blind, fp_from_u64(0)));
+160: inline ComCell make_com_cell(const std::array<uint8_t, 32>& tag, const ComOpen& open, bool prebound) {
+161:     ComCell cell;
+175: inline ComCell make_com_expr(ComOp op, const ComCell& left, const ComCell& right, const Fp& scalar) {
+176:     ComCell cell;
+190: inline ComCell make_com_expr(ComOp op, const ComCell& left, const ComCell& right, const Fp& scalar, const ComOpen& out_open) {
+196: inline ComDecision decide_com_open(const ComCell& cell, const ComOpen& open) {
+221: inline ComDecision decide_com_claim(const ComCell& cell) {
+238: inline ComDecision decide_com_expr_open(ComOp op, const ComCell& left, const ComOpen& left_open, const ComCell& right, const ComOpen& right_open, const Fp& scalar, const ComCell& out, const ComOpen& out_open) {
+242:     ComOpen expected;
+264:         com_digest_eq(out_open.blind, expected.blind) &&
+265:         com_fp_eq(out_open.value, expected.value);
+
+## artifact wire count recap
+pk_bytes=3042901 ct_bytes=1963107 ciphers=22
+compatible=22/22 c0_zero=22 nonzero_c0=0
+base_layers=44 prod_layers=0 pc_total=44
+bad_pc=0 bad_refs=0 bad_edge_layer=0 bad_edge_idx=0 bad_edge_w=0 malformed_sigma=0
+layers_hist 2:22
+assessment=wire format is well-formed wrapped-v2; no parser/shape leak detected
+
+## derived conclusion
+Layer::PC is serialized as a vector of 32-byte Ristretto points only; validate_cipher_structure enforces PC.size == slots for base layers and forbids PC on PROD layers.
+The public cipher artifact contains 44 PC point commitments across 22 wrapped base-layer ciphers, but no ComOpen/value/blind structures or native proof openings are serialized in secret.ct.
+commit_ct hashes PC points and R_com into a public transcript commitment; it does not reveal openings. recrypt_com.hpp has ComOpen(value, blind), but those fields are local witness/opening material and are absent from public artifact serialization.

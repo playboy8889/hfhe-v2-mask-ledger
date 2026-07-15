@@ -1,0 +1,19 @@
+# X candidate claim triage via DuckDuckGo snippets 2026-07-15T05:13:54.498848+00:00
+
+## query: "broke Octra's HFHE 500k challenge"
+bytes 14313 hits 0
+
+## query: "Audited Octra's HFHE bounty v2"
+bytes 14301 hits 0
+
+## query: "Resolving the Hidden Subspace" "Octra"
+bytes 14309 hits 0
+
+## query: "spent time investigating the Octra HFHE v2 bounty"
+bytes 14325 hits 0
+
+## query: "Correct Octra HFHE LPN Parameters"
+bytes 14293 hits 0
+
+## conclusion
+Search snippets include public claim-like X posts, but no snippet or linked metadata exposes a private key, plaintext, PRF_R2/R3, prf_k, PC opening, GitHub artifact, or target-address transaction. Treat as unvalidated social claims until a verifiable artifact appears.

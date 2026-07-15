@@ -1,0 +1,10 @@
+# artifact wire audit
+pk_bytes=3042901 ct_bytes=1963107 ciphers=22
+compatible=22/22 c0_zero=22 nonzero_c0=0
+base_layers=44 prod_layers=0 pc_total=44
+bad_pc=0 bad_refs=0 bad_edge_layer=0 bad_edge_idx=0 bad_edge_w=0 malformed_sigma=0
+zero_public_layer=0
+layers_hist 2:22
+edges_hist_first 43:1 47:1 54:1 56:1 57:1 67:2 68:1 72:1 80:2 84:1 92:1 94:1
+cipher_len_unique=20
+assessment=wire format is well-formed wrapped-v2; no parser/shape leak detected
