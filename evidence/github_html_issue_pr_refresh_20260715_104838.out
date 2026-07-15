@@ -1,0 +1,17 @@
+# GitHub PR/issues/org HTML refresh 2026-07-15T10:48:56.311238+00:00
+
+PAGE https://github.com/octra-labs/hfhe-challenge/pulls?q=is%3Apr
+bytes 242879 pull_links ['1', '2', '3', '4'] issue_links []
+markers ['secret.ct']
+
+PAGE https://github.com/octra-labs/hfhe-challenge/issues?q=is%3Aissue
+bytes 242822 pull_links [] issue_links []
+markers []
+
+PAGE https://github.com/octra-labs?tab=repositories&q=hfhe&type=&language=&sort=
+bytes 272128 pull_links [] issue_links []
+markers []
+
+PAGE https://github.com/smoke-ui/octra-hfhe-v2-security-assessment
+bytes 358126 pull_links [] issue_links []
+markers ['prf_k', 'plaintext', 'secret.ct', 'recovered']

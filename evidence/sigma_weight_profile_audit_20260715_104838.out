@@ -1,0 +1,7 @@
+# sigma weight profile audit
+edges=1829 nbits_bad=0 zero_sigma=0 duplicate_sigma=0
+weight_min=3933 weight_max=4236 weight_avg=4088.65
+top_weight_bins=4089:27 4097:25 4103:25 4087:24 4069:23 4074:22 4072:20 4077:20 4079:20 4102:20 
+layer_hist=0:917 1:912 
+top_idx_hist=242:13 65:11 207:11 52:11 155:11 53:11 189:10 188:10 197:10 257:10 51:10 89:10 
+assessment=sigma bit-vectors remain dense 8192-bit witnesses with no zero/duplicate vectors and no obvious low-weight outlier class
