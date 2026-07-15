@@ -1,0 +1,62 @@
+# external code-search hit triage 20260715_200648 auth True
+
+## chimmykk/hfhe-poc
+meta pushed 2026-01-04T21:10:49Z updated 2026-01-05T00:23:44Z fork False default master size 16952
+head 934d8c246f440e01e90d4e9678538572834d7ae8
+tree_items 82 truncated False
+path_hits 11
+ path ('bounty2_data/a.ct', 'blob', 42154)
+ path ('bounty2_data/b.ct', 'blob', 42154)
+ path ('bounty2_data/pk.bin', 'blob', 16913820)
+ path ('bounty2_data/sum.ct', 'blob', 84284)
+ path ('bounty3_data/a.ct', 'blob', 42154)
+ path ('bounty3_data/b.ct', 'blob', 42154)
+ path ('bounty3_data/divresult.ct', 'blob', 42154)
+ path ('bounty3_data/pk.bin', 'blob', 16913820)
+ path ('tests/challenge_decrypt_bct.cpp', 'blob', 8587)
+ path ('tests/test_prf.cpp', 'blob', 2263)
+ path ('tests/test_prf_ext.cpp', 'blob', 1988)
+content_hits 20
+ content ('README.md', ['pk.bin', 'plaintext'])
+ content ('bounty2_data/README.md', ['pk.bin'])
+ content ('bounty_data/README.md', ['pk.bin', 'seed phrase'])
+ content ('examples/basic_usage.cpp', ['sk.prf_k'])
+ content ('idkpoc.md', ['plaintext'])
+ content ('include/pvac/core/types.hpp', ['PRF_R2', 'PRF_R3'])
+ content ('include/pvac/crypto/keygen.hpp', ['sk.prf_k'])
+ content ('include/pvac/crypto/lpn.hpp', ['PRF_R2', 'PRF_R3', 'sk.prf_k'])
+ content ('tests/add.cpp', ['pk.bin', 'sk.prf_k'])
+ content ('tests/bounty2_test.cpp', ['pk.bin', 'sk.prf_k'])
+ content ('tests/bounty_r2_attack.cpp', ['plaintext'])
+ content ('tests/bounty_test.cpp', ['pk.bin', 'sk.prf_k'])
+ content ('tests/challenge_decrypt_bct.cpp', ['pk.bin', 'sk.prf_k', 'plaintext'])
+ content ('tests/create_division.cpp', ['pk.bin', 'sk.prf_k'])
+ content ('tests/decode_ct.cpp', ['pk.bin', 'sk.prf_k'])
+ content ('tests/decrypt_all.cpp', ['pk.bin', 'sk.prf_k', 'plaintext'])
+ content ('tests/exploit_division.cpp', ['pk.bin'])
+ content ('tests/test_prf.cpp', ['PRF_R2'])
+ content ('tests/test_withoutpk.cpp', ['pk.bin'])
+ content ('tests/try_decrypt_without_sk.cpp', ['pk.bin', 'plaintext'])
+
+## androolloyd/octravpn
+meta pushed 2026-07-15T07:40:03Z updated 2026-07-15T07:40:14Z fork False default main size 626320
+head ecaec75b503eb687a75b73d148d82f10e5a05a36
+tree_items 970 truncated False
+path_hits 14
+ path ('crates/octravpn-client/src/wallet.rs', 'blob', 520)
+ path ('crates/octravpn-node/tests/shadow_hfhe.rs', 'blob', 5602)
+ path ('docker/conf/client/wallet.key', 'blob', 65)
+ path ('docker/conf/demo-node1/wallet.key', 'blob', 65)
+ path ('docker/conf/demo-node2/wallet.key', 'blob', 65)
+ path ('docker/conf/demo-node3/wallet.key', 'blob', 65)
+ path ('docker/conf/node1/wallet.key', 'blob', 65)
+ path ('docker/conf/node2/wallet.key', 'blob', 65)
+ path ('docker/conf/node3/wallet.key', 'blob', 65)
+ path ('docker/devnet/v3-smoke-hfhe.sh', 'blob', 6873)
+ path ('docker/devnet/wallets.toml', 'blob', 3961)
+ path ('docs/v3/c1-resolve-rollout.md', 'blob', 10948)
+ path ('proofs/lean/WireProtocol/HFHE.lean', 'blob', 30382)
+ path ('scripts/testnet/genesis-wallets.sh', 'blob', 5864)
+
+# note
+Scan was stopped after enough evidence for current triage; no token/secret printed. chimmykk/hfhe-poc appears to be an older non-target PVAC PoC; androolloyd/octravpn path hits are app/demo wallet files and HFHE tooling, not target wallet artifacts in this partial pass.

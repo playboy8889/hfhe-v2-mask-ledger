@@ -1,0 +1,57 @@
+# github code search 20260715_200648 auth True
+
+## query octC5eR9pLGKbpzTbDgHowkFt8HW7LZYb2gzehzxHamxuAZ
+total_count 1 incomplete False
+hit octra-labs/hfhe-challenge README.md https://github.com/octra-labs/hfhe-challenge/blob/019380c97543620091409b0fbf73a8a773a9a0da/README.md
+
+## query "PRF_R2" hfhe
+total_count 8 incomplete False
+hit octra-labs/webcli pvac/include/pvac/crypto/lpn.hpp https://github.com/octra-labs/webcli/blob/d1e4589717de07507c82574b133217127a230687/pvac/include/pvac/crypto/lpn.hpp
+hit octra-labs/pvac_hfhe_cpp include/pvac/crypto/lpn.hpp https://github.com/octra-labs/pvac_hfhe_cpp/blob/071b0e909c119de815e284b347c4bd979cb59ef3/include/pvac/crypto/lpn.hpp
+hit chimmykk/hfhe-poc include/pvac/crypto/lpn.hpp https://github.com/chimmykk/hfhe-poc/blob/934d8c246f440e01e90d4e9678538572834d7ae8/include/pvac/crypto/lpn.hpp
+hit androolloyd/octravpn pvac-sidecar/vendor/pvac/include/pvac/crypto/lpn.hpp https://github.com/androolloyd/octravpn/blob/ecaec75b503eb687a75b73d148d82f10e5a05a36/pvac-sidecar/vendor/pvac/include/pvac/crypto/lpn.hpp
+hit Xyntera/Octra-Wallet native/vendor/webcli/pvac/include/pvac/crypto/lpn.hpp https://github.com/Xyntera/Octra-Wallet/blob/9fa8a5c40ebf54bd19775388c31bbcb3b76a3fcb/native/vendor/webcli/pvac/include/pvac/crypto/lpn.hpp
+hit mathix420/octra-wallet pvac/include/pvac/crypto/lpn.hpp https://github.com/mathix420/octra-wallet/blob/66ee49a3d8677dcb5a6f2e32182e0a43ea92864a/pvac/include/pvac/crypto/lpn.hpp
+hit Xyntera/octra-ide pvac/include/pvac/crypto/lpn.hpp https://github.com/Xyntera/octra-ide/blob/7bec6dc777591a4235c07363597fb076f2cde0a4/pvac/include/pvac/crypto/lpn.hpp
+hit Xyntera/Octra-DevTools native/vendor/webcli/pvac/include/pvac/crypto/lpn.hpp https://github.com/Xyntera/Octra-DevTools/blob/bfe275847544646e546e487f50178224d147d995/native/vendor/webcli/pvac/include/pvac/crypto/lpn.hpp
+
+## query "PRF_R3" hfhe
+total_count 8 incomplete False
+hit octra-labs/webcli pvac/include/pvac/crypto/lpn.hpp https://github.com/octra-labs/webcli/blob/d1e4589717de07507c82574b133217127a230687/pvac/include/pvac/crypto/lpn.hpp
+hit octra-labs/pvac_hfhe_cpp include/pvac/crypto/lpn.hpp https://github.com/octra-labs/pvac_hfhe_cpp/blob/071b0e909c119de815e284b347c4bd979cb59ef3/include/pvac/crypto/lpn.hpp
+hit chimmykk/hfhe-poc include/pvac/crypto/lpn.hpp https://github.com/chimmykk/hfhe-poc/blob/934d8c246f440e01e90d4e9678538572834d7ae8/include/pvac/crypto/lpn.hpp
+hit androolloyd/octravpn pvac-sidecar/vendor/pvac/include/pvac/crypto/lpn.hpp https://github.com/androolloyd/octravpn/blob/ecaec75b503eb687a75b73d148d82f10e5a05a36/pvac-sidecar/vendor/pvac/include/pvac/crypto/lpn.hpp
+hit Xyntera/Octra-Wallet native/vendor/webcli/pvac/include/pvac/crypto/lpn.hpp https://github.com/Xyntera/Octra-Wallet/blob/9fa8a5c40ebf54bd19775388c31bbcb3b76a3fcb/native/vendor/webcli/pvac/include/pvac/crypto/lpn.hpp
+hit mathix420/octra-wallet pvac/include/pvac/crypto/lpn.hpp https://github.com/mathix420/octra-wallet/blob/66ee49a3d8677dcb5a6f2e32182e0a43ea92864a/pvac/include/pvac/crypto/lpn.hpp
+hit Xyntera/octra-ide pvac/include/pvac/crypto/lpn.hpp https://github.com/Xyntera/octra-ide/blob/7bec6dc777591a4235c07363597fb076f2cde0a4/pvac/include/pvac/crypto/lpn.hpp
+hit Xyntera/Octra-DevTools native/vendor/webcli/pvac/include/pvac/crypto/lpn.hpp https://github.com/Xyntera/Octra-DevTools/blob/bfe275847544646e546e487f50178224d147d995/native/vendor/webcli/pvac/include/pvac/crypto/lpn.hpp
+
+## query "sk.prf_k" hfhe
+total_count 10 incomplete False
+hit octra-labs/webcli pvac/include/pvac/crypto/lpn.hpp https://github.com/octra-labs/webcli/blob/d1e4589717de07507c82574b133217127a230687/pvac/include/pvac/crypto/lpn.hpp
+hit octra-labs/pvac_hfhe_cpp examples/basic_usage.cpp https://github.com/octra-labs/pvac_hfhe_cpp/blob/071b0e909c119de815e284b347c4bd979cb59ef3/examples/basic_usage.cpp
+hit chimmykk/hfhe-poc examples/basic_usage.cpp https://github.com/chimmykk/hfhe-poc/blob/934d8c246f440e01e90d4e9678538572834d7ae8/examples/basic_usage.cpp
+hit chimmykk/hfhe-poc include/pvac/crypto/lpn.hpp https://github.com/chimmykk/hfhe-poc/blob/934d8c246f440e01e90d4e9678538572834d7ae8/include/pvac/crypto/lpn.hpp
+hit octra-labs/pvac_hfhe_cpp include/pvac/crypto/lpn.hpp https://github.com/octra-labs/pvac_hfhe_cpp/blob/071b0e909c119de815e284b347c4bd979cb59ef3/include/pvac/crypto/lpn.hpp
+hit androolloyd/octravpn pvac-sidecar/vendor/pvac/include/pvac/crypto/lpn.hpp https://github.com/androolloyd/octravpn/blob/ecaec75b503eb687a75b73d148d82f10e5a05a36/pvac-sidecar/vendor/pvac/include/pvac/crypto/lpn.hpp
+hit Xyntera/Octra-Wallet native/vendor/webcli/pvac/include/pvac/crypto/lpn.hpp https://github.com/Xyntera/Octra-Wallet/blob/9fa8a5c40ebf54bd19775388c31bbcb3b76a3fcb/native/vendor/webcli/pvac/include/pvac/crypto/lpn.hpp
+hit mathix420/octra-wallet pvac/include/pvac/crypto/lpn.hpp https://github.com/mathix420/octra-wallet/blob/66ee49a3d8677dcb5a6f2e32182e0a43ea92864a/pvac/include/pvac/crypto/lpn.hpp
+hit Xyntera/octra-ide pvac/include/pvac/crypto/lpn.hpp https://github.com/Xyntera/octra-ide/blob/7bec6dc777591a4235c07363597fb076f2cde0a4/pvac/include/pvac/crypto/lpn.hpp
+hit Xyntera/Octra-DevTools native/vendor/webcli/pvac/include/pvac/crypto/lpn.hpp https://github.com/Xyntera/Octra-DevTools/blob/bfe275847544646e546e487f50178224d147d995/native/vendor/webcli/pvac/include/pvac/crypto/lpn.hpp
+
+## query "hfhe" "private key" "octra"
+total_count 28 incomplete False
+hit iopo545454-del/project-watchlist projects/19-octra.md https://github.com/iopo545454-del/project-watchlist/blob/0c5bfb84b6f6c2924035c5f690dcf1ddf3794917/projects/19-octra.md
+hit octra-labs/hfhe-challenge README.md https://github.com/octra-labs/hfhe-challenge/blob/019380c97543620091409b0fbf73a8a773a9a0da/README.md
+hit lamafab/octra-hfhe-lean Octra/Hypergraph/LogicGates.lean https://github.com/lamafab/octra-hfhe-lean/blob/2e80a727e7ff949190b519fa4bc1af71edb83139/Octra/Hypergraph/LogicGates.lean
+hit androolloyd/octravpn crates/octravpn-node/src/hub/boot.rs https://github.com/androolloyd/octravpn/blob/ecaec75b503eb687a75b73d148d82f10e5a05a36/crates/octravpn-node/src/hub/boot.rs
+hit 0xgetz/octrashield-dex sdk/src/hooks/useOctraShield.ts https://github.com/0xgetz/octrashield-dex/blob/5e6edf1ec2a6c846dea941426ec0b7db3bfc4012/sdk/src/hooks/useOctraShield.ts
+hit octra-labs/webcli main.cpp https://github.com/octra-labs/webcli/blob/d1e4589717de07507c82574b133217127a230687/main.cpp
+hit m-tq/OctWa src/components/WelcomeScreen.tsx https://github.com/m-tq/OctWa/blob/55177c6c047fe46aa90db09da8c486052dfefa04/src/components/WelcomeScreen.tsx
+hit cyotee/daosys GITLAWB.md https://github.com/cyotee/daosys/blob/f648e8fd299bfc8425107f192b4cfb947d7b6066/GITLAWB.md
+hit Xyntera/Octra-DevTools lib/main.dart https://github.com/Xyntera/Octra-DevTools/blob/bfe275847544646e546e487f50178224d147d995/lib/main.dart
+hit 0xio-xyz/0xio-sdk README.md https://github.com/0xio-xyz/0xio-sdk/blob/7b460fea65a814ed8620a4a8ea2299a849f0ecca/README.md
+
+## query "HFHE Challenge v2" "plaintext"
+total_count 1 incomplete False
+hit octra-labs/hfhe-challenge README.md https://github.com/octra-labs/hfhe-challenge/blob/019380c97543620091409b0fbf73a8a773a9a0da/README.md
