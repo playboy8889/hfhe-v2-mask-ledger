@@ -1,0 +1,48 @@
+# github api refresh 20260715_121851
+repo {'full_name': 'octra-labs/hfhe-challenge', 'pushed_at': '2026-07-11T08:49:01Z', 'updated_at': '2026-07-15T06:19:04Z', 'forks_count': 31, 'open_issues_count': 2, 'stargazers_count': 30}
+
+## pulls
+4 closed Enhance/robust tools nxpath 3cdab3379f7c72cd9d85e67c88da84d5d05f5bd8 2026-07-10T17:46:22Z
+3 open HFHE v2 cryptanalysis: security analysis and tools ifeoluwaaj ffed46e744bb17871120fbc7e27102c92896567f 2026-07-12T06:03:32Z
+2 closed Claude/hfhe challenge v2 8bntzl Eienel 44886d962d8df2dc0849cc55d476cb571561e58d 2026-07-10T10:08:58Z
+1 open Rename secret.ct to Love.ct TonyLegend-77 832890554fff9794871ebd462cf7b917e6222eb5 2026-07-10T08:25:43Z
+
+## issues
+4 closed Enhance/robust tools nxpath 2026-07-10T17:46:22Z
+3 open HFHE v2 cryptanalysis: security analysis and tools ifeoluwaaj 2026-07-12T06:03:32Z
+2 closed Claude/hfhe challenge v2 8bntzl Eienel 2026-07-10T10:08:58Z
+1 open Rename secret.ct to Love.ct TonyLegend-77 2026-07-10T08:25:43Z
+
+## forks newest
+count 31
+0xTaaa/hfhe-challenge	2026-07-11T08:49:01Z	2026-07-15T11:52:21Z	main	431155
+zhaoge7786/hfhe-challenge	2026-07-11T08:49:01Z	2026-07-15T11:30:50Z	main	431155
+erlanggada/hfhe-challenge	2026-07-11T08:49:01Z	2026-07-15T11:17:02Z	main	431155
+SNAKBILLION/hfhe-challenge	2026-07-11T03:35:26Z	2026-07-11T07:41:01Z	main	431155
+vansham/hfhe-challenge	2026-07-11T03:35:26Z	2026-07-11T07:32:57Z	main	431155
+akidry/hfhe-challenge	2026-07-09T21:49:59Z	2026-07-10T16:49:14Z	main	15198
+ifeoluwaaj/hfhe-challenge	2026-07-12T06:03:19Z	2026-07-10T16:37:04Z	main	431182
+JH-321/hfhe-challenge-1	2026-07-09T21:49:59Z	2026-07-10T16:31:08Z	main	15198
+k3llgh/hfhe-challenge	2026-07-09T21:49:59Z	2026-07-10T15:32:53Z	main	15198
+emma31-dev/hfhe-challenge	2026-07-09T21:49:59Z	2026-07-10T12:22:42Z	main	15198
+nxpath/hfhe-challenge	2026-07-10T17:46:22Z	2026-07-10T10:18:16Z	main	15214
+Eienel/hfhe-challenge-eienel	2026-07-14T09:17:06Z	2026-07-14T09:17:16Z	main	15250
+TonyLegend-77/hfhe-challenge	2026-07-10T08:23:41Z	2026-07-10T08:23:04Z	main	15199
+Giri-Aayush/hfhe-challenge	2026-07-09T21:49:59Z	2026-07-10T08:20:38Z	main	15198
+0xjagadbumi/hfhe-challenge	2026-07-09T21:49:59Z	2026-07-10T07:34:41Z	main	15198
+Yanu403/hfhe-challenge	2026-07-10T06:43:21Z	2026-07-10T06:43:34Z	main	15199
+jigggyzigggy/hfhe-challenge	2026-07-09T21:49:59Z	2026-07-10T05:49:15Z	main	15198
+pymparticles/hfhe-challenge	2026-07-10T05:23:30Z	2026-07-10T05:23:34Z	main	15199
+uChiron/hfhe-challenge	2026-07-09T21:49:59Z	2026-07-10T01:12:08Z	main	15198
+Wezix/hfhe-challenge-test	2026-07-09T21:49:59Z	2026-07-10T00:52:35Z	main	15198
+Instant-Futures-Trading/hfhe-challenge	2026-07-09T21:49:59Z	2026-07-10T00:34:14Z	main	15198
+benevolentcyka/hfhe-challenge	2026-07-09T21:49:59Z	2026-07-09T23:24:23Z	main	15198
+Instantfutures/hfhe-challenge	2026-07-07T12:42:32Z	2026-07-07T18:57:45Z	main	3253
+syt4sh1/hfhe-challenge	2026-07-07T09:15:33Z	2026-07-07T12:33:19Z	main	3251
+Naazj/hfhe-challenge	2026-07-07T09:15:33Z	2026-07-07T12:17:17Z	main	3251
+Olisehgenesis/hfhe-challenge	2026-07-07T09:15:33Z	2026-07-07T12:06:12Z	main	3251
+zh469525-sudo/hfhe-challenge	2026-07-07T09:15:33Z	2026-07-07T11:08:55Z	main	3251
+talented634/challenge	2026-07-07T09:15:33Z	2026-07-07T10:53:01Z	main	3251
+gunksd/hfhe-challenge	2026-07-07T09:15:33Z	2026-07-07T10:37:01Z	main	3251
+debbiesempert/hfhe-challenge	2026-07-07T09:15:33Z	2026-07-07T09:51:38Z	main	0
+harf101/hfhe-challenge	2026-07-07T09:15:33Z	2026-07-07T09:37:50Z	main	0

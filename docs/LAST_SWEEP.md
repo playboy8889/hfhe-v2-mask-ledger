@@ -1,23 +1,28 @@
-# Last sweep — 20260715_115141 UTC
+# Last sweep — 20260715_121851 UTC
 
-This checkpoint records a fork-delta pass for the mask ledger.
+This checkpoint records a fork-count-31 and open-PR branch pass for the mask ledger.
 
 ## Result
-No plaintext, private key, PRF_R2/PRF_R3 material, `sk.prf_k`, PC opening values, or candidate wallet secret was recovered.
+No plaintext, private key, `PRF_R2`/`PRF_R3`, `sk.prf_k`, PC opening values, mnemonic, seed phrase, or candidate wallet secret was recovered.
 
-## What changed
-- The newest-fork API endpoint returned 31 rows while repo metadata/monitor still reports 30 forks.
-- The newest visible fork rows were inspected directly: `0xTaaa/hfhe-challenge`, `zhaoge7786/hfhe-challenge`, and `erlanggada/hfhe-challenge`.
-- All three point at upstream commit `019380c97543620091409b0fbf73a8a773a9a0da` with 57 tree items and no truncation.
+## Delta
+- Target wallet is unchanged: balance `500001.000001`, nonce `0`, has_public_key `false`, tx_count `5`.
+- GitHub now consistently reports `31` forks.
+- Official challenge and PVAC refs did not move.
+- Public X/search produced no Day 7 recovery candidate and no concrete secret artifact.
+- Open PR #3 branch `ifeoluwaaj/hfhe-challenge@ffed46e744bb17871120fbc7e27102c92896567f` was scanned directly.
+
+## PR #3 branch scan
+The branch has 65 tree items and is not truncated. The extra surface is analysis/report/tooling. Marker scan found zero direct hits for missing decryption-critical objects or target-wallet candidates. Its `REPORT.md` is a corroborating negative report: LPN, AES/SAT, ciphertext structure, and OSINT routes are all reported negative.
 
 ## Evidence files
-- `evidence/monitor_once_20260715_115141.out`
-- `evidence/git_lsremote_refresh_20260715_115141.out`
-- `evidence/github_html_issue_pr_refresh_20260715_115141.out`
-- `evidence/new_fork_api_refresh_20260715_115141.out`
-- `evidence/newest_forks_marker_scan_20260715_115141.out`
-- `evidence/twitter_public_search_refresh_20260715_115141.out`
-- `evidence/status_20260715_115141.md`
+- `evidence/monitor_once_20260715_121851.out`
+- `evidence/git_lsremote_refresh_20260715_121851.out`
+- `evidence/github_api_refresh_20260715_121851.out`
+- `evidence/twitter_public_search_refresh_20260715_121851.out`
+- `evidence/ifeoluwaaj_pr_branch_scan_20260715_121851.out`
+- `evidence/ifeoluwaaj_report_excerpt_20260715_121851.out`
+- `evidence/status_20260715_121851.md`
 
 ## Interpretation
-The fork-count delta currently looks like mirror/metadata churn. The scanned fork trees expose the same public surface: upstream challenge files plus `lpn_samples/*pvac_prf_r_1.jsonl`. That does not change the blocker: the public side still lacks the missing multiplicative mask components and opening material needed to validate or decrypt a candidate.
+This does not change the recovery blocker. The public surface still stops at `pvac.prf.r.1` samples and report/tooling artifacts; it does not expose the hidden multiplicative mask components or opening material required to validate a plaintext/private-key candidate.

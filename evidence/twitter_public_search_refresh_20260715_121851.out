@@ -1,0 +1,67 @@
+# x/public search refresh 20260715_121851
+/Users/koala/hfhe_challenge_v2/twitter_public_search_refresh.py:14: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  print('# Public Twitter/X search via DuckDuckGo', datetime.datetime.utcnow().isoformat()+'Z')
+# Public Twitter/X search via DuckDuckGo 2026-07-15T12:19:06.505411Z
+
+## query: site:x.com octra HFHE challenge v2
+bytes 14214
+
+## query: site:x.com octra hfhe solved
+bytes 14208
+
+## query: site:x.com octra hfhe private key
+bytes 14218
+
+## query: site:x.com octra hfhe lpn samples
+bytes 14230
+
+## query: site:x.com octC5eR9pLGKbpzTbDgHowkFt8HW7LZYb2gzehzxHamxuAZ
+bytes 14292
+
+## query: site:x.com 2075336875322032268
+bytes 14218
+
+## query: site:x.com octralex HFHE challenge
+bytes 14219
+
+## query: site:x.com octrabunch HFHE challenge
+bytes 14230
+
+# unique candidate X URLs
+
+## fxtwitter known leads
+### https://api.fxtwitter.com/Kubo100x/status/2077300596064100794
+  File "<stdin>", line 1
+    {"code":200,"message":"OK","tweet":{"url":"https://x.com/Kubo100x/status/2077300596064100794","id":"2077300596064100794","text":"Update on Octra HFHE v2 public audit.\n\nDay 6 algebraic track complete:\n• reduced-param invariant scan (480 samples, 6 keys, 1104 features): 0 survive FDR\n• ciphertext-algebra toy: 0.000000 TVD between distinct plaintexts\n• no low-dim simplification lowers the LPN-PRF margin (n=4096, τ=1/8)\n\nThe wrapper doesn't leak. \nNo equality oracle from algebra.\n\nresearch notes only not a formal audit or security proof.\n\nNegative result independently reproduced.\nNo duplicate PRs — smoke-ui already holds INFO-001..005.\n\nContributing the full assessment + reproducible tools to @Hikkimori \n\nopen source:\nhttps://github.com/smoke-ui/octra-hfhe-v2-security-assessment\n\nStatus: DAY6 PASS. \nNext = Day 7 freeze.","raw_text":{"text":"Update on Octra HFHE v2 public audit.\n\nDay 6 algebraic track complete:\n• reduced-param invariant scan (480 samples, 6 keys, 1104 features):
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        ^
+SyntaxError: invalid syntax
+### https://api.fxtwitter.com/octrascan/status/2076055197244149815
+  File "<stdin>", line 1
+    {"code":200,"message":"OK","tweet":{"url":"https://x.com/octrascan/status/2076055197244149815","id":"2076055197244149815","text":"🤔 the devnet just came back online, and someone is already putting encrypted LLM chunks onchain?","raw_text":{"text":"🤔 the devnet just came back online, and someone is already putting encrypted LLM chunks onchain? https://t.co/x77FSIGuxn","display_text_range":[0,96],"facets":[{"type":"media","indices":[97,120],"id":"2076055192353542144","display":"pic.x.com/x77FSIGuxn","original":"https://t.co/x77FSIGuxn","replacement":"https://x.com/octrascan/status/2076055197244149815/photo/1"}]},"author":{"screen_name":"octrascan","url":"https://x.com/octrascan","id":"1998995260295499777","followers":1191,"following":2,"likes":98,"media_count":25,"name":"octrascan","description":"independent @octra epoch explorer. @octralabs grant recipient. mainnet: http://octrascan.io devnet: http://devnet.octrascan.io","raw_description":{"text":"independent @octra epoch explorer. @octralabs grant reci
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             ^
+SyntaxError: invalid syntax
+### https://api.fxtwitter.com/octra/status/2075336875322032268
+  File "<stdin>", line 1
+    {"code":200,"message":"OK","tweet":{"url":"https://x.com/octra/status/2075336875322032268","id":"2075336875322032268","text":"open HFHE challenge v2\n\nthis wallet holds 500,000 OCT:\noctC5eR9pLGKbpzTbDgHowkFt8HW7LZYb2gzehzxHamxuAZ\n\nrecover its private key, tell us how you did it and receive another 500,000 OCT, for a total of 1 million. do not submit issues, they will be removed! https://github.com/octra-labs/hfhe-challenge","raw_text":{"text":"open HFHE challenge v2\n\nthis wallet holds 500,000 OCT:\noctC5eR9pLGKbpzTbDgHowkFt8HW7LZYb2gzehzxHamxuAZ\n\nrecover its private key, tell us how you did it and receive another 500,000 OCT, for a total of 1 million. do not submit issues, they will be removed! https://t.co/lJ596HFpZI","display_text_range":[0,278],"facets":[{"type":"bold","indices":[0,22]},{"type":"url","indices":[255,278],"original":"https://t.co/lJ596HFpZI","replacement":"https://github.com/octra-labs/hfhe-challenge","display":"github.com/octra-labs/hfh…"}]},"author":{"screen_name":"octra","url":
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 ^
+SyntaxError: invalid syntax
+
+## DDG focused
+
+### "Octra HFHE v2" "Day 7"
+hits 0
+
+### "Octra HFHE" "DAY7"
+hits 0
+
+### "hfhe-v2" "freeze" "octra"
+hits 0
+
+### "PRF_R2" "hfhe"
+hits 0
+
+### "sk.prf_k" "hfhe"
+hits 0
+
+### "octC5eR9pLGKbpzTbDgHowkFt8HW7LZYb2gzehzxHamxuAZ"
+hits 0
