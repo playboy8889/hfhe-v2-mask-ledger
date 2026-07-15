@@ -1,14 +1,14 @@
 # Last sweep
 
-Timestamp: 20260715_094816 UTC
+Timestamp: 20260715_101846 UTC
 
 Result: no recovery.
 
-What changed in this sweep:
+Sweep notes:
 
 - wallet state remained unchanged;
 - official challenge and PVAC refs remained pinned;
-- smoke-ui main remained pinned, with only workflow-maintenance Dependabot refs visible;
-- resurfaced X candidates were checked and did not contain verifiable secret material.
+- X search produced no unique candidate URLs in this run;
+- public numerator algebra audit found no zero numerator, repeated wrapped pair, or repeated N0/N1 ratio oracle.
 
-Most relevant output: \.
+Evidence pointer: evidence/public_numerator_algebra_audit_20260715_101846.out
