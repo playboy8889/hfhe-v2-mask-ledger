@@ -1,0 +1,13 @@
+# diff refresh 20260715_213624 auth True baseline_size 14
+account {"balance": "500001.000001", "balance_raw": "500001000001", "nonce": 0, "has_public_key": false, "tx_count": 5, "recent_tx_hashes": ["3fcca51c018497fe27d165d58deaae1013ab9ce92d1d14409d11e273045ba318", "c38782452ba2ed2a7b3c516244322613428f7820f619420688b7e7101f77e458", "8bb4e8c20d827aed373a63430266994d205f40cd9cd380c0a5036d3a5ca954c5", "050fe2742515bb2a281eabe3c3a7c6b4376ac34eb0f07dcce7ce2a34a2bb9677", "ad1af0cf96a12105bb112b0f3f7275e8fbd713e2f6966d886f5ec2c04e514898"]}
+repo {"pushed_at": "2026-07-11T08:49:01Z", "updated_at": "2026-07-15T06:19:04Z", "forks_count": 31, "open_issues_count": 2, "stargazers_count": 30}
+counts forks_list 31 pulls 4 issues 4 org_repos 8
+pull 4 closed 3cdab3379f7c72cd9d85e67c88da84d5d05f5bd8 2026-07-10T17:46:22Z
+pull 3 open ffed46e744bb17871120fbc7e27102c92896567f 2026-07-12T06:03:32Z
+pull 2 closed 44886d962d8df2dc0849cc55d476cb571561e58d 2026-07-10T10:08:58Z
+pull 1 open 832890554fff9794871ebd462cf7b917e6222eb5 2026-07-10T08:25:43Z
+heads_total 35 new_head_shas 0
+code_search octC5eR9pLGKbpzTbDgHowkFt8HW7LZYb2gzehzxHamxuAZ total 1 top ['octra-labs/hfhe-challenge:README.md']
+code_search "HFHE Challenge v2" "plaintext" total 1 top ['octra-labs/hfhe-challenge:README.md']
+code_search "PRF_R2" hfhe total 8 top ['octra-labs/webcli:pvac/include/pvac/crypto/lpn.hpp', 'octra-labs/pvac_hfhe_cpp:include/pvac/crypto/lpn.hpp', 'chimmykk/hfhe-poc:include/pvac/crypto/lpn.hpp', 'androolloyd/octravpn:pvac-sidecar/vendor/pvac/include/pvac/crypto/lpn.hpp', 'Xyntera/Octra-Wallet:native/vendor/webcli/pvac/include/pvac/crypto/lpn.hpp']
+code_search "PRF_R3" hfhe total 8 top ['octra-labs/webcli:pvac/include/pvac/crypto/lpn.hpp', 'octra-labs/pvac_hfhe_cpp:include/pvac/crypto/lpn.hpp', 'chimmykk/hfhe-poc:include/pvac/crypto/lpn.hpp', 'androolloyd/octravpn:pvac-sidecar/vendor/pvac/include/pvac/crypto/lpn.hpp', 'Xyntera/Octra-Wallet:native/vendor/webcli/pvac/include/pvac/crypto/lpn.hpp']
