@@ -1,0 +1,84 @@
+## repo Iamknownasfesal/octra-hfhe-challenge-recovery
+meta {'full_name': 'Iamknownasfesal/octra-hfhe-challenge-recovery', 'pushed_at': '2026-07-07T11:30:44Z', 'updated_at': '2026-07-14T13:53:33Z', 'default_branch': 'main', 'fork': False, 'description': 'Ciphertext-only recovery of the Octra HFHE seed challenge via the public R_com commitment oracle', 'html_url': 'https://github.com/Iamknownasfesal/octra-hfhe-challenge-recovery'}
+head 492995fab1279b026b965d2451e666d1726f35ab
+files 19
+hit README.md size 10382 hits plaintext,mnemonic,priv,pk\.bin
+   # Octra HFHE challenge: ciphertext-only mnemonic recovery
+hit manifest.json size 1330 hits plaintext,mnemonic,priv,pk\.bin
+     "encrypted_plaintext": {
+hit params.json size 536 hits plaintext
+     "plaintext_bytes": 79,
+hit solver/analyze.cpp size 5071 hits plaintext,pk\.bin
+   // T_l = sum over edges in layer l of sgn(ch)*w[0]*g^idx  (public; equals plaintext_layer * R_l)
+hit solver/attack_block.cpp size 3541 hits pk\.bin
+       auto pkb=rf(dir+"/pk.bin"); auto pk=pvac_ser::deserialize_pubkey(pkb.data(),pkb.size());
+hit solver/bip39_en.txt size 13116 hits priv
+   private
+hit solver/facts.cpp size 2147 hits plaintext,pk\.bin
+       auto pkb=rf(dir+"/pk.bin"); auto pk=pvac_ser::deserialize_pubkey(pkb.data(),pkb.size());
+hit solver/phase1.cpp size 5768 hits plaintext,pk\.bin
+   // Phase 1: recover block1 (bytes 0..14) of the plaintext by enumerating DISTINCT
+hit solver/sign_msg.py size 1522 hits mnemonic,priv,pk\.bin
+           unicodedata.normalize("NFKD","mnemonic"+p).encode(),2048,64)
+hit solver/solve2.cpp size 8349 hits plaintext,mnemonic,pk\.bin
+   // Full mnemonic recovery, raw-byte chaining (one constrained search per block) + hardware SHA.
+hit solver/verify_addr.py size 1913 hits mnemonic,priv
+   def bip39_seed(mnemonic, passphrase=""):
+hit source/hfhe_seed_artifact.cpp size 9001 hits plaintext,mnemonic,priv,pk\.bin
+   void write_params(const Params& p, size_t plaintext_bytes, size_t cipher_objects, const fs::path& path) {
+hit source/pvac_artifact_serialize.hpp size 14767 hits sk\.prf_k
+       for (int i = 0; i < 4; ++i) w.u64(sk.prf_k[i]);
+## repo m-tq/OctWa
+meta {'full_name': 'm-tq/OctWa', 'pushed_at': '2026-05-28T06:48:58Z', 'updated_at': '2026-06-25T06:06:28Z', 'default_branch': 'master', 'fork': False, 'description': 'OctWa - Octra Wallet is an open-source web interface that allows users to interact with the Octra blockchain network easily and securely directly from their browser.', 'html_url': 'https://github.com/m-tq/OctWa'}
+head 55177c6c047fe46aa90db09da8c486052dfefa04
+files 178
+hit README.md size 12497 hits mnemonic,priv
+   A privacy-first browser wallet for the Octra blockchain. Available as a Chrome / Edge MV3 extension and a web application from a single React + Vite codebase.
+hit SECURITY.md size 4994 hits private key,mnemonic,priv
+   Because this project is a **cryptocurrency wallet extension** that handles private keys, the risk surface is significantly higher than a typical web application. Every dependency is a potential attack vector.
+hit extensionFiles/README.md size 5267 hits private key,priv
+   octra_decryptBalance              octra_sendPrivateTransfer
+hit extensionFiles/manifest.json size 1224 hits priv
+     "description": "Private-first wallet for seamless interaction with the Octra encrypted network.",
+hit package.json size 3272 hits priv
+     "private": true,
+hit sdk/README.md size 12495 hits private key,priv
+   private_transfers         stealth_scan              stealth_claim
+hit sdk/package-lock.json size 85854 hits priv
+           "url": "https://github.com/privatenumber/get-tsconfig?sponsor=1"
+hit sdk/package.json size 1352 hits priv
+     "description": "Official TypeScript SDK for integrating dApps with OctWa Wallet Extension. RFC-O-1 compliant provider API with typed access to Octra RPC, transactions, contracts, and privacy methods.",
+hit src/integrations/ons/README.md size 5166 hits plaintext,priv
+     console.log(record.destination)   // plaintext oct address
+## repo lamafab/octra-hfhe-lean
+meta {'full_name': 'lamafab/octra-hfhe-lean', 'pushed_at': '2026-06-30T15:13:44Z', 'updated_at': '2026-07-06T07:09:15Z', 'default_branch': 'main', 'fork': False, 'description': None, 'html_url': 'https://github.com/lamafab/octra-hfhe-lean'}
+head 2e80a727e7ff949190b519fa4bc1af71edb83139
+files 38
+hit Examples/Cipher.lean size 6012 hits plaintext
+   -- (5) Recrypt preserves the plaintext: for ANY schedule
+hit Examples/Field7.lean size 1783 hits plaintext
+   -- base `g`, a SECRET per-layer `Mask R`, and two plaintext slot-vectors; so the
+hit Examples/Homomorphism.lean size 7293 hits plaintext
+   -- plaintext.  DECRYPT divides the mask back out and re-applies the carrier, recovering
+hit Examples/Octra.lean size 5245 hits plaintext
+   -- One story: build a real ciphertext FROM SCRATCH and recover the plaintext.
+hit OVERVIEW.md size 14723 hits plaintext
+   Operating on ciphertexts operates on plaintexts, as an exact identity in 𝔽ₚ:
+hit Octra/Field127.lean size 1491 hits plaintext
+   -- a field, ready to be the plaintext / ciphertext-coefficient carrier in Phase 3.
+hit Octra/HFHE/Correctness.lean size 7576 hits plaintext
+   -- Throughout: `S` = number of SIMD slots (a plaintext / slot-vector is `Fin S → F`);
+hit Octra/HFHE/Homomorphism.lean size 11383 hits plaintext,priv
+   -- Operating on ciphertexts operates on plaintexts: every operation here
+hit Octra/HFHE/HyperDecoy.lean size 14264 hits plaintext
+   theorem encryptH_plaintext
+hit Octra/HFHE/Merge.lean size 7390 hits plaintext,priv
+   -- nonzero-value positions, leaking which positions the plaintext actually uses
+hit Octra/HFHE/Octra.lean size 4403 hits plaintext
+   --   plaintext v
+hit Octra/HFHE/Recrypt.lean size 7638 hits plaintext
+   -- Octra: recrypt: refresh σ-density, preserve the plaintext  (end to end)
+hit Octra/HFHE/Repack.lean size 6748 hits plaintext
+   /-- Square decrypts to the square of the plaintext: the `b = a` case of
+hit Octra/Hypergraph/LogicGates.lean size 14291 hits private key,priv
+   -- and (λ, μ) is the private key.

@@ -1,0 +1,67 @@
+## smoke-ui/octra-hfhe-v2-security-assessment
+meta {'pushed_at': '2026-07-11T19:36:08Z', 'updated_at': '2026-07-15T09:11:05Z', 'default_branch': 'main', 'description': 'Independent public-artifact cryptanalysis and security assessment of OCTRA HFHE Challenge v2', 'html_url': 'https://github.com/smoke-ui/octra-hfhe-v2-security-assessment'}
+head b30df471cbc7ba1df2c927578782d4f3cdf0cff5
+hit .github/pull_request_template.md size 520 hits private key
+  - [ ] No private keys, mnemonics, wallet files, or tokens
+hit CODE_OF_CONDUCT.md size 1176 hits private key,recover
+  - Redact private keys, mnemonics, tokens, and wallet files.
+hit CONTRIBUTING.md size 1540 hits plaintext,private key,recover
+  - Never commit private keys, mnemonics, wallet files, access tokens, or live credentials.
+hit CRYPTOGRAPHIC_CLAIMS_GUIDE.md size 1650 hits plaintext,recover
+  A parser accepting a ciphertext proves only that the bytes fit a schema. It does not prove the scheme hides plaintext.
+hit EXECUTIVE_SUMMARY.md size 2356 hits plaintext,private key,recover,R_com
+  OCTRA HFHE Challenge v2 was **not broken** during this assessment. No plaintext, private key, or mnemonic was recovered, and no funds were moved.
+hit FINDINGS.md size 4766 hits plaintext,R_com
+  ## OCTRA-HFHE-INFO-001 — Ciphertext count leaks a narrow plaintext-length interval
+hit LIMITATIONS.md size 1742 hits plaintext,recover
+  3. A public predicate that verifies a plaintext candidate.
+hit METHODOLOGY.md size 2170 hits plaintext,private key,recover
+  | 4 | Partial plaintext/key recovery | Confirmed confidentiality impact |
+hit README.md size 7610 hits plaintext,recover,R_com
+  No public-only plaintext recovery was achieved. The assessment found no practical confidentiality break at the pinned challenge and PVAC commits. It confirms that v2 closes the public plaintext-guess oracle that broke v1, while documenting metadata leakage and implementation-hard
+hit REPORT.md size 29012 hits plaintext,private key,recover,R_com
+  **Assessment status:** No public-only plaintext recovery achieved
+hit SECURITY.md size 1233 hits private key,recover
+  - private keys or mnemonics
+hit THREAT_MODEL.md size 1986 hits plaintext,recover
+  The plaintext embedded in `secret.ct`, including wallet credentials and claim instructions.
+hit disclosure/EMAIL_TEMPLATE.md size 820 hits recover
+  No unrelated systems or wallets were tested. [State whether credentials were recovered; never include them in email body.] Please acknowledge receipt and advise on a coordinated disclosure timeline.
+hit disclosure/TECHNICAL_SUMMARY.md size 974 hits plaintext,recover
+  No public-only plaintext recovery was achieved. V2 appears to close the v1 public candidate-verification oracle under the documented assumptions.
+hit research/CROSS_GENERATION_COMPOSITION_ASSESSMENT.md size 7859 hits plaintext,recover,R_com
+  This note assesses whether the three reachable v2 generations at `08bf879`, `e4645c9`, and `88a72b7` compose into plaintext or key recovery. **No actionable composition was found.** The strongest new observation is that all order-337 public bases can be aligned across keys (the s
+hit research/HFHE_V2_CIPHERTEXT_ALGEBRA.md size 5581 hits plaintext,recover,R_com
+  No practical ciphertext-algebra equality/guess predicate exists in the published two-BASE-layer wrapper under the stated PRF and Pedersen assumptions. The only information-theoretic predicate found is the event `N0 == 0`; for a nonzero plaintext it occurs with probability about `
+hit research/OCTRA_LPN_PRACTICAL_ASSESSMENT.md size 9327 hits recover
+  **The intended construction uses one shared secret `S`, not 44 secrets.** At pinned implementation commit `<LONG>`, `include/pvac/crypto/keygen.hpp:150-160` allocates and samples exactly one dense, uniform `sk.lpn_s_bits`. `include/pvac/crypto/lpn.hpp:335-373` accepts that `SecKe
+hit research/OCTRA_MOBIUS_SEQUENCING_ASSESSMENT.md size 6691 hits plaintext,recover
+  **Result:** no demonstrated plaintext, key, or low-weight LPN recovery path
+hit research/PHASE2_DEEP_TESTING_PLAN.md size 3897 hits plaintext,recover
+  Authorized local testing of OCTRA's public HFHE Challenge v2 artifacts and pinned public source only. No production services, wallets, malformed network traffic, or claims of plaintext recovery without deterministic verification.
+hit research/PHASE2_LAB_LOG.md size 7711 hits plaintext,recover
+  Classification: confirmed noncanonical wire alias/parser differential. This is not plaintext recovery; semantic equivalence is expected because native `Reader::fp()` clears the bit.
+hit research/RNG_HISTORY_REPORT.md size 3960 hits plaintext,recover
+  - Every ztag equals deterministic `prg_layer_ztag(canon_tag, nonce)`; this is domain binding, not hidden entropy or a seed-recovery oracle.
+hit research/S10_PEG_DEEP_AUDIT.md size 8802 hits plaintext,recover
+  - `e4645c9` replaced the generated template with a private `plaintext.txt`, regenerated both key and ciphertext, and retained ordinary nondeterministic `keygen`.
+hit research/hfhe-subgroup-projection-report.md size 2706 hits plaintext
+  No plaintext distinguisher or partial mask cancellation was found.
+hit research/hfhe-v2-algorithm-assessment.md size 9571 hits sk\.prf_k,plaintext,recover,R_com
+  No known classical or quantum algorithm materially lowers the *applicable* cost of plaintext recovery from the v2 public artifact. Published LPN solvers require explicit classical `(A,y=A s+e)` samples; quantum polynomial-time parity learners require coherent quantum-example-orac
+hit results/findings.json size 5335 hits plaintext,recover,R_com
+    "plaintext_recovered": false,
+hit results/hypergraph-mobius.json size 10600 hits plaintext,recover
+  {"analyzer":{"sha256":"<LONG>"},"artifact":{"ciphertexts":22,"label_use":"unlabeled_descriptive_only","layers_per_ciphertext":2,"sha256":"<LONG>"},"claims":{"plaintext_leakage":false,"scope":"public_incidence_diagnostics_only"},"fixtures":{"holonomy_negative":{"closure_gap":0.036
+hit results/invariant_production_results.json size 5541 hits bh_fdr
+    "bh_fdr_05_count": 0,
+hit results/invariant_reduced_results.json size 5625 hits bh_fdr
+    "bh_fdr_05_count": 0,
+hit results/lpn-bkw.json size 57084 hits R_com
+  {"design":{"actionability_criterion":{"max_residual_direct_budget":18446744073709551616,"max_terminal_dimension":64,"max_terminal_mitm_budget":4294967296},"multiple_testing":{"correction":"bonferroni_and_capped_global_union_bound","executed_families":4,"global_alpha":{"denominato
+hit scripts/secret-scan.py size 1437 hits private key
+      re.compile("BEGIN " + r"(?:(?:OPENSSH|RSA|EC) )?PRIVATE KEY"),
+hit tools/analyze_tensor_v2.py size 2628 hits plaintext
+  # generalization this is explicitly not a plaintext estimate.
+hit tools/compiler-differential/fixture.cpp size 3576 hits R_com
+  std::string fact(const PubKey& pk,const SecKey& sk,const Cipher& c){auto d=dec_values(pk,sk,c);std::ostringstream o;o<<"{\"slots\":"<<c.slots<<",\"layers\":"<<c.L.size()<<",\"edges\":"<<c.E.size()<<",\"compatible\":"<<(is_cipher_compatible_with_pubkey(pk,c)?"true":"false")<<",\"d
