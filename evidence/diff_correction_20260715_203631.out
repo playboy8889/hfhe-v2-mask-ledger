@@ -1,0 +1,3 @@
+# corrected baseline diff 20260715_203631 auth True
+heads_total 35 new_head_shas_corrected 0
+note Previous diff_refresh flagged Eienel/main because local script baseline typo omitted characters in the already-known SHA efb24174ac4c24c723b6c5bd99d289f89cf141c6.
