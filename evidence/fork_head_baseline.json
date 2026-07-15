@@ -1,0 +1,19 @@
+{
+  "updated_at": "2026-07-16T05:06:44.866181+08:00",
+  "baseline": {
+    "upstream-main": "019380c97543620091409b0fbf73a8a773a9a0da",
+    "upstream-v2_fix": "08bf879dd9e9aff094e4106ee5d86dde9de12742",
+    "d9d29d5 group": "d9d29d505e2840c0028d7a91a2a8ba59e163b9a4",
+    "pre-v2 slim group": "0d08e9622921e5930175a660df0061a65548972f",
+    "ifeoluwaaj analysis": "ffed46e744bb17871120fbc7e27102c92896567f",
+    "nxpath tools": "8a8df807bc12858a3076eb2d026f5d0ed1f2eceb",
+    "eienel progress": "c2897e67bbd511ac50606ec3157b0b7a1adadf81",
+    "eienel v2 branch": "93ff858fb9471d0252cc76092c681daa9f6a1879",
+    "eienel main": "efb24174ac4c24c723b6c5bd99d289f89cf141c6",
+    "tonylegend patch": "832890554fff9794871ebd462cf7b917e6222eb5",
+    "yanu main": "5e25d305429d3efbb4a11a6d0748f0fd99f8d57d",
+    "pymparticles main": "6d845e07f82ce924868ddac849ba92277150cfd9",
+    "instantfutures old": "25ab0aaee0f53438c999ac46799fb02fdbc0bacf",
+    "initial old group": "900255d11fabe64292b1626f1c681bd2d6044136"
+  }
+}
