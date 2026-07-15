@@ -1,0 +1,364 @@
+# x/public search refresh 20260715_115141
+/Users/koala/hfhe_challenge_v2/twitter_public_search_refresh.py:14: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  print('# Public Twitter/X search via DuckDuckGo', datetime.datetime.utcnow().isoformat()+'Z')
+# Public Twitter/X search via DuckDuckGo 2026-07-15T11:51:54.781112Z
+
+## query: site:x.com octra HFHE challenge v2
+bytes 14226
+
+## query: site:x.com octra hfhe solved
+bytes 14214
+
+## query: site:x.com octra hfhe private key
+bytes 14218
+
+## query: site:x.com octra hfhe lpn samples
+bytes 14230
+
+## query: site:x.com octC5eR9pLGKbpzTbDgHowkFt8HW7LZYb2gzehzxHamxuAZ
+bytes 14268
+
+## query: site:x.com 2075336875322032268
+bytes 14212
+
+## query: site:x.com octralex HFHE challenge
+bytes 14226
+
+## query: site:x.com octrabunch HFHE challenge
+bytes 14218
+
+# unique candidate X URLs
+
+## fx Kubo
+{
+    "code": 200,
+    "message": "OK",
+    "tweet": {
+        "url": "https://x.com/Kubo100x/status/2077300596064100794",
+        "id": "2077300596064100794",
+        "text": "Update on Octra HFHE v2 public audit.\n\nDay 6 algebraic track complete:\n\u2022 reduced-param invariant scan (480 samples, 6 keys, 1104 features): 0 survive FDR\n\u2022 ciphertext-algebra toy: 0.000000 TVD between distinct plaintexts\n\u2022 no low-dim simplification lowers the LPN-PRF margin (n=4096, \u03c4=1/8)\n\nThe wrapper doesn't leak. \nNo equality oracle from algebra.\n\nresearch notes only not a formal audit or security proof.\n\nNegative result independently reproduced.\nNo duplicate PRs \u2014 smoke-ui already holds INFO-001..005.\n\nContributing the full assessment + reproducible tools to @Hikkimori \n\nopen source:\nhttps://github.com/smoke-ui/octra-hfhe-v2-security-assessment\n\nStatus: DAY6 PASS. \nNext = Day 7 freeze.",
+        "raw_text": {
+            "text": "Update on Octra HFHE v2 public audit.\n\nDay 6 algebraic track complete:\n\u2022 reduced-param invariant scan (480 samples, 6 keys, 1104 features): 0 survive FDR\n\u2022 ciphertext-algebra toy: 0.000000 TVD between distinct plaintexts\n\u2022 no low-dim simplification lowers the LPN-PRF margin (n=4096, \u03c4=1/8)\n\nThe wrapper doesn't leak. \nNo equality oracle from algebra.\n\nresearch notes only not a formal audit or security proof.\n\nNegative result independently reproduced.\nNo duplicate PRs \u2014 smoke-ui already holds INFO-001..005.\n\nContributing the full assessment + reproducible tools to @Hikkimori \n\nopen source:\nhttps://t.co/iXKKc8X004\n\nStatus: DAY6 PASS. \nNext = Day 7 freeze.",
+            "display_text_range": [
+                0,
+                660
+            ],
+            "facets": [
+                {
+                    "type": "media",
+                    "indices": [
+                        275,
+                        298
+                    ],
+                    "id": "2077299055148085248",
+                    "display": "pic.x.com/9sJRAuUkIi",
+                    "original": "https://t.co/9sJRAuUkIi",
+                    "replacement": "https://x.com/Kubo100x/status/2077300596064100794/photo/1"
+                },
+                {
+                    "type": "mention",
+                    "indices": [
+                        569,
+                        579
+                    ],
+                    "original": "Hikkimori",
+                    "id": "1250006162"
+                },
+                {
+                    "type": "url",
+                    "indices": [
+                        595,
+                        618
+                    ],
+                    "original": "https://t.co/iXKKc8X004",
+                    "replacement": "https://github.com/smoke-ui/octra-hfhe-v2-security-assessment",
+                    "display": "github.com/smoke-ui/octra\u2026"
+                }
+            ]
+        },
+        "author": {
+            "screen_name": "Kubo100x",
+            "url": "https://x.com/Kubo100x",
+            "id": "716874356085940224",
+            "followers": 34005,
+            "following": 8594,
+            "likes": 25227,
+            "media_count": 1494,
+            "name": "Big Kubo \u16df\u03df",
+            "description": "Building w/ @steppafnf | open-source builds | NFA | https://github.com/Kubo-cmd |",
+            "raw_description": {
+                "text": "Building w/ @steppafnf | open-source builds | NFA | https://t.co/yG37ug5QeV |",
+                "facets": [
+                    {
+                        "type": "url",
+                        "indices": [
+                            52,
+                            75
+                        ],
+                        "original": "https://t.co/yG37ug5QeV",
+                        "replacement": "https://github.com/Kubo-cmd",
+                        "display": "github.com/Kubo-cmd"
+                    }
+                ]
+            },
+            "location": "universe",
+            "banner_url": "https://pbs.twimg.com/profile_banners/716874356085940224/1784000088",
+            "avatar_url": "https://pbs.twimg.com/profile_images/2072188358361841664/opJPmDBC_200x200.jpg",
+            "joined": "Mon Apr 04 06:25:40 +0000 2016",
+            "protected": false,
+            "website": {
+                "url": "https://www.liminullai.com",
+                "display_url": "liminullai.com"
+            },
+            "verification": {
+                "verified": true,
+                "verified_at": null,
+                "type": "individual"
+            },
+            "avatar_color": null
+        },
+        "replies": 3,
+        "retweets": 5,
+        "likes": 40,
+        "bookmarks": 3,
+        "quotes": 0,
+        "created_at": "Wed Jul 15 07:53:51 +0000 2026",
+        "created_timestamp": 1784102031,
+        "possibly_sensitive": false,
+        "views": 1530,
+        "is_note_tweet": true,
+        "community_note": null,
+        "lang": "en",
+        "replying_to": null,
+        "replying_to_status": null,
+        "media": {
+            "all": [
+                {
+                    "type": "photo",
+                    "id": "2077299055148085248",
+                    "url": "https://pbs.twimg.com/media/HNQMfBJbMAANWuB.jpg?name=orig",
+                    "width": 1428,
+                    "height": 490
+                }
+            ],
+            "photos": [
+                {
+                    "type": "photo",
+                    "id": "2077299055148085248",
+                    "url": "https://pbs.twimg.com/media/HNQMfBJbMAANWuB.jpg?name=orig",
+                    "width": 1428,
+                    "height": 490
+                }
+            ]
+        },
+        "quote": {
+            "url": "https://x.com/octra/status/2075336875322032268",
+            "id": "2075336875322032268",
+            "text": "open HFHE challenge v2\n\nthis wallet holds 500,000 OCT:\noctC5eR9pLGKbpzTbDgHowkFt8HW7LZYb2gzehzxHamxuAZ\n\nrecover its private key, tell us how you did it and receive another 500,000 OCT, for a total of 1 million. do not submit issues, they will be removed! https://github.com/octra-labs/hfhe-challenge",
+            "raw_text": {
+                "text": "open HFHE challenge v2\n\nthis wallet holds 500,000 OCT:\noctC5eR9pLGKbpzTbDgHowkFt8HW7LZYb2gzehzxHamxuAZ\n\nrecover its private key, tell us how you did it and receive another 500,000 OCT, for a total of 1 million. do not submit issues, they will be removed! https://t.co/lJ596HFpZI",
+                "display_text_range": [
+                    0,
+                    278
+                ],
+                "facets": [
+                    {
+                        "type": "bold",
+                        "indices": [
+                            0,
+                            22
+                        ]
+                    },
+                    {
+                        "type": "url",
+                        "indices": [
+                            255,
+                            278
+                        ],
+                        "original": "https://t.co/lJ596HFpZI",
+                        "replacement": "https://github.com/octra-labs/hfhe-challenge",
+                        "display": "github.com/octra-labs/hfh\u2026"
+                    }
+                ]
+            },
+            "author": {
+                "screen_name": "octra",
+                "url": "https://x.com/octra",
+                "id": "1588899455658516482",
+                "followers": 27886,
+                "following": 2,
+                "likes": 8271,
+                "media_count": 213,
+                "name": "octra",
+
+## fx octrascan
+{
+    "code": 200,
+    "message": "OK",
+    "tweet": {
+        "url": "https://x.com/octrascan/status/2076055197244149815",
+        "id": "2076055197244149815",
+        "text": "\ud83e\udd14 the devnet just came back online, and someone is already putting encrypted LLM chunks onchain?",
+        "raw_text": {
+            "text": "\ud83e\udd14 the devnet just came back online, and someone is already putting encrypted LLM chunks onchain? https://t.co/x77FSIGuxn",
+            "display_text_range": [
+                0,
+                96
+            ],
+            "facets": [
+                {
+                    "type": "media",
+                    "indices": [
+                        97,
+                        120
+                    ],
+                    "id": "2076055192353542144",
+                    "display": "pic.x.com/x77FSIGuxn",
+                    "original": "https://t.co/x77FSIGuxn",
+                    "replacement": "https://x.com/octrascan/status/2076055197244149815/photo/1"
+                }
+            ]
+        },
+        "author": {
+            "screen_name": "octrascan",
+            "url": "https://x.com/octrascan",
+            "id": "1998995260295499777",
+            "followers": 1191,
+            "following": 2,
+            "likes": 98,
+            "media_count": 25,
+            "name": "octrascan",
+            "description": "independent @octra epoch explorer. @octralabs grant recipient. mainnet: http://octrascan.io devnet: http://devnet.octrascan.io",
+            "raw_description": {
+                "text": "independent @octra epoch explorer. @octralabs grant recipient. mainnet: https://t.co/zP6bsfDsa0 devnet: https://t.co/9L7K8p28K5",
+                "facets": [
+                    {
+                        "type": "url",
+                        "indices": [
+                            72,
+                            95
+                        ],
+                        "original": "https://t.co/zP6bsfDsa0",
+                        "replacement": "http://octrascan.io",
+                        "display": "octrascan.io"
+                    },
+                    {
+                        "type": "url",
+                        "indices": [
+                            104,
+                            127
+                        ],
+                        "original": "https://t.co/9L7K8p28K5",
+                        "replacement": "http://devnet.octrascan.io",
+                        "display": "devnet.octrascan.io"
+                    }
+                ]
+            },
+            "location": "United Arab Emirates",
+            "banner_url": "https://pbs.twimg.com/profile_banners/1998995260295499777/1765432696",
+            "avatar_url": "https://pbs.twimg.com/profile_images/1998995682280275968/-DNQhlkP_200x200.jpg",
+            "joined": "Thu Dec 11 05:56:46 +0000 2025",
+            "protected": false,
+            "website": {
+                "url": "https://octrascan.io/",
+                "display_url": "octrascan.io"
+            },
+            "verification": {
+                "verified": true,
+                "verified_at": null,
+                "type": "organization"
+            },
+            "avatar_color": null
+        },
+        "replies": 2,
+        "retweets": 9,
+        "likes": 56,
+        "bookmarks": 4,
+        "quotes": 3,
+        "created_at": "Sat Jul 11 21:25:04 +0000 2026",
+        "created_timestamp": 1783805104,
+        "possibly_sensitive": false,
+        "views": 9778,
+        "is_note_tweet": false,
+        "community_note": null,
+        "lang": "en",
+        "replying_to": null,
+        "replying_to_status": null,
+        "media": {
+            "all": [
+                {
+                    "type": "photo",
+                    "id": "2076055192353542144",
+                    "url": "https://pbs.twimg.com/media/HM-hMrJWkAAnIdc.jpg?name=orig",
+                    "width": 2048,
+                    "height": 1086
+                }
+            ],
+            "photos": [
+                {
+                    "type": "photo",
+                    "id": "2076055192353542144",
+                    "url": "https://pbs.twimg.com/media/HM-hMrJWkAAnIdc.jpg?name=orig",
+                    "width": 2048,
+                    "height": 1086
+                }
+            ]
+        },
+        "quote": {
+            "url": "https://x.com/lambda0xE/status/2075413539712327986",
+            "id": "2075413539712327986",
+            "text": "the largest dev net update is currently underway, support for direct GPU computing for resource-sharing circles has been added to nodes as part of the development of on-chain state inference mechanics\n\nwe plan to complete this tomorrow afternoon (this will deserve a separate article)\n\nthanks everyone",
+            "raw_text": {
+                "text": "the largest dev net update is currently underway, support for direct GPU computing for resource-sharing circles has been added to nodes as part of the development of on-chain state inference mechanics\n\nwe plan to complete this tomorrow afternoon (this will deserve a separate article)\n\nthanks everyone",
+                "display_text_range": [
+                    0,
+                    301
+                ],
+                "facets": []
+            },
+            "author": {
+                "screen_name": "lambda0xE",
+                "url": "https://x.com/lambda0xE",
+                "id": "1545159785531703302",
+                "followers": 4209,
+                "following": 1772,
+                "likes": 32411,
+                "media_count": 267,
+                "name": "\u03bb",
+                "description": "byzantine general & co-founder @octra",
+                "raw_description": {
+                    "text": "byzantine general & co-founder @octra",
+                    "facets": []
+                },
+                "location": "London, England",
+                "banner_url": "https://pbs.twimg.com/profile_banners/1545159785531703302/1780364747",
+                "avatar_url": "https://pbs.twimg.com/profile_images/2061586395961962496/DB8eqPwJ_200x200.jpg",
+                "joined": "Thu Jul 07 21:36:28 +0000 2022",
+                "protected": false,
+                "website": {
+                    "url": "http://octra.org",
+                    "display_url": "octra.org"
+                },
+                "verification": {
+                    "verified": true,
+                    "verified_at": null,
+                    "type": "individual"
+                },
+                "avatar_color": null
+            },
+            "replies": 10,
+            "retweets": 16,
+            "likes": 107,
+            "bookmarks": 1,
+            "quotes": 2,
+            "created_at": "Fri Jul 10 02:55:21 +0000 2026",
+
+## ddg html snippets
+
+### "HFHE Challenge v2" Octra
+
+### "octra" "hfhe" "PRF_R2"
+
+### "octC5eR9pLGKbpzTbDgHowkFt8HW7LZYb2gzehzxHamxuAZ"
+
+### "secret.ct" "pk.bin" "hfhe"
