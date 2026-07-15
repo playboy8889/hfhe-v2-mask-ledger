@@ -1,0 +1,22 @@
+# X candidate triage 2026-07-15T09:49:01.815414+00:00
+
+## https://api.fxtwitter.com/labzdotlol/status/2075576847845273728
+status 200 bytes 4352
+text: If you succeed, you will also get 2M $Penguplush  /  / Octra coded
+urls: ['http://beta.labz.lol', 'http://docs.octra.org/', 'http://github.com/octra-labs', 'http://octra.org', 'https://github.com/octra-labs/hfhe-challenge', 'https://pbs.twimg.com/card_img/2076958996754223104/WZkbTE8e?format=jpg&name=800x419', 'https://t.co/iG9MNVie2R', 'https://x.com/labzdotlol', 'https://x.com/labzdotlol/status/2075576847845273728', 'https://x.com/octra', 'https://x.com/octra/status/2075336875322032268']
+markers: []
+
+## https://api.fxtwitter.com/akoredex95/status/2075379918800650241
+status 200 bytes 2068
+text: @octra MY FINDINGS / 1/ / Audited Octra's HFHE bounty v2 (pvac_hfhe_cpp @ 071b0e9), the version that patched the R_com oracle from v1. Wanted to see what's actually left standing. Full technical thread, including every command I ran. / @octra #Web3Security #hfhechallenge
+urls: ['https://x.com/akoredex95', 'https://x.com/akoredex95/status/2075379918800650241']
+markers: []
+
+## https://api.fxtwitter.com/akoredex95/status/2075382909997838572
+status 200 bytes 2178
+text: @octra Resolving the Hidden Subspace /  / Isolate the Systemic Part of $H$: The matrix $H$ is parsed into an $8192 \times 16384$ binary matrix. Track down the index positions where the density changes (this corresponds to the canon_tag structure). / @octra #HFHE #HFHEcallengev2
+urls: ['https://x.com/akoredex95', 'https://x.com/akoredex95/status/2075382909997838572']
+markers: []
+
+## conclusion
+No fetched candidate contains a verifiable private key/plaintext/PRF material artifact; labzdotlol is a reward-side social post, akoredex snippets are public finding/theory posts already in negative-lead class unless artifacts appear.
