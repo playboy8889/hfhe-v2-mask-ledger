@@ -1,4 +1,4 @@
-# Last sweep — 20260715_213624 UTC
+# Last sweep — 20260715_220625 UTC
 
 This checkpoint records another stable zero-diff pass against the persisted fork-head baseline.
 
@@ -13,9 +13,9 @@ No plaintext, private key, `PRF_R2`/`PRF_R3`, `sk.prf_k`, PC opening, mnemonic, 
 - Public X/search: no candidate URLs or actionable artifact.
 
 ## Evidence files
-- `evidence/diff_refresh_20260715_213624.out`
-- `evidence/twitter_public_search_refresh_20260715_213624.out`
-- `evidence/status_20260715_213624.md`
+- `evidence/diff_refresh_20260715_220625.out`
+- `evidence/twitter_public_search_refresh_20260715_220625.out`
+- `evidence/status_20260715_220625.md`
 
 ## Interpretation
 The public surface remains stable. Continue SHA-baseline diffing and only scan new surfaces when a genuine new SHA/repo/search hit appears.
