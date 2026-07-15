@@ -1,9 +1,5 @@
 # Introduction
 
-This project tracks a public analysis of Octra HFHE Challenge v2.
+This repository is a mask-focused notebook for the Octra HFHE v2 public challenge. It does not try to be a full duplicate of every other public write-up. The organizing question is narrow: did any public file, fork, X post, or challenge update expose enough mask/opening material to verify a plaintext guess?
 
-The challenge asks solvers to recover the plaintext/private key associated with the target wallet. The local work here focuses on reproducible public-artifact analysis: parsing the artifact, verifying public LPN sample bindings, checking structural shortcuts, monitoring public GitHub/X sources, and documenting dead ends.
-
-Current result: the target plaintext/private key has not been recovered.
-
-The most important active blocker is that public files expose only `pvac.prf.r.1` LPN side samples, while decryption needs the complete per-layer mask `R = PRF_R1 * PRF_R2 * PRF_R3` plus secret-keyed Toeplitz material.
+So far, no.

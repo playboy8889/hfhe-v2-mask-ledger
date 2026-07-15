@@ -1,101 +1,71 @@
-# Octra HFHE Challenge v2 — Public Audit Log
+# HFHE v2 Mask Ledger
 
-This repository tracks a public, reproducible audit of the **Octra HFHE Challenge v2** artifacts. It is maintained as a clean publication copy of local investigation notes, selected evidence outputs, and negative-result checks.
+A compact ledger of public-only checks around the Octra HFHE v2 challenge.
 
-> Current status: **not solved**. No plaintext, wallet private key, `PRF_R2`, `PRF_R3`, `sk.prf_k`, Toeplitz stream material, or PC opening has been recovered from public material.
+This repository is **not** a solved write-up and not a mirror of another audit repo. It is a running notebook focused on one question:
 
-## Target wallet
+> Can the public files expose enough mask material to verify or recover the target wallet secret?
 
-```text
-octC5eR9pLGKbpzTbDgHowkFt8HW7LZYb2gzehzxHamxuAZ
-```
+Current answer: **not yet**.
 
-Observed public-chain state in the latest local refresh:
+## Challenge anchor
 
 ```text
-balance:        500001.000001
-nonce:          0
-has_public_key: false
-tx_count:       5
+wallet: octC5eR9pLGKbpzTbDgHowkFt8HW7LZYb2gzehzxHamxuAZ
+observed balance: 500001.000001 OCT
+latest public status: nonce 0, has_public_key false, tx_count 5
 ```
 
-## Purpose
+## Working model
 
-The goal is to document what has been tested against the public challenge package and to avoid repeatedly re-running already-negative routes. This repository contains:
-
-- latest progress summaries;
-- selected reproducible audit outputs;
-- public external-lead triage;
-- blocked-conclusion notes;
-- scripts and helper material that do not contain local secrets.
-
-It intentionally excludes local tokens, `github.txt`, unrelated wallet files, private scratch data, and unverified secret material.
-
-## Main conclusion so far
-
-The published challenge material exposes useful metadata and `pvac.prf.r.1` LPN side samples, but decryption of a layer requires the full mask product:
+The useful public numerator for a base layer is masked. For a wrapped text block, recovery would require the hidden per-layer masks:
 
 ```text
-R = PRF_R1 * PRF_R2 * PRF_R3
+plaintext block = public_numerator_0 / R0 + public_numerator_1 / R1
+R = PRF_R1 · PRF_R2 · PRF_R3
 ```
 
-Current public material does **not** expose the missing components required to compute that product:
+The published side data covers `pvac.prf.r.1`. The ledger tracks whether any public route exposes the rest of the product or an equivalent verifier.
 
-- `PRF_R2`
-- `PRF_R3`
-- `sk.prf_k`
-- Toeplitz secret-derived stream material
-- PC openings (`value` / `blind`)
-- plaintext
-- target wallet private key
+## Current ledger state
 
-The strongest current blocker is therefore not parsing the artifact, but the absence of a public verifier or leak for the missing secret-derived mask material.
+| Area | Current observation |
+|---|---|
+| wallet state | unchanged; no public-key reveal on target account |
+| bundle framing | 22 ciphers, 44 base layers, no hidden trailing payload found |
+| base seeds / nonces | no reuse or near-duplicate pattern observed |
+| PC commitments | commitment points only; no serialized `value`/`blind` openings |
+| public matrix | `H` full row rank, no duplicate/zero columns in current audit |
+| LPN samples | useful only for `pvac.prf.r.1`; no `r.2`/`r.3` material observed |
+| external leads | Kubo/smoke-ui Day 6 lead is a negative algebra/invariant result |
 
-## Key negative checks already recorded
+## Reading order
 
-- `secret.ct` parses as a valid wrapped-v2 bundle: 22 ciphertexts, 44 base layers, no trailing bytes.
-- No appended hidden PVAC/OCTRA block or ASCII plaintext pocket was found.
-- No repeated `RSeed`, near-duplicate nonce, zero seed, zero PC point, or duplicate PC point was found.
-- `pk.bin` public matrix `H` has no zero/duplicate columns and is full row rank over GF(2).
-- Public `Layer::PC` entries are commitment points only; opening material is not serialized in `secret.ct`.
-- Public LPN samples are bound to `pvac.prf.r.1` only; source-level audit confirms `PRF_R2` and `PRF_R3` remain independent domain calls under `sk.prf_k`.
-- External social/GitHub leads checked so far are negative or non-verifiable, including the Kubo/smoke-ui Day 6 algebraic-track report.
+1. [`status_latest.md`](./status_latest.md) — last recorded event or external lead.
+2. [`docs/NOTEBOOK_ZH.md`](./docs/NOTEBOOK_ZH.md) — Chinese notebook-style summary.
+3. [`docs/MASK_MODEL.md`](./docs/MASK_MODEL.md) — why the missing masks matter.
+4. [`docs/CHECKPOINTS.md`](./docs/CHECKPOINTS.md) — checked routes and what would change the conclusion.
+5. [`evidence/`](./evidence/) — selected sanitized command outputs.
 
-## Repository layout
+## What would count as real progress
 
-```text
-status_latest.md       Latest progress snapshot
-README.md              This overview
-docs/                  Human-readable explanations and reproduction notes
-report/                Current blocked conclusion
-audits/                Selected audit helpers
-evidence/              Selected sanitized output logs
-scripts/               Reproduction helper scripts
-repo_metadata.json     Publication metadata
-```
+Any of the following would materially change the status:
 
-Useful entry points:
+- public `PRF_R2` or `PRF_R3` samples tied to the target layers;
+- `sk.prf_k`, Toeplitz stream material, or reproducible PRF state;
+- PC opening material (`value`, `blind`) for target base layers;
+- a candidate plaintext with an independent verifier;
+- a wallet private key/seed that derives the target address;
+- a target-chain state change proving someone else has the key.
 
-- [`status_latest.md`](./status_latest.md)
-- [`docs/PROJECT_SUMMARY_ZH.md`](./docs/PROJECT_SUMMARY_ZH.md)
-- [`docs/INTRODUCTION.md`](./docs/INTRODUCTION.md)
-- [`docs/FINDINGS.md`](./docs/FINDINGS.md)
-- [`docs/REPRODUCTION.md`](./docs/REPRODUCTION.md)
-- [`report/HFHE_V2_BLOCKED_CONCLUSION_CURRENT.md`](./report/HFHE_V2_BLOCKED_CONCLUSION_CURRENT.md)
+Until then, this is a negative-result ledger.
 
-## External references triaged
+## Publication hygiene
 
-- [`smoke-ui/octra-hfhe-v2-security-assessment`](https://github.com/smoke-ui/octra-hfhe-v2-security-assessment) — independent negative-result baseline; no target recovery.
-- [`tomismeta/octra-sqlite`](https://github.com/tomismeta/octra-sqlite) — useful Octra wallet-format reference; no target/challenge leak found.
-- Public X posts and GitHub PRs/forks related to the challenge — monitored for verifiable artifacts or candidate secrets.
+This repo is intentionally sanitized. Do not add:
 
-## Validation rule for any future candidate
+- GitHub tokens or `github.txt`;
+- local wallet files or unrelated secrets;
+- unverified private-key claims;
+- bulky challenge binaries unless explicitly intended for public redistribution.
 
-Any future plaintext/private-key candidate must be validated locally before being treated as progress:
-
-1. candidate decrypts or verifies against local `secret.ct` / `pk.bin`, or derives the target address;
-2. candidate is consistent with the target wallet state;
-3. result is reproducible from recorded steps;
-4. no unrelated local secret or token is included in publication.
-
-Until such validation exists, the public status remains **not recovered**.

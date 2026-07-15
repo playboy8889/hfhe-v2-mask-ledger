@@ -1,26 +1,21 @@
-# Reproduction
+# Reproduction notes
 
-The packaged reproduction script is:
+This publication copy stores selected outputs under `evidence/`. Full local reproduction expects the private working directory layout at `/Users/koala/hfhe_challenge_v2` and the upstream challenge artifacts.
 
-```bash
-./scripts/reproduce_blocked_conclusion.sh
-```
-
-It expects the full challenge worktree/artifacts to be available in the same layout used by the local analysis. The selected outputs in this repository are summaries only; large challenge artifacts and bulky generated logs are intentionally not included.
-
-Latest packaged reproduction summary:
+Typical local checks used for the ledger:
 
 ```bash
-cat evidence/reproduce_summary_20260713_042416.txt
+python3 hfhe_monitor_once.py
+python3 twitter_public_search_refresh.py
+git ls-remote --heads --tags https://github.com/octra-labs/hfhe-challenge.git
 ```
 
-Important selected audits:
+Specialized C++/Python probes are recorded by timestamp in `evidence/`, for example:
 
-```bash
-python3 audits/r_component_dependency_audit.py
-python3 audits/lpn_route_feasibility.py
-python3 audits/lpn_cross_sample_audit.py
-python3 audits/lpn_feature_bias_audit.py
-```
+- bundle boundary audit
+- seed/PC collision audit
+- public key matrix audit
+- PRF domain dependency audit
+- external lead triage
 
-If a candidate private key appears, validate it against the target wallet address before reporting.
+Candidate secrets are not published unless locally validated.

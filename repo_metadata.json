@@ -1,8 +1,9 @@
 {
-  "repository": "https://github.com/playboy8889/octra-hfhe-v2-public-audit",
-  "source_workspace": "/Users/koala/hfhe_challenge_v2",
+  "repository": "https://github.com/playboy8889/hfhe-v2-mask-ledger",
+  "publication_style": "unique-mask-ledger-notebook",
+  "not_a_mirror_of": "startkey/octra-hfhe-v2-public-audit",
   "target_wallet": "octC5eR9pLGKbpzTbDgHowkFt8HW7LZYb2gzehzxHamxuAZ",
-  "current_status": "not_recovered",
-  "last_updated_cst": "2026-07-15 17:40:58 CST",
-  "latest_commit_before_update": "486be7a"
+  "status": "not_recovered",
+  "updated_cst": "2026-07-15 17:43:00 CST",
+  "head_before_commit": "f142894"
 }
