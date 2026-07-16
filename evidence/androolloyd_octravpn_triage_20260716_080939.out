@@ -1,0 +1,47 @@
+# androolloyd/octravpn triage 20260716_080939 UTC
+fallback=GitHub code search after shallow clone timeout
+
+repo_pushed_at=2026-07-16T07:45:07Z default_branch=main
+
+## repo:androolloyd/octravpn octC5eR9pLGKbpzTbDgHowkFt8HW7LZYb2gzehzxHamxuAZ
+total_count=0
+
+## repo:androolloyd/octravpn "secret.ct"
+total_count=0
+
+## repo:androolloyd/octravpn "pk.bin"
+total_count=2
+androolloyd/octravpn docs/operators/pvac-rotation.md https://github.com/androolloyd/octravpn/blob/3ccf6fe79aa26fe82c9a4ecd78790b6c8f34f543/docs/operators/pvac-rotation.md
+androolloyd/octravpn scripts/operators/rotate-pvac.sh https://github.com/androolloyd/octravpn/blob/3ccf6fe79aa26fe82c9a4ecd78790b6c8f34f543/scripts/operators/rotate-pvac.sh
+
+## repo:androolloyd/octravpn "PRF_R2"
+total_count=2
+androolloyd/octravpn pvac-sidecar/vendor/pvac/include/pvac/core/types.hpp https://github.com/androolloyd/octravpn/blob/3ccf6fe79aa26fe82c9a4ecd78790b6c8f34f543/pvac-sidecar/vendor/pvac/include/pvac/core/types.hpp
+androolloyd/octravpn pvac-sidecar/vendor/pvac/include/pvac/crypto/lpn.hpp https://github.com/androolloyd/octravpn/blob/3ccf6fe79aa26fe82c9a4ecd78790b6c8f34f543/pvac-sidecar/vendor/pvac/include/pvac/crypto/lpn.hpp
+
+## repo:androolloyd/octravpn "PRF_R3"
+total_count=2
+androolloyd/octravpn pvac-sidecar/vendor/pvac/include/pvac/core/types.hpp https://github.com/androolloyd/octravpn/blob/3ccf6fe79aa26fe82c9a4ecd78790b6c8f34f543/pvac-sidecar/vendor/pvac/include/pvac/core/types.hpp
+androolloyd/octravpn pvac-sidecar/vendor/pvac/include/pvac/crypto/lpn.hpp https://github.com/androolloyd/octravpn/blob/3ccf6fe79aa26fe82c9a4ecd78790b6c8f34f543/pvac-sidecar/vendor/pvac/include/pvac/crypto/lpn.hpp
+
+## repo:androolloyd/octravpn "sk.prf_k"
+total_count=5
+androolloyd/octravpn pvac-sidecar/vendor/pvac/include/pvac/ops/verify_zero.hpp https://github.com/androolloyd/octravpn/blob/3ccf6fe79aa26fe82c9a4ecd78790b6c8f34f543/pvac-sidecar/vendor/pvac/include/pvac/ops/verify_zero.hpp
+androolloyd/octravpn pvac-sidecar/vendor/pvac/include/pvac/crypto/keygen.hpp https://github.com/androolloyd/octravpn/blob/3ccf6fe79aa26fe82c9a4ecd78790b6c8f34f543/pvac-sidecar/vendor/pvac/include/pvac/crypto/keygen.hpp
+androolloyd/octravpn pvac-sidecar/vendor/pvac/pvac_serialize.hpp https://github.com/androolloyd/octravpn/blob/3ccf6fe79aa26fe82c9a4ecd78790b6c8f34f543/pvac-sidecar/vendor/pvac/pvac_serialize.hpp
+androolloyd/octravpn pvac-sidecar/vendor/pvac/include/pvac/ops/encrypt.hpp https://github.com/androolloyd/octravpn/blob/3ccf6fe79aa26fe82c9a4ecd78790b6c8f34f543/pvac-sidecar/vendor/pvac/include/pvac/ops/encrypt.hpp
+androolloyd/octravpn pvac-sidecar/vendor/pvac/include/pvac/crypto/lpn.hpp https://github.com/androolloyd/octravpn/blob/3ccf6fe79aa26fe82c9a4ecd78790b6c8f34f543/pvac-sidecar/vendor/pvac/include/pvac/crypto/lpn.hpp
+
+## repo:androolloyd/octravpn "HFHE Challenge v2"
+total_count=0
+
+## repo:androolloyd/octravpn "private key" octra
+total_count=23
+androolloyd/octravpn docs/reference/cli-octravpn-node.md https://github.com/androolloyd/octravpn/blob/3ccf6fe79aa26fe82c9a4ecd78790b6c8f34f543/docs/reference/cli-octravpn-node.md
+androolloyd/octravpn docs/maintenance/recovery.md https://github.com/androolloyd/octravpn/blob/3ccf6fe79aa26fe82c9a4ecd78790b6c8f34f543/docs/maintenance/recovery.md
+androolloyd/octravpn crates/octravpn-node/src/hub/boot.rs https://github.com/androolloyd/octravpn/blob/3ccf6fe79aa26fe82c9a4ecd78790b6c8f34f543/crates/octravpn-node/src/hub/boot.rs
+androolloyd/octravpn docs/v2-operator-key-hygiene.md https://github.com/androolloyd/octravpn/blob/3ccf6fe79aa26fe82c9a4ecd78790b6c8f34f543/docs/v2-operator-key-hygiene.md
+androolloyd/octravpn crates/octravpn-core/src/rpc.rs https://github.com/androolloyd/octravpn/blob/3ccf6fe79aa26fe82c9a4ecd78790b6c8f34f543/crates/octravpn-core/src/rpc.rs
+androolloyd/octravpn docs/operators/troubleshooting.md https://github.com/androolloyd/octravpn/blob/3ccf6fe79aa26fe82c9a4ecd78790b6c8f34f543/docs/operators/troubleshooting.md
+androolloyd/octravpn docs/v2-threat-model.md https://github.com/androolloyd/octravpn/blob/3ccf6fe79aa26fe82c9a4ecd78790b6c8f34f543/docs/v2-threat-model.md
+androolloyd/octravpn crates/octravpn-node/src/v3_cli.rs https://github.com/androolloyd/octravpn/blob/3ccf6fe79aa26fe82c9a4ecd78790b6c8f34f543/crates/octravpn-node/src/v3_cli.rs
