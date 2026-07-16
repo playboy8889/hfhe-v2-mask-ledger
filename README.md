@@ -37,7 +37,7 @@ The published side data covers `pvac.prf.r.1`. The ledger tracks whether any pub
 | PC commitments | commitment points only; no serialized `value`/`blind` openings |
 | public matrix | `H` full row rank, no duplicate/zero columns in current audit |
 | LPN samples | useful only for `pvac.prf.r.1`; no `r.2`/`r.3` material observed |
-| external leads | Kubo/smoke-ui Day 6 lead is a negative algebra/invariant result |
+| external leads | Kubo/smoke-ui/startkey/asbryx leads are negative public-artifact audits; no target secret material |
 
 ## Reading order
 
