@@ -1,0 +1,16 @@
+# Public web search refresh 20260716_1640 UTC
+queries:
+- Octra HFHE Challenge v2 solved private key July 17
+- Octra HFHE v2 Day 7 freeze Kubo
+- octC5eR9pLGKbpzTbDgHowkFt8HW7LZYb2gzehzxHamxuAZ
+- Octra HFHE sk.prf_k PRF_R2 PRF_R3
+
+Relevant results observed:
+- Kubo100x Day 2 public-audit post remains a negative binary-track note: fuzz/ASAN/UBSAN clean and no zero-value leak.
+- Octrascan/lite address results show the target address state only; no public key, plaintext, private key, or challenge-secret material exposed.
+- Official Octra docs/org/home pages are generic documentation and organization pages, not target-specific challenge material.
+- Official Octra X v2 announcement repeats bounty wording and target wallet only.
+- Official PVAC/docs/client pages are generic implementation/client references; no PRF_R2/PRF_R3/sk.prf_k for target.
+- Other search results are unrelated market pages, generic crypto pages, or unrelated uses of freeze/kubo.
+
+Conclusion: no public v2 solved/private-key/plaintext/material leak found in web search.
