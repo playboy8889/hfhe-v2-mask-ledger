@@ -1,0 +1,33 @@
+# lamafab/octra-hfhe-lean triage 20260716_191253 UTC
+
+## https://api.github.com/repos/lamafab/octra-hfhe-lean status 200
+full_name lamafab/octra-hfhe-lean pushed 2026-07-16T19:07:25Z updated 2026-07-16T19:08:02Z desc None
+
+## https://api.github.com/repos/lamafab/octra-hfhe-lean/commits?per_page=8 status 200
+1c5e4ff1cbee0c2101f565263e178888625b76f5 2026-07-16T18:41:10Z 'docs: remove unnecessary highlights from main description' https://github.com/lamafab/octra-hfhe-lean/commit/1c5e4ff1cbee0c2101f565263e178888625b76f5
+6dd7fe5121e54e491144be1a3e8848cb2c14c45c 2026-07-16T18:36:30Z 'examples: update comment formatting' https://github.com/lamafab/octra-hfhe-lean/commit/6dd7fe5121e54e491144be1a3e8848cb2c14c45c
+116819d0f601fd11c27e4114747b480176c594c2 2026-07-16T18:31:21Z 'assets: add infographs and embed in README' https://github.com/lamafab/octra-hfhe-lean/commit/116819d0f601fd11c27e4114747b480176c594c2
+2e80a727e7ff949190b519fa4bc1af71edb83139 2026-06-30T15:09:35Z 'docs/overview: name unformalized error weight assumption' https://github.com/lamafab/octra-hfhe-lean/commit/2e80a727e7ff949190b519fa4bc1af71edb83139
+1928c7754882108b960e0f8a55366d78260f38a7 2026-06-30T14:26:06Z 'coding: update docs to reference distinct hyper-decoy consts' https://github.com/lamafab/octra-hfhe-lean/commit/1928c7754882108b960e0f8a55366d78260f38a7
+a95cefa51dc7c02c258b920e5b59b2c8e290325a 2026-06-30T14:24:36Z 'hfhe/hyper-decoy: introduce separate consts distinct from lpn consts' https://github.com/lamafab/octra-hfhe-lean/commit/a95cefa51dc7c02c258b920e5b59b2c8e290325a
+25a1c32298b81a4ad1ae872d44820ab170130798 2026-06-30T08:04:47Z 'docs: add OVERVIEW.md' https://github.com/lamafab/octra-hfhe-lean/commit/25a1c32298b81a4ad1ae872d44820ab170130798
+527391d09adfcbc6ea9a23f4b3eaf9056ff6d4ba 2026-06-30T08:04:12Z 'examples: init' https://github.com/lamafab/octra-hfhe-lean/commit/527391d09adfcbc6ea9a23f4b3eaf9056ff6d4ba
+
+## code/material searches
+query repo:lamafab/octra-hfhe-lean "octC5eR9pLGKbpzTbDgHowkFt8HW7LZYb2gzehzxHamxuAZ" status 200
+total_count 0
+query repo:lamafab/octra-hfhe-lean "secret.ct" status 200
+total_count 0
+query repo:lamafab/octra-hfhe-lean "pk.bin" status 200
+total_count 0
+query repo:lamafab/octra-hfhe-lean "PRF_R2" status 200
+total_count 0
+query repo:lamafab/octra-hfhe-lean "PRF_R3" status 200
+total_count 0
+query repo:lamafab/octra-hfhe-lean "sk.prf_k" status 200
+total_count 0
+query repo:lamafab/octra-hfhe-lean "private key" status 200
+total_count 1
+Octra/Hypergraph/LogicGates.lean https://github.com/lamafab/octra-hfhe-lean/blob/04e908e26d53d293c03032008afebc06f1b76f1d/Octra/Hypergraph/LogicGates.lean
+query repo:lamafab/octra-hfhe-lean "Day 7" status 200
+total_count 0
