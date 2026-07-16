@@ -1,4 +1,4 @@
-# Last sweep — 20260716_113907 UTC
+# Last sweep — 20260716_120909 UTC
 
 Result: no plaintext/private key recovered.
 
@@ -14,7 +14,7 @@ Key observations:
 Current blocker remains missing hidden mask material: `PRF_R2`, `PRF_R3`, `sk.prf_k`, Toeplitz stream material, PC openings, or any deterministic public candidate-check oracle.
 
 Evidence copied in `evidence/`:
-- `status_20260716_113907.md`
-- `auth_full_refresh_20260716_113907.out`
-- `twitter_public_search_refresh_20260716_113946.out`
-- `github_repo_search_20260716_113953.out`
+- `status_20260716_120909.md`
+- `auth_full_refresh_20260716_120909.out`
+- `twitter_public_search_refresh_20260716_120945.out`
+- `github_repo_search_20260716_120952.out`
