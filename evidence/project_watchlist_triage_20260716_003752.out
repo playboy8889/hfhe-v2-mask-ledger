@@ -1,0 +1,21 @@
+repo iopo545454-del/project-watchlist path projects/19-octra.md sha 0c53d22ee1e856d55feea9ceee5f675e65d8c027 size 17429
+contains HFHE True
+contains private key True
+contains octC5eR9pLGKbpzTbDgHowkFt8HW7LZYb2gzehzxHamxuAZ False
+contains secret.ct False
+contains PRF_R2 False
+contains PRF_R3 False
+contains sk.prf_k False
+contains solved False
+contains recover True
+sanitized_context:
+- 2026-07-11 — Octra co-founder/team accounts updated HFHE challenge v2 by publishing LPN samples derived from `sk.bin`, explicitly making the cryptanalytic target easier and fairer after criticism. The team says this leak-style data would not normally be public and cautions that
+- 2026-07-09 — Octra launched open HFHE challenge v2: a wallet holds 500,000 OCT and recovery of its private key earns another 500,000 OCT, for a 1M OCT bounty; co-founder/team posts said v1 had a brute-forceable flaw and v2 removes that path. This is a credible security/technica
+- 2026-07-02 — Co-founder/team account `@octralex` said Octra is compiling a proper whitepaper and pointed to `@nebulayer` publishing still-WIP Lean 4 formal verification work for Octra’s HFHE scheme that will feed into the whitepaper. Treat this as a technical-credibility/docs c
+- 2026-06-24 — Co-founder/team account `@octralex` reiterated that the encrypted-balance incident was an implementation bug in the ZK verification path used when releasing encrypted balances, not a break of HFHE, Ristretto, or Octra's encrypted-computation layer; the TAPE verifie
+- 2026-06-22 — Co-founder/team account `@octralex` published the promised security disclosure: an encrypted-balance decryption proof-verification bug was found internally and privately reported, patched on 2026-06-01, and the only confirmed live impact was a 100 OCT test transact
+- 2026-06-14 — Official X said external researchers submitted credible bug reports/improvement suggestions; fixes have been implemented and will be published separately. Octra says it is finishing essential security checks before returning to a product release schedule that inclu
+| HFHE challenge v2 / formal security paper | Confirmed / ongoing; paper pending | Official/co-founder posts launched a 1M OCT challenge and later published LPN samples from `sk.bin` to make the cryptanalytic target easier/fairer, while explicitly saying the challenge is not subs
+| Encrypted-balance proof-verification disclosure + TAPE verifier migration | Confirmed | Co-founder/team disclosure says a June 1 encrypted-balance decryption proof bug was patched within hours, only 100 OCT confirmed impacted, delta-reconciliation cap reduced to zero, and Octra
+| HFHE-LLM interface | Confirmed | Official X roadmap list includes HFHE-LLM interface: https://x.com/i/status/2066055111952990487 | Unknown / after security-check phase | Connects Octra’s FHE/privacy stack to AI/LLM interfaces | Could pull Octra into private-AI/encrypted-inferen
+| TAPE verifier / CT-format migration | Confirmed | Co-founder mini-roadmap says Octra is moving to a new TAPE verifier natively supported by HFHE, with client-side CT-format migration via one transaction: https://x.<LONG> | Next week / near-term | Faster heavy transactions and h
