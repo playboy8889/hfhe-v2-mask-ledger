@@ -1,0 +1,29 @@
+# mintlify atlas code-search hit triage
+
+## api/crypto/lpn.mdx
+status 200 bytes 7846
+hits ['PRF_R2', 'PRF_R3', 'seed']
+PRF_R2: the prime field </ResponseField> This function computes three independent LPN evaluations and multiplies them together for enhanced security. It uses domain separators `PRF_R1`, `PRF_R2`, and `PRF_R3`. ### prf_R_noise() Evaluates the noise pseudorandom function. ```cpp Fp prf_R_noise(const PubKey& pk, const SecKey& sk, const RSeed& seed) ``` <ParamField path="pk" type="const PubKey&"> Public key containing system pa
+PRF_R3: d </ResponseField> This function computes three independent LPN evaluations and multiplies them together for enhanced security. It uses domain separators `PRF_R1`, `PRF_R2`, and `PRF_R3`. ### prf_R_noise() Evaluates the noise pseudorandom function. ```cpp Fp prf_R_noise(const PubKey& pk, const SecKey& sk, const RSeed& seed) ``` <ParamField path="pk" type="const PubKey&"> Public key containing system parameters </Par
+seed:  PVAC-HFHE. ## Core functions ### prf_R() Evaluates the main pseudorandom function to generate a randomizer element. ```cpp Fp prf_R(const PubKey& pk, const SecKey& sk, const RSeed& seed) ``` <ParamField path="pk" type="const PubKey&"> Public key containing system parameters </ParamField> <ParamField path="sk" type="const SecKey&"> Secret key containing PRF keys and LPN secret </ParamField> <ParamField path="s
+
+## concepts/security.mdx
+status 200 bytes 12712
+hits ['PRF_R2', 'PRF_R3', 'sk.prf_k', 'plaintext', 'seed']
+PRF_R2: pp:263-268`: ```cpp Fp prf_R(const PubKey& pk, const SecKey& sk, const RSeed& seed) { Fp r1 = prf_R_core(pk, sk, seed, Dom::PRF_R1); Fp r2 = prf_R_core(pk, sk, seed, Dom::PRF_R2); Fp r3 = prf_R_core(pk, sk, seed, Dom::PRF_R3); return fp_mul(fp_mul(r1, r2), r3); } ``` **Triple-product construction:** Uses three independent LPN samples multiplied together for enhanced security. ### PRF core algorithm From
+PRF_R3: st SecKey& sk, const RSeed& seed) { Fp r1 = prf_R_core(pk, sk, seed, Dom::PRF_R1); Fp r2 = prf_R_core(pk, sk, seed, Dom::PRF_R2); Fp r3 = prf_R_core(pk, sk, seed, Dom::PRF_R3); return fp_mul(fp_mul(r1, r2), r3); } ``` **Triple-product construction:** Uses three independent LPN samples multiplied together for enhanced security. ### PRF core algorithm From `include/pvac/crypto/lpn.hpp:235-261`: ```cpp Fp 
+sk.prf_k: ing> ## Key generation security From `include/pvac/crypto/keygen.hpp:35-136`: ### Secret key generation ```cpp // 1. Generate 256-bit PRF key for (int i = 0; i < 4; i++) { sk.prf_k[i] = csprng_u64(); } // 2. Generate random binary vector (LPN secret) size_t s_words = (pk.prm.lpn_n + 63) / 64; // 64 words sk.lpn_s_bits.resize(s_words); for (size_t i = 0; i < s_words; i++) { sk.lpn_s_bits[i] = csprng_u64(); } ``
+plaintext: ut-curious server The server: - **Can:** Perform homomorphic operations on ciphertexts - **Cannot:** Decrypt ciphertexts without the secret key - **Cannot:** Learn anything about plaintexts beyond what's leaked by operation patterns ### What is NOT protected <Warning> PVAC-HFHE does not provide: - **Circuit privacy:** The server can see the computation graph structure - **Access pattern hiding:** The server knows which ope
+seed:  parameters. </Note> ## PRF construction ### LPN-based PRF The scheme derives pseudorandom field elements using LPN: ```cpp Fp prf_R(const PubKey& pk, const SecKey& sk, const RSeed& seed); ``` From `include/pvac/crypto/lpn.hpp:263-268`: ```cpp Fp prf_R(const PubKey& pk, const SecKey& sk, const RSeed& seed) { Fp r1 = prf_R_core(pk, sk, seed, Dom::PRF_R1); Fp r2 = prf_R_core(pk, sk, seed, Dom::PRF_R2); Fp
+
+## api/core/types.mdx
+status 200 bytes 10131
+hits ['PRF_R2', 'PRF_R3', 'seed']
+PRF_R2: ar* ZTAG = "pvac.dom.ztag"; inline constexpr const char* COMMIT = "pvac.dom.commit"; inline constexpr const char* PRF_R1 = "pvac.prf.r.1"; inline constexpr const char* PRF_R2 = "pvac.prf.r.2"; inline constexpr const char* PRF_R3 = "pvac.prf.r.3"; inline constexpr const char* PRF_NOISE1 = "pvac.prf.noise.1"; inline constexpr const char* PRF_NOISE2 = "pvac.prf.noise.2"; inline constexpr const char
+PRF_R3: r* COMMIT = "pvac.dom.commit"; inline constexpr const char* PRF_R1 = "pvac.prf.r.1"; inline constexpr const char* PRF_R2 = "pvac.prf.r.2"; inline constexpr const char* PRF_R3 = "pvac.prf.r.3"; inline constexpr const char* PRF_NOISE1 = "pvac.prf.noise.1"; inline constexpr const char* PRF_NOISE2 = "pvac.prf.noise.2"; inline constexpr const char* PRF_NOISE3 = "pvac.prf.noise.3"; } ``` <Warning> Thes
+seed: ype="size_t" default="1"> Number of message slots (for batching) </ParamField> ### Layer Computation layer in the evaluation graph. ```cpp struct Layer { RRule rule; RSeed seed; uint32_t pa; uint32_t pb; }; ``` <ParamField path="rule" type="RRule"> Computation rule type (BASE or PROD) </ParamField> <ParamField path="seed" type="RSeed"> Random seed for deterministic randomness expansion </ParamF
+
+## guides/key-generation.mdx
+status 200 bytes 6764
+hits ['sk.prf_k']
+sk.prf_k: lize parameters"> Copy parameters to public key and verify constraints (e.g., B divides p-1) </Step> <Step title="Generate PRF key"> Sample 4 random 64-bit values for `sk.prf_k` </Step> <Step title="Find generator g"> Find a generator of the multiplicative subgroup of order B using exponentiation by (p-1)/B </Step> <Step title="Precompute powers"> Compute `powg_B[i] = g^i` for i = 0 to B-1 </Ste

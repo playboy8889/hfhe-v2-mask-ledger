@@ -1,0 +1,26 @@
+# X candidate triage
+
+## https://x.com/OxCryptoQueen/status/2074424954318176591
+status 200 bytes 156072
+hits ['seed']
+ Crypto Queen☂️ on X: "To Test its HFHE encryption, @octra is launching a challenge for all ethical hackers. Break into the wallet address below and receive a reward of 500k $oct. More details below: https://t.co/WxVEvuPSm6 https://t.co/MmwyMrHlAs" / X :root{background-color:#fff}:root[data-theme="dark"]{background-color:#000}@media (prefers
+
+## https://x.com/octra/status/2075336875322032268
+status 200 bytes 143721
+hits ['octC5eR9pLGKbpzTbDgHowkFt8HW7LZYb2gzehzxHamxuAZ', 'private key']
+ octra on X: "open HFHE challenge v2 this wallet holds 500,000 OCT: octC5eR9pLGKbpzTbDgHowkFt8HW7LZYb2gzehzxHamxuAZ recover its private key, tell us how you did it and receive another 500,000 OCT, for a total of 1 million. do not submit issues, they will be removed! https://t.co/iG9MNVie2R" / X :root{background-color:#fff}:root[data-theme="dark"]{background-color:#000}@media (prefers-color-scheme
+
+## https://x.com/Kubo100x/status/2077300596064100794
+status 200 bytes 159787
+hits ['octC5eR9pLGKbpzTbDgHowkFt8HW7LZYb2gzehzxHamxuAZ', 'plaintext', 'private key']
+ Kubo ᛟϟ on X: "Update on Octra HFHE v2 public audit. Day 6 algebraic track complete: • reduced-param invariant scan (480 samples, 6 keys, 1104 features): 0 survive FDR • ciphertext-algebra toy: 0.000000 TVD between distinct plaintexts • no low-dim simplification lowers the LPN-PRF margin https:
+
+## https://x.com/akoredex95/status/2075379918800650241
+status 200 bytes 112562
+hits []
+ Adegoke Ridwan 🫎 on X: "@octra MY FINDINGS 1/ Audited Octra's HFHE bounty v2 (pvac_hfhe_cpp @ 071b0e9), the version that patched the R_com oracle from v1. Wanted to see what's actually left standing. Full technical thread, including every command I ran. @octra #Web3Security #hfhechallenge" / X :root{background-color:#fff}:root[data-theme="dark"]
+
+## https://x.com/akoredex95/status/2075382909997838572
+status 200 bytes 114277
+hits []
+ Adegoke Ridwan 🫎 on X: "@octra Resolving the Hidden Subspace Isolate the Systemic Part of $H$: The matrix $H$ is parsed into an $8192 \times 16384$ binary matrix. Track down the index positions where the density changes (this corresponds to the canon_tag structure). @octra #HFHE #HFHEcalle

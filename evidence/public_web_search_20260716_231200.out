@@ -1,0 +1,17 @@
+# Public web search refresh 20260716_231200 UTC
+queries:
+- Octra HFHE Challenge v2 solved private key
+- Octra HFHE sk.prf_k PRF_R2 PRF_R3
+- NithtCat Octra HFHE Challenge v2 PRF_R2 PRF_R3
+- octC5eR9pLGKbpzTbDgHowkFt8HW7LZYb2gzehzxHamxuAZ
+
+Relevant results observed:
+- Official octra-labs/hfhe-challenge and official Octra X challenge results repeat the public v2 task, target wallet, and bounty wording only; no solved/private-key/plaintext disclosure.
+- Kubo100x results remain known negative public investigation notes; no target material or solution artifact.
+- OxCryptoQueen/X amplification result repeats the challenge announcement/link only; no target material.
+- akoredex95 snippets remain high-level audit/hidden-subspace discussion without target-specific values, artifacts, plaintext, or private key.
+- New authenticated code-search totals for PRF_R2/PRF_R3/sk.prf_k include mintlify-atlas docs pages. Local triage confirms they are generic PVAC documentation/examples, not target wallet material and not secret.ct/pk.bin/plaintext/private-key leaks.
+- GitHub repository search remains known negative-result audit/formalization repos plus the public mirror; exact target/material/private-key/solved searches are 0. Final unauthenticated sk.prf_k repo query hit GitHub 403, but authenticated code search for sk.prf_k remained generic only.
+- NithtCat/Tony Xiao query did not surface a concrete status URL/artifact or retrievable target-specific values this run.
+
+Conclusion: no public v2 solved/private-key/plaintext/material leak found in web search.
