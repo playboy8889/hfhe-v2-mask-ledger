@@ -1,0 +1,17 @@
+# Public web search refresh 20260716_1710 UTC
+queries:
+- Octra HFHE Challenge v2 private key solved July 17
+- Octra HFHE v2 Vibibiys hfhe-challenge
+- octC5eR9pLGKbpzTbDgHowkFt8HW7LZYb2gzehzxHamxuAZ
+- Octra HFHE sk.prf_k PRF_R2 PRF_R3
+
+Relevant results observed:
+- Official challenge page: https://github.com/octra-labs/hfhe-challenge ; still v2 bounty/artifact page, no solved/private-key/plaintext disclosure.
+- Official X v2 announcement: https://x.com/octra/status/2075336875322032268 ; repeats target wallet and private-key bounty wording only.
+- Octrascan address pages: https://octrascan.io/address.html?addr=octC5eR9pLGKbpzTbDgHowkFt8HW7LZYb2gzehzxHamxuAZ and lite mirror show account state only; no secret/plaintext/private-key material.
+- Official docs and PVAC implementation pages are generic docs/source, not target-specific PRF_R2/PRF_R3/sk.prf_k material.
+- lambda0xE LPN-sample update result is already-known context for challenge v2 public samples, not a new secret leak.
+- Trendshift/Iamknownasfesal result is v1/R_com recovery material, not applicable to v2.
+- Other results were unrelated market/docs/generic private-key pages.
+
+Conclusion: no public v2 solved/private-key/plaintext/material leak found in web search.

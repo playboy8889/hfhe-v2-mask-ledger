@@ -1,0 +1,17 @@
+# X newly surfaced candidate triage 20260716_171300 UTC
+
+## https://x.com/max21e8/status/2074448133426168286
+api https://api.fxtwitter.com/max21e8/status/2074448133426168286 status 200 bytes 4095
+author max21e8 created Tue Jul 07 10:59:11 +0000 2026
+text Thanks for playing
+urls []
+photos []
+quote_author octra quote_text open HFHE challenge |  | this wallet holds 500,000 OCT: | oct6Y7jxx92V5nuUykotRqHj6xPz1JEiT3ZRswJ4Awvi9Zn |  | recover it's seed phrase, tell us how you did it and receive another 500,000 OCT, for a total of 1 million.  | do not submit issues, they will be removed! |  | https://github.com/octra-labs/hfhe-challenge
+
+## https://x.com/octra/status/2074456863874097405
+api https://api.fxtwitter.com/octra/status/2074456863874097405 status 200 bytes 4482
+author octra created Tue Jul 07 11:33:52 +0000 2026
+text update: we have moved the challenge funds back to the octra labs wallet and will be relaunching the challenge shortly due to a technicality that has nothing to do with hfhe |  | @octralabs have also bought back another 500,000 oct for this new challenge
+urls []
+photos []
+quote_author lambda0xE quote_text the bounty funds have been returned to the association's address, we made a mistake in setting up the bounty challenge and will relaunch it |  | a close friend of ours quickly noticed it and signaled us about it |  | the bounty will be relaunched a bit later with a new setup |  | https://octrascan.io/tx.html?hash=36daec2744d0be4695d084c73577866f688861ad8f0d766327b5bfd5f795e15a
