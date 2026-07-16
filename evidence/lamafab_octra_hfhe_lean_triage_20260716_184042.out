@@ -1,0 +1,69 @@
+# lamafab/octra-hfhe-lean triage 20260716_184238 UTC
+
+## https://api.github.com/repos/lamafab/octra-hfhe-lean status 200
+full_name lamafab/octra-hfhe-lean pushed 2026-07-16T18:41:19Z updated 2026-07-16T18:41:54Z desc None
+
+## https://api.github.com/repos/lamafab/octra-hfhe-lean/commits?per_page=5 status 200
+b84b8c76b57d7e39fbfbbf65a859321ed88434ce 2026-07-16T18:41:10Z 'docs: remove unnecessary highlights from main description' https://github.com/lamafab/octra-hfhe-lean/commit/b84b8c76b57d7e39fbfbbf65a859321ed88434ce
+3e25c1fdd85870f7804a07416dc6229f237db80a 2026-07-16T18:36:30Z 'examples: update comment formatting' https://github.com/lamafab/octra-hfhe-lean/commit/3e25c1fdd85870f7804a07416dc6229f237db80a
+c64d88178320a3398b3cad3c036376edb5443b0b 2026-07-16T18:31:21Z 'assets: add infographs and embed in README' https://github.com/lamafab/octra-hfhe-lean/commit/c64d88178320a3398b3cad3c036376edb5443b0b
+2e80a727e7ff949190b519fa4bc1af71edb83139 2026-06-30T15:09:35Z 'docs/overview: name unformalized error weight assumption' https://github.com/lamafab/octra-hfhe-lean/commit/2e80a727e7ff949190b519fa4bc1af71edb83139
+1928c7754882108b960e0f8a55366d78260f38a7 2026-06-30T14:26:06Z 'coding: update docs to reference distinct hyper-decoy consts' https://github.com/lamafab/octra-hfhe-lean/commit/1928c7754882108b960e0f8a55366d78260f38a7
+
+## code/material searches
+query repo:lamafab/octra-hfhe-lean "octC5eR9pLGKbpzTbDgHowkFt8HW7LZYb2gzehzxHamxuAZ" status 200
+total_count 0
+query repo:lamafab/octra-hfhe-lean "secret.ct" status 200
+total_count 0
+query repo:lamafab/octra-hfhe-lean "pk.bin" status 200
+total_count 0
+query repo:lamafab/octra-hfhe-lean "PRF_R2" status 200
+total_count 0
+query repo:lamafab/octra-hfhe-lean "PRF_R3" status 200
+total_count 0
+query repo:lamafab/octra-hfhe-lean "sk.prf_k" status 200
+total_count 0
+query repo:lamafab/octra-hfhe-lean "private key" status 200
+total_count 1
+Octra/Hypergraph/LogicGates.lean https://github.com/lamafab/octra-hfhe-lean/blob/c64d88178320a3398b3cad3c036376edb5443b0b/Octra/Hypergraph/LogicGates.lean
+query repo:lamafab/octra-hfhe-lean "Day 7" status 200
+total_count 0
+
+## tree status 200
+blob Examples/Cipher.lean 6012
+blob Examples/Field7.lean 1783
+blob Examples/Homomorphism.lean 7293
+blob Examples/Hypergraph.lean 3892
+blob Examples/LinearCoding.lean 8036
+blob Examples/Matrix.lean 4687
+blob Examples/Octra.lean 5233
+blob Octra.lean 907
+tree Octra None
+tree Octra/Coding None
+blob Octra/Coding/LPN.lean 2204
+blob Octra/Coding/LinearCode.lean 5606
+blob Octra/Coding/Syndrome.lean 2751
+blob Octra/Field127.lean 1491
+tree Octra/HFHE None
+blob Octra/HFHE/Cipher.lean 5892
+blob Octra/HFHE/Correctness.lean 7576
+blob Octra/HFHE/Decoy.lean 2409
+blob Octra/HFHE/Defs.lean 7178
+blob Octra/HFHE/Gates.lean 6947
+blob Octra/HFHE/Homomorphism.lean 11383
+blob Octra/HFHE/HyperDecoy.lean 14264
+blob Octra/HFHE/Merge.lean 7390
+blob Octra/HFHE/Octra.lean 4403
+blob Octra/HFHE/Recrypt.lean 7638
+blob Octra/HFHE/Repack.lean 6748
+blob Octra/HFHE/Security.lean 1813
+blob Octra/HFHE/Size.lean 3432
+tree Octra/Hypergraph None
+blob Octra/Hypergraph/Basic.lean 8983
+blob Octra/Hypergraph/Incidence.lean 5834
+blob Octra/Hypergraph/LogicGates.lean 14291
+blob README.md 1607
+blob assets/octra-encryption.png 1382905
+blob assets/octra-hypergraph.png 507630
+blob assets/octra-operations.png 1832523
+blob lean-toolchain 28

@@ -1,42 +1,45 @@
-# HFHE Challenge v2 heartbeat status 20260716_181043 UTC
+# HFHE Challenge v2 heartbeat status 20260716_184042 UTC
 
 ## Current result
 - Plaintext/private key: **not recovered**.
-- Target/account refresh (`auth_full_refresh_20260716_181043.out`): balance `500001.000001`, nonce `0`, has_public_key `false`, tx_count `5`; recent tx hashes unchanged.
+- Target/account refresh (`auth_full_refresh_20260716_184042.out`): balance `500001.000001`, nonce `0`, has_public_key `false`, tx_count `5`; recent tx hashes unchanged.
 - Official GitHub pushed_at remains `2026-07-11T08:49:01Z`; repo updated_at remains `2026-07-16T14:08:35Z`; fork/PR/issue counts unchanged.
 - Official GitHub state: forks `33`, pulls `4`, issues `4`; Octra org public repos `8`.
-- Fork-head diff against persisted `fork_head_baseline.json`: `33` branch heads checked, `9` unique heads, `0` new head SHAs. Fork delta versus previous sweep: `fork_delta_triage_20260716_181043.out` shows no added/removed repos and no new head SHAs.
+- Fork-head diff against persisted `fork_head_baseline.json`: `33` branch heads checked, `9` unique heads, `0` new head SHAs. Fork delta versus previous sweep: `fork_delta_triage_20260716_184042.out` shows no added/removed repos and no new head SHAs.
 - Authenticated GitHub Code Search: target wallet still only hits official README; `secret.ct`/`pk.bin` targeted queries only hit official challenge files; `PRF_R2`/`PRF_R3`/`sk.prf_k` hits remain generic PVAC mirrors/tooling; Day 7 and solved+secret queries have no actionable challenge hit.
-- GitHub repository search (`github_repo_search_20260716_181206.out`) unchanged except our own public mirror timestamp; exact target-wallet repo search and secret/material/private-key/solved/Day-7/Toeplitz/`sk.prf_k` searches remain 0.
-- Official PR/issues refresh (`official_issue_pr_refresh_20260716_181043.out`) found no PR/issue changes.
-- Public X/DDG refresh (`twitter_public_search_refresh_20260716_181125.out`) returned no candidate X URLs this run.
-- Public web search summary (`public_web_search_20260716_181043.out`) found official announcement/docs/address/release/org pages, Kubo Day 2 negative note, and unrelated generic pages; no v2 solved/private-key/plaintext/material leak.
+- GitHub repository search (`github_repo_search_20260716_184159.out`) unchanged except our own mirror and `lamafab/octra-hfhe-lean` timestamp. `lamafab_octra_hfhe_lean_triage_20260716_184042.out` shows only docs/assets/comment-format commits, 0 hits for target wallet/`secret.ct`/`pk.bin`/`PRF_R2`/`PRF_R3`/`sk.prf_k`/Day 7; one generic `private key` hit is unrelated Lean logic text.
+- Official PR/issues refresh (`official_issue_pr_refresh_20260716_184042.out`) found no PR/issue changes.
+- Public X/DDG refresh (`twitter_public_search_refresh_20260716_184120.out`) returned no candidate X URLs this run.
+- Public web search summary (`public_web_search_20260716_184042.out`) found official announcement/docs/address/release/org pages, Kubo negative notes, lamafab generic formalization update, and unrelated generic pages; no v2 solved/private-key/plaintext/material leak.
 
 ## Work performed this heartbeat
 1. Re-read `status_latest.md`, `monitor_state.json`, and latest logs.
 2. Refreshed target wallet/account, upstream repo/PR/issues/forks, Octra org repos, fork branch heads, and authenticated GitHub code-search state.
 3. Compared fork list against previous sweep; no new fork repo and no new head SHA.
 4. Re-ran GitHub repository search for challenge, target wallet, material terms, solved/private-key terms, plaintext, Day-7/freeze, Toeplitz, and `sk.prf_k` terms.
-5. Re-ran public X/DuckDuckGo search; it returned 0 unique candidate X URLs this run.
-6. Re-ran public web search and recorded source-level summary.
+5. Triaged the newly updated `lamafab/octra-hfhe-lean` repo.
+6. Re-ran public X/DuckDuckGo search; it returned 0 unique candidate X URLs this run.
+7. Re-ran public web search and recorded source-level summary.
 
 ## Current blocker
 Unchanged: public artifacts and public fork/org/social/code-search content still do not expose target-specific `PRF_R2`, `PRF_R3`, `sk.prf_k`, Toeplitz secret stream material, PC openings, plaintext, or the target wallet private key. There is still no locally checkable plaintext/private-key candidate.
 
 ## Newly refreshed / excluded leads
+- `lamafab/octra-hfhe-lean`: updated this run, but changes are docs/assets/comment formatting and generic formalization; no target/material hits.
 - Fork count remains `33`; no added/removed fork repos and no new head SHA versus previous sweep.
 - X/DDG direct search had 0 candidate URLs in this run.
 - Official PR/issues remain unchanged.
 - Repository/public web searches still have no solved/private-key/plaintext/material candidate.
 
 ## Evidence paths
-- `/Users/koala/hfhe_challenge_v2/auth_full_refresh_20260716_181043.out`
-- `/Users/koala/hfhe_challenge_v2/auth_full_refresh_20260716_181043.json`
-- `/Users/koala/hfhe_challenge_v2/twitter_public_search_refresh_20260716_181125.out`
-- `/Users/koala/hfhe_challenge_v2/github_repo_search_20260716_181206.out`
-- `/Users/koala/hfhe_challenge_v2/official_issue_pr_refresh_20260716_181043.out`
-- `/Users/koala/hfhe_challenge_v2/fork_delta_triage_20260716_181043.out`
-- `/Users/koala/hfhe_challenge_v2/public_web_search_20260716_181043.out`
+- `/Users/koala/hfhe_challenge_v2/auth_full_refresh_20260716_184042.out`
+- `/Users/koala/hfhe_challenge_v2/auth_full_refresh_20260716_184042.json`
+- `/Users/koala/hfhe_challenge_v2/twitter_public_search_refresh_20260716_184120.out`
+- `/Users/koala/hfhe_challenge_v2/github_repo_search_20260716_184159.out`
+- `/Users/koala/hfhe_challenge_v2/official_issue_pr_refresh_20260716_184042.out`
+- `/Users/koala/hfhe_challenge_v2/fork_delta_triage_20260716_184042.out`
+- `/Users/koala/hfhe_challenge_v2/lamafab_octra_hfhe_lean_triage_20260716_184042.out`
+- `/Users/koala/hfhe_challenge_v2/public_web_search_20260716_184042.out`
 
 ## Publishing note
 The active publication repository remains `https://github.com/playboy8889/hfhe-v2-mask-ledger`.
