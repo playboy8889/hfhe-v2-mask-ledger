@@ -1,4 +1,4 @@
-# Last sweep — 20260715_233651 UTC
+# Last sweep — 20260716_000659 UTC
 
 Result: no plaintext/private key recovered.
 
@@ -8,12 +8,12 @@ Key observations:
 - Upstream `octra-labs/hfhe-challenge` unchanged: pushed_at `2026-07-11T08:49:01Z`; forks `31`, PRs `4`, issues `4`.
 - Octra org repos unchanged: `8` public repos.
 - Fork head diff against corrected `fork_head_baseline.json`: `31` heads checked, `9` unique heads, `0` new SHAs.
-- Authenticated code search: target wallet still only official README; `secret.ct`+Octra+HFHE only official challenge files; `PRF_R2`/`PRF_R3`/`sk.prf_k` are generic PVAC mirror/tooling hits.
-- X/DDG scrape returned no new candidate X URLs this run.
+- Authenticated code search: target wallet only official README; `secret.ct`/`pk.bin` targeted queries only official challenge files; `PRF_R2`/`PRF_R3`/`sk.prf_k` are generic PVAC source mirror/tooling hits.
+- X/DDG scrape returned no candidate X URLs this run.
 
 Current blocker remains missing hidden mask material: `PRF_R2`, `PRF_R3`, `sk.prf_k`, Toeplitz stream material, PC openings, or any deterministic public candidate-check oracle.
 
 Evidence copied in `evidence/`:
-- `status_20260715_233651.md`
-- `auth_full_refresh_20260715_233651.out`
-- `twitter_public_search_refresh_20260715_233726.out`
+- `status_20260716_000659.md`
+- `auth_full_refresh_20260716_000659.out`
+- `twitter_public_search_refresh_20260716_000732.out`
