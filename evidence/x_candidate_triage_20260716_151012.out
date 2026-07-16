@@ -1,0 +1,83 @@
+# X candidate triage 20260716_151255 UTC
+
+## https://x.com/octra/status/2075336875322032268
+api https://api.fxtwitter.com/octra/status/2075336875322032268 status 200 bytes 2921
+author octra created Thu Jul 09 21:50:43 +0000 2026
+text open HFHE challenge v2 |  | this wallet holds 500,000 OCT: | octC5eR9pLGKbpzTbDgHowkFt8HW7LZYb2gzehzxHamxuAZ |  | recover its private key, tell us how you did it and receive another 500,000 OCT, for a total of 1 million. do not submit issues, they will be removed! https://github.com/octra-labs/hfhe-challenge
+urls ['https://github.com/octra-labs/hfhe-challenge']
+photos []
+
+## https://x.com/octra/status/2074422879131668578
+api https://api.fxtwitter.com/octra/status/2074422879131668578 status 200 bytes 2924
+author octra created Tue Jul 07 09:18:49 +0000 2026
+text open HFHE challenge |  | this wallet holds 500,000 OCT: | oct6Y7jxx92V5nuUykotRqHj6xPz1JEiT3ZRswJ4Awvi9Zn |  | recover it's seed phrase, tell us how you did it and receive another 500,000 OCT, for a total of 1 million.  | do not submit issues, they will be removed! |  | https://github.com/octra-labs/hfhe-challenge
+urls ['https://github.com/octra-labs/hfhe-challenge']
+photos []
+
+## https://x.com/Kubo100x/status/2077300596064100794
+ERROR SSLError HTTPSConnectionPool(host='api.fxtwitter.com', port=443): Max retries exceeded with url: /Kubo100x/status/2077300596064100794 (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1082)')))
+
+## https://x.com/OxCryptoQueen/status/2074424954318176591
+api https://api.fxtwitter.com/OxCryptoQueen/status/2074424954318176591 status 200 bytes 5510
+author OxCryptoQueen created Tue Jul 07 09:27:04 +0000 2026
+text To Test its HFHE encryption, @octra is launching a challenge for all ethical hackers. |  | Break into the wallet address below and receive a reward of 500k $oct.  |  | More details below: https://github.com/octra-labs/hfhe-challenge
+urls ['https://github.com/octra-labs/hfhe-challenge']
+photos [('https://pbs.twimg.com/media/HMnWgADWoAALROC.jpg?name=orig', 1080, 613)]
+quote_author octra quote_text open HFHE challenge |  | this wallet holds 500,000 OCT: | oct6Y7jxx92V5nuUykotRqHj6xPz1JEiT3ZRswJ4Awvi9Zn |  | recover it's seed phrase, tell us how you did it and receive another 500,000 OCT, for a total of 1 million.  | do not submit issues, they will be removed! |  | https://github.com/octra-labs/hfhe-challenge
+
+## https://x.com/eienel_eth/status/2075705444639629727
+api https://api.fxtwitter.com/eienel_eth/status/2075705444639629727 status 200 bytes 5619
+author eienel_eth created Fri Jul 10 22:15:17 +0000 2026
+text I did a full independent audit of the HFHE v2 bounty from the public artifacts.  |  | v1 fell to the R_com oracle.  | v2 deletes it and masks every value with an unseen random pad, so the only public number is T = v*R and no guess is checkable.  |  | I ran the devs' own attack suite on the real ciphertext, plus LPN, key reuse, git history, 1,200 seed hypotheses through a verified address checker, and sanitizer fuzzing. No public recovery path found. |  | @lambda0xE @octralex  would value your eyes on the analysis. Full writeup and reproducible tooling: https://eienel.github.io/hfhe-challenge-eienel/
+urls ['https://eienel.github.io/hfhe-challenge-eienel/']
+photos []
+quote_author octra quote_text open HFHE challenge v2 |  | this wallet holds 500,000 OCT: | octC5eR9pLGKbpzTbDgHowkFt8HW7LZYb2gzehzxHamxuAZ |  | recover its private key, tell us how you did it and receive another 500,000 OCT, for a total of 1 million. do not submit issues, they will be removed! https://github.com/octra-labs/hfhe-challenge
+
+## https://x.com/Kubo100x/status/2075388207882256852
+api https://api.fxtwitter.com/Kubo100x/status/2075388207882256852 status 200 bytes 5366
+author Kubo100x created Fri Jul 10 01:14:42 +0000 2026
+text spent time investigating the Octra HFHE v2 bounty from the public artifacts. |  | Looked at: | • fused ciphertext structure | • N0/N1 field relations | • Pedersen commitment behavior | • PRF + multi-block patterns | • sparse H properties | • repo history |  | no practical public recovery path found so far. | v2 appears to have removed the v1 R_com oracle weakness. |  | research notes only | not a formal audit or security proof. |  | thanks Hermes + Grok 4.5
+urls []
+photos []
+quote_author octra quote_text open HFHE challenge v2 |  | this wallet holds 500,000 OCT: | octC5eR9pLGKbpzTbDgHowkFt8HW7LZYb2gzehzxHamxuAZ |  | recover its private key, tell us how you did it and receive another 500,000 OCT, for a total of 1 million. do not submit issues, they will be removed! https://github.com/octra-labs/hfhe-challenge
+
+## https://x.com/Hikkimori/status/2075727549301145922
+ERROR SSLError HTTPSConnectionPool(host='api.fxtwitter.com', port=443): Max retries exceeded with url: /Hikkimori/status/2075727549301145922 (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1082)')))
+
+## https://x.com/octra/status/2053142986427351447
+api https://api.fxtwitter.com/octra/status/2053142986427351447 status 200 bytes 22640
+author octra created Sat May 09 16:00:08 +0000 2026
+text last year we published a simple explainer on how octra’s hypergraph FHE works. since then we shipped: |  | 1) open-source hfhe implementation | https://github.com/octra-labs/pvac_hfhe_cpp | 2) public benchmark suite | https://github.com/octra-labs/pvac_hfhe_cpp/tree/main/benchmarks | 3) open-source network client https://github.com/octra-labs/webcli |  | aged well
+urls ['https://github.com/octra-labs/pvac_hfhe_cpp', 'https://github.com/octra-labs/pvac_hfhe_cpp/tree/main/benchmarks', 'https://github.com/octra-labs/webcli']
+photos []
+quote_author octra quote_text 
+
+## https://x.com/akoredex95/status/2075379918800650241
+api https://api.fxtwitter.com/akoredex95/status/2075379918800650241 status 200 bytes 2071
+author akoredex95 created Fri Jul 10 00:41:45 +0000 2026
+text @octra MY FINDINGS | 1/ | Audited Octra's HFHE bounty v2 (pvac_hfhe_cpp @ 071b0e9), the version that patched the R_com oracle from v1. Wanted to see what's actually left standing. Full technical thread, including every command I ran. | @octra #Web3Security #hfhechallenge
+urls []
+photos []
+
+## https://x.com/Kubo100x/status/2076815889291505832
+api https://api.fxtwitter.com/Kubo100x/status/2076815889291505832 status 200 bytes 5325
+author Kubo100x created Mon Jul 13 23:47:48 +0000 2026
+text Octra Day 4: reduced-param scan, 0 invariants survive FDR.  |  | Algebra toy, 0.000000 TVD between | plaintexts.  |  | The wrapper doesn't leak.
+urls []
+photos [('https://pbs.twimg.com/media/HNJUb2dbYAAc_Ab.jpg?name=orig', 1134, 926)]
+quote_author octra quote_text open HFHE challenge v2 |  | this wallet holds 500,000 OCT: | octC5eR9pLGKbpzTbDgHowkFt8HW7LZYb2gzehzxHamxuAZ |  | recover its private key, tell us how you did it and receive another 500,000 OCT, for a total of 1 million. do not submit issues, they will be removed! https://github.com/octra-labs/hfhe-challenge
+
+## https://x.com/akoredex95/status/2075382909997838572
+api https://api.fxtwitter.com/akoredex95/status/2075382909997838572 status 200 bytes 2181
+author akoredex95 created Fri Jul 10 00:53:39 +0000 2026
+text @octra Resolving the Hidden Subspace |  | Isolate the Systemic Part of $H$: The matrix $H$ is parsed into an $8192 \times 16384$ binary matrix. Track down the index positions where the density changes (this corresponds to the canon_tag structure). | @octra #HFHE #HFHEcallengev2
+urls []
+photos []
+
+## https://x.com/Kubo100x/status/2076482459785625853
+api https://api.fxtwitter.com/Kubo100x/status/2076482459785625853 status 200 bytes 5626
+author Kubo100x created Mon Jul 13 01:42:52 +0000 2026
+text DAY 3 UPDATE (WRITTEN + RAN) |  | built + ran the timing/constancy probes on Apple Silicon |  | no sk-dependent leaks, statistically clean → DAY3 PASS |  | Built pvac on Apple Silicon (-march=armv8-a+crypto), ran real benchmarks: | prf_R: ~15.3 ms | enc_value: ~43.4 ms (2 layers / 37 edges) |  | Constancy (independent keys, 7 runs each): | skA 44.07 ms vs skB 41.90 ms → statistically equal | → no sk-dependent timing branch. No remote-relevant leak. No exploit path. |  | Status: DAY3 PASS.  | Next = Day 4–5 algebraic/reduced-params notes; |  | Day 7 freeze still stands if nothing simplifies.
+urls []
+photos []
+quote_author octra quote_text open HFHE challenge v2 |  | this wallet holds 500,000 OCT: | octC5eR9pLGKbpzTbDgHowkFt8HW7LZYb2gzehzxHamxuAZ |  | recover its private key, tell us how you did it and receive another 500,000 OCT, for a total of 1 million. do not submit issues, they will be removed! https://github.com/octra-labs/hfhe-challenge
