@@ -1,0 +1,16 @@
+# Public web search refresh 20260716_211108 UTC
+queries:
+- Octra HFHE Challenge v2 solved private key
+- Octra HFHE sk.prf_k PRF_R2 PRF_R3
+- NithtCat Octra HFHE Challenge v2 PRF_R2 PRF_R3
+- Octra HFHE Challenge v2 阶段性分析记录
+- 放出PRF_R2/R3/TOEP/noise
+
+Relevant results observed:
+- Official challenge/docs/profile results remain public context only; no solved/private-key/plaintext disclosure.
+- GitHub repository search remains known negative-result audit/formalization repos plus the public mirror; exact target/material/private-key/solved searches are 0.
+- X/DDG direct search produced no candidate X URLs in this run.
+- NithtCat/Tony Xiao search snippets repeat a public progress note asking for/mentioning PRF_R2, PRF_R3, TOEP/noise, and sk.prf_k as still-needed material; public profile fetch and exact searches did not expose downloadable material, target plaintext, private key, or concrete status artifact.
+- Generic project/market pages and unrelated private-key/freeze pages are not material to v2.
+
+Conclusion: no public v2 solved/private-key/plaintext/material leak found in web search.

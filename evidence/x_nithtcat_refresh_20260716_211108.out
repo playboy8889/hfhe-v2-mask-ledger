@@ -1,0 +1,19 @@
+# NithtCat X snippet refresh 20260716_211108 UTC
+Search-engine snippets observed:
+- "Octra HFHE Challenge v2 阶段性分析记录: 但完整解密还可能需要PRF_R2、PRF_R3、TOEP / sk.prf_k 等材料。 放出PRF_R2/R3/TOEP/noise"
+- "Octra HFHE Challenge v2 阶段性分析记录： 1/ 先复核链上和仓库状态： 目标钱包...余额仍在，nonce=0，未发现已被领取 ..."
+Local fetch/grep:
+x.com status 200 bytes 1088225
+Octra -1
+HFHE -1
+PRF_R2 -1
+PRF_R3 -1
+TOEP -1
+sk.prf_k -1
+secret.ct -1
+plaintext -1
+private key -1
+Exact DDG search:
+query "Octra HFHE Challenge v2 阶段性分析记录" status 202 bytes 14232
+query "但完整解密还可能需要PRF_R2" status 202 bytes 14214
+query "放出PRF_R2/R3/TOEP/noise" status 202 bytes 14220
