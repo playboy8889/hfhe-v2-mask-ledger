@@ -1,0 +1,19 @@
+# Kubo-cmd/hfhe-v2-solver triage kubo_cmd_hfhe_v2_solver_triage_20260716_084019.out UTC
+
+head=05f1687
+files_scanned=54
+term='octC5eR9pLGKbpzTbDgHowkFt8HW7LZYb2gzehzxHamxuAZ' count=4 files=['README.md', 'public_audit.cpp', 'public_artifacts/README.md', 'week_binary/CONSOLIDATED_REPORT.md']
+term='secret.ct' count=61 files=['phase1_triage.cpp', 'inspect_ground_truth.py', 'LIMITATIONS.md', 'DAY1_PRF_DIFF.md', 'pc_weak.cpp', 'inspect_artifacts.py', 'r2_attack.cpp', 'vector_a.cpp', 'vector_b.cpp', 'residual_all.cpp', 'verify_audit.py', 'PHASE2_SOURCE_AUDIT.md']
+term='pk.bin' count=46 files=['inspect_pk.cpp', 'phase1_triage.cpp', 'inspect_ground_truth.py', 'pc_weak.cpp', 'inspect_artifacts.py', 'r2_attack.cpp', 'vector_a.cpp', 'vector_b.cpp', 'residual_all.cpp', 'verify_audit.py', 'PHASE2_SOURCE_AUDIT.md', 'impl_audit.cpp']
+term='PRF_R2' count=3 files=['prf_diff_probe.cpp', 'prf_impl_full.txt', 'prf_impl_index.txt']
+term='PRF_R3' count=2 files=['prf_impl_full.txt', 'prf_impl_index.txt']
+term='sk.prf_k' count=8 files=['prf_impl_full.txt', 'research.cpp', 'residual_all.cpp', 'PHASE2_SOURCE_AUDIT.md', 'public_artifacts/source/pvac_artifact_serialize.hpp']
+term='HFHE Challenge v2' count=2 files=['README.md', 'public_artifacts/README.md']
+term='plaintext' count=58 files=['probe4_multi_ct.cpp', 'phase1_triage.cpp', 'pc_weak.cpp', 'README.md', 'residual_all.cpp', 'PHASE2_SOURCE_AUDIT.md', 'impl_audit.cpp', 'THREAT_MODEL.md', 'public_audit.cpp', 'FINAL_CONCLUSION.md', 'test_rcom_closure.cpp', 'public_artifacts/README.md']
+term='private key' count=4 files=['r2_check.cpp', 'research.cpp', 'probe3_wallet_kdf.cpp', 'public_artifacts/README.md']
+term='mnemonic' count=1 files=['week_binary/DAY3_LOG.md']
+term='seed' count=198 files=['probe4_multi_ct.cpp', 'phase1_triage.cpp', 'prf_diff_probe.cpp', 'prf_n20k.cpp', 'inspect_ground_truth.py', 'DAY1_PRF_DIFF.md', 'prf_impl_full.txt', 'vector_a.cpp', 'research.cpp', 'vector_b.cpp', 'prf_impl_index.txt', 'residual_all.cpp']
+term='solved' count=1 files=['PHASE2_SOURCE_AUDIT.md']
+term='not recovered' count=1 files=['residual_all.cpp']
+artifact_files=['public_artifacts/secret.ct']
+## snippet README.md

@@ -1,0 +1,35 @@
+# Kubo-cmd artifact compare UTC
+work=/tmp/kubo_cmd_hfhe_v2_solver_20260716_084019
+## secret.ct
+local_size=1963107 local_sha256=5da7f82724838bf7a8c4fe95fbf6d573b621c04c9b2f7ae849545cf60223fbab
+repo_path=public_artifacts/secret.ct size=1963107 sha256=5da7f82724838bf7a8c4fe95fbf6d573b621c04c9b2f7ae849545cf60223fbab same_as_local=True
+## pk.bin
+local_size=3042901 local_sha256=1e788edff9dea19a782defae053f3757ccf5edd41cd3e24ae44e1496045e9410
+repo_path=public_artifacts/pk.bin size=3042901 sha256=1e788edff9dea19a782defae053f3757ccf5edd41cd3e24ae44e1496045e9410 same_as_local=True
+## snippets README.md
+## snippets FINAL_CONCLUSION.md
+- `secret.ct` SHA256 `5da7f82724838bf7a8c4bd979cb59ef3...` (== `public_artifacts/SHA256SUMS`)  \
+- Open community PRs #1–#4 on the challenge repo are analysis tooling only (no `secret.ct`/`pk.bin` changes, no plaintext recovery); this audit reflects unmerged `main` state at the pins above.
+This audit was performed against the **official challenge `main` branch** at pvac pin `071b0e9`, using the public blobs whose SHA256 sums are recorded in `public_artifacts/SHA256SUMS`. At time of writing those sums match the live `octra-labs/hfhe-challenge` repository. Four open pull requests (#1–#4) exist on the challenge repo; they add research/analysis tooling and sample data and do **not** alter the challenge `secret.ct`/`pk.bin` or the serialization source under audit. No PR demonstrates pl
+## snippets LIMITATIONS.md
+7. **No reward claim.** Findings are research notes for the public challenge surface; they do not decrypt `secret.ct`.
+## snippets THREAT_MODEL.md
+- Public artifact analysis (`secret.ct`, `pk.bin`, `params.json`, public nonces/PC)
+5. Noise is sk-LPN-PRF + independent CSPRNG edge noise; no plaintext-correlated public signal found
+6. Phase-1 branch filters on live `secret.ct` (22 cts / 44 BASE layers) all pass
+## snippets PHASE2_SOURCE_AUDIT.md
+Threat model: public artifacts only (pk.bin + secret.ct). No sk.
+for (int k = 0; k < 4; k++) sha256_acc_u64(h, sk.prf_k[k]);
+| Public recovery? | **No** — requires sk.prf_k; without sk, rho is 256-bit hash output reduced to scalar |
+## Generator unknowns resolved
+rho   = SHA256(PRF_RHO || sk.prf_k || seed.nonce || j) → sc_reduce256
+## snippets public_artifacts/README.md
+The task is to recover the plaintext from `secret.ct`. This file contains a private key and metadata associated with the address `octC5eR9pLGKbpzTbDgHowkFt8HW7LZYb2gzehzxHamxuAZ`.
+- `secret.ct`
+## snippets week_binary/CONSOLIDATED_REPORT.md
+# Octra HFHE v2 — Consolidated Negative-Result Report
+Reward claimed: NONE (no plaintext recovered). Submitting for the documentation bounty per dev@octra.org.
+- secret.ct   5da7f82724838bf7a8c4fe95fbf6d573b621c04c9b2f7ae849545cf60223fbab  MATCH (SHA256SUMS)
+## Attack-surface matrix (all negative)
+| Edge/sigma structural leakage | No plaintext relation |
+No practical public-only plaintext recovery was identified. Challenge v2 successfully removes the v1 R_com oracle; the two-layer wrapper with independent masks and fresh Pedersen blindings leaves no public verifiable predicate. All probes this session reproduce the smoke-ui/octra-hfhe-v2-security-assessment negative result. The second-half reward track (writeup to dev@octra.org) is the appropriate claim given no solve was achieved.
