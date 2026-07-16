@@ -1,0 +1,24 @@
+# Prot420/hfhe-challenge fork triage 20260716_093848 UTC
+fork=True default_branch=main pushed_at=2026-07-11T08:49:01Z parent=octra-labs/hfhe-challenge
+main_head=019380c97543620091409b0fbf73a8a773a9a0da
+
+## repo:Prot420/hfhe-challenge octC5eR9pLGKbpzTbDgHowkFt8HW7LZYb2gzehzxHamxuAZ
+total_count=0
+
+## repo:Prot420/hfhe-challenge "secret.ct"
+total_count=0
+
+## repo:Prot420/hfhe-challenge "pk.bin"
+total_count=0
+
+## repo:Prot420/hfhe-challenge "PRF_R2"
+total_count=0
+
+## repo:Prot420/hfhe-challenge "PRF_R3"
+total_count=0
+
+## repo:Prot420/hfhe-challenge "sk.prf_k"
+total_count=0
+
+## repo:Prot420/hfhe-challenge "private key"
+total_count=0
