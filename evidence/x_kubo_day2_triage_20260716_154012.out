@@ -1,0 +1,7 @@
+# Kubo Day2 X triage 20260716_154226 UTC
+url https://api.fxtwitter.com/Kubo100x/status/2075722222531199095
+status 200 bytes 5985
+author Kubo100x created Fri Jul 10 23:21:57 +0000 2026
+text Update on Octra HFHE v2 public audit. |  | Day 2 binary track complete: | • ASAN+UBSAN clean (full test suite) | • 5k deserialization fuzz: 0 crashes | • No zero-value leaks in wrapped format |  | Remaining surface: subtle implementation or new algebra only. |  | Contributing the full assessment + reproducible tools to @Hikkimori open source: | https://github.com/smoke-ui/octra-hfhe-v2-security-assessment
+urls ['https://github.com/smoke-ui/octra-hfhe-v2-security-assessment']
+photos []
