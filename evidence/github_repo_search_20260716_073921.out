@@ -1,0 +1,28 @@
+# GitHub repository search 20260716_073921 UTC
+
+## "HFHE Challenge v2"
+total_count 5
+smoke-ui/octra-hfhe-v2-security-assessment updated=2026-07-15T09:11:05Z pushed=2026-07-11T19:36:08Z fork=False desc=Independent public-artifact cryptanalysis and security assessment of OCTRA HFHE Challenge v2 url=https://github.com/smoke-ui/octra-hfhe-v2-security-assessment
+lustrousys/octra-hfhe-v2-public-audit updated=2026-07-11T17:58:52Z pushed=2026-07-11T17:58:42Z fork=False desc=Public-artifact audit of Octra HFHE Challenge v2 url=https://github.com/lustrousys/octra-hfhe-v2-public-audit
+Chimdalu-Ofoegbu/Decryptor updated=2026-07-12T05:09:19Z pushed=2026-07-12T05:09:19Z fork=False desc=An attempt at the Octra open HFHE challenge v2 url=https://github.com/Chimdalu-Ofoegbu/Decryptor
+asbryx/octra-hfhe-v2-cryptanalysis updated=2026-07-13T13:22:43Z pushed=2026-07-13T13:21:52Z fork=False desc=Source-first cryptanalysis of OCTRA HFHE Challenge v2, including the live R1 LPN corpus url=https://github.com/asbryx/octra-hfhe-v2-cryptanalysis
+startkey/octra-hfhe-v2-public-audit updated=2026-07-15T09:28:14Z pushed=2026-07-15T09:28:08Z fork=False desc=Reproducible public-artifact audit and progress notes for Octra HFHE Challenge v2; current result is not recovered. url=https://github.com/startkey/octra-hfhe-v2-public-audit
+
+## "Octra HFHE"
+total_count 7
+lamafab/octra-hfhe-lean updated=2026-07-06T07:09:15Z pushed=2026-06-30T15:13:44Z fork=False desc=None url=https://github.com/lamafab/octra-hfhe-lean
+smoke-ui/octra-hfhe-v2-security-assessment updated=2026-07-15T09:11:05Z pushed=2026-07-11T19:36:08Z fork=False desc=Independent public-artifact cryptanalysis and security assessment of OCTRA HFHE Challenge v2 url=https://github.com/smoke-ui/octra-hfhe-v2-security-assessment
+lustrousys/octra-hfhe-v2-public-audit updated=2026-07-11T17:58:52Z pushed=2026-07-11T17:58:42Z fork=False desc=Public-artifact audit of Octra HFHE Challenge v2 url=https://github.com/lustrousys/octra-hfhe-v2-public-audit
+asbryx/octra-hfhe-v2-cryptanalysis updated=2026-07-13T13:22:43Z pushed=2026-07-13T13:21:52Z fork=False desc=Source-first cryptanalysis of OCTRA HFHE Challenge v2, including the live R1 LPN corpus url=https://github.com/asbryx/octra-hfhe-v2-cryptanalysis
+Iamknownasfesal/octra-hfhe-challenge-recovery updated=2026-07-14T13:53:33Z pushed=2026-07-07T11:30:44Z fork=False desc=Ciphertext-only recovery of the Octra HFHE seed challenge via the public R_com commitment oracle url=https://github.com/Iamknownasfesal/octra-hfhe-challenge-recovery
+startkey/octra-hfhe-v2-public-audit updated=2026-07-15T09:28:14Z pushed=2026-07-15T09:28:08Z fork=False desc=Reproducible public-artifact audit and progress notes for Octra HFHE Challenge v2; current result is not recovered. url=https://github.com/startkey/octra-hfhe-v2-public-audit
+playboy8889/hfhe-v2-mask-ledger updated=2026-07-16T07:11:21Z pushed=2026-07-16T07:10:59Z fork=False desc=Independent mask-layer notebook for Octra HFHE v2 public artifacts url=https://github.com/playboy8889/hfhe-v2-mask-ledger
+
+## "octC5eR9pLGKbpzTbDgHowkFt8HW7LZYb2gzehzxHamxuAZ"
+total_count 0
+
+## "secret.ct" "pk.bin" "octra"
+total_count 0
+
+## "PRF_R2" "PRF_R3" "octra"
+total_count 0
