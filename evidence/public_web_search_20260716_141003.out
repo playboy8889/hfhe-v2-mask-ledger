@@ -1,0 +1,13 @@
+# Public web search refresh 20260716_1410 UTC
+queries:
+- Octra HFHE Challenge v2 private key solved
+- Octra HFHE v2 Day 7 freeze
+- octC5eR9pLGKbpzTbDgHowkFt8HW7LZYb2gzehzxHamxuAZ
+- Octra HFHE PRF_R2 PRF_R3 sk.prf_k
+
+Relevant results observed:
+- Official octra-labs/hfhe-challenge GitHub page only for challenge material.
+- Official Octra X v2 announcement only for target wallet/private-key bounty wording.
+- Octrascan/lite address pages show target account state, no public key/plaintext/private-key material.
+- Search also surfaced unrelated Octra price/docs pages and older v1/R_com recovery references; no v2 solved/private-key/material leak.
+- Day-7/freeze query was noisy/unrelated and had no Octra HFHE v2 candidate.
