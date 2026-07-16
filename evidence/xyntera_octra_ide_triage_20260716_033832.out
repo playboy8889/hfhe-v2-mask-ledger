@@ -1,0 +1,11 @@
+repo Xyntera/octra-ide
+meta {'pushed_at': '2026-05-22T02:04:56Z', 'updated_at': '2026-05-22T02:02:12Z', 'default_branch': 'main', 'fork': False, 'description': None}
+path pvac/include/pvac/crypto/lpn.hpp sha 58c20778f277f577eaa2549cd0f351e38f33a816 size 11692
+contains PRF_R2 True
+contains PRF_R3 True
+contains sk.prf_k True
+contains octC5eR9pLGKbpzTbDgHowkFt8HW7LZYb2gzehzxHamxuAZ False
+contains secret.ct False
+contains pk.bin False
+contains private key False
+contains plaintext False
