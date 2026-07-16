@@ -1,0 +1,26 @@
+# NithtCat / Tony Xiao X search triage 20260716_204106 UTC
+## web search surfaced X profile snippet mentioning Octra HFHE Challenge v2 and PRF_R2/R3; fetching public surfaces
+--- x profile curl ---
+--- ddg exact curl ---
+query: "Octra HFHE Challenge v2 阶段性分析记录" "PRF_R2"
+status 202 bytes 14269
+query: "放出PRF_R2/R3" "Octra"
+status 202 bytes 14234
+query: "NithtCat" "Octra HFHE Challenge v2"
+status 202 bytes 14258
+
+URL https://x.com/NithtCat
+status 200 bytes 1088249 final https://x.com/NithtCat
+hits []
+
+URL https://nitter.net/NithtCat
+status 200 bytes 0 final https://nitter.net/NithtCat
+hits []
+
+URL https://nitter.poast.org/NithtCat
+status 503 bytes 19973 final https://nitter.poast.org/NithtCat
+hits []
+
+URL https://xcancel.com/NithtCat
+status 503 bytes 9737 final https://xcancel.com/NithtCat
+hits []
