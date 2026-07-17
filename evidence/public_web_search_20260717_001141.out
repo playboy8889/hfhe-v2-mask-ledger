@@ -1,0 +1,15 @@
+# Public web search refresh 20260717_001141 UTC
+queries:
+- Octra HFHE Challenge v2 solved private key
+- Octra HFHE sk.prf_k PRF_R2 PRF_R3
+- NithtCat Octra HFHE Challenge v2 PRF_R2 PRF_R3
+
+Relevant results observed:
+- Official octra-labs/hfhe-challenge remains the public v2 challenge statement and target-wallet/private-key bounty wording only; no solved/plaintext/private-key disclosure.
+- Official Octra X/profile result repeats challenge posts only.
+- Kubo100x result remains a known negative public investigation note; no target material or solution artifact.
+- Official Octra docs/profile/org and market pages are generic project context; no target-specific PRF_R2/PRF_R3/sk.prf_k material.
+- GitHub repository search remains known negative-result audit/formalization repos plus the public mirror; exact target/material/private-key/solved searches are 0. Final unauthenticated sk.prf_k repo query hit GitHub 403, while authenticated code search remained generic only.
+- Market/video/Reddit/other crypto/private-key pages are unrelated to Octra HFHE v2.
+
+Conclusion: no public v2 solved/private-key/plaintext/material leak found in web search.
