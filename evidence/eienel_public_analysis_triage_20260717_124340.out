@@ -1,0 +1,5 @@
+# eienel public analysis triage 20260717_124340 UTC
+source=https://eienel.github.io/hfhe-challenge-eienel/ (via https://t.co/QWPCBKctik)
+summary: independent public security analysis against pvac_hfhe_cpp commit 071b0e9 and the target secret.ct/wallet. It states v2 is not recoverable from public files alone; July 11 lpn_samples expose only the side target y=A*s xor e for r1; solving S is infeasible and in any case insufficient because prf_k, r2, r3, and Toeplitz keys remain independent and unpublished.
+notable technical checkpoints: no public candidate-check oracle; R_com not serialized; all 44 seeds distinct; no key/mnemonic in public search; developer attack suite on real ciphertext reports signal_subset_hits=0, weight_zero_sum_hits=0, layers_with_R_com=0.
+result=negative/corroborating analysis only; no plaintext/private key/PRF material/candidate-check oracle.

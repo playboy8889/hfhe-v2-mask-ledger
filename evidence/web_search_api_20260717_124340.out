@@ -1,0 +1,10 @@
+# Web search API triage 20260717_124340 UTC
+queries:
+- "Octra HFHE" "plaintext" "private key"
+- "Octra HFHE" "solved" "secret.ct"
+- "octC5eR9pLGKbpzTbDgHowkFt8HW7LZYb2gzehzxHamxuAZ"
+notable results:
+- smoke-ui/octra-hfhe-v2-security-assessment EXECUTIVE_SUMMARY: negative result; no plaintext/private key/mnemonic recovered.
+- eienel.github.io/hfhe-challenge-eienel via t.co/QWPCBKctik: negative security analysis; LPN sample drop exposes only r1-side target and does not decrypt without independent sk.prf_k/r2/r3/Toeplitz material; public search found no wallet key or mnemonic.
+- octrascan/lite official-style explorer pages show the target address and unchanged nonce-0 state; no private-key material.
+result=no solved/private-key/plaintext/material leak; new public-web lead is corroborating negative analysis only.
