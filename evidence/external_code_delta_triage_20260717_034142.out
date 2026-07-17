@@ -1,0 +1,35 @@
+# External code-search delta triage 20260717_034142 UTC
+
+## iopo545454-del/project-watchlist projects/19-octra.md
+bytes 17429 target_wallet_hits 0 secret_ct_hits 0 pk_bin_hits 0 prf_hits 0
+# OCT / Octra
+- X: https://x.com/octra
+- Website: https://octra.org/
+- Docs: https://docs.octra.org/
+- GitHub: https://github.com/octra-labs
+- Explorer: https://octrascan.io/ and X https://x.com/octrascan
+- Wallet/bridge: https://wallet.octra.org/
+- Community hub (unofficial/community): https://octrahub.com/
+- Alex / co-founder: https://x.com/octralex
+- Community lead: https://x.com/octrabunch
+- `@octra`, `@octralex`, `@octrabunch`, `@octrascan`.
+- `@octrahub` for community-maintained ecosystem/status aggregation; treat as non-official.
+- Investor/backer accounts: `@FinalityCap`, `@BigBrainVC`, `@presto_labs`, `@BuilderVC`; `@cobie` only if posting Octra-specific updates.
+- Octrascan for mainnet/devnet transactions, bridge inflows, encrypted tx counts.
+- GitHub `octra-labs` repos (`webcli`, client/test repos), release cadence and issues.
+- Docs for bridge/client/circles changes; wallet.octra.org for supported flows.
+- Community has many unofficial guides/hubs; avoid wallet links unless reached from `octra.org`, `docs.octra.org` or `@octra`.
+- 2026-07-14 — Octra published a public `octra-labs/lite_node` **pre-release mini-core preview** and showed it running locally on a VPS. The repository README still says “for internal use only,” has no tagged release, and official replies s
+- 2026-07-13 — Octra co-founder Alex clarified that the prior Hyperliquid listing vote was community-led through Nova, not initiated by or affiliated with Octra; after Nova failed to execute, Octra committed to handling the wrapped token an
+- 2026-07-11 — Octra's co-founder said the project's largest devnet update added direct GPU computing to resource-sharing Circles as part of on-chain state-inference development. After the devnet returned, independent explorer `@octrascan` 
+- 2026-07-11 — Octra co-founder/team accounts updated HFHE challenge v2 by publishing LPN samples derived from `sk.bin`, explicitly making the cryptanalytic target easier and fairer after criticism. The team says this leak-style data would 
+- 2026-07-09 — Octra launched open HFHE challenge v2: a wallet holds 500,000 OCT and recovery of its private key earns another 500,000 OCT, for a 1M OCT bounty; co-founder/team posts said v1 had a brute-forceable flaw and v2 removes that pa
+- 2026-07-08 — Octra co-founder/team account `@octralex` addressed criticism of a challenge/PoC release, took responsibility for rushing it and using GPT despite an internal zero-LLM policy for important code, and clarified the published Po
+- 2026-07-02 — Co-founder/team account `@octralex` said Octra is compiling a proper whitepaper and pointed to `@nebulayer` publishing still-WIP Lean 4 formal verification work for Octra’s HFHE scheme that will feed into the whitepaper. Trea
+- 2026-06-24 — Co-founder/team account `@octralex` reiterated that the encrypted-balance incident was an implementation bug in the ZK verification path used when releasing encrypted balances, not a break of HFHE, Ristretto, or Octra's encry
+- 2026-06-22 — Co-founder/team account `@octralex` published the promised security disclosure: an encrypted-balance decryption proof-verification bug was found internally and privately reported, patched on 2026-06-01, and the only confirmed
+- 2026-06-18 — Octra team/community accounts teased that the node release “will be glorious” and leave “no excuses,” reinforcing node launch as the next near-term dependency after security checks and before broader ecosystem/listing progres
+- 2026-06-16 — Community lead `@octrabunch` clarified the early-validator snapshot: 69 early validators still held/encrypted their claimed OCT stake at epoch 1118156 while 91 sold; this is not a general airdrop, but holders were told to exp
+- 2026-06-14 — Official X said external researchers submitted credible bug reports/improvement suggestions; fixes have been implemented and will be published separately. Octra says it is finishing essential security checks before returning 
+- 2026-06-14 — In a follow-up on listings, official X replied that “all listings require the node to be published, so it’s related.” Treat this as a useful dependency signal, not a listing announcement. Source: https://x.com/octra/status/20
+- 2026-06-14 — Co-founder `@lambda0xE` posted a mini-roadmap after the security-work pause: migration to a new TAPE verifier next week, expanded Circle/app-launchpad functionality, faster open LLM Circle/on-chain inference, Sepolia/Octra de

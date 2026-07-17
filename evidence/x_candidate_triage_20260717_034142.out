@@ -1,0 +1,79 @@
+# X/web candidate triage 20260717_034142 UTC
+
+## https://x.com/Kubo100x/status/2076482459785625853
+url https://x.com/Kubo100x/status/2076482459785625853 status_html_len 154918 hfhe_count 10 octC_count 3
+META Kubo ᛟϟ on X: "DAY 3 UPDATE (WRITTEN + RAN)
+
+built + ran the timing/constancy probes on Apple Silicon
+
+no sk-dependent leaks, statistically clean → DAY3 PASS
+
+Built pvac on Apple Silicon (-march=armv8-a+crypto), ran real benchmarks:
+prf_R: ~15.3 ms
+enc_value: ~43.4 ms (2 layers / 37 edges)" / X
+META DAY 3 UPDATE (WRITTEN + RAN)
+
+built + ran the timing/constancy probes on Apple Silicon
+
+no sk-dependent leaks, statistically clean → DAY3 PASS
+
+Built pvac on Apple Silicon (-march=armv8-a+crypto), ran real benchmarks:
+prf_R: ~15.3 ms
+enc_value: ~43.4 ms (2 layers / 37 edges)
+tweets_extracted 1
+
+--- 2026-07-09T21:50:43+00:00 2076482459785625853 ---
+DAY 3 UPDATE (WRITTEN + RAN) /  / built + ran the timing/constancy probes on Apple Silicon /  / no sk-dependent leaks, statistically clean → DAY3 PASS /  / Built pvac on Apple Silicon (-march=armv8-a+crypto), ran real benchmarks: / prf_R: ~15.3 ms / enc_value: ~43.4 ms (2 layers / 37 edges)
+
+## https://x.com/Kubo100x/status/2077300596064100794
+url https://x.com/Kubo100x/status/2077300596064100794 status_html_len 159946 hfhe_count 25 octC_count 3
+META Kubo ᛟϟ on X: "Update on Octra HFHE v2 public audit.
+
+Day 6 algebraic track complete:
+• reduced-param invariant scan (480 samples, 6 keys, 1104 features): 0 survive FDR
+• ciphertext-algebra toy: 0.000000 TVD between distinct plaintexts
+• no low-dim simplification lowers the LPN-PRF margin https://t.co/9sJRAuUkIi" / X
+META Update on Octra HFHE v2 public audit.
+
+Day 6 algebraic track complete:
+• reduced-param invariant scan (480 samples, 6 keys, 1104 features): 0 survive FDR
+• ciphertext-algebra toy: 0.000000 TVD between distinct plaintexts
+• no low-dim simplification lowers the LPN-PRF margin
+tweets_extracted 1
+
+--- 2026-07-09T21:50:43+00:00 2077300596064100794 ---
+Update on Octra HFHE v2 public audit. /  / Day 6 algebraic track complete: / • reduced-param invariant scan (480 samples, 6 keys, 1104 features): 0 survive FDR / • ciphertext-algebra toy: 0.000000 TVD between distinct plaintexts / • no low-dim simplification lowers the LPN-PRF margin https://t.co/9sJRAuUkIi
+
+## https://x.com/akoredex95/status/2075379918800650241
+url https://x.com/akoredex95/status/2075379918800650241 status_html_len 112722 hfhe_count 38 octC_count 0
+META Adegoke Ridwan 🫎 on X: "@octra MY FINDINGS
+1/
+Audited Octra's HFHE bounty v2 (pvac_hfhe_cpp @ 071b0e9), the version that patched the R_com oracle from v1. Wanted to see what's actually left standing. Full technical thread, including every command I ran.
+@octra #Web3Security #hfhechallenge" / X
+META @octra MY FINDINGS
+1/
+Audited Octra's HFHE bounty v2 (pvac_hfhe_cpp @ 071b0e9), the version that patched the R_com oracle from v1. Wanted to see what's actually left standing. Full technical thread, including every command I ran.
+@octra #Web3Security #hfhechallenge
+tweets_extracted 0
+
+## https://x.com/TheMaran/status/2075586595869368507
+url https://x.com/TheMaran/status/2075586595869368507 status_html_len 119778 hfhe_count 2 octC_count 0
+META Maran on X: "how to get $24,269 using claude fable and gpt 5.6 sol
+
+octa is giving away 1,000,000 oct tokens to anyone who recover a private key
+
+1) use models like fable &amp; gpt 5.6 sol
+
+2) the problem is these models won't allow you to do stuffs like it
+
+3) you need to convince these models https://t.co/Lm2kjE3BWD" / X
+META how to get $24,269 using claude fable and gpt 5.6 sol
+
+octa is giving away 1,000,000 oct tokens to anyone who recover a private key
+
+1) use models like fable &amp; gpt 5.6 sol
+
+2) the problem is these models won't allow you to do stuffs like it
+
+3) you need to convince these models
+tweets_extracted 0
