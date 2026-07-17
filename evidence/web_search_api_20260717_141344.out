@@ -1,0 +1,11 @@
+# Web search API triage 20260717_141344 UTC
+queries:
+- "Octra HFHE" "bounty" "claimed"
+- "Octra HFHE" "mnemonic"
+- "HFHE Challenge v2" "candidate check"
+notable results:
+- Official Octra/X and reposts reference the already-known v1/fesal break/reset discourse; no v2 target secret material.
+- t.co/QWPCBKctik / Eienel public analysis remains negative and explicitly says no v2 wallet key or mnemonic online.
+- iamknownasfesal X/repo results are the known v1/R_com/mnemonic route, not the current v2 target; prior triage already marks it non-actionable for secret.ct v2.
+- Misc candidate/background-check results are query noise.
+result=no new v2 plaintext/private-key/PRF_R2/PRF_R3/sk.prf_k/Toeplitz leak and no candidate-check oracle.
