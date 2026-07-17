@@ -1,0 +1,5 @@
+# smoke-ui Phase II detail triage 20260717_134348 UTC
+source=https://github.com/smoke-ui/octra-hfhe-v2-security-assessment
+newly checked public result snippets: README and research/PHASE2_LAB_LOG search result context.
+summary: confirms a broad negative public-artifact audit: v1 commitment oracle regression, wrapped-layer algebra/mask cancellation, LPN/PRF statistical and implementation analysis, RNG/history/cross-key composition, C++ memory/serialization leakage, Pedersen/Ristretto relations, subgroup/character projections, tensor/hypergraph analysis, BIP39 brute force, public git history/forks/issues/PRs. README notes 720,896 LPN equations against shared S but no practical recovery route, and recovering S would still leave independent 256-bit prf_k and not directly decrypt the payload.
+result=corroborating negative evidence only; no target plaintext/private key/PRF material/candidate oracle.
