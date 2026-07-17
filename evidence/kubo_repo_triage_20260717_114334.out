@@ -1,0 +1,5 @@
+# Kubo-cmd/hfhe-v2-solver triage 20260717_114334 UTC
+source=https://github.com/Kubo-cmd/hfhe-v2-solver
+updated_at=2026-07-16T08:26:11Z (from GitHub repo search)
+readme/final_conclusion summary unchanged from prior triage: public-artifact audit only; v1 R_com oracle closed; open PRs #1-#4 analysis tooling only; no secret.ct/pk.bin changes; no practical plaintext recovery path identified from public artifacts alone; no plaintext/private-key candidate provided.
+result=no target-specific plaintext/private-key/material leak; treat as negative audit/reference, not a recovery.

@@ -1,0 +1,10 @@
+# Web search API triage 20260717_114334 UTC
+queries:
+- Octra HFHE Challenge v2 solved private key plaintext secret.ct
+- octC5eR9pLGKbpzTbDgHowkFt8HW7LZYb2gzehzxHamxuAZ
+- site:x.com Octra HFHE solved private key
+- Kubo100x 2077300596064100794 Octra HFHE v2
+- "2077300596064100794" "HFHE"
+- "Kubo100x" "HFHE" "Octra"
+notable results: Kubo100x Day 2/parameter/public-audit posts; lambda0xE/smoke-ui references; generic Octra market/project pages; no target wallet leak, secret.ct/pk.bin leak, plaintext, private key, or bounty-claimed material.
+result=no new actionable public-web/X candidate beyond known negative public audit threads.
