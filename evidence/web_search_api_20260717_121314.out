@@ -1,0 +1,7 @@
+# Web search API triage 20260717_121314 UTC
+queries:
+- Octra HFHE Challenge v2 plaintext private key PRF_R2 PRF_R3
+- "Octra HFHE" "bounty claimed" "secret.ct"
+- "sk.prf_k" "Octra"
+notable results: known public audit / PRF discussion references; one old Octra affine PRF attack article predates current v2 bounty context; no target wallet leak, secret.ct/pk.bin leak, plaintext, private key, or bounty-claimed material.
+result=no new actionable public-web/X candidate beyond known negative public audit or pre-v2/recrypt-context discussions.
