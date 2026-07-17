@@ -1,0 +1,26 @@
+# X/web candidate triage 20260717_021140 UTC
+
+## https://x.com/Quabnation
+url https://x.com/Quabnation status_html_len 99507 hfhe_count 0 octC_count 0
+META 𝔔𝔲𝔞𝔟 (@Quabnation) / X
+META Focused on results & real impact
+tweets_extracted 0
+
+## https://x.com/Kubo100x/status/2077300596064100794
+url https://x.com/Kubo100x/status/2077300596064100794 status_html_len 159946 hfhe_count 25 octC_count 3
+META Kubo ᛟϟ on X: "Update on Octra HFHE v2 public audit.
+
+Day 6 algebraic track complete:
+• reduced-param invariant scan (480 samples, 6 keys, 1104 features): 0 survive FDR
+• ciphertext-algebra toy: 0.000000 TVD between distinct plaintexts
+• no low-dim simplification lowers the LPN-PRF margin https://t.co/9sJRAuUkIi" / X
+META Update on Octra HFHE v2 public audit.
+
+Day 6 algebraic track complete:
+• reduced-param invariant scan (480 samples, 6 keys, 1104 features): 0 survive FDR
+• ciphertext-algebra toy: 0.000000 TVD between distinct plaintexts
+• no low-dim simplification lowers the LPN-PRF margin
+tweets_extracted 1
+
+--- 2026-07-09T21:50:43+00:00 2077300596064100794 ---
+Update on Octra HFHE v2 public audit. /  / Day 6 algebraic track complete: / • reduced-param invariant scan (480 samples, 6 keys, 1104 features): 0 survive FDR / • ciphertext-algebra toy: 0.000000 TVD between distinct plaintexts / • no low-dim simplification lowers the LPN-PRF margin https://t.co/9sJRAuUkIi
