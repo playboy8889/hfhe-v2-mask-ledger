@@ -1,0 +1,174 @@
+# Official X with_replies bounty-claimed snippet triage 20260717_041141 UTC
+
+## https://x.com/octra/with_replies
+url https://x.com/octra/with_replies status_html_len 266441 hfhe_count 0 octC_count 0
+tweets_extracted 0
+
+## https://x.com/octra
+url https://x.com/octra status_html_len 1175806 hfhe_count 26 octC_count 6
+META octra (@octra) / X
+META universal encrypted compute with hypergraph FHE. install and build: https://t.co/hWmJYDlmK3 learn: https://t.co/h81e58sTiU explore: @octrascan
+tweets_extracted 55
+
+--- 2024-09-20T11:00:17+00:00 2075336875322032268 ---
+open HFHE challenge v2 /  / this wallet holds 500,000 OCT: / octC5eR9pLGKbpzTbDgHowkFt8HW7LZYb2gzehzxHamxuAZ /  / recover its private key, tell us how you did it and receive another 500,000 OCT, for a total of 1 million. do not submit issues, they will be removed! https://t.co/iG9MNVie2R
+
+--- 2025-07-25T20:27:12+00:00 1938309788586414288 ---
+1) you can now generate a testnet wallet by following this instruction: / https://t.co/3rawmLwOcf /  / 2) claim testnet tokens using your generated address:  / https://t.co/KMaG6lgkIv  /  / 3) verify on https://t.co/wwx6l8Ulhx /  / 4) join discord & wait for next steps / https://t.co/x5U3JyiFY1
+
+--- 2024-05-04T10:48:01+00:00 1950531076331340076 ---
+final milady roll call
+
+--- 2025-07-27T21:37:01+00:00 1952798859526062408 ---
+happy to finally unveil octra evm /  / we’ve quietly been building a fully compatible hfhe+evm stack that keeps the spec intact, but moves all execution into a fully encrypted layer /  / currently an internal prototype, octra evm will be released open source this year for free use https://t.co/afosQEozxQ
+
+--- 2025-07-09T17:56:44+00:00 1939435555592474962 ---
+testnet task for this week: /  / 1) install the client (requires python): / https://t.co/wKGrm6ubW2 / note: early testnet build, update will be released shortly /  / 2) test sending regular transactions to other wallets /  / 3) join https://t.co/x5U3JyiFY1 & discuss /  / keep notis on for next task! https://t.co/8uNmVzJFMr
+
+--- 2025-07-24T11:36:43+00:00 1958572871631905243 ---
+not “goctra” / not “gmoctra” /  / just “octra” /  / “octra what?” octra coded. https://t.co/eRP2PMsPme
+
+--- 2025-08-14T16:28:31+00:00 1951015999777759416 ---
+july testnet update   /  / 27,937,510 total txs  / 2,395,220 encrypted txs   / 1,013,166 total accounts  / 191,960 encrypted accounts  / 247,043 math contract calls  / 17,921 peak tps   /  / active tasks posted below
+
+--- 2025-01-18T23:39:43+00:00 1949080859731951662 ---
+○
+
+--- 2025-07-13T15:04:53+00:00 1963141049888698672 ---
+just came by to say octra if thats ok
+
+--- 2025-08-08T08:10:25+00:00 1957539115685040639 ---
+encrypted data availability / encrypted modular rollups / encrypted appchains / encrypted coprocessors / encrypted mev / encrypted ai agents / encrypted identity / encrypted storage / encrypted social graphs / encrypted search / encrypted execution layers / encrypted ml / encrypted restaking / encrypted
+
+--- 2025-07-11T09:40:38+00:00 1944113369314648097 ---
+day 3 stats: /  / 🪙 243k encrypted txs sent / 👥 by 61k accounts / ⛓️ 27 nodes / 🧮 7244 bootstraps (81h compute) / 💸 $6.2k monthly cost /  / 🔜📱 light node ≈ $25/mo / 🔜💻 regular CPU node ≈ $100/mo / 🔜🖥️ bootstrap ("heavy") CPU node ≈ $375/mo /  / normal tx ≈ $0.0005228 / encrypted tx ≈ $0.0031
+
+--- 2025-08-13T08:57:43+00:00 1978658017651372477 ---
+friendship ended with airdrop meta, now ico meta is my best friend
+
+--- 2025-07-16T10:56:47+00:00 1970465620400709723 ---
+if you have unclaimed private transfers, you have to claim them now by running command [7] in pre-client  /  / private txs are currently only completed when claimed, and tokens will be lost forever after the transition to the new client /  / this is the last call https://t.co/98hkg7KyDY
+
+--- 2025-01-15T17:27:36+00:00 1956369932184109424 ---
+would you.. invite me to your octra circle that no one else can see?.. https://t.co/VNstasjNO6
+
+--- 2025-07-10T19:50:16+00:00 1955895556061962465 ---
+first hfhe contracts compiling to bytecode and deploying on octra via our new asm toolchain /  / pre-dsl, stack-only for now, full sdk integration is in progress and scheduled for release in coming days https://t.co/HNYkzZXCZg
+
+--- 2025-06-27T15:36:53+00:00 1938962979581804897 ---
+2 days testnet progress /  / accounts created: 123,281 / accounts activated: 50,102  / transactions sent: 18,721 / testnet tokens distributed: 13,585,106 /  / client update coming soon, turn notifications on to test new functionality first https://t.co/XuhRTw87SO
+
+--- 2025-10-16T13:15:45+00:00 1959609546135204275 ---
+octra supports arbitrary FHE logic today, live onchain with 192 contracts deployed  /  / no cryptography, no custom circuits: write your usual solidity, rust or c++, every app runs encrypted /  / remember this when talking adoption
+
+--- 2025-10-16T11:07:23+00:00 1978779802933793222 ---
+Anyone that ever invested in a deal on Echo should be eligible for Monad airdrop. Sending instructions on how you can add your claim to their site shortly. Gmonad.
+
+--- 2025-07-14T11:32:32+00:00 1945215375966142547 ---
+how it feels when you successfully setup the octra client, encrypt balance and send an encrypted transaction for the first time https://t.co/wSqtK813cm
+
+--- 2025-07-18T18:00:35+00:00 1968212382100148616 ---
+schrödinger's network: the cat may exist onchain or it may not, you have no way of finding out https://t.co/9pMZRLL0Wu
+
+--- 2025-07-10T09:47:23+00:00 1960921782270960005 ---
+seen the tweet. seen the announcement. seen the partnership. seen the conference photo. seen the podcast. seen the merch. /  / any chance to see working tech?
+
+--- 2025-07-19T15:15:53+00:00 1958160969202323820 ---
+confidentiality ≠ privacy /  / confidential protocols hide activity from other users, but their operators can still read, freeze, lose or leak your data /  / true privacy means keeping data secure even from the operators themselves /  / “don’t trust, verify” equally applies to data!
+
+--- 2025-07-02T19:30:24+00:00 1989318607503831145 ---
+octra
+
+--- 2025-11-04T10:35:57+00:00 1961832624059560029 ---
+calling it right now: post-crypto era /  / ledgers → proof-driven treechains / rollups → encrypted onchain economies / dapps → execution environments / defi → global confidential barter economy / bots → agents trained on secure personal data / tradfi → trillions in private assets onchain
+
+--- 2025-01-06T23:20:50+00:00 1945518542922690707 ---
+octra’s hypergraph FHE runs on standard CPUs, so even Apple Silicon laptops can operate as standard nodes. /  / this unlocks the global encrypted compute flywheel: more usage attracts more casual node operators, driving down costs for everyone. /  / coming soon. https://t.co/nr7Kgk0Hcu
+
+--- 2025-11-11T19:31:14+00:00 1979136227031896251 ---
+isn't it crazy how octra is just live rn https://t.co/LEfQtMKkwM
+
+--- 2025-07-04T17:36:13+00:00 1961306044186935548 ---
+with proof of useful work (pouw) gaining traction in the wider crypto community, it is worth revisiting our early 2024 litepaper to understand the term /  / an upcoming paper introduces treechains, our vision for the evolution of blockchains into proof-based layered networks 🌳⛓️ https://t.co/I4VoX4CxFa
+
+--- 2025-08-23T08:15:54+00:00 1961256573302653220 ---
+octra is quantum safe. hfhe keys rotate every second with each epoch. every new key comes from the previous chain hash so to break it you would need a quantum computer to replay every single event in perfect sync. even then you face 2^256 work which no quantum computer can touch.
+
+--- 2025-08-22T22:25:55+00:00 1959019229174214833 ---
+The New Playbook /  / - raise tiny $$ from VC / - spend it on Christian math PhDs and a small office in rural East Texas / - build ZK-PoW on a whole new stack / - skip testnet, don’t be a coward / - launch mainnet with no pre-mine / - works great, miners come mining / - no airdrops, zero
+
+--- 2025-07-20T16:25:10+00:00 1942874353903009826 ---
+someone in discord built an unofficial faucet to give away their own tokens: no prompt, no grant, just initiative / history doesn't repeat, but it does often rhyme / octra is the place to be, come and build cool shit with us! https://t.co/wdfBxY97JL
+
+--- 2025-07-01T18:07:32+00:00 1945870747567870369 ---
+octra unlocks hundreds of new markets built on private, tokenized data / your dex or launchpad might work elsewhere someday / but if you want real encrypted compute on all chains today / then reach out to us to start building your unicorn on octra: in wasm, rust, or c++ https://t.co/vzvV2V9kiO
+
+--- 2025-11-11T13:40:10+00:00 1990052411692798427 ---
+(un)fortunately for everyone, the first and only live encrypted blockchain is now officially irreversible, undeniable, permanent, unstoppable https://t.co/CwyWBUPyss
+
+--- 2025-10-05T05:20:46+00:00 1975264988383375527 ---
+“privacy” may not be the next mainstream narrative outside of crypto /  / but “encryption”, “cryptography”, new approaches in both and new systems of coordination that they enable very well could
+
+--- 2025-07-21T16:22:38+00:00 1978074425674039631 ---
+in 1997, a message encrypted with 56-bit DES (data encryption standard at the time) was broken in 11 weeks using thousands of internet-connected volunteer computers /  / the decrypted message was: / "Strong cryptography makes the world a safer place."
+
+--- 2025-09-20T13:25:16+00:00 1881031749104509047 ---
+@DjinntXBT @leftoversushiii @VitalikButerin amazing milady culture
+
+--- 2025-09-20T13:22:53+00:00 1969391815787769986 ---
+complex tokenomics are only useful for vapor / "users pay a premium for something only your provide" should normally be the tokenomics
+
+--- 2025-03-05T13:05:29+00:00 1978395136326263156 ---
+math is magic
+
+--- 2025-10-11T17:08:44+00:00 1977072726046060929 ---
+dec 5, 2022 /  / we've said it consistently for years: crypto will eventually do a full circle back to its original purpose of unstoppable "peer to peer version of electronic cash", as envisioned by satoshi in 2008 https://t.co/kpbRT4MQnn
+
+--- 2025-06-27T10:34:14+00:00 1885804476231024977 ---
+octra
+
+--- 2025-08-28T15:51:50+00:00 1978096625462460883 ---
+chat we're trending  /  / strong cryptography makes the world a safer place https://t.co/MXCtPmfroj
+
+--- 2024-03-16T12:14:42+00:00 1976169407727702112 ---
+The Mathematical Way https://t.co/F8ba7bxrbY
+
+--- 2024-03-13T09:06:41+00:00 1939464759146864700 ---
+@0xMoei really admire your work bro, insane levels of participation, transparency and respect for your community, not withholding anything from anyone. success is well deserved!
+
+--- 2025-09-07T06:48:12+00:00 1761732054432002314 ---
+homomorphic encryption and decryption of a 547kb image using octra’s FHE over hypergraphs (HFHE) technology. the original image is processed with added noise and restored with full bit-for-bit convergence. encryption took 0.18s, decryption 0.13s, a total of 0.31s and 1568 kb mem. https://t.co/RngA44eSLO
+
+--- 2024-08-07T18:43:39+00:00 1967874105849549033 ---
+Universal Cryptographic Protocol
+
+--- 2025-02-09T13:55:09+00:00 1951016001530896559 ---
+active tasks /  / generate account: https://t.co/vbYNKEb1c8 / send normal tx: https://t.co/9N8CxeJMm4 / send encrypted tx: https://t.co/kYiXuNJ1MP / test math contract calls: https://t.co/MocOgct90i /  / thank you
+
+--- 2025-02-14T13:06:14+00:00 1926606056165183812 ---
+every single person working on privacy is a genius / every project in the space is fundamental / every founder is a great hero / every idea is majestic
+
+--- 2025-01-19T17:25:42+00:00 1887510670318387376 ---
+anything you can imagine, onchain, encrypted
+
+--- 2025-01-27T17:47:36+00:00 1905168623062114777 ---
+https://t.co/ibWPxDRMqt
+
+--- 2025-01-22T02:17:13+00:00 1765280718689599579 ---
+are we supposed to never question this? https://t.co/cVKrXkMn4A
+
+--- 2025-05-04T06:20:35+00:00 1779864462289195139 ---
+privacy is normal
+
+--- 2024-10-21T21:59:25+00:00 1739261418807976003 ---
+while you were building ai wearables, i mastered distributed encrypted storage for when you leak user data https://t.co/u3VGeeFzPx
+
+--- 2024-10-21T18:40:07+00:00 1848434106385772644 ---
+If this is indeed the new @OpenAI logo... /  / I gotta say I like it. Super clean and elegant. /  / Much better than the old one. https://t.co/laKQkXcfMS
+
+## raw grep with_replies
+bytes 266441 claimed_hits 0 bounty_hits 0 90_hits 94
+PAT bounty is claimed count 0
+PAT claimed within count 0
+PAT 90 minutes count 0
+PAT HFHE challenge v2 count 0

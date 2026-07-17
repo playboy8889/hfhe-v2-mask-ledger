@@ -1,0 +1,5 @@
+# X candidate triage 20260717_041141 UTC
+
+Public X/DDG refresh returned no unique candidate X URLs in this run.
+
+Official X with_replies bounty-claimed snippet triage is recorded separately in official_x_bounty_claim_triage_20260717_041141.out: direct scrape/grep of https://x.com/octra/with_replies and https://x.com/octra found the official v2 challenge post, but no "bounty is claimed", "claimed within", or "90 minutes" phrase in retrievable page content; this appears to be a search-result snippet artifact, not a verifiable official claim.
