@@ -1,0 +1,15 @@
+# X candidate detail triage 20260717_154448 UTC
+source=twitter_public_search_refresh_20260717_154528.out
+candidate URLs observed:
+- https://x.com/octra ; official profile, no direct target secret material in result context.
+- https://x.com/octra/status/2074422879131668578 ; known v1/open challenge context, not v2 target recovery.
+- https://x.com/octra/status/2075336875322032268 ; official v2 challenge announcement with target wallet, public only.
+- https://x.com/Kubo100x/status/2077300596064100794 ; known Day 6 negative public audit, no plaintext/private key.
+- https://x.com/octra/status/2053142986427351447 ; old HFHE explainer/background, not target material.
+- https://x.com/akoredex95/status/2075379918800650241 and /2075382909997838572 ; previously known public findings/theory posts, no target material.
+- https://x.com/Kubo100x/status/2076815889291505832 ; known Day 4 negative algebra toy/reduced-parameter scan, no target material.
+- https://x.com/TheMaran/status/2075586595869368507 ; promotional/spam-like result about using AI tools for reward; no leaked plaintext/private key in search context.
+- https://x.com/lambda0xE/status/2028247516509250017 ; old/general private-ML contract context, not challenge v2 material.
+- https://x.com/octraintern/status/2023796630689116548 and /2028011689598472331 ; old/general Octra/devnet context, not challenge v2 material.
+- https://x.com/octrabunch/status/2075346412384952744 ; known challenge-is-back social post, no target secret material.
+result=no X candidate contains target-specific PRF_R2/PRF_R3/sk.prf_k, Toeplitz stream, PC openings, plaintext, wallet private key, or candidate-check oracle.
