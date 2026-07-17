@@ -1,0 +1,11 @@
+# Web search API triage 20260717_171511 UTC
+queries:
+- "Octra HFHE" "public audit" "Day 7"
+- "Octra HFHE" "bounty" "private key" "secret.ct"
+- "Octra HFHE" "NithtCat"
+notable results:
+- Kubo100x Day 2/Day 6/known public audit posts remain negative public-audit context; no plaintext/private key.
+- smoke-ui README / PHASE2_DEEP_TESTING_PLAN reiterates no public-only recovery, no composition into challenge plaintext recovery, LPN equations insufficient without independent prf_k, and publication caveat about equation-body provenance.
+- NithtCat profile/search context remains a negative phased analysis note: target wallet balance/nonce unchanged and no candidate oracle/material.
+- Generic docs/market/audit pages are irrelevant background noise.
+result=no new v2 plaintext/private-key/PRF_R2/PRF_R3/sk.prf_k/Toeplitz leak and no usable candidate-check oracle.

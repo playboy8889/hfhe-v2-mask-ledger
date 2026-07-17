@@ -1,0 +1,4 @@
+# smoke-ui publication-caveat triage 20260717_171511 UTC
+source=https://github.com/smoke-ui/octra-hfhe-v2-security-assessment/blob/main/README.md and research/PHASE2_DEEP_TESTING_PLAN.md search context
+summary: smoke-ui notes OCTRA's supplied LPN verifier ties each file's first-line seed/nonce/public-aggregate metadata to a base layer, but does not parse/authenticate the 720,896 equation bodies. This is a data-provenance caveat only; it does not expose target secret material or a recovery oracle. The same README says recovering S would still leave independent 256-bit prf_k and does not directly decrypt the payload.
+result=negative/corroborating caveat; no plaintext/private key/PRF material/candidate-check oracle.
