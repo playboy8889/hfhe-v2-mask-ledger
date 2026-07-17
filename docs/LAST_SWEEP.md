@@ -1,16 +1,16 @@
-# HFHE Challenge v2 heartbeat status 20260717_004148 UTC
+# HFHE Challenge v2 heartbeat status 20260717_011138 UTC
 
 ## Current result
 - Plaintext/private key: **not recovered**.
-- Target/account refresh (`auth_full_refresh_20260717_004148.out`): balance `500001.000001`, nonce `0`, has_public_key `false`, tx_count `5`; recent tx hashes unchanged.
+- Target/account refresh (`auth_full_refresh_20260717_011138.out`): balance `500001.000001`, nonce `0`, has_public_key `false`, tx_count `5`; recent tx hashes unchanged.
 - Official GitHub pushed_at remains `2026-07-11T08:49:01Z`; repo updated_at remains `2026-07-16T14:08:35Z`; fork/PR/issue counts unchanged.
 - Official GitHub state: forks `33`, pulls `4`, issues `4`; Octra org public repos `8`.
-- Fork-head diff against persisted `fork_head_baseline.json`: `33` branch heads checked, `9` unique heads, `0` new head SHAs. Fork delta versus previous sweep: `fork_delta_triage_20260717_004148.out` shows no added/removed repos and no new head SHAs.
+- Fork-head diff against persisted `fork_head_baseline.json`: `33` branch heads checked, `9` unique heads, `0` new head SHAs. Fork delta versus previous sweep: `fork_delta_triage_20260717_011138.out` shows no added/removed repos and no new head SHAs.
 - Authenticated GitHub Code Search: target wallet still only hits official README; `secret.ct`/`pk.bin` targeted queries only hit official challenge files; Day 7 and solved+secret queries have no actionable challenge hit; `PRF_R2`/`PRF_R3`/`sk.prf_k` hits remain generic PVAC docs/mirrors/tooling including previously triaged `mintlify-atlas` docs.
-- GitHub repository search (`github_repo_search_20260717_004307.out`) is unchanged in material terms: exact target-wallet repo search and secret/material/private-key/solved/Day-7/Toeplitz searches remain 0; visible repos are known public negative-result/audit/formalization repos plus the public mirror. Final unauthenticated `sk.prf_k` repo query hit 403, while authenticated code search for `sk.prf_k` remained generic only.
-- Official PR/issues refresh (`official_issue_pr_refresh_20260717_004148.out`) found no PR/issue changes.
-- Public X/DDG refresh (`twitter_public_search_refresh_20260717_004301.out`) returned no candidate X URLs this run.
-- Public web search summary (`public_web_search_20260717_004148.out`) found only official/context pages, known negative notes, and unrelated pages; no v2 solved/private-key/plaintext/material leak.
+- GitHub repository search (`github_repo_search_20260717_011523.out`): exact target-wallet repo search and secret/material/private-key/solved/Day-7/Toeplitz/`sk.prf_k` searches are 0; visible repos are known public negative-result/audit/formalization repos plus the public mirror.
+- Official PR/issues refresh (`official_issue_pr_refresh_20260717_011138.out`) found no PR/issue changes.
+- Public X/DDG refresh (`twitter_public_search_refresh_20260717_011239.out`) returned no candidate X URLs this run.
+- Public web search summary (`public_web_search_20260717_011138.out`) returned no direct result candidates and found no v2 solved/private-key/plaintext/material leak.
 
 ## Work performed this heartbeat
 1. Re-read `status_latest.md`, `monitor_state.json`, and latest logs.
@@ -27,17 +27,17 @@ Unchanged: public artifacts and public fork/org/social/code-search content still
 - Official PR/issues remain unchanged.
 - X/DDG direct search had 0 candidate URLs in this run.
 - Repository/public web searches still have no solved/private-key/plaintext/material candidate.
-- `mintlify-atlas` remains generic PVAC docs/examples; no target material.
+- Current visible public repos remain known negative-result/audit/formalization/mirror items; no new target-specific leak was found.
 - NithtCat/Tony Xiao PRF_R2/R3 lead remains non-material unless a concrete status URL/artifact appears; current sweep exposes no needed values.
 
 ## Evidence paths
-- `/Users/koala/hfhe_challenge_v2/auth_full_refresh_20260717_004148.out`
-- `/Users/koala/hfhe_challenge_v2/auth_full_refresh_20260717_004148.json`
-- `/Users/koala/hfhe_challenge_v2/twitter_public_search_refresh_20260717_004301.out`
-- `/Users/koala/hfhe_challenge_v2/github_repo_search_20260717_004307.out`
-- `/Users/koala/hfhe_challenge_v2/official_issue_pr_refresh_20260717_004148.out`
-- `/Users/koala/hfhe_challenge_v2/fork_delta_triage_20260717_004148.out`
-- `/Users/koala/hfhe_challenge_v2/public_web_search_20260717_004148.out`
+- `/Users/koala/hfhe_challenge_v2/auth_full_refresh_20260717_011138.out`
+- `/Users/koala/hfhe_challenge_v2/auth_full_refresh_20260717_011138.json`
+- `/Users/koala/hfhe_challenge_v2/twitter_public_search_refresh_20260717_011239.out`
+- `/Users/koala/hfhe_challenge_v2/github_repo_search_20260717_011523.out`
+- `/Users/koala/hfhe_challenge_v2/official_issue_pr_refresh_20260717_011138.out`
+- `/Users/koala/hfhe_challenge_v2/fork_delta_triage_20260717_011138.out`
+- `/Users/koala/hfhe_challenge_v2/public_web_search_20260717_011138.out`
 
 ## Publishing note
 The active publication repository remains `https://github.com/playboy8889/hfhe-v2-mask-ledger`.
