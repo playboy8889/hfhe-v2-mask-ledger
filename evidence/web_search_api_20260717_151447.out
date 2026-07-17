@@ -1,0 +1,7 @@
+# Web search API triage 20260717_151447 UTC
+queries:
+- "HFHE Challenge v2" "wallet" "private key"
+- "secret.ct" "Octra" "plaintext"
+- "Octra" "HFHE" "PRF_R3"
+notable results: official challenge README/files; known security-audit repos; generic PVAC PRF docs/source references; no target wallet private key, no plaintext, no PRF_R2/PRF_R3/sk.prf_k values, no Toeplitz secret stream, and no candidate-check oracle.
+result=no new actionable public-web/X candidate beyond known challenge files and negative public audits.
