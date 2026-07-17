@@ -1,0 +1,4 @@
+# NithtCat candidate-oracle triage 20260717_164516 UTC
+source=web search result for NithtCat/X public note
+summary: The visible note says public T0/T1, PC commitments, and secret.ct structure cannot directly verify candidate plaintext. This is corroborating negative evidence and matches local blocker: no public check oracle for plaintext candidates.
+result=no target-specific plaintext/private key/PRF material; no candidate-check oracle.

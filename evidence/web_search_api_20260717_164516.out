@@ -1,0 +1,12 @@
+# Web search API triage 20260717_164516 UTC
+queries:
+- "Octra HFHE" "secret.ct" "private"
+- "Octra HFHE" "R_com" "v2"
+- "Octra HFHE" "Day 8"
+notable results:
+- smoke-ui/octra-hfhe-v2-security-assessment: negative public-artifact assessment; no public-only plaintext recovery; v2 closes v1 public plaintext-guess/R_com oracle; no credentials recovered or funds moved.
+- Kubo100x / related reposts: known public negative audit/social context around v1 R_com removal.
+- NithtCat result: states public T0/T1, PC commitments, and secret.ct structure cannot directly verify candidate plaintext; no target material.
+- Eienel/t.co analysis repeats negative public analysis: no sk.bin/plaintext/mnemonic leak; secret.ct 22 ciphers; independent masks; no recovery from public files.
+- Market/litepaper/price/background pages are irrelevant to target recovery.
+result=no new v2 plaintext/private-key/PRF_R2/PRF_R3/sk.prf_k/Toeplitz leak and no usable candidate-check oracle.
