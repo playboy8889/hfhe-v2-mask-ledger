@@ -1,0 +1,23 @@
+# Public web search refresh 20260717_074216 UTC
+queries:
+- Octra HFHE Challenge v2 solved private key
+- Octra HFHE sk.prf_k PRF_R2 PRF_R3
+- Octra HFHE plaintext secret.ct pk.bin
+- "HFHE challenge v2" "bounty is claimed"
+- "Octra HFHE" "private key" "secret.ct"
+
+Observed result titles/URLs:
+- query 'Octra HFHE Challenge v2 solved private key': bytes=14281 results=0
+- query 'Octra HFHE sk.prf_k PRF_R2 PRF_R3': bytes=14263 results=0
+- query 'Octra HFHE plaintext secret.ct pk.bin': bytes=14277 results=0
+- query '"HFHE challenge v2" "bounty is claimed"': bytes=14315 results=0
+- query '"Octra HFHE" "private key" "secret.ct"': bytes=14333 results=0
+
+Relevant results observed:
+- No indexed public result surfaced for focused solved/private-key/plaintext/material queries.
+- Official Octra challenge/GitHub/docs/profile pages remain public context only; no solved/plaintext/private-key disclosure.
+- GitHub repository/code searches remain known public negative-result/audit/formalization repos plus generic PVAC docs/mirrors; no target-specific material.
+- Current X/DDG refresh resurfaced known official/Kubo/lambda0xE/octralex/Hikkimori URLs; snippets only reference public LPN samples or audit notes, not target recovery material.
+- No public result exposed target wallet private key, plaintext, target-specific PRF_R2/PRF_R3/sk.prf_k, Toeplitz stream material, PC openings, bounty-claimed proof, or independent candidate-check oracle.
+
+Conclusion: no public v2 solved/private-key/plaintext/material leak found in this sweep.
