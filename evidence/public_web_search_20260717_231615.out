@@ -1,0 +1,28 @@
+# Public web search 20260717_231615 UTC
+
+## query: Octra HFHE Challenge v2 solved private key
+bytes 14281
+
+## query: Octra HFHE Challenge v2 plaintext secret.ct pk.bin
+bytes 14308
+
+## query: octC5eR9pLGKbpzTbDgHowkFt8HW7LZYb2gzehzxHamxuAZ
+bytes 14291
+
+## query: "secret.ct" "pk.bin" "HFHE" -github.com/octra-labs/hfhe-challenge
+bytes 14387
+
+## query: "PRF_R2" "PRF_R3" "HFHE" "Octra"
+bytes 14353
+
+## query: "sk.prf_k" "HFHE" "Octra"
+bytes 14313
+
+## query: "Octra HFHE" "bounty claimed"
+bytes 14313
+
+## query: "Octra HFHE" "Day 7"
+bytes 14283
+
+# triage
+candidate_urls=[]
