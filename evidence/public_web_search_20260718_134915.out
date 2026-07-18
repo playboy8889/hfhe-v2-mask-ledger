@@ -1,0 +1,5 @@
+# Public web search 20260718_134915 UTC
+method=OpenAI web search + local X/GitHub evidence
+hits=official docs/X/manifest; startkey negative audit; NithtCat negative summary; Smoke-UI PHASE2 log; PVAC recrypt docs; unrelated Bitcoin/HackerNoon/Linux/private-key false positives
+candidate_urls=[]
+triage=no new target solved/private-key/plaintext/material/Rku leak. Recrypt docs describe generic evaluation key operations only; no target eval-key/recrypt-key bundle.
