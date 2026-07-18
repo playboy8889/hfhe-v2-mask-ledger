@@ -1,0 +1,5 @@
+# Public web search 20260718_121838 UTC
+method=OpenAI web search + local X/GitHub evidence
+notable_hits=official hfhe-challenge README/manifest; Octra docs/X; NithtCat negative summary; Smoke-UI mutation baseline; startkey public audit; unrelated Reddit/Bitcoin/Etherscan/private-key false positives
+candidate_urls=[]
+triage=no new target solved/private-key/plaintext/material/Rku leak. Relevant hits are official or known negative; unrelated crypto/private-key pages are false positives.
