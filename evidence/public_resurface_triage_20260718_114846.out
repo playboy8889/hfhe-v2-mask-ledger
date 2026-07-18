@@ -1,0 +1,5 @@
+# Public resurface triage 20260718_114846 UTC
+source=web.run search + local refresh
+verdict=non-candidate resurfacing only
+excluded=octralex/zygomeb official challenge mirrors; t.co Smoke-UI security analysis; Kubo Day2 update; issue #502; octrascan pages; unrelated Bitcoin/private-key puzzle false positives
+reason=no plaintext/private key, no PRF_R2/R3, no sk.prf_k, no Rku/rk.sec/recrypt-key/eval-key, no oracle.
