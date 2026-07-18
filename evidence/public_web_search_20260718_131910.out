@@ -1,0 +1,5 @@
+# Public web search 20260718_131910 UTC
+method=OpenAI web search + local X/GitHub evidence
+hits=Octra docs/official X/challenge manifest; startkey negative audit; NithtCat negative summary; Smoke-UI PHASE2 log; unrelated Reddit/Bitcoin/SecretScan/HackerNoon/Scribd/private-key false positives; unrelated PQC/Grover papers
+candidate_urls=[]
+triage=no new target solved/private-key/plaintext/material/Rku leak. Search results are official, known negative, generic/docs, research unrelated to target leakage, or unrelated false positives.
