@@ -1,0 +1,5 @@
+# Public web search 20260718_094819 UTC
+method=OpenAI web search + local X/GitHub evidence
+checked_urls=https://github.com/octra-labs/pvac_hfhe_cpp/issues/502; https://github.com/startkey/octra-hfhe-v2-public-audit; https://github.com/smoke-ui/octra-hfhe-v2-security-assessment/blob/main/research/PHASE2_LAB_LOG.md; https://x.com/NithtCat; https://x.com/octra
+candidate_urls=[]
+triage=no new solved/private-key/plaintext/material/Rku leak. Issue #502 is integrity/proof-soundness only and explicitly not bounty-payload compromise; startkey/smoke-ui/NithtCat are known negative corroboration; official X is announcement/context.
