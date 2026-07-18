@@ -1,0 +1,5 @@
+# Octrascan public chain-state refresh 20260718_201916 UTC
+source=https://lite.octrascan.io/address.html?addr=octC5eR9pLGKbpzTbDgHowkFt8HW7LZYb2gzehzxHamxuAZ
+observed=public page lists target address with balance 500001.000001 OCT and nonce 0; this matches local auth_full_refresh account state.
+related_tx_source=https://lite.octrascan.io/tx.html?hash=050fe2742515bb2a281eabe3c3a7c6b4376ac34eb0f07dcce7ce2a34a2bb9677
+verdict=chain-state corroboration only; no public key reveal, private key, plaintext, or extra HFHE artifact.

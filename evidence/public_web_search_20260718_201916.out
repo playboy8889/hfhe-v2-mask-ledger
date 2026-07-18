@@ -1,0 +1,7 @@
+# Public web search 20260718_201916 UTC
+method=OpenAI web search + local GitHub/X/DDG evidence
+queries="Octra HFHE plain private key"; "HFHE Challenge v2 solve github"; "octra-labs/hfhe-challenge Rku"; target wallet exact
+confirmed_relevant_hits=official hfhe-challenge README; official X announcement; octralex relaunch/status posts; Eienel/t.co negative security-analysis page; lite.octrascan target address/tx pages; Kubo Day2/Day6 negative audit posts; octra/org generic pages; Surf AI/project mirrors; unrelated Messari/private-key/generic false positives
+candidate_urls=[]
+triage=no target solved/private-key/plaintext/material/PRF_R2/PRF_R3/sk.prf_k/Toeplitz/Rku/recrypt-key/eval-key leak. Lite.octrascan confirms chain-state visibility only and matches local auth refresh. Octralex relaunch/pause posts are historical v1/v2 context, not solved payload. Eienel and Kubo pages remain negative public-audit corroboration.
+sources=https://github.com/octra-labs/hfhe-challenge ; https://x.com/octra/status/2075336875322032268 ; https://lite.octrascan.io/address.html?addr=octC5eR9pLGKbpzTbDgHowkFt8HW7LZYb2gzehzxHamxuAZ ; https://t.co/QWPCBKctik ; https://x.com/octralex/status/2074466334260269550 ; https://x.com/octralex/status/2075338455639364025 ; https://x.com/Kubo100x/status/2075722222531199095 ; https://x.com/Kubo100x/status/2077300596064100794

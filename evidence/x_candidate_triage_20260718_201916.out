@@ -1,0 +1,5 @@
+# X candidate triage 20260718_201916 UTC
+source=twitter_public_search_refresh_20260718_201952.out + OpenAI web search snippets
+candidate_urls=none returned by DDG extractor
+resurfaced_urls=official challenge announcement; octralex relaunch/pause context; Kubo Day2/Day6 negative audit; Eienel/t.co negative security-analysis; octraintern/generic mirrors
+triage=no X/public post exposing plaintext, private key, mnemonic, PRF_R2/PRF_R3/sk.prf_k/Toeplitz/Rku/recrypt-key/eval-key/oracle material.
