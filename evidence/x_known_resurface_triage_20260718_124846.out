@@ -1,0 +1,4 @@
+# X known-resurface triage 20260718_124846 UTC
+source=x_candidate_triage_20260718_124846.out
+verdict=no target material, no plaintext/private-key, no PRF_R2/PRF_R3/sk.prf_k/Rku, no oracle
+resurfaced=Kubo100x negative-audit/context; OxCryptoQueen/akoredex95/max21e8 commentary/amplification; octra official profile/status context
