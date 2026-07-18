@@ -1,0 +1,18 @@
+# X algebra resurface detail triage 20260718_211918 UTC
+
+## https://x.com/Kubo100x/status/2076815889291505832
+{"data":null,"code":403,"name":"AbuseAlleviationError","status":40305,"message":"Anonymous access to domain x.com blocked until Sat Jul 18 2026 22:20:06 GMT+0000 (Coordinated Universal Time) due to previous abuse found on https://x.com/dotey: DDoS attack suspected: Too many requests","readableMessage":"AbuseAlleviationError: Anonymous access to domain x.com blocked until Sat Jul 18 2026 22:20:06 GMT+0000 (Coordinated Universal Time) due to previous abuse found on https://x.com/dotey: DDoS attack suspected: Too many requests"}
+
+
+## https://x.com/OxCryptoQueen/status/2074424954318176591
+{"data":null,"code":403,"name":"AbuseAlleviationError","status":40305,"message":"Anonymous access to domain x.com blocked until Sat Jul 18 2026 22:20:06 GMT+0000 (Coordinated Universal Time) due to previous abuse found on https://x.com/dotey: DDoS attack suspected: Too many requests","readableMessage":"AbuseAlleviationError: Anonymous access to domain x.com blocked until Sat Jul 18 2026 22:20:06 GMT+0000 (Coordinated Universal Time) due to previous abuse found on https://x.com/dotey: DDoS attack suspected: Too many requests"}
+
+
+## https://x.com/akoredex95/status/2075382909997838572
+{"data":null,"code":403,"name":"AbuseAlleviationError","status":40305,"message":"Anonymous access to domain x.com blocked until Sat Jul 18 2026 22:20:06 GMT+0000 (Coordinated Universal Time) due to previous abuse found on https://x.com/dotey: DDoS attack suspected: Too many requests","readableMessage":"AbuseAlleviationError: Anonymous access to domain x.com blocked until Sat Jul 18 2026 22:20:06 GMT+0000 (Coordinated Universal Time) due to previous abuse found on https://x.com/dotey: DDoS attack suspected: Too many requests"}
+
+
+# Local triage summary
+Kubo Day4 reduced-param scan reports 0 invariants survive FDR and algebra toy context; this is negative algebraic-track evidence, not a solve.
+OxCryptoQueen is v1/challenge-promo context only.
+akoredex hidden-subspace remains snippet/inaccessible; no concrete equations/data/candidate.
