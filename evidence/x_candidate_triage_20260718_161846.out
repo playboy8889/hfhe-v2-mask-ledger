@@ -1,0 +1,5 @@
+# X candidate triage 20260718_161846 UTC
+source=twitter_public_search_refresh_20260718_161924.out + OpenAI web search snippets
+candidate_urls=none returned by DDG extractor
+resurfaced_urls=official announcement; Kubo negative audit/context; NithtCat/t.co negative security-analysis snippet; generic repost/profile snippets
+triage=no X post exposing plaintext, private key, mnemonic, PRF_R2/PRF_R3/sk.prf_k/Toeplitz/Rku/recrypt-key/eval-key/oracle material.

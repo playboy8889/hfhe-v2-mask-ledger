@@ -1,0 +1,7 @@
+# Public web search 20260718_161846 UTC
+method=OpenAI web search + local GitHub/X/DDG evidence
+queries="Octra HFHE private key"; "HFHE Challenge v2 plaintext"; target wallet exact; "Octra HFHE Rku OR recrypt-key"
+confirmed_relevant_hits=official hfhe-challenge README; official X announcement; Kubo public negative audit tweet; Smoke-UI negative assessment; startkey public audit; octrascan/lite wallet pages; t.co/NithtCat negative security-analysis mirror/snippet; generic Octra/DeCC article; Threads prompt-spam/false positives
+candidate_urls=[]
+triage=no new target solved/private-key/plaintext/material/Rku/recrypt-key/eval-key leak. Newly resurfaced Threads items are prompt/spam-like and do not contain target artifacts. Octrascan alternate pages are chain-state references only; local auth refresh remains authoritative for current balance/nonce/public-key flag.
+sources=https://github.com/octra-labs/hfhe-challenge ; https://x.com/octra/status/2075336875322032268 ; https://github.com/smoke-ui/octra-hfhe-v2-security-assessment ; https://github.com/startkey/octra-hfhe-v2-public-audit ; https://lite.octrascan.io/address.html?addr=octC5eR9pLGKbpzTbDgHowkFt8HW7LZYb2gzehzxHamxuAZ
