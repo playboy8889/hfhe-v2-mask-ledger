@@ -1,0 +1,5 @@
+# Public web search 20260718_034708 UTC
+method=OpenAI web search + local X/GitHub evidence
+hits=official manifest/status pages; octrascan/lite target address pages; official X announcement/mirrors; smoke-ui security analysis; known Kubo/X context; generic pvac_hfhe_cpp old issues/docs
+candidate_urls=[]
+triage=no new solved/private-key/plaintext/material leak; search hits are official, known-negative, historical v1/day2, or generic docs
