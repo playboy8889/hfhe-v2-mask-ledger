@@ -1,0 +1,13 @@
+# X known-resurface triage 20260718_031648 UTC
+source=x_candidate_triage_20260718_031648.out
+verdict=no target material, no plaintext/private-key, no PRF_R2/PRF_R3/sk.prf_k, no oracle
+
+Known resurfaced URLs/classes:
+- https://x.com/octra/status/2075336875322032268 : official HFHE v2 announcement/context only; already known.
+- https://x.com/octra/status/2074422879131668578 : official Octra context/announcement class; no target material.
+- https://x.com/octrabunch/status/2075346412384952744 : announcement amplification; no target material.
+- https://x.com/octralex/status/2075870093708235148 : challenge discussion/amplification; no candidate secret.
+- https://x.com/Kubo100x/status/2075521685269446801 and later Kubo URLs : public-audit/negative-context class; no plaintext/private-key candidate.
+- https://x.com/OxCryptoQueen/status/2074424954318176591 and https://x.com/TheMaran/status/2075586595869368507 : promo/announcement amplification only.
+- https://x.com/lambda0xE/status/2075787279197508060 and https://x.com/octraintern/status/2023796630689116548 : old/general Octra context; no v2 target material.
+- https://x.com/hikkimori and https://x.com/octra : profile/search-surface links only.
