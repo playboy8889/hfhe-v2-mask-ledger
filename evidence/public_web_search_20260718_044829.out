@@ -1,0 +1,4 @@
+# Public web search 20260718_044829 UTC
+method=OpenAI web search plus focused te.mpe.st route review
+candidate_urls=[]
+triage=no target plaintext/private-key/material leak; te.mpe.st route is conditional on public Rku/recrypt-key material, absent locally and publicly checked

@@ -1,0 +1,9 @@
+# Recrypt/Rku route triage 20260718 UTC
+route=te.mpe.st blog describing native PRF recovery when public Rku/recrypt-key material is available
+local_check:
+- local challenge artifacts contain pk.bin and generic pvac_hfhe_cpp recrypt tests/examples only
+- no target-specific Rku, rk.sec, recrypt_ru, public recrypt key, eval key, PRF_R2/R3 samples, or sk.prf_k found in challenge/public-publish trees
+- secret.ct remains a single target ciphertext; no public recrypt-key bundle is attached
+verdict=conditional route excluded for current public v2 artifacts
+reason=The route requires a published recrypt/Rku relation or equivalent native-PRF observations. Current target exposes neither; recovering R1/LPN S does not create the missing Rku observations or full R=PRF_R1*PRF_R2*PRF_R3.
+next_if_new_artifact=If a new Rku/rk.sec/recrypt-key bundle appears, implement the blog's native-PRF equations against that bundle, then verify candidate sk.prf_k locally against secret.ct/pk.bin and wallet address.

@@ -1,0 +1,422 @@
+# Public source capture
+url=https://te.mpe.st/blog/20260628-octra.html
+bytes=65648
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>Et tu, Octra? - te.mpe.st</title>
+  <style>
+    code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+    code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+    code span.at { color: #7d9029; } /* Attribute */
+    code span.bn { color: #40a070; } /* BaseN */
+    code span.bu { color: #008000; } /* BuiltIn */
+    code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+    code span.ch { color: #4070a0; } /* Char */
+    code span.cn { color: #880000; } /* Constant */
+    code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+    code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+    code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+    code span.dt { color: #902000; } /* DataType */
+    code span.dv { color: #40a070; } /* DecVal */
+    code span.er { color: #ff0000; font-weight: bold; } /* Error */
+    code span.ex { } /* Extension */
+    code span.fl { color: #40a070; } /* Float */
+    code span.fu { color: #06287e; } /* Function */
+    code span.im { color: #008000; font-weight: bold; } /* Import */
+    code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+    code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+    code span.op { color: #666666; } /* Operator */
+    code span.ot { color: #007020; } /* Other */
+    code span.pp { color: #bc7a00; } /* Preprocessor */
+    code span.sc { color: #4070a0; } /* SpecialChar */
+    code span.ss { color: #bb6688; } /* SpecialString */
+    code span.st { color: #4070a0; } /* String */
+    code span.va { color: #19177c; } /* Variable */
+    code span.vs { color: #4070a0; } /* VerbatimString */
+    code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+  </style>
+  <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+<img class="main-logo" src="../img/octra.jpg">
+<hr>
+<h3>Et tu, Octra?</h3>
+<p>Tail, Neptunian</p>
+<p>06.28.2026</p>
+<hr>
+<h4 id="table-of-contents">Table of Contents</h4>
+<ul>
+<li><a href="#foreword">Foreword</a></li>
+<li><a href="#fifty-seven-minutes">Fifty-Seven Minutes</a></li>
+<li><a href="#a-house-of-cards">A House of Cards</a>
+<ul>
+<li><a href="#some-time-later">Update</a></li>
+</ul></li>
+<li><a href="#osint-on-octra">OSINT on Octra</a></li>
+<li><a href="#kirill-no-thanks-i-prefer-prawns.">Kirill? No thanks, I
+prefer prawns.</a>
+<ul>
+<li><a href="#the-sencharov-technique-and-aleph-digital">Update</a></li>
+</ul></li>
+<li><a href="#insane-on-chain-and-in-the-membrane">Insane, On-Chain And
+In The Membrane</a></li>
+<li><a href="#conclusions">Conclusions</a></li>
+</ul>
+<h4 id="foreword">Foreword</h4>
+<p>This post addresses <a href="octra.org">Octra</a>, a cryptocurrency
+which claims to provide <a
+href="https://wikipedia.org/wiki/Homomorphic_encryption">fully-homomorphic
+encryption</a> (FHE) via a new methodology–dubbed HFHE (hypergraph FHE).
+As a result of such curiosities, we dug. Though, when digging, this
+rotten stench permeated everything related to Octra that we dug into.
+For better or for worse, we kept digging. This post is the result of
+such.</p>
+<p>Kirill, David, Lambda, whatever you want us to call you. If you’re
+going to play the “pseudonymous cryptowiz,” you need to at least have
+half-decent OpSec. You didn’t. So sit back and enjoy.</p>
+<p>All information in this post was obtained by means of OSINT.
+Everything here is legal.</p>
+<p>After realising that the soundness-by-obscurity Octra deployed
+dissuaded people from speaking on this for some time, we’ve chosen to
+include TLDRs explaining the “difficult” parts. Do not take them as the
+totality of that section.</p>
+<h5 id="updated">Updated!!!!</h5>
+<p>Thanks for scrolling slightly more. As of writing this, it is 16:00
+UTC, 04.07.2026.</p>
+<p>Before I get on with anything else, please note that this would not
+have been possible without the amazing people who assisted in our
+investigation. Kypwny had produced earlier work on Octra and proceeded
+to assist a tad with the update. Someone from <a
+href="https://int.pl">int.pl</a> let us know we missed some stuff. And,
+lastly, there were two sources which both asked to be known only as
+anonymous sources. These two provided us with far more background on
+Kirill than we knew existed. They singlehandedly (doublehandedly?)
+expanded Kirill’s section to a far greater extent. This includes proving
+with 100% certainty that Kirill is David. Thank you all so much.</p>
+<details>
+<summary>
+<b>A Brief Summary of the X Drama</b>
+</summary>
+<p>
+It’s difficult to map out everything that happened, so I’ll keep only
+the important parts for brevity’s sake. I posted the link to this blog
+on
+<a href="https://x.com/te_mpe_st/status/2071381677528535099">Xitter</a>,
+where it received some attention. Lambda, being the intelligent man he
+is, responded diligently.
+</p>
+<p>
+By diligently, I mean he <a href="https://archive.ph/p22MV">conceded on
+nearly every point he mentioned in his reply.</a>
+</p>
+<p>
+<a href="https://x.com/te_mpe_st/status/2071601947476439196">Naturally, I responded quickly</a>, whilst replying to Alex in the
+comments of Lambda’s response. He has claimed we were doxing people. Not
+nice.
+</p>
+<p>
+Because of that, we’re choosing to justify each bit of OSINT. Besides
+that, we had some discussions with people about this.
+</p>
+<p>
+One odd claim that they did make was that the docs, sandbox, and
+litepaper were hopelessly outdated. Granted, we likely should have
+checked the codebase more than we originally did, however, this didn’t
+pose an issue for us.
+</p>
+</details>
+<p>Put simply, we’re updating this post with the following:</p>
+<ul>
+<li>Issues with the codebases</li>
+<li>More OSINT with justification</li>
+<li>Debunking certain claims</li>
+<li>More on Kirill</li>
+<li>How HFHE stopped being FH</li>
+<li>Minor corrections</li>
+</ul>
+<p>The old version will be available via <a
+href="./20260628-octra-deprecated.html">this link</a>. Some things have
+changed, others have not.</p>
+<p>Enjoy.</p>
+<h4 id="fifty-seven-minutes">Fifty-Seven Minutes</h4>
+<p>On November 5, 2022, at 13:18 UTC, the domain <code>octra.org</code>
+was registered through <a href="https://www.godaddy.com/">GoDaddy</a>
+under <a href="https://www.domainsbyproxy.com/">Domains By Proxy</a>
+privacy protection. The registrant’s name was hidden under “Registration
+Private.” Forty-two minutes later, at 14:00:10 UTC, a GitHub user named
+<a href="https://github.com/lambda0xE">lambda0xE</a> was created. The
+profile would later read as follows:</p>
+<table>
+<thead>
+<tr>
+<th>Section</th>
+<th>Data</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Name</td>
+<td>d.a.</td>
+</tr>
+<tr>
+<td>Company</td>
+<td>octra labs</td>
+</tr>
+<tr>
+<td>Bio</td>
+<td>co-founder &amp; cto | <span class="citation"
+data-cites="octra-labs">@octra-labs</span></td>
+</tr>
+<tr>
+<td>Location</td>
+<td>London.</td>
+</tr>
+</tbody>
+</table>
+<p>Fifteen minutes after the GitHub account creation, at 14:15:45 UTC,
+the GitHub organisation <a
+href="https://github.com/octra-labs">octra-labs</a> was created,
+describing itself as a “non-profit association of researchers and
+builders who develop fast and reliable FHE solutions for blockchain, AI
+and ML.” The organisation had verifiable control over
+<code>octra.org</code>. The domain, developer account, and organisation
+were all created in a single fifty-seven minute window. In the three and
+a half years following this fifty-seven minute window, the project
+claimed to raise <a
+href="https://xcancel.com/octra/status/1837084359255314940">$4 million
+in pre-seed funding</a> and sell <a href="https://archive.ph/mcaEt">$20
+million in tokens at a $200 million valuation</a>. The point to be made
+here is more that “Octra” was a name created out of thin air. There were
+no EUROCRYPT showings of this technology, there was no IACR papers
+preceding its creation, and the developer, as we know so far, is
+pseudonymous. This is important, as big technology such as this rarely
+comes out of nowhere with little backing on its own (even <a
+href="https://bitcoin.org/bitcoin.pdf">Bitcoin released as a
+whitepaper</a>).</p>
+<h4 id="a-house-of-cards">A House of Cards</h4>
+<p>So what is fully-homomorphic about HFHE? Mayhaps we will ask the
+whitepaper? Unfortunately, there isn’t one. Only the <a
+href="https://octra.org/litepaper.pdf">litepaper</a> and the <a
+href="https://docs.octra.org">docs</a> (This is before addressing the
+codebases). But let’s be fair for giggles. HFHE is <a
+href="https://docs.octra.org/tech-docs/hfhe#:~:text=HFHE%20(Hypergraph%20Fully%20Homomorphic%20Encryption)%20is%20an%20approach%20to%20implementing%20a%20bootstrap%20FHE%20scheme%20using%20hypergraphs.">described</a>
+by the docs as an approach to a bootstrap FHE scheme using hypergraphs
+(in that it treats activity and inactivity as the bits and uses unions
+and intersections to build its binary operations). On the page hosting
+that description, it claims that “the implementation of logical gates
+through hypergraphs enables efficient binary operations.” We don’t have
+issues with this claim. After it defines the logical binary operations,
+it goes on to state the following:</p>
+<blockquote>
+<p>these hypergraph-based implementations provide an approach to solving
+full homomorphic encryption problems.</p>
+<p>hypergraphs naturally support parallel computation because different
+nodes and hyperedges are processed independently.</p>
+</blockquote>
+<p>To say there exists a gap in literature regarding the efficiency of
+logic-gate with hypergraphs transferring to efficiency in FHE would be a
+cruel understatement to how sparsely this has been researched. It is
+important to note that such does not constitute falsehood. Many of <a
+href="https://wikipedia.org/wiki/CryptoNote">Saberhagen</a>’s concepts
+were relatively novel, unformulated until that point. We will see why
+Octra does not reflect The docs themselves are incredibly lacking.
+Encryption, decryption, and addition are standard <a
+href="https://wikipedia.org/wiki/Paillier_cryptosystem">Paillier</a>, a
+cryptosystem which is additive only.</p>
+<div class="sourceCode" id="cb1"><pre
+class="sourceCode ocaml"><code class="sourceCode ocaml"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co">(* encryption *)</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="kw">let</span> encrypt m (n, g) =</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>  <span class="kw">let</span> lower = Z.one <span class="kw">in</span></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>  <span class="kw">let</span> upper = Z.<span class="dt">pred</span> n <span class="kw">in</span></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>  <span class="kw">let</span> diff = Z.sub upper lower <span class="kw">in</span></span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>  <span class="kw">let</span> gm = Z.powm g m (Z.mul n n) <span class="kw">in</span></span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>  <span class="kw">let</span> rn = Z.powm r n (Z.mul n n) <span class="kw">in</span></span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>  Z.rem (Z.mul gm rn) (Z.mul n n)</span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>  </span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a><span class="co">(* ... *)</span></span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a><span class="co">(* decryption *)</span></span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a><span class="kw">let</span> decrypt c (n, _) (lambda, mu) =</span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a>  <span class="kw">let</span> cl = Z.powm c lambda (Z.mul n n) <span class="kw">in</span></span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a>  <span class="kw">let</span> l x = Z.div (Z.sub x Z.one) n <span class="kw">in</span></span>
+<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a>  Z.rem (Z.mul (l cl) mu) n</span>
+<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a>  </span>
+<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a><span class="co">(* addition *)</span></span>
+<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a><span class="kw">let</span> encrypted_add c1 c2 n =</span>
+<span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a>  Z.rem (Z.mul c1 c2) (Z.mul n n)</span></code></pre></div>
+<p>The hypergraph itself is defined as follows:</p>
+<div class="sourceCode" id="cb2"><pre
+class="sourceCode ocaml"><code class="sourceCode ocaml"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="kw">type</span> hyperedge = { vertices: vertex <span class="dt">list</span>; weight: Z.t }</span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="kw">type</span> hypergraph = hyperedge <span class="dt">list</span></span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a><span class="kw">let</span> create_hyperedge m public_key =</span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a>  [encrypt m public_key]</span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a><span class="co">(* literally wraps Paillier ciphertext in a list *)</span></span></code></pre></div>
+<p>From Octra’s code examples, a hypergraph is now defined as a list
+containing one Paillier ciphertext. Adding two hyperedges is just
+standard Paillier homomorphic multiplication. How exciting, no? They get
+even smaller things wrong! Let’s look at <a
+href="https://docs.octra.org/tech-docs/hfhe/hfhe-key-sharding">key
+sharding</a>. They give the following equations to represent their HFHE
+key sharding:</p>
+<pre><code>DK = BLAKE3(VC ⊕ SK ⊕ (VC × large_prime))
+SK_shard_i = BLAKE3(VC_i ⊕ salt_i)
+SK_final_i = BLAKE3(SK_shard_i)</code></pre>
+<p>Do you see the issue? The main issue is that this is not how key
+sharding (also called secret sharing) works! Typically, when we are
+speaking about key sharding, we think of it maintaining three
+properties. - Shards reveal zero information about the original secret
+key material. - A t-of-n threshold of shards is required to fully
+reconstruct the key (see <a
+href="https://en.wikipedia.org/wiki/Shamir&#39;s_secret_sharing">SSS</a>
+and <a href="https://eprint.iacr.org/2020/852.pdf">FROST</a>) - The
+reconstruction itself is mathematical, not hash-based. Octra doesn’t
+seem to get that. They describe a process, instead, which is more
+equivalent to the nested hashing of the secret key with salts. What’s
+important to note here is that <strong>you cannot reconstruct the secret
+key by any mechanism described within the documentation</strong>. You
+can’t get your secret key from your shards (and, despite the
+documentation technically being outdated by Octra’s standards, this is
+still a nonsensical scheme. It can be outdated by a decade, it doesn’t
+make it any less obvious that the person behind this key sharding scheme
+was on some serious levels of <a
+href="https://wikipedia.org/wiki/Salvia">salvia</a>). But, for giggles,
+let’s say you can recover your secret key. Unfortunately, it’s
+nonsensical. The secret key is generated like so:</p>
+<pre><code>SK = Hash(XOR(SBox transform(hashed SV elements)))</code></pre>
+<p>Surely you see the problem now, yes? Legitimate FHE schemes tend to
+generate secret keys from discrete Gaussian distributions over
+polynomial rings. There’s far more to be disgusted by in the
+documentation. Lots of undefined functions to make you sick. What if we
+were unfair, though? Mayhaps we misread the documentation because of our
+staunch incompetence in regards to everything we do. How unfortunate! In
+that case, we’d like to ask Octra themselves. <del>What is your hardness
+assumption? Can you meaningfully substantiate the architecture of your
+documented systems? Why do the properties of boolean operations over
+hypergraphs transfer into FHE?</del></p>
+<h5 id="some-time-later">Some time later…</h5>
+<p>Good news, friends! We know now! They claim to utilise <a
+href="https://www.cs.umd.edu/~gasarch/TOPICS/pcp/hastadopt.pdf">LPN
+hardness assumptions</a> for their scheme of hypergraph-based FHE. Let’s
+look at a 2026 paper by <a
+href="(https://eprint.iacr.org/2026/1130)">Dunkelman et al.</a> for a
+little, shall we? I know I previously asked why the properties of
+boolean operations over hypergraphs transfer to FHE, however, there’s a
+more glaring question here. How do LPN assumptions transfer to FHE?
+Short answer: no clue! Before you get the long answer, I want to be very
+clear, the paper itself speaks on LPN-C, a construction on top of LPN.
+It’s not solely LPN assumptions, but–as the name suggests–it is
+ubiquitously dependent on it. The paper shows that it has an effective
+security 5-14 bits below the claimed levels as a result of rejection
+sampling effects and that iterative attacks are an efficient threat to
+secret matrices. For the long answer: Octra developed their scheme on an
+entirely unproven (and actively contested) assumption, that LPN hardness
+cleanly transfers over to FHE. Not only has Octra failed to provide any
+legitimate evidence to suggest a suggestion of such a haughty security
+reduction, <em>they still don’t even have a whitepaper</em>! They claim
+to be working on it, but that doesn’t matter when your entire chain is
+built on a gamble. As I said to <code>@chiefofautism</code> on X, we
+intended on taking some bets. That’s why we have <a
+href="https://usogui.fandom.com/wiki/Madarame_Baku">Baku Madarame</a> as
+the cover image. The only difference is that they gamble with VC money.
+Let’s raise, in that case. Those of you who are informed may know that
+there was a <a href="https://github.com/lamafab/octra-hfhe-lean">Lean 4
++ Mathlib formalisation of HFHE</a>. There’s a few things of note here.
+Firstly is that the person who made the verification,
+<code>lamafab</code>, is entirely legitimate. This isn’t like Silvan who
+we found out is correlated, this is a person who genuinely loves their
+crypto. Secondly, the formalisation is meant to prove that HFHE is an
+exact homomorphic scheme. Put simply, what you throw in and compute in
+is what you would get out had you just computed on it. Additionally, the
+lean formalisation allows for noise tuples to cancel exactly, meaning
+(from a formalisation perspective) there is no decryption noise.
+However, things such as <a
+href="https://wikipedia.org/wiki/Ciphertext_indistinguishability">IND-CPA</a>
+and LPN to FHE hardness are either not touched or <a
+href="https://raw.githubusercontent.com/lamafab/octra-hfhe-lean/refs/heads/main/Octra/HFHE/Security.lean">kept
+as an assumption</a>. Another thing that I want you to notice is that it
+assumes a <a
+href="https://wikipedia.org/wiki/Cryptographically_secure_pseudorandom_number_generator">CSPRNG</a>
+for randomness.</p>
+<p>I’ll get back to this, however, just note that the proof itself uses
+such.</p>
+<p>There’s also several bounty findings that confirms that this proof
+was far more about algebraic correctness than actual security (such as
+<a
+href="https://github.com/octra-labs/pvac_hfhe_cpp/issues/75">#75</a>).
+Remember when we asked what was fully-homomorphic about HFHE? Back when
+we assumed the docs weren’t “hopelessly outdated”? Let’s ask that
+question now. What is truly fully-homomorphic about HFHE? In fact, what
+is fully-homomorphic about FHE? Put simply, <a
+href="https://ringcipher.com/2014/05/24/gentrys-bootstrapping-theorem-and-patents/">FHE
+is defined as Somewhat Homomorphic Encryption (SHE) with
+bootstrapping</a>. Formally speaking, FHE requires unbounded evaluation
+of arbitrary circuits, secure bootstrapping, and IND-CPA security. From
+what it looks like, HFHE can actually be pretty helpful. It has
+recryption and everything. Certainly that won’t be an won’t be an issue,
+right? Enter <a href="../files/fury.sage">FURY</a>. FURY is an attack
+based on self-referential key recovery we discovered during this
+research. Put simply, Octra does NOT solely use LPN, rather, they sneak
+in a secondary assumption. Naturally, rather than trying to make it seem
+viable (such as with lattices), they use a quadratic <a
+href="https://wikipedia.org/wiki/Pseudorandom_number_generator">PRF</a>.
+The PRF itself is broken, which means that it cannot be used to viably
+encrypt anything. This lead to FURY, which allows us to extract
+<code>prf_k</code>, the PRF secret key, from <code>Rku</code>, the
+public bootstrapping key using no ciphertexts (whereas a previous
+version of the attack required multiple ciphertexts with known
+plaintexts to function). Let’s take a quick look at the
+<code>pvac_hfhe_cpp</code> repository (the same repository they urged us
+to look at more, leading to this update). Namely,
+<code>/include/pvac/ops/recrypt_src_core.hpp</code> at commit
+<code>e2835df</code>, lines 73-76.</p>
+<div class="sourceCode" id="cb5"><pre
+class="sourceCode cpp"><code class="sourceCode cpp"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="kw">inline</span> Fp ru_y<span class="op">(</span><span class="at">const</span> SecKey<span class="op">&amp;</span> sk<span class="op">,</span> <span class="at">const</span> RSeed<span class="op">&amp;</span> seed<span class="op">,</span> <span class="dt">size_t</span> slot<span class="op">)</span> <span class="op">{</span></span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a>    <span class="kw">auto</span> a <span class="op">=</span> ru_affine<span class="op">(</span>sk<span class="op">,</span> seed<span class="op">,</span> slot<span class="op">);</span></span>
+<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> fp_add<span class="op">(</span>fp_mul<span class="op">(</span>a<span class="op">,</span> a<span class="op">),</span> fp_from_u64<span class="op">(</span><span class="dv">1</span><span class="op">));</span></span>
+<span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a><span class="op">}</span></span></code></pre></div>
+<p>The PRF mask is computed as <code>R = (a^2 + 1)^-1</code> where
+<code>a = ru_affine(sk, seed, slot)</code>. The function
+<code>ru_affine</code> is at lines 65-71.</p>
+<div class="sourceCode" id="cb6"><pre
+class="sourceCode cpp"><code class="sourceCode cpp"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="kw">inline</span> Fp ru_affine<span class="op">(</span><span class="at">const</span> SecKey<span class="op">&amp;</span> sk<span class="op">,</span> <span class="at">const</span> RSeed<span class="op">&amp;</span> seed<span class="op">,</span> <span class="dt">size_t</span> slot<span class="op">)</span> <span class="op">{</span></span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a>    Fp acc <span class="op">=</span> ru_fp<span class="op">(</span>seed<span class="op">,</span> <span class="dv">0</span><span class="op">,</span> <span class="dv">0</span><span class="op">,</span> slot<span class="op">);</span></span>
+<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> <span class="op">(</span><span class="dt">size_t</span> i <span class="op">=</span> <span class="dv">0</span><span class="op">;</span> i <span class="op">&lt;</span> sk<span class="op">.</span>prf_k<span class="op">.</span>size<span class="op">();</span> <span class="op">++</span>i<span class="op">)</span> <span class="op">{</span></span>
+<span id="cb6-4"><a href="#cb6-4" aria-hidden="true" tabindex="-1"></a>        acc <span class="op">=</span> fp_add<span class="op">(</span>acc<span class="op">,</span> fp_mul<span class="op">(</span>ru_fp<span class="op">(</span>seed<span class="op">,</span> <span class="dv">1</span><span class="op">,</span> i<span class="op">,</span> slot<span class="op">),</span> fp_from_u64<span class="op">(</span>sk<span class="op">.</span>prf_k<span class="op">[</span>i<span class="op">])));</span></span>
+<span id="cb6-5"><a href="#cb6-5" aria-hidden="true" tabindex="-1"></a>    <span class="op">}</span></span>
+<span id="cb6-6"><a href="#cb6-6" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> acc<span class="op">;</span></span>
+<span id="cb6-7"><a href="#cb6-7" aria-hidden="true" tabindex="-1"></a><span class="op">}</span></span></code></pre></div>
+<p>Because you’re asking, no. I’m not “affine”. (In case you didn’t get
+it, I read ru_affine as “are you fine?”). Regardless, this is linear in
+the four secret elements <code>sk.prf_k[0..3]</code>. This is all to say
+that we compute <code>a</code> as so:
+<code>a = h_0 + k_0 h_1 + k_1 h_2 + k_2 h_3 + k_3 h_4</code>. Given
+<code>h_0..h_4</code> are public from the seed via <code>ru_fp()</code>
+(line 66 in <code>ru_affine()</code>), the mask is therefore a
+deterministic quadratic function of four 64-bit secrets. This isn’t a
+pseudorandom function nor is it a CSPRNG! This is where our initial
+attack came from. Four known-plaintext ciphertexts yield four equations.
+These, in turn, can be solved via Gaussian elimination. From here is
+where we discover FURY. Keep the idea of “four equations” being the
+threshold in mind. Let’s look at
+<code>/include/pvac/ops/recrypt_ru.hpp</code>, lines 480 to 498. Pay
+attention to 489-492 specifically.</p>
+<div class="sourceCode" id="cb7"><pre
+class="sourceCode cpp"><code class="sourceCode cpp"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="kw">inline</span> Rku make_rku<span class="op">(</span><span class="at">const</span> PubKey<span class="op">&amp;</span> pk<span class="op">,</span> <span class="at">const</span> SecKey<span class="op">&amp;</span> sk<span class="op">,</span> <span class="dt">size_t</span> queries <span class="op">=</span> <span class="dv">64</span><span class="op">,</span> <span class="at">const</span> NativeRuntimeReusableBudget<span class="op">&amp;</span> budget <span class="op">=</span> NativeRuntimeReusableBudget<span class="op">{})</span> <span class="op">{</span></span>
+<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a>    Rku rk<span class="op">;</span></span>
+<span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a>    rk<span class="op">.</span>key <span class="op">=</span> native_runtime_pubkey_digest<span class="op">(</span>pk<span class="op">);</span></span>
+<span id="cb7-4"><a href="#cb7-4" aria-hidden="true" tabindex="-1"></a>    rk<span class="op">.</span>dom <span class="op">=</span> rku_dom<span class="op">(</span>pk<span class="op">,</span> sk<span class="op">);</span></span>
+<span id="cb7-5"><a href="#cb7-5" aria-hidden="true" tabindex="-1"></a>    rk<span class="op">.</span>policy <span class="op">=</span> rk_policy<span class="op">(</span>queries<span class="op">);</span></span>
+<span id="cb7-6"><a href="#cb7-6" aria-hidden="true" tabindex="-1"></a>    rk<span class="op">.</span>budget <span class="op">=</span> budget<span class="op">;</span></span>
+<span id="cb7-7"><a href="#cb7-7" aria-hidden="true" tabindex="-1"></a>    rk<span class="op">.</span>prf <span class="op">=</span> sk<span class="op">.</span>prf_k<span class="op">.</span>size<span class="op">();</span></span>
+<span id="cb7-8"><a href="#cb7-8" aria-hidden="true" tabindex="-1"></a>    rk<span class="op">.</span>lpn <span class="op">=</span> <span class="dv">0</span><span class="op">;</span></span>
+<span id="cb7-9"><a href="#cb7-9" aria-hidden="true" tabindex="-1"></a>    rk<span class="op">.</span>sec<span class="op">.</span>reserve<span class="op">(</span>rk<span class="op">.</span>prf <span class="op">+</span> rk<span class="op">.</span>lpn<span class="op">);</span></span>
+<span id="cb7-10"><a href="#cb7-10" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> <span class="op">(</span><span class="dt">size_t</span> i <span class="op">=</span> <span class="dv">0</span><span class="op">;</span> i <span class="op">&lt;</span> rk<span class="op">.</span>prf<span class="op">;</span> <span class="op">++</span>i<span class="op">)</span> <span class="op">{</span></span>
+<span id="cb7-11"><a href="#cb7-11" aria-hidden="true" tabindex="-1"></a>        <span class="kw">auto</span> seed <span class="op">=</span> rku_seed<span class="op">(</span>rk<span class="op">.</span>dom<span class="op">,</span> <span class="dv">1</span><span class="op">,</span> i<span class="op">);</span></span>
+<span id="cb7-12"><a href="#cb7-12" aria-hidden="true" tabindex="-1"></a>        rk<span class="op">.</span>sec<span class="op">.</span>push_back<span class="op">(</span>enc_ru_value_seeded<span class="op">(</span>pk<span class="op">,</span> sk<span class="op">,</span> sk<span class="op">.</span>prf_k<span class="op">[</span>i<span class="op">],</span> seed<span class="op">.</span>data<span class="op">(),</span> <span class="dv">4</span><span class="op">));</span></span>
+<span id="cb7-13"><a href="#cb7-13" aria-hidden="true" tabindex="-1"></a>    <span class="op">}</span></span>
+<span id="cb7-14"><a href="#cb7-14" aria-hidden="true" tabindex="-1"></a>    rk<span class="op">.</span>view <span class="op">=</span> rku_view<span class="op">(</span>pk<span class="op">,</span> rk<span class="op">);</span></span>
+<span id="cb7-15"><a href="#cb7-15
