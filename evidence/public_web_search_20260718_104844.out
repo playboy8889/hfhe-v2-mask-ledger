@@ -1,0 +1,5 @@
+# Public web search 20260718_104844 UTC
+method=OpenAI web search + local X/GitHub evidence
+hits=official Octra docs/X/challenge pages; startkey negative audit; NithtCat negative summary; lamafab Recrypt.lean; PVAC recrypt docs; unrelated Bitcoin/GSMG false positives
+candidate_urls=[]
+triage=no new target solved/private-key/plaintext/material/Rku leak. Recrypt-related hits remain generic/formalization/API references, not target Rku/rk.sec/recrypt-key/eval-key material.
