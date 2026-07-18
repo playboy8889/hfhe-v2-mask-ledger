@@ -1,0 +1,4 @@
+# NithtCat/t.co public-result triage 20260718_041709 UTC
+source=public web search
+verdict=non-candidate / negative corroboration
+reason=Search-visible text says complete decryption still needs PRF_R2, PRF_R3, Toeplitz/sk.prf_k or equivalent material. It does not disclose plaintext, private key, target PRF material, openings, or a usable oracle.

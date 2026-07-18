@@ -1,0 +1,5 @@
+# Public web search 20260718_041709 UTC
+method=OpenAI web search + local X/GitHub evidence
+notable_hits=octrascan/lite target address pages; official X challenge announcement; NithtCat/X summary; t.co mirror of known Smoke UI security analysis; PVAC docs mentioning PRF_R2/PRF_R3/sk.prf_k
+candidate_urls=[]
+triage=no new solved/private-key/plaintext/material leak. NithtCat/t.co/Smoke-UI class reiterates known negative blocker: solving R1/LPN is insufficient without PRF_R2/PRF_R3/sk.prf_k/Toeplitz material or oracle.
