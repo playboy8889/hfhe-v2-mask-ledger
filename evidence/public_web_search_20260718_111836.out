@@ -1,0 +1,5 @@
+# Public web search 20260718_111836 UTC
+method=OpenAI web search + local X/GitHub evidence
+hits=octra-labs/pvac_hfhe_cpp issue #502; startkey public audit; NithtCat X; Octra docs/X/sandbox; PVAC recrypt docs; old Day2 issue; unrelated crypto/private-key false positives
+candidate_urls=[]
+triage=no target solved/private-key/plaintext/material/Rku leak. Issue #502 and PVAC recrypt docs do not compromise bounty payload; startkey/NithtCat are negative corroboration; old Day2 issue is historical and not target v2.
