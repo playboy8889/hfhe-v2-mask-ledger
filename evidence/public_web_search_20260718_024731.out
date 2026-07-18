@@ -1,0 +1,5 @@
+# Public web search 20260718_024731 UTC
+method=OpenAI web search + local DDG/X refresh evidence
+results=octrascan current address pages, official X announcement mirrors, known public audits/method notes, PVAC docs, known X/Kubo/NithtCat context
+candidate_urls=[]
+triage=no new solved/private-key/plaintext/material leak beyond known negative/announcement sources
