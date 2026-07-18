@@ -1,0 +1,8 @@
+# Eienel security analysis triage 20260718_181920 UTC
+source=https://eienel.github.io/hfhe-challenge-eienel/
+resolved_from=https://t.co/QWPCBKctik
+verdict=useful public method writeup but negative result; no plaintext/private-key candidate and no target secret material.
+key_points=confirms v2 removed v1 R_com oracle; wrapped pairs use independent masks; public T_L values are masked; LPN sample drop covers only pvac.prf.r.1 and does not reveal independent sk.prf_k or r2/r3/Toeplitz material.
+methods_to_compare=developer attack suite on real secret.ct; anomaly scan of 44 T values; wallet seed hypothesis verifier; LPN hardness estimator; layer seed uniqueness / no R_com / no raw native-source layer checks.
+local_overlap=existing local evidence already covers wrapped candidate consistency, layer seed uniqueness, LPN feasibility, R-component dependency, known-byte constraints, and weak seed scans; no new candidate to validate.
+new_action=add this public method as corroborating negative evidence and monitor the page/X thread for later concrete artifacts or equations.

@@ -1,0 +1,7 @@
+# Public web search 20260718_181920 UTC
+method=OpenAI web search + local GitHub/X/DDG evidence + resolved Eienel/t.co page
+queries=target wallet exact; "HFHE Challenge v2 Rku"; "Octra HFHE PRF_R2 PRF_R3"; "Octra HFHE plaintext secret.ct"
+confirmed_relevant_hits=official hfhe-challenge README; official X announcement; Eienel public security-analysis page; Kubo/smoke-ui/startkey negative audits; generic PVAC/LPN docs/code; unrelated private-key false positives
+candidate_urls=[]
+triage=no target solved/private-key/plaintext/material/PRF_R2/PRF_R3/sk.prf_k/Toeplitz/Rku/recrypt-key/eval-key leak. Eienel page is now readable and is useful method evidence, but it is a negative public-artifact audit: LPN R1 samples do not decrypt without independent sk.prf_k/R2/R3/Toeplitz material, and no candidate secret is provided.
+sources=https://eienel.github.io/hfhe-challenge-eienel/ ; https://github.com/octra-labs/hfhe-challenge ; https://x.com/octra/status/2075336875322032268 ; https://github.com/smoke-ui/octra-hfhe-v2-security-assessment ; https://github.com/startkey/octra-hfhe-v2-public-audit
