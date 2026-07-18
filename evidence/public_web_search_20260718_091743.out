@@ -1,0 +1,5 @@
+# Public web search 20260718_091743 UTC
+method=local X/GitHub evidence + public web check from current run context
+hits=known official Octra/challenge surfaces; known negative public audits; generic PVAC docs/issues; no target Rku/rk.sec/recrypt-key/eval-key visible
+candidate_urls=[]
+triage=no new solved/private-key/plaintext/material/Rku leak. Rku route remains conditional on absent public recrypt-key/Rku material.
