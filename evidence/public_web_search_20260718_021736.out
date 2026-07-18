@@ -1,0 +1,5 @@
+# Public web search 20260718_021736 UTC
+method=short-timeout DuckDuckGo html/lite retry
+transport=interrupted/stalled during SSL handshake despite short-timeout wrapper
+candidate_urls=[]
+triage=no candidate URL extracted; prior successful sweeps remain negative
