@@ -1,0 +1,5 @@
+# Recrypt docs current triage 20260718_194924 UTC
+source=https://octra-labs-pvac_hfhe_cpp.mintlify.app/api/ops/recrypt
+observed=docs mention generic evaluation-key generation with zero_pool and enc_one for recryption operations.
+verdict=generic API documentation only; no target-specific Rku, rk.sec, recrypt-key, eval-key bundle, zero_pool artifact, or encrypted secret-key material.
+route_status=conditional Rku/recrypt route remains blocked until a target evaluation key/recrypt key or equivalent public observations appear.

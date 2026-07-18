@@ -1,0 +1,5 @@
+# X candidate triage 20260718_194924 UTC
+source=twitter_public_search_refresh_20260718_195006.out + OpenAI web search snippets
+candidate_urls=none returned by DDG extractor
+resurfaced_urls=official announcement; Eienel/t.co negative security-analysis page; NithtCat negative snippet; Kubo/smoke/startkey negative audits; generic Octra docs/posts
+triage=no X/public post exposing plaintext, private key, mnemonic, PRF_R2/PRF_R3/sk.prf_k/Toeplitz/Rku/recrypt-key/eval-key/oracle material.

@@ -1,0 +1,7 @@
+# Public web search 20260718_194924 UTC
+method=OpenAI web search + local GitHub/X/DDG evidence
+queries="Octra HFHE Rku"; "Octra HFHE recrypt-key"; "Octra HFHE sk.prf_k leak"; "Octra HFHE private key recovered"
+confirmed_relevant_hits=official hfhe-challenge README; official Octra docs/web-client pages; Eienel/t.co security-analysis page; startkey public audit; smoke-ui executive summary/security assessment; NithtCat X/public snippet; generic PVAC recryption docs; unrelated HFHE/hfcristorey/HFCS/private-key false positives
+candidate_urls=[]
+triage=no target solved/private-key/plaintext/material/PRF_R2/PRF_R3/sk.prf_k/Toeplitz/Rku/recrypt-key/eval-key leak. Public recryption docs describe generic eval-key generation and zero-pool/enc_one APIs only; no target eval-key/recrypt-key bundle. Eienel/t.co and startkey/smoke/NithtCat remain negative corroboration.
+sources=https://github.com/octra-labs/hfhe-challenge ; https://t.co/QWPCBKctik ; https://eienel.github.io/hfhe-challenge-eienel/ ; https://github.com/startkey/octra-hfhe-v2-public-audit ; https://github.com/smoke-ui/octra-hfhe-v2-security-assessment/blob/main/EXECUTIVE_SUMMARY.md ; https://octra-labs-pvac_hfhe_cpp.mintlify.app/api/ops/recrypt ; https://x.com/NithtCat
