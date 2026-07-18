@@ -1,0 +1,7 @@
+# Public web search 20260718_174913 UTC
+method=OpenAI web search + local GitHub/X/DDG evidence + t.co mirror retry
+queries="Octra HFHE R_com v2 Rku"; "Octra HFHE Toeplitz secret"; "Octra HFHE full technical thread"; "Octra HFHE Day 7 freeze"
+confirmed_relevant_hits=official hfhe-challenge README; official X announcement; Kubo/smoke-ui negative public audit and Day6/Day7-freeze context; akoredex full-technical-thread opening/snippet; NithtCat/t.co security-analysis snippet; PVAC docs/code references to PRF/LPN only; generic hidden-subspace/Toeplitz references unrelated to target
+candidate_urls=[]
+triage=no new target solved/private-key/plaintext/material/PRF_R2/PRF_R3/sk.prf_k/Toeplitz/Rku/recrypt-key/eval-key leak. t.co/QWPCBKctik mirror retry produced no extractable target text; treat as previously known negative snippet unless a readable artifact appears. Day7-freeze references remain negative-audit timeline/context, not a claim or payload.
+sources=https://github.com/octra-labs/hfhe-challenge ; https://x.com/octra/status/2075336875322032268 ; https://x.com/Kubo100x/status/2077300596064100794 ; https://github.com/smoke-ui/octra-hfhe-v2-security-assessment ; https://x.com/akoredex95/status/2075379918800650241 ; https://t.co/QWPCBKctik
