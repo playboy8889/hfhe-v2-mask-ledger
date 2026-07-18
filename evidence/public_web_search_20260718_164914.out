@@ -1,0 +1,7 @@
+# Public web search 20260718_164914 UTC
+method=OpenAI web search + local GitHub/X/DDG evidence
+queries="Octra HFHE bounty claimed"; "Octra HFHE sk.prf_k"; "Octra HFHE eval-key secret.ct"; "HFHE Challenge v2 private key"
+confirmed_relevant_hits=official X announcement; official hfhe-challenge README; startkey negative finding; smoke-ui negative security assessment; Kubo negative audit/context; NithtCat/t.co negative analysis snippet; pvac_hfhe_cpp generic/old issue #75; octra docs/generic HFHE material
+candidate_urls=[]
+triage=no new target solved/private-key/plaintext/material/PRF_R2/PRF_R3/sk.prf_k/Toeplitz/Rku/recrypt-key/eval-key leak. Search results continue to be official announcement, known negative public audits, generic PVAC/HFHE docs, old v1/issue material, or unrelated false positives.
+sources=https://x.com/octra/status/2075336875322032268 ; https://github.com/octra-labs/hfhe-challenge ; https://github.com/startkey/octra-hfhe-v2-public-audit/blob/master/docs/FINDINGS.md ; https://github.com/smoke-ui/octra-hfhe-v2-security-assessment ; https://github.com/octra-labs/pvac_hfhe_cpp ; https://github.com/octra-labs/pvac_hfhe_cpp/issues/75
