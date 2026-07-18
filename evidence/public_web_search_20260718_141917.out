@@ -1,0 +1,5 @@
+# Public web search 20260718_141917 UTC
+method=OpenAI web search + local X/GitHub evidence
+hits=official hfhe-challenge README/manifest; startkey public audit; NithtCat X negative summary; Smoke-UI PHASE2 log; Octra official docs/X; PVAC recrypt docs; unrelated Reddit/Bitcoin/HackerNoon/Scribd/SecretScan/private-key false positives
+candidate_urls=[]
+triage=no new target solved/private-key/plaintext/material/Rku leak. PVAC recrypt docs are generic evaluation-key operations only; no target eval-key/recrypt-key bundle.
