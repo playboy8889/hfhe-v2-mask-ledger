@@ -1,0 +1,12 @@
+# Public web search 20260718_011654 UTC
+error URLError: <urlopen error _ssl.c:1064: The handshake operation timed out>
+error URLError: <urlopen error _ssl.c:1064: The handshake operation timed out>
+error URLError: <urlopen error _ssl.c:1064: The handshake operation timed out>
+error URLError: <urlopen error _ssl.c:1064: The handshake operation timed out>
+error URLError: <urlopen error _ssl.c:1064: The handshake operation timed out>
+error URLError: <urlopen error _ssl.c:1064: The handshake operation timed out>
+error URLError: <urlopen error _ssl.c:1064: The handshake operation timed out>
+error URLError: <urlopen error _ssl.c:1064: The handshake operation timed out>
+
+# triage
+candidate_urls=[]
