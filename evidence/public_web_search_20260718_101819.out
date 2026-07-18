@@ -1,0 +1,5 @@
+# Public web search 20260718_101819 UTC
+method=OpenAI web search + local X/GitHub evidence
+notable_hits=lamafab/octra-hfhe-lean Recrypt.lean; octra-labs/pvac_hfhe_cpp recrypt docs; official hfhe-challenge manifest; official X challenge; startkey negative audit; smoke-ui/NithtCat negative analysis; t.co mirror; unrelated Bitcoin/SEC false positives
+candidate_urls=[]
+triage=no target plaintext/private-key/material/Rku leak. Recrypt.lean and PVAC recrypt docs are generic/formalization references only, not target recrypt-key/eval-key/Rku artifacts.

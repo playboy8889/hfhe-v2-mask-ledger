@@ -1,0 +1,4 @@
+# Recrypt docs/formalization triage 20260718_101819 UTC
+sources=lamafab/octra-hfhe-lean Recrypt.lean; octra-labs PVAC recrypt docs
+verdict=non-candidate
+reason=These sources describe/prove generic recrypt behavior or API concepts. They do not publish target-specific Rku/rk.sec/eval-key/recrypt-key material, PRF_R2/PRF_R3 values, sk.prf_k, plaintext, or wallet private key.
