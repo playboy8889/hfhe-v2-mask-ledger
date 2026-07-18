@@ -1,0 +1,9 @@
+# X known-resurface triage 20260718_082054 UTC
+source=x_candidate_triage_20260718_082054.out
+verdict=no target material, no plaintext/private-key, no PRF_R2/PRF_R3/sk.prf_k/Rku, no oracle
+
+Resurfaced URLs/classes:
+- Kubo100x status URLs: public negative audit / bounty investigation context; no target plaintext or private-key candidate.
+- OxCryptoQueen, akoredex95: announcement/commentary amplification; no target material.
+- octra official status URLs and octrabunch: official announcement/context only; no secret material.
+- h7ff9888 and octra profile links: profile/search-surface links only; no concrete artifact in search-visible content.
