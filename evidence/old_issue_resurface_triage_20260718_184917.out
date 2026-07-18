@@ -1,0 +1,6 @@
+# Old pvac issue resurface triage 20260718_184917 UTC
+sources=https://github.com/octra-labs/pvac_hfhe_cpp/issues/75 ; https://github.com/octra-labs/pvac_hfhe_cpp/issues/108 ; https://github.com/octra-labs/pvac_hfhe_cpp/issues/260
+issue_75=old bounty answer / plaintext-masking claim, months before current v2 wallet; no target wallet material.
+issue_108=old bounty v2 low-64-bits claim, months before current artifact; already superseded by wrapped v2 target checks and not a private-key recovery.
+issue_260=old mini-bounty valid sum.ct + plaintext sum; applies to prior add/sum challenge, not target secret.ct wallet recovery.
+verdict=historical/non-target material only; no new route unless a current artifact reintroduces shared masks, R_com, low64 aggregator leakage, or sum oracle, all absent in current local checks.

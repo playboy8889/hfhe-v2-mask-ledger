@@ -1,0 +1,7 @@
+# Public web search 20260718_184917 UTC
+method=OpenAI web search + local GitHub/X/DDG evidence
+queries="Octra HFHE Eienel sk.prf_k"; "Octra HFHE Rku eval-key"; "Octra HFHE bounty claimed plaintext"; target wallet exact/private
+confirmed_relevant_hits=official hfhe-challenge README; official X announcement; Eienel/t.co security-analysis page; Kubo/smoke-ui/startkey negative audits; old pvac_hfhe_cpp issues #75/#108/#260; Surf AI/X repost mirrors; unrelated false positives
+candidate_urls=[]
+triage=no target solved/private-key/plaintext/material/PRF_R2/PRF_R3/sk.prf_k/Toeplitz/Rku/recrypt-key/eval-key leak. Exact target wallet GitHub code-search retry succeeded again in auth refresh and only hit official README. Old issues #75/#108/#260 are historical/v1-or-mini-bounty low64/sum claims from months earlier and do not target this v2 wallet/secret.ct.
+sources=https://github.com/octra-labs/hfhe-challenge ; https://x.com/octra/status/2075336875322032268 ; https://t.co/QWPCBKctik ; https://eienel.github.io/hfhe-challenge-eienel/ ; https://github.com/octra-labs/pvac_hfhe_cpp/issues/75 ; https://github.com/octra-labs/pvac_hfhe_cpp/issues/108 ; https://github.com/octra-labs/pvac_hfhe_cpp/issues/260
