@@ -1,0 +1,5 @@
+# NithtCat resurface triage 20260718_204916 UTC
+source=https://x.com/NithtCat
+observed=public search snippet says Octra HFHE Challenge v2 phase-analysis: chain/repo state rechecked; v2 removed R_com offline-guess oracle; public material still lacks needed secret material.
+verdict=negative corroboration only; no command trail, data dump, plaintext/private-key candidate, PRF_R2/PRF_R3/sk.prf_k/Toeplitz/Rku/recrypt-key/eval-key/oracle material.
+route_status=keep monitoring but do not treat as solve until concrete reproducible artifact appears.

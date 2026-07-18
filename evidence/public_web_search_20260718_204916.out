@@ -1,0 +1,7 @@
+# Public web search 20260718_204916 UTC
+method=OpenAI web search + local GitHub/X/DDG evidence
+queries="Octra HFHE github private key secret.ct"; "Octra HFHE bounty claimed"; "Octra HFHE R_com oracle v2"; "HFHE Challenge v2 Day 7 freeze"
+confirmed_relevant_hits=startkey public audit; smoke-ui security assessment; Eienel/t.co security-analysis page; Kubo negative audit post; NithtCat public Chinese phase-analysis snippet; generic X handles/reposts; unrelated IVF/private-key false positives
+candidate_urls=[]
+triage=no target solved/private-key/plaintext/material/PRF_R2/PRF_R3/sk.prf_k/Toeplitz/Rku/recrypt-key/eval-key leak. Search result explicitly shows startkey/smoke/Eienel/NithtCat all as negative corroboration: public material still lacks PRF_R2/PRF_R3/sk.prf_k/Toeplitz/PC openings/plaintext/private key. Kubo remains v1 R_com oracle closed / no exploitable LPN-PRF bias context.
+sources=https://github.com/startkey/octra-hfhe-v2-public-audit ; https://github.com/startkey/octra-hfhe-v2-public-audit/blob/master/docs/FINDINGS.md ; https://github.com/smoke-ui/octra-hfhe-v2-security-assessment/blob/main/README.md ; https://t.co/QWPCBKctik ; https://x.com/NithtCat ; https://x.com/Kubo100x/status/2075388207882256852 ; https://x.com/octra/with_replies
