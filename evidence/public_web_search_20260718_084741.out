@@ -1,0 +1,5 @@
+# Public web search 20260718_084741 UTC
+method=OpenAI web search + local X/GitHub evidence
+hits=official hfhe-challenge repo/manifest; octra official X; pvac_hfhe_cpp; startkey public audit; smoke-ui phase2 log; NithtCat X snippet; unrelated RK/Bitcoin/SEC false positives
+candidate_urls=[]
+triage=no new solved/private-key/plaintext/material/Rku leak. Relevant hits are official, known-negative, generic docs, or unrelated false positives.
