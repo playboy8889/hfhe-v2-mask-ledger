@@ -1,0 +1,5 @@
+# Official relaunch/returned-funds context triage 20260718_214916 UTC
+sources=https://x.com/octra/status/2074456863874097405 ; https://x.com/lambda0xE/status/2074455852053049534 ; https://x.com/lambda0xE/status/2074472334594060684 ; https://x.com/octra/status/2075336875322032268
+observed=public search snippets say earlier bounty funds were returned to association address due to a setup mistake and the challenge would relaunch; current v2 announcement later names the target wallet octC5e...HamxuAZ.
+verdict=historical setup/relaunch context only. It does not indicate the current v2 target was solved, cancelled, or moved; local/live refresh still shows the target balance intact, nonce 0, has_public_key false.
+watch=continue checking official posts for explicit v2 cancellation/claim, but treat returned-funds snippets as old v1/pre-v2 unless tied to the current target wallet or tx hash.
