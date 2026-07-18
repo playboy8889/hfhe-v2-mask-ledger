@@ -1,0 +1,56 @@
+# X resurfaced candidate detail triage 20260718_171911 UTC
+
+## https://x.com/akoredex95/status/2075379918800650241
+mirror=https://r.jina.ai/http://r.jina.ai/http://x.com/akoredex95/status/2075379918800650241
+Title: @octra MY FINDINGS 1/ Audited Octra's HFHE bounty v2 (pvac_hfhe_cpp @ 071b0e9), the version that patched the R_com oracle from v1. Wanted to see what's actually left standing. Full technical thread, including every command I ran. @octra #Web3Security #hfhechallenge  URL Source: http://x.com/akoredex95/status/2075379918800650241  Published Time: 2026-07-10T00:41:45.000Z  Markdown Content: ## Post  ## Post  [![Image 1: user avatar](https://pbs.twimg.com/profile_images/1864552973180841984/ppklq8sN_normal.jpg)](https://x.com/akoredex95)  MY FINDINGS 1/ Audited Octra's HFHE bounty v2 (pvac_hfhe_cpp @ 071b0e9), the version that patched the R_com oracle from v1. Wanted to see what's actually left standing. Full technical thread, including every command I ran. [@octra](https://x.com/octra)[#Web3Security](https://x.com/hashtag/Web3Security)[#hfhechallenge](https://x.com/hashtag/hfhechallenge)  Don't miss what's happening  People on X are the first to know.  Adegoke Ridwan 🫎 on X: "@octra MY FINDINGS 1/ Audited Octra's HFHE bounty v2 (pvac_hfhe_cpp @ 071b0e9), the version that patched the R_com oracle from v1. Wanted to see what's actually left standing. Full technical thread, includi
+
+mirror=https://r.jina.ai/http://r.jina.ai/http://nitter.net/akoredex95/status/2075379918800650241
+Title:   URL Source: http://nitter.net/akoredex95/status/2075379918800650241  Markdown Content:  
+
+mirror=https://r.jina.ai/http://r.jina.ai/http://xcancel.com/akoredex95/status/2075379918800650241
+Title: X Cancelled | Verifying your request  URL Source: http://xcancel.com/akoredex95/status/2075379918800650241  Warning: Target URL returned error 503: Service Unavailable  Markdown Content: **Sorry this pages exist in order to keep the service usable for everyone.**  **If you can't pass the test, please whitelist your extensions on this website and **update your browser**.**  **In case you really can't pass the test then email me at antibot [AT] xcancel [DOT] com with as much details as possible.**  **Want to access the original Twitter/X link? [click here](https://x.com/akoredex95/status/2075379918800650241)** 
+
+
+## https://x.com/akoredex95/status/2075382909997838572
+mirror=https://r.jina.ai/http://r.jina.ai/http://x.com/akoredex95/status/2075382909997838572
+Title:   URL Source: http://x.com/akoredex95/status/2075382909997838572  Warning: Target URL returned error 500: Internal Server Error Warning: This page maybe not yet fully loaded, consider explicitly specify a timeout.  Markdown Content:  
+
+mirror=https://r.jina.ai/http://r.jina.ai/http://nitter.net/akoredex95/status/2075382909997838572
+Title:   URL Source: http://nitter.net/akoredex95/status/2075382909997838572  Markdown Content:  
+
+mirror=https://r.jina.ai/http://r.jina.ai/http://xcancel.com/akoredex95/status/2075382909997838572
+Title: X Cancelled | Verifying your request  URL Source: http://xcancel.com/akoredex95/status/2075382909997838572  Warning: Target URL returned error 503: Service Unavailable  Markdown Content: **Sorry this pages exist in order to keep the service usable for everyone.**  **If you can't pass the test, please whitelist your extensions on this website and **update your browser**.**  **In case you really can't pass the test then email me at antibot [AT] xcancel [DOT] com with as much details as possible.**  **Want to access the original Twitter/X link? [click here](https://x.com/akoredex95/status/2075382909997838572)** 
+
+
+## https://x.com/Kubo100x/status/2077300596064100794
+mirror=https://r.jina.ai/http://r.jina.ai/http://x.com/Kubo100x/status/2077300596064100794
+Title: Update on Octra HFHE v2 public audit.  Day 6 algebraic track complete: • reduced-param invariant scan (480 samples, 6 keys, 1104 features): 0 survive FDR • ciphertext-algebra toy: 0.000000 TVD between distinct plaintexts • no low-dim simplification lowers the LPN-PRF margin https://t.co/9sJRAuUkIi  URL Source: http://x.com/Kubo100x/status/2077300596064100794  Published Time: 2026-07-15T07:53:51.000Z  Markdown Content: Update on Octra HFHE v2 public audit. Day 6 algebraic track complete: • reduced-param invariant scan (480 samples, 6 keys, 1104 features): 0 survive FDR • ciphertext-algebra toy: 0.000000 TVD between distinct plaintexts • no low-dim simplification lowers the LPN-PRF margin (n=4096, τ=1/8) The wrapper doesn't leak. No equality oracle from algebra. research notes only not a formal audit or security proof. Negative result independently reproduced. No duplicate PRs — smoke-ui already holds INFO-001..005. Contributing the full assessment + reproducible tools to  [@Hikkimori](https://x.com/Hikkimori) open source: [github.com/smoke-ui/octra…](https://github.com/smoke-ui/octra-hfhe-v2-security-assessment) Status: DAY6 PASS. Next = Day 7 freeze. 
+
+mirror=https://r.jina.ai/http://r.jina.ai/http://nitter.net/Kubo100x/status/2077300596064100794
+Title:   URL Source: http://nitter.net/Kubo100x/status/2077300596064100794  Markdown Content:  
+
+mirror=https://r.jina.ai/http://r.jina.ai/http://xcancel.com/Kubo100x/status/2077300596064100794
+Title: X Cancelled | Verifying your request  URL Source: http://xcancel.com/Kubo100x/status/2077300596064100794  Warning: Target URL returned error 503: Service Unavailable  Markdown Content: **Sorry this pages exist in order to keep the service usable for everyone.**  **If you can't pass the test, please whitelist your extensions on this website and **update your browser**.**  **In case you really can't pass the test then email me at antibot [AT] xcancel [DOT] com with as much details as possible.**  **Want to access the original Twitter/X link? [click here](https://x.com/Kubo100x/status/2077300596064100794)** 
+
+
+## https://x.com/eienel_eth/status/2075705444639629727
+mirror=https://r.jina.ai/http://r.jina.ai/http://x.com/eienel_eth/status/2075705444639629727
+Title: I did a full independent audit of the HFHE v2 bounty from the public artifacts.   v1 fell to the R_com oracle.  v2 deletes it and masks every value with an unseen random pad, so the only public number is T = v*R and no guess is checkable.   I ran the devs' own attack suite on the  URL Source: http://x.com/eienel_eth/status/2075705444639629727  Published Time: 2026-07-10T22:15:17.000Z  Markdown Content: [](http://x.com/)  ## Post  [Log in](http://x.com/i/jf/onboarding/web?mode=login&redirect_after_login=%2Feienel_eth%2Fstatus%2F2075705444639629727)[Sign up](http://x.com/i/jf/onboarding/web?mode=signup&redirect_after_login=%2Feienel_eth%2Fstatus%2F2075705444639629727)  ## Post  [![Image 1: user avatar](https://pbs.twimg.com/profile_images/2070201922519224320/lVf19WOW_normal.jpg)](http://x.com/eienel_eth)  [Eienel](https://x.com/eienel_eth)  [@eienel_eth](https://x.com/eienel_eth)  I did a full independent audit of the HFHE v2 bounty from the public artifacts. v1 fell to the R_com oracle. v2 deletes it and masks every value with an unseen random pad, so the only public number is T = v*R and no guess is checkable. I ran the devs' own attack suite on the real ciphertext, plus LPN
+
+mirror=https://r.jina.ai/http://r.jina.ai/http://nitter.net/eienel_eth/status/2075705444639629727
+Title:   URL Source: http://nitter.net/eienel_eth/status/2075705444639629727  Markdown Content:  
+
+mirror=https://r.jina.ai/http://r.jina.ai/http://xcancel.com/eienel_eth/status/2075705444639629727
+Title: X Cancelled | Verifying your request  URL Source: http://xcancel.com/eienel_eth/status/2075705444639629727  Warning: Target URL returned error 503: Service Unavailable  Markdown Content: **Sorry this pages exist in order to keep the service usable for everyone.**  **If you can't pass the test, please whitelist your extensions on this website and **update your browser**.**  **In case you really can't pass the test then email me at antibot [AT] xcancel [DOT] com with as much details as possible.**  **Want to access the original Twitter/X link? [click here](https://x.com/eienel_eth/status/2075705444639629727)** 
+
+
+## https://x.com/Hikkimori/status/2075727549301145922
+mirror=https://r.jina.ai/http://r.jina.ai/http://x.com/Hikkimori/status/2075727549301145922
+Title: I've been bullposting and tinkering with Octra for several months now.  Decided to participate in the challenge myself and post my findings publicly.  Octra is unbreakable.  Findings Co-Authored by @Kubo100x   Will update as we investigate  https://t.co/Mevy3yQWWv  URL Source: http://x.com/Hikkimori/status/2075727549301145922  Published Time: 2026-07-10T23:43:07.000Z  Markdown Content: [![Image 1: user avatar](https://pbs.twimg.com/profile_images/2065845730854526977/j65qkUHU_normal.jpg)](https://x.com/Hikkimori)  I've been bullposting and tinkering with Octra for several months now. Decided to participate in the challenge myself and post my findings publicly. Octra is unbreakable. Findings Co-Authored by [@Kubo100x](https://x.com/Kubo100x) Will update as we investigate [github.com/smoke-ui/octra…](https://github.com/smoke-ui/octra-hfhe-v2-security-assessment)  Smoke on X: "I've been bullposting and tinkering with Octra for several months now. Decided to participate in the challenge myself and post my findings publicly. Octra is unbreakable. Findings Co-Authored by @Kubo100x Will update as we investigate https://t.co/Mevy3yQWWv" / X 
+
+mirror=https://r.jina.ai/http://r.jina.ai/http://nitter.net/Hikkimori/status/2075727549301145922
+Title:   URL Source: http://nitter.net/Hikkimori/status/2075727549301145922  Markdown Content:  
+
+mirror=https://r.jina.ai/http://r.jina.ai/http://xcancel.com/Hikkimori/status/2075727549301145922
+
+
