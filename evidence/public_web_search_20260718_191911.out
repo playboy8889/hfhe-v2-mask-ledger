@@ -1,0 +1,7 @@
+# Public web search 20260718_191911 UTC
+method=OpenAI web search + local GitHub/X/DDG evidence + r.jina X mirror checks
+queries="2075870093708235148 Octra LPN samples"; "2075787279197508060 lpn samples sk.bin"; "2075521685269446801 Correct Octra HFHE LPN Parameters"; "The challenge is now easier, but also fairer Octra"
+confirmed_relevant_hits=official hfhe-challenge README; official X announcement; lambda0xE LPN-samples announcement linking commit d9d29d5; Kubo LPN-parameter thread; Kubo Day6 negative audit update; octralex snippet that challenge is easier/fairer after LPN samples; Eienel/t.co negative audit; TheMaran prompt/promo post; honeydelicacy/FUD commentary
+candidate_urls=[]
+triage=no target solved/private-key/plaintext/material/PRF_R2/PRF_R3/sk.prf_k/Toeplitz/Rku/recrypt-key/eval-key leak. Resurfaced LPN posts are public sample-drop/parameter context only; local lpn_route_feasibility and R-component dependency audits already show R1-only LPN samples are infeasible and insufficient without independent sk.prf_k/R2/R3/Toeplitz material.
+sources=https://x.com/lambda0xE/status/2075787279197508060 ; https://x.com/Kubo100x/status/2075521685269446801 ; https://x.com/octralex/status/2075870093708235148 ; https://x.com/Kubo100x/status/2077300596064100794 ; https://eienel.github.io/hfhe-challenge-eienel/ ; https://github.com/octra-labs/hfhe-challenge
