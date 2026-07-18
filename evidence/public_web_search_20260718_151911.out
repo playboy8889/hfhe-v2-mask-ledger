@@ -1,0 +1,5 @@
+# Public web search 20260718_151911 UTC
+method=OpenAI web search + local X/GitHub evidence
+hits=official README/manifest/docs/X/sandbox; startkey audit; NithtCat negative summary; Smoke-UI PHASE2 log; PVAC recrypt docs; unrelated Reddit/Bitcoin/HN/Linux/PDF/Medium/academic false positives
+candidate_urls=[]
+triage=no new target solved/private-key/plaintext/material/Rku leak. PVAC recrypt docs are generic evaluation-key operations only; no target eval-key/recrypt-key bundle.
