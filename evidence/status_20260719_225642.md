@@ -3,7 +3,7 @@
 ## Current result
 - Plaintext/private key: **not recovered**.
 - Target chain refresh: balance `500001.000001`, nonce `0`, has_public_key `False`, tx_count `5`.
-- Official GitHub/forks/PR/issues, authenticated code search, public web and X fallback refreshed.
+- Official GitHub/forks/PR/issues, authenticated code search, public web, web-search API, and X fallback refreshed.
 - Review signals parsed: `['github_repo_search_20260719_225642.out']`; no target-specific plaintext/private-key/PRF/Rku/recrypt/eval-key/Toeplitz material validated.
 
 ## Evidence paths
