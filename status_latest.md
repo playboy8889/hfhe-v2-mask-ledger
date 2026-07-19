@@ -1,4 +1,4 @@
-# HFHE Challenge v2 heartbeat status 20260719_165313 UTC
+# HFHE Challenge v2 heartbeat status 20260719_172304 UTC
 
 ## Current result
 - Plaintext/private key: **not recovered**.
@@ -6,18 +6,18 @@
 - Official GitHub/forks/PR/issues refreshed; public web/X fallback refreshed; no target-specific solved/plaintext/private-key/material leak parsed.
 
 ## Evidence paths
-- `/Users/koala/hfhe_challenge_v2/auth_full_refresh_20260719_165313.out`
-- `/Users/koala/hfhe_challenge_v2/auth_full_refresh_20260719_165313.json`
-- `/Users/koala/hfhe_challenge_v2/github_repo_search_20260719_165313.out`
-- `/Users/koala/hfhe_challenge_v2/official_issue_pr_refresh_20260719_165313.out`
-- `/Users/koala/hfhe_challenge_v2/fork_delta_triage_20260719_165313.out`
-- `/Users/koala/hfhe_challenge_v2/public_web_search_20260719_165313.out`
-- `/Users/koala/hfhe_challenge_v2/web_search_api_20260719_165313.out`
-- `/Users/koala/hfhe_challenge_v2/twitter_public_search_refresh_20260719_165313.out`
-- `/Users/koala/hfhe_challenge_v2/x_candidate_triage_20260719_165313.out`
+- `/Users/koala/hfhe_challenge_v2/auth_full_refresh_20260719_172304.out`
+- `/Users/koala/hfhe_challenge_v2/auth_full_refresh_20260719_172304.json`
+- `/Users/koala/hfhe_challenge_v2/github_repo_search_20260719_172304.out`
+- `/Users/koala/hfhe_challenge_v2/official_issue_pr_refresh_20260719_172304.out`
+- `/Users/koala/hfhe_challenge_v2/fork_delta_triage_20260719_172304.out`
+- `/Users/koala/hfhe_challenge_v2/public_web_search_20260719_172304.out`
+- `/Users/koala/hfhe_challenge_v2/web_search_api_20260719_172304.out`
+- `/Users/koala/hfhe_challenge_v2/twitter_public_search_refresh_20260719_172304.out`
+- `/Users/koala/hfhe_challenge_v2/x_candidate_triage_20260719_172304.out`
 
 ## Blocker / excluded routes
-No `sk.prf_k`, R2/R3, Toeplitz stream, Rku/recrypt/eval-key, PC opening, second same-key ciphertext, plaintext, or private key found this sweep. Previously resurfaced `pvac-bench-harness` remains only a generic benchmark/recrypt reference unless it exposes target-specific material.
+No `sk.prf_k`, R2/R3, Toeplitz stream, Rku/recrypt/eval-key, PC opening, same-key second ciphertext, plaintext, or private key found this sweep.
 
 ## Next
 Continue watching target-specific leaks and official solved/cancellation disclosures; validate any candidate against `secret.ct`, `pk.bin`, and target wallet before reporting.
