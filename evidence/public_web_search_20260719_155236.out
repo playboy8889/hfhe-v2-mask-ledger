@@ -1,0 +1,8 @@
+WEB "Octra HFHE Challenge v2" solved bytes=14287 titles=0 []
+WEB "Octra HFHE Challenge v2" "private key" bytes=14327 titles=0 []
+WEB "octC5eR9pLGKbpzTbDgHowkFt8HW7LZYb2gzehzxHamxuAZ" bytes=14327 titles=0 []
+WEB "PRF_R2" "Octra" bytes=14263 titles=0 []
+WEB "PRF_R3" "Octra" bytes=14293 titles=0 []
+WEB "sk.prf_k" "HFHE" bytes=14277 titles=0 []
+WEB "Rku" "Octra" "HFHE" bytes=14303 titles=0 []
+WEB "Toeplitz" "Octra" "HFHE" bytes=14307 titles=0 []
