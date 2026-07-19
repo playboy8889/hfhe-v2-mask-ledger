@@ -1,0 +1,356 @@
+# lite_node HFHE/recrypt diff triage 20260719_055435 UTC
+HEAD=2a5803bf62b3
+COMMITS
+2a5803b (HEAD -> main, origin/main, origin/HEAD) lite node (pre-release mini-core build)
+1c10548 lite node (pre-release mini-core build)
+98c7b6e lite node (pre-release mini-core build)
+b380d88 lite node (pre-release mini-core build)
+e88600f pre-release mini-core
+a682437 pre-release mini-core
+7e0d139 pre-release mini-core
+e94101a (grafted) pre-release mini-core
+
+## names changed across latest three commits
+M	circle_runtime/circle_exec.ml
+M	circle_runtime/circle_program.ml
+M	lib/consensus/c_driver.ml
+M	lib/consensus/c_engine.ml
+A	lib/consensus/epoch_time.ml
+A	lib/consensus/epoch_time.mli
+M	lib/core/chaindata_index.ml
+M	lib/core/circle_wasm/circle_wasm_native.ml
+M	lib/core/commit_journal.ml
+M	lib/core/epochlog.ml
+M	lib/core/head_manifest.ml
+M	lib/core/ledger.ml
+M	lib/core/private_ledger.ml
+M	lib/core/startup_recovery.ml
+M	lib/core/state_preview.ml
+M	lib/core/storage.ml
+M	lib/core/store_chaindata.ml
+M	lib/core/store_irmin.ml
+M	lib/core/tree.ml
+M	lib/core/txlog.ml
+M	lib/core/wal.ml
+M	lib/vm/compiler/aml_verify.ml
+M	lib/vm/compiler/oct_compile.ml
+M	lib/vm/compiler/oct_gen.ml
+M	lib/vm/compiler/oct_lang.ml
+M	lib/vm/compiler/oct_lex.ml
+M	lib/vm/compiler/oct_parse.ml
+M	lib/vm/dune
+M	lib/vm/policy/opcode_policy.ml
+M	lib/vm/rpc/contract_rpc.ml
+A	lib/vm/runtime/admission.ml
+A	lib/vm/runtime/admission.mli
+M	lib/vm/runtime/call_plan.ml
+M	lib/vm/runtime/call_plan.mli
+M	lib/vm/runtime/contract.ml
+M	lib/vm/runtime/contract_vm.ml
+A	lib/vm/runtime/cost.ml
+A	lib/vm/runtime/cost.mli
+M	lib/vm/runtime/direct_exec.ml
+A	lib/vm/runtime/fixed_q16.ml
+A	lib/vm/runtime/fixed_q16.mli
+A	lib/vm/runtime/program_attestation.ml
+A	lib/vm/runtime/program_attestation.mli
+A	lib/vm/runtime/program_effects.ml
+A	lib/vm/runtime/program_effects.mli
+A	lib/vm/runtime/program_input.ml
+A	lib/vm/runtime/program_input.mli
+A	lib/vm/runtime/program_journal.ml
+A	lib/vm/runtime/program_journal.mli
+A	lib/vm/runtime/program_policy.ml
+A	lib/vm/runtime/program_policy.mli
+A	lib/vm/runtime/program_store.ml
+A	lib/vm/runtime/program_store.mli
+A	lib/vm/runtime/program_trust.ml
+A	lib/vm/runtime/program_trust.mli
+A	lib/vm/runtime/program_type_flow.ml
+A	lib/vm/runtime/program_type_flow.mli
+M	lib/vm/runtime/receipt_view.ml
+A	lib/vm/runtime/tx_effects.ml
+A	lib/vm/runtime/tx_effects.mli
+M	lib/vm/runtime/value_journal.ml
+M	lib/vm/runtime/value_journal.mli
+M	lib/vm/wire/assembler.ml
+M	lib/vm/wire/bytecode.ml
+A	lib/vm/wire/program_envelope.ml
+A	lib/vm/wire/program_envelope.mli
+M	net/hash_domain.ml
+M	net/oce1.ml
+M	net/p2p_conn.ml
+M	net/p2p_frame.ml
+M	net/p2p_gossip.ml
+M	net/p2p_handshake.ml
+M	net/p2p_swarm.ml
+M	net/p2p_tx_gossip.ml
+M	node_runtime/account_read_rpc.ml
+M	node_runtime/circle_read_rpc.ml
+M	node_runtime/circle_read_rpc.mli
+M	node_runtime/consensus_bundle_cache.ml
+M	node_runtime/consensus_bundle_cache.mli
+M	node_runtime/consensus_catchup_shell.ml
+M	node_runtime/consensus_catchup_shell.mli
+A	node_runtime/consensus_circle_preview.ml
+A	node_runtime/consensus_circle_preview.mli
+M	node_runtime/consensus_driver_read.ml
+M	node_runtime/consensus_driver_read.mli
+M	node_runtime/consensus_driver_wiring.ml
+M	node_runtime/consensus_driver_wiring.mli
+M	node_runtime/consensus_epoch_apply_env.ml
+M	node_runtime/consensus_epoch_apply_env.mli
+M	node_runtime/consensus_epoch_apply_finalize.ml
+M	node_runtime/consensus_epoch_apply_finalize.mli
+M	node_runtime/consensus_epoch_apply_finish_shell.ml
+M	node_runtime/consensus_epoch_apply_footer.ml
+M	node_runtime/consensus_epoch_apply_footer.mli
+M	node_runtime/consensus_epoch_apply_guard.ml
+M	node_runtime/consensus_epoch_apply_guard.mli
+M	node_runtime/consensus_epoch_apply_proposer.ml
+M	node_runtime/consensus_epoch_apply_proposer.mli
+M	node_runtime/consensus_epoch_apply_sender.ml
+M	node_runtime/consensus_epoch_apply_sender.mli
+M	node_runtime/consensus_epoch_apply_sender_live.ml
+M	node_runtime/consensus_epoch_apply_sender_live.mli
+M	node_runtime/consensus_epoch_apply_shared.ml
+M	node_runtime/consensus_epoch_apply_shared.mli
+M	node_runtime/consensus_epoch_apply_source.ml
+M	node_runtime/consensus_epoch_apply_source.mli
+M	node_runtime/consensus_epoch_apply_tree.ml
+M	node_runtime/consensus_epoch_apply_tree.mli
+M	node_runtime/consensus_epoch_claim_shell.ml
+M	node_runtime/consensus_epoch_claim_shell.mli
+M	node_runtime/consensus_epoch_commit.ml
+M	node_runtime/consensus_epoch_commit.mli
+M	node_runtime/consensus_epoch_key_switch_shell.ml
+M	node_runtime/consensus_epoch_key_switch_shell.mli
+M	node_runtime/consensus_epoch_private_balance_shell.ml
+M	node_runtime/consensus_epoch_private_balance_shell.mli
+M	node_runtime/consensus_epoch_stealth_shell.ml
+M	node_runtime/consensus_epoch_stealth_shell.mli
+M	node_runtime/consensus_epoch_vm_shell.ml
+M	node_runtime/consensus_epoch_vm_shell.mli
+M	node_runtime/consensus_finality_runtime.ml
+M	node_runtime/consensus_finality_runtime.mli
+M	node_runtime/consensus_health_shell.ml
+M	node_runtime/consensus_health_wiring.ml
+M	node_runtime/consensus_health_wiring.mli
+M	node_runtime/consensus_join_rpc.ml
+M	node_runtime/consensus_join_rpc.mli
+M	node_runtime/consensus_pending_commit_recovery.ml
+M	node_runtime/consensus_pending_commit_recovery.mli
+M	node_runtime/consensus_proposal.ml
+M	node_runtime/consensus_proposal.mli
+M	node_runtime/consensus_proposal_preview_shell.ml
+M	node_runtime/consensus_proposal_preview_shell.mli
+M	node_runtime/consensus_startup_finality.ml
+M	node_runtime/consensus_startup_finality.mli
+M	node_runtime/consensus_tick_loop.ml
+M	node_runtime/consensus_tick_loop.mli
+M	node_runtime/node_rest_facade.ml
+M	node_runtime/node_rest_facade.mli
+M	node_runtime/node_rpc_server.ml
+M	node_runtime/node_rpc_server.mli
+M	node_runtime/rpc_http.ml
+M	node_runtime/rpc_http.mli
+M	node_runtime/startup_p2p_shell.ml
+M	node_runtime/startup_p2p_shell.mli
+M	node_runtime/startup_process_shell.ml
+M	node_runtime/startup_process_shell.mli
+M	node_runtime/startup_run_shell.ml
+M	node_runtime/startup_run_shell.mli
+M	pvac_ffi/pvac_ffi.ml
+M	pvac_ffi/pvac_ffi.mli
+M	pvac_ffi/pvac_serialize.hpp
+M	pvac_ffi/pvac_stubs.cpp
+
+## grep sensitive/challenge terms
+./pvac_ffi/pvac_serialize.hpp:572:    for (int i = 0; i < 4; ++i) w.u64(sk.prf_k[i]);
+./pvac_ffi/pvac_serialize.hpp:585:    for (int i = 0; i < 4; ++i) sk.prf_k[i] = r.u64();
+./mcl/misc/she/she-api.md:30:* encrypt an integer(plaintext) with a public key
+./mcl/misc/she/she-api.md:40:* The decryption timing is O(m/s), where s is the size of table to solve DLP, and m is the size fo a plaintext.
+./mcl/misc/she/she-api.md:45:* A zero-knowledge proof is simultaneously created when encrypting a plaintext `m`.
+./mcl/misc/she/she-api.md:200:* The range of plaintext is rectricted as a 32-bit integer for JS
+./mcl/sample/ecdh.cpp:27:		Alice setups a private key a and public key aP
+./mcl/sample/ecdh.cpp:38:		Bob setups a private key b and public key bP
+./mcl/sample/ecdh.cpp:53:	// Bob uses aP(A's public key) and b(B's private key)
+./circle_runtime/circle_exec.ml:1453:                                plaintext_hash = Some (Octra_core.Circles.sha256_hex raw_body);
+./circle_runtime/circle_exec.ml:1491:                  else if not (is_hex64 asset.plaintext_hash) then
+./circle_runtime/circle_exec.ml:1492:                    Lwt.return (Error "circle encrypted asset plaintext_hash must be a 64-char hex string")
+./circle_runtime/circle_exec.ml:1552:                                plaintext_hash = Some asset.plaintext_hash;
+./circle_runtime/wasm/circle_wasm_host.mjs:864:      const plaintextHash = normalizeHex64(parseStringParam(params, 5, 'plaintext_hash'), 'plaintext_hash')
+./circle_runtime/wasm/circle_wasm_host.mjs:884:        plaintext_hash: plaintextHash,
+./circle_runtime/wasm/circle_wasm_host.mjs:905:      const plaintextHash = normalizeHex64(parseStringParam(params, 6, 'plaintext_hash'), 'plaintext_hash')
+./circle_runtime/wasm/circle_wasm_host.mjs:925:        plaintext_hash: plaintextHash,
+./lib/consensus/c_hash.ml:128:  | Error _ -> failwith "Ed25519 sign: invalid private key"
+./lib/core/epoch_exec.ml:735:                    plaintext_hash = Some (Circles.sha256_hex raw_body);
+./lib/core/epoch_exec.ml:786:            else if String.length payload.plaintext_hash <> 64 then
+./lib/core/epoch_exec.ml:787:              Lwt.return (Stdlib.Error ("invalid_circle_plaintext_hash", "plaintext_hash must be a 64-char hex string"))
+./lib/core/epoch_exec.ml:819:                    plaintext_hash = Some payload.plaintext_hash;
+./lib/core/epoch_exec.ml:870:            else if String.length payload.plaintext_hash <> 64 then
+./lib/core/epoch_exec.ml:871:              Lwt.return (Stdlib.Error ("invalid_circle_plaintext_hash", "plaintext_hash must be a 64-char hex string"))
+./lib/core/epoch_exec.ml:903:                    plaintext_hash = Some payload.plaintext_hash;
+./lib/core/epoch_exec.ml:950:                    plaintext_hash = "";
+./lib/core/epoch_exec.ml:1062:       ; plaintext_hash : string
+./lib/core/epoch_exec.ml:1120:                plaintext_hash = Some resolved#plaintext_hash;
+./lib/core/epoch_exec.ml:1213:            method plaintext_hash = request.plaintext_hash
+./lib/core/epoch_exec.ml:1243:            method plaintext_hash = request.plaintext_hash
+./lib/core/peer_auth.ml:21:  | Error _ -> failwith "Invalid private key"
+./lib/core/crypto.ml:217:      | Error _ -> failwith "Invalid ephemeral private key"
+./lib/core/crypto.ml:228:        let plaintext = Z.to_string amount in
+./lib/core/crypto.ml:230:          Mirage_crypto.AES.GCM.authenticate_encrypt ~key ~nonce plaintext
+./lib/core/crypto.ml:660:    let plaintext = Z.to_string amount in
+./lib/core/crypto.ml:661:    let ct_with_tag = Mirage_crypto.AES.GCM.authenticate_encrypt ~key ~nonce plaintext in
+./lib/core/circle_private/circle_balance_cell.ml:28:  plaintext_hash : string;
+./lib/core/circle_private/circle_balance_cell.ml:50:  plaintext_hash : string;
+./lib/core/circle_private/circle_balance_cell.ml:129:    "plaintext_hash", `String payload.plaintext_hash;
+./lib/core/circle_private/circle_balance_cell.ml:261:    normalize_hex64 "plaintext_hash" payload.plaintext_hash,
+./lib/core/circle_private/circle_balance_cell.ml:274:  | Ok state_ref, Ok content_type, Ok key_id, Ok plaintext_hash, Ok padding_class,
+./lib/core/circle_private/circle_balance_cell.ml:302:              plaintext_hash;
+./lib/core/circle_private/circle_balance_cell.ml:340:    plaintext_hash = request.plaintext_hash;
+./lib/core/circle_private/circle_balance_cell.ml:482:        Circle_private_common.read_required_string_field "plaintext_hash" fields,
+./lib/core/circle_private/circle_balance_cell.ml:504:      | Ok state_ref, Ok content_type, Ok encoding, Ok key_id, Ok plaintext_hash,
+./lib/core/circle_private/circle_balance_cell.ml:518:              plaintext_hash;
+./lib/core/circle_private/circle_register_cell.ml:27:  plaintext_hash : string;
+./lib/core/circle_private/circle_register_cell.ml:48:  plaintext_hash : string;
+./lib/core/circle_private/circle_register_cell.ml:117:    "plaintext_hash", `String payload.plaintext_hash;
+./lib/core/circle_private/circle_register_cell.ml:258:    normalize_hex64 "plaintext_hash" payload.plaintext_hash,
+./lib/core/circle_private/circle_register_cell.ml:270:  | Ok state_ref, Ok content_type, Ok key_id, Ok plaintext_hash, Ok padding_class,
+./lib/core/circle_private/circle_register_cell.ml:298:              plaintext_hash;
+./lib/core/circle_private/circle_register_cell.ml:336:    plaintext_hash = request.plaintext_hash;
+./lib/core/circle_private/circle_register_cell.ml:471:        Circle_private_common.read_required_string_field "plaintext_hash" fields,
+./lib/core/circle_private/circle_register_cell.ml:492:      | Ok state_ref, Ok content_type, Ok encoding, Ok key_id, Ok plaintext_hash,
+./lib/core/circle_private/circle_register_cell.ml:505:              plaintext_hash;
+./lib/core/node.ml:134:  | Error _ -> failwith "Invalid private key"
+./lib/core/circles.ml:100:  plaintext_hash : string;
+./lib/core/circles.ml:113:  plaintext_hash : string;
+./lib/core/circles.ml:178:  plaintext_hash : string option;
+./lib/core/circles.ml:547:    "plaintext_hash",
+./lib/core/circles.ml:549:      match t.plaintext_hash with
+./lib/core/circles.ml:610:        read_string "body_mode", read_optional_string "plaintext_hash",
+./lib/core/circles.ml:616:        Ok body_mode_s, Ok plaintext_hash, Ok key_id, Ok padding_class, Ok resource_key,
+./lib/core/circles.ml:640:              plaintext_hash;
+./lib/core/circles.ml:1320:    "plaintext_hash", `String t.plaintext_hash;
+./lib/core/circles.ml:1354:  plaintext_hash = t.plaintext_hash;
+./lib/core/circles.ml:1493:        read_string "key_id", read_string "plaintext_hash", read_optional_string "padding_class",
+./lib/core/circles.ml:1496:      | Ok path, Ok slot_ref, Ok state_ref, Ok content_type, Ok encoding, Ok key_id, Ok plaintext_hash,
+./lib/core/circles.ml:1518:              plaintext_hash;
+./lib/core/circles.ml:1561:          plaintext_hash = payload.plaintext_hash;
+./lib/core/circles.ml:1574:          plaintext_hash = payload.plaintext_hash;
+./lib/core/circle_wasm_native/src/lib.rs:161:    plaintext_hash: String,
+./lib/core/circle_wasm_native/src/lib.rs:2837:        let plaintext_hash = normalize_hex64(&parse_string_param(&params, 5, "plaintext_hash")?, "plaintext_hash")?;
+./lib/core/circle_wasm_native/src/lib.rs:2869:            plaintext_hash,
+./lib/core/circle_wasm_native/src/lib.rs:2891:        let plaintext_hash = normalize_hex64(&parse_string_param(&params, 6, "plaintext_hash")?, "plaintext_hash")?;
+./lib/core/circle_wasm_native/src/lib.rs:2923:            plaintext_hash,
+./lib/core/circle_wasm/circle_wasm_host.ml:56:  plaintext_hash : string;
+./lib/core/circle_wasm/circle_wasm_host.ml:389:        List.assoc_opt "plaintext_hash" fields,
+./lib/core/circle_wasm/circle_wasm_host.ml:403:        Some (`String plaintext_hash),
+./lib/core/circle_wasm/circle_wasm_host.ml:430:              plaintext_hash;
+./lib/vm/runtime/program_attestation.ml:24:  | Invalid_private_key
+./lib/vm/runtime/program_attestation.ml:35:  | Invalid_private_key -> "invalid program attestation private key"
+./lib/vm/runtime/program_attestation.ml:91:let attach ~key_id ~private_key cert =
+./lib/vm/runtime/program_attestation.ml:96:      (match Mirage_crypto_ec.Ed25519.priv_of_octets private_key with
+./lib/vm/runtime/program_attestation.ml:97:       | Error _ -> Error Invalid_private_key
+./lib/vm/runtime/program_attestation.mli:24:val attach : key_id:string -> private_key:string -> string -> (string, error) result
+./lib/vm/compiler/oct_compile.ml:388:let attest_program ~key_id ~private_key result =
+./lib/vm/compiler/oct_compile.ml:393:    (match Program_attestation.attach ~key_id ~private_key result.certificate_json with
+./node_runtime/circle_read_rpc.mli:434:val asset_plaintext :
+./node_runtime/circle_read_rpc.mli:441:val asset_plaintext_params :
+./node_runtime/rest_view.ml:377:  "DEPRECATED: Use octra_decryptBalance RPC - private keys must never leave the client."
+./node_runtime/rest_view.ml:392:  "DEPRECATED: Use ClaimOp transaction via octra_sendTransaction RPC - private keys must never leave the client."
+./node_runtime/circle_view.ml:630:    "plaintext_hash", opt_string meta.plaintext_hash;
+./node_runtime/circle_view.ml:681:    "plaintext_hash", opt_string meta.plaintext_hash;
+./node_runtime/circle_view.ml:689:let asset_plaintext
+./node_runtime/circle_read_rpc.ml:765:let asset_plaintext store ~circle_id ~path_key ~canonical_path =
+./node_runtime/circle_read_rpc.ml:790:            (Circle_view.asset_plaintext
+./node_runtime/circle_read_rpc.ml:804:let asset_plaintext_params store params =
+./node_runtime/circle_read_rpc.ml:808:    asset_plaintext
+./node_runtime/circle_read_rpc.ml:1512:    circle_asset = adapters.store_read asset_plaintext_params;
+./node_runtime/circle_view.mli:326:val asset_plaintext :
+
+## recrypt/hfhe changed diffstat since b380d88
+ pvac_ffi/pvac_ffi.ml        |  9 ++++-
+ pvac_ffi/pvac_ffi.mli       | 13 ++++++-
+ pvac_ffi/pvac_serialize.hpp | 62 ++++++++++++++++++++++++++++-----
+ pvac_ffi/pvac_stubs.cpp     | 83 ++++++++++++++++++++++-----------------------
+ 4 files changed, 114 insertions(+), 53 deletions(-)
+
+## selected added lines recrypt/HFHE since b380d88 (first 220)
++external serialize_cipher_public : cipher -> bytes = "caml_pvac_serialize_cipher_public"
++val serialize_cipher_public : cipher -> bytes
++static constexpr uint8_t VERSION_V4 = 0x04;
++    void header_version(uint8_t tag, uint8_t version) {
++        u8(version);
++    void header(uint8_t tag) { header_version(tag, VERSION); }
++        if (ver != VERSION_V1 && ver != VERSION_V2 && ver != VERSION_V3 && ver != VERSION_V4) { fail("pvac_ser: bad version"); return 0; }
++inline void write_layer_public(Writer& w, const pvac::Layer& L) {
++    w.u8(static_cast<uint8_t>(L.rule));
++    if (L.rule == pvac::RRule::BASE) {
++        w.u64(L.seed.ztag);
++        w.u64(L.seed.nonce.lo);
++        w.u64(L.seed.nonce.hi);
++    } else {
++        w.u32(L.pa);
++        w.u32(L.pb);
++    }
++}
++inline void mark_public_base_layer(pvac::Layer& L, size_t slots) {
++    if (L.rule == pvac::RRule::BASE) {
++        L.R_com = {};
++        L.R_PC.assign(slots, {});
++        L.PC.clear();
++    }
++}
++inline pvac::Layer read_layer(Reader& r, uint8_t ver = VERSION_V2, size_t slots = 0) {
++    if (ver < VERSION_V4)
++        r.raw(L.R_com.data(), 32);
++    if (ver >= VERSION_V3 && ver < VERSION_V4) {
++    if (ver >= VERSION_V2 && ver < VERSION_V4) {
++    if (ver >= VERSION_V4)
++        mark_public_base_layer(L, slots);
++inline std::vector<uint8_t> serialize_cipher_public(const pvac::Cipher& C) {
++    validate_cipher_structure(C);
++    Writer w;
++    w.header_version(TAG_CIPHER, VERSION_V4);
++    w.u64(C.slots);
++    w.u64(C.L.size());
++    for (const auto& L : C.L) write_layer_public(w, L);
++    w.u64(C.c0.size());
++    for (const auto& x : C.c0) w.fp(x);
++    w.u64(C.E.size());
++    for (const auto& e : C.E) write_edge(w, e);
++    return std::move(w.buf);
++}
++        for (size_t i = 0; i < nL; ++i) C.L[i] = read_layer(r, ver, C.slots);
++    if (r.remaining() != 0) throw std::runtime_error("pvac_ser: trailing cipher bytes");
++        for (size_t i = 0; i < nL; ++i) C.L[i] = read_layer(r, ver, C.slots);
++#include <pvac_serialize.hpp>
++static bool read_layer_safe(pvac_ser::Reader& r, uint8_t ver, pvac::Layer& layer, size_t slots) {
++    if (ver < pvac_ser::VERSION_V4)
++        r.raw(layer.R_com.data(), 32);
++    if (ver >= pvac_ser::VERSION_V3 && ver < pvac_ser::VERSION_V4) {
++    if (ver >= pvac_ser::VERSION_V2 && ver < pvac_ser::VERSION_V4) {
++    if (ver >= pvac_ser::VERSION_V4)
++        pvac_ser::mark_public_base_layer(layer, slots);
++        if (!read_layer_safe(r, ver, cipher.L[i], cipher.slots))
++    if ((k.lo | k.hi) == 0) caml_failwith("pvac: zero divisor");
++        *result = pvac::ct_div_const(pk, ct, k);
++CAMLprim value caml_pvac_serialize_cipher_public(value v_ct) {
++    CAMLparam1(v_ct);
++    CAMLlocal1(v_bytes);
++    DBG_ENTER("serialize_cipher_public");
++    pvac::Cipher& ct = *Handle_val(pvac::Cipher, v_ct);
++    std::vector<uint8_t> buf;
++    try {
++        buf = pvac_ser::serialize_cipher_public(ct);
++    } catch (const std::exception& e) {
++        caml_failwith(e.what());
++    }
++    DBG_SIZE("buf_bytes", buf.size());
++    v_bytes = caml_alloc_string(buf.size());
++    std::memcpy(Bytes_val(v_bytes), buf.data(), buf.size());
++    DBG_EXIT("serialize_cipher_public");
++    CAMLreturn(v_bytes);
++}
++                ct->L[i] = pvac_ser::read_layer(r, ver, ct->slots);

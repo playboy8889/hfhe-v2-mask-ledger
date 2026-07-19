@@ -1,0 +1,5 @@
+# Official issue/PR refresh 20260719_055435 UTC
+pull_numbers=[4, 3, 2, 1]
+issue_numbers=[4, 3, 2, 1]
+pulls_total=4 issues_total=4
+no changed PR/issue numbers vs last sweep unless counts differ above
