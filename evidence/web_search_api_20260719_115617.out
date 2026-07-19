@@ -1,0 +1,13 @@
+# Web search API refresh 20260719_115617 UTC
+queries=["Octra HFHE Challenge v2 github writeup solver", "Octra HFHE v2 PRF_R2 PRF_R3", "octC5eR9pLGKbpzTbDgHowkFt8HW7LZYb2gzehzxHamxuAZ", "secret.ct pk.bin Octra"]
+results_summary:
+- official octra-labs/hfhe-challenge, README/manifest/secret.ct pages surfaced again; no non-official material leak.
+- octrascan target wallet page surfaced with unchanged balance/nonce; no key material.
+- official Octra X challenge/repost snippets surfaced again.
+- startkey and smoke-ui public negative audits surfaced again; useful as method/reference only, not solved disclosures.
+- eienel.github.io/hfhe-challenge-eienel surfaced via t.co/X; full public analysis says v2 public files alone are not recoverable, LPN samples cover only r1, and real unlock would require prf_k or r2/r3 material; no plaintext/private key claimed.
+- Quabnation/Eienel X snippets point to audit/writeup context only; no target key/plaintext.
+- generic Octra docs/market pages and unrelated result pages ignored.
+triage=no plaintext/private-key/PRF_R2/PRF_R3/sk.prf_k/Rku/recrypt-key/eval-key target material found.
+notable_method_reference=https://eienel.github.io/hfhe-challenge-eienel/
+notable_method_summary=probe live T values; verify no R_com; check independent wrapped masks; bound LPN hardness; verify s-alone cannot derive masks without independent prf_k; run deterministic seed/weak mnemonic hypotheses; monitor for prf_k, r2/r3, second ciphertext, or recrypt material.

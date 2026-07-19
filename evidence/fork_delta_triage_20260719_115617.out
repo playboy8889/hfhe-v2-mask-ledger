@@ -1,0 +1,5 @@
+# Fork delta triage 20260719_115617 UTC
+previous=auth_full_refresh_20260719_115123.json
+added_repos=[]
+removed_repos=[]
+fork_head_diff={"checked": 33, "unique": 9, "baseline_size": 14, "new": []}
