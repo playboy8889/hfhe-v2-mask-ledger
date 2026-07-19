@@ -1,0 +1,5 @@
+# Public web search 20260719_135156 UTC
+local_ddg_status=skipped due repeated SSL/handshake stalls in prior sweeps; public web coverage supplied by web_search_api_20260719_135156.out.
+# triage
+candidate_urls=[]
+notable_nonleak_method_references=["https://github.com/startkey/octra-hfhe-v2-public-audit", "https://github.com/smoke-ui/octra-hfhe-v2-security-assessment", "https://x.com/Kubo100x/status/2075388207882256852"]
