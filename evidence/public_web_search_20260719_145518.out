@@ -1,0 +1,8 @@
+WEB_QUERY "Octra HFHE Challenge v2" solved bytes=14281 titles=0
+WEB_QUERY "Octra HFHE Challenge v2" "private key" bytes=14309 titles=0
+WEB_QUERY "octC5eR9pLGKbpzTbDgHowkFt8HW7LZYb2gzehzxHamxuAZ" bytes=14321 titles=0
+WEB_QUERY "PRF_R2" "Octra" bytes=14275 titles=0
+WEB_QUERY "PRF_R3" "Octra" bytes=14275 titles=0
+WEB_QUERY "sk.prf_k" "HFHE" bytes=14283 titles=0
+WEB_QUERY "Rku" "Octra" "HFHE" bytes=14309 titles=0
+WEB_QUERY "Toeplitz" "Octra" "HFHE" bytes=14313 titles=0

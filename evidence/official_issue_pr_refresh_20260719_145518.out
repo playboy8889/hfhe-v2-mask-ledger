@@ -1,0 +1,8 @@
+chosen_repo=octra-labs/pvac_hfhe_cpp
+repo_candidate ('octra-labs/hfhe-challenge-v2', 'ERR:HTTPError: HTTP Error 404: Not Found', None, None, None, None)
+repo_candidate ('octra-labs/pvac_hfhe_cpp', '2026-07-09T18:30:07Z', '2026-07-16T14:08:31Z', 61, 60, 'main')
+repo_candidate ('octra-labs/lite_node', '2026-07-19T03:15:50Z', '2026-07-19T03:15:54Z', 0, 6, 'main')
+pull_numbers=[500, 499, 490]
+issue_numbers=[503, 502, 501]
+issues_api_all_numbers=[503, 502, 501, 500, 499, 490]
+forks_checked=62 unique_heads=16
