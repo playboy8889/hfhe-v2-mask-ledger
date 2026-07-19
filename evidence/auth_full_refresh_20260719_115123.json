@@ -1,0 +1,492 @@
+{
+  "timestamp_utc": "20260719_115123",
+  "token_used": true,
+  "account": {
+    "address": "octC5eR9pLGKbpzTbDgHowkFt8HW7LZYb2gzehzxHamxuAZ",
+    "balance": "500001.000001",
+    "balance_raw": "500001000001",
+    "nonce": 0,
+    "has_public_key": false,
+    "has_encrypted_balance": false,
+    "tx_count": 5,
+    "recent_txs": [
+      {
+        "epoch": 1327831,
+        "hash": "3fcca51c018497fe27d165d58deaae1013ab9ce92d1d14409d11e273045ba318"
+      },
+      {
+        "epoch": 1325599,
+        "hash": "c38782452ba2ed2a7b3c516244322613428f7820f619420688b7e7101f77e458"
+      },
+      {
+        "epoch": 1325597,
+        "hash": "8bb4e8c20d827aed373a63430266994d205f40cd9cd380c0a5036d3a5ca954c5"
+      },
+      {
+        "epoch": 1325113,
+        "hash": "050fe2742515bb2a281eabe3c3a7c6b4376ac34eb0f07dcce7ce2a34a2bb9677"
+      },
+      {
+        "epoch": 1319790,
+        "hash": "ad1af0cf96a12105bb112b0f3f7275e8fbd713e2f6966d886f5ec2c04e514898"
+      }
+    ],
+    "rejected_txs": []
+  },
+  "repo": {
+    "pushed_at": "2026-07-11T08:49:01Z",
+    "updated_at": "2026-07-16T14:08:35Z",
+    "default_branch": "main",
+    "forks_count": 33,
+    "stargazers_count": 30
+  },
+  "pull_numbers": [
+    4,
+    3,
+    2,
+    1
+  ],
+  "issue_numbers": [
+    4,
+    3,
+    2,
+    1
+  ],
+  "upstream_head": "019380c97543620091409b0fbf73a8a773a9a0da",
+  "forks_total": 33,
+  "fork_heads": [
+    {
+      "repo": "Vibibiys/hfhe-challenge",
+      "branch": "main",
+      "head": "019380c97543620091409b0fbf73a8a773a9a0da"
+    },
+    {
+      "repo": "Prot420/hfhe-challenge",
+      "branch": "main",
+      "head": "019380c97543620091409b0fbf73a8a773a9a0da"
+    },
+    {
+      "repo": "0xTaaa/hfhe-challenge",
+      "branch": "main",
+      "head": "019380c97543620091409b0fbf73a8a773a9a0da"
+    },
+    {
+      "repo": "zhaoge7786/hfhe-challenge",
+      "branch": "main",
+      "head": "019380c97543620091409b0fbf73a8a773a9a0da"
+    },
+    {
+      "repo": "erlanggada/hfhe-challenge",
+      "branch": "main",
+      "head": "019380c97543620091409b0fbf73a8a773a9a0da"
+    },
+    {
+      "repo": "SNAKBILLION/hfhe-challenge",
+      "branch": "main",
+      "head": "d9d29d505e2840c0028d7a91a2a8ba59e163b9a4"
+    },
+    {
+      "repo": "vansham/hfhe-challenge",
+      "branch": "main",
+      "head": "d9d29d505e2840c0028d7a91a2a8ba59e163b9a4"
+    },
+    {
+      "repo": "akidry/hfhe-challenge",
+      "branch": "main",
+      "head": "0d08e9622921e5930175a660df0061a65548972f"
+    },
+    {
+      "repo": "ifeoluwaaj/hfhe-challenge",
+      "branch": "main",
+      "head": "0d08e9622921e5930175a660df0061a65548972f"
+    },
+    {
+      "repo": "JH-321/hfhe-challenge-1",
+      "branch": "main",
+      "head": "0d08e9622921e5930175a660df0061a65548972f"
+    },
+    {
+      "repo": "k3llgh/hfhe-challenge",
+      "branch": "main",
+      "head": "0d08e9622921e5930175a660df0061a65548972f"
+    },
+    {
+      "repo": "emma31-dev/hfhe-challenge",
+      "branch": "main",
+      "head": "0d08e9622921e5930175a660df0061a65548972f"
+    },
+    {
+      "repo": "nxpath/hfhe-challenge",
+      "branch": "main",
+      "head": "8a8df807bc12858a3076eb2d026f5d0ed1f2eceb"
+    },
+    {
+      "repo": "Eienel/hfhe-challenge-eienel",
+      "branch": "main",
+      "head": "efb24174ac4c24c723b6c5bd99d289f89cf141c6"
+    },
+    {
+      "repo": "TonyLegend-77/hfhe-challenge",
+      "branch": "main",
+      "head": "0d08e9622921e5930175a660df0061a65548972f"
+    },
+    {
+      "repo": "Giri-Aayush/hfhe-challenge",
+      "branch": "main",
+      "head": "0d08e9622921e5930175a660df0061a65548972f"
+    },
+    {
+      "repo": "0xjagadbumi/hfhe-challenge",
+      "branch": "main",
+      "head": "0d08e9622921e5930175a660df0061a65548972f"
+    },
+    {
+      "repo": "Yanu403/hfhe-challenge",
+      "branch": "main",
+      "head": "5e25d305429d3efbb4a11a6d0748f0fd99f8d57d"
+    },
+    {
+      "repo": "jigggyzigggy/hfhe-challenge",
+      "branch": "main",
+      "head": "0d08e9622921e5930175a660df0061a65548972f"
+    },
+    {
+      "repo": "pymparticles/hfhe-challenge",
+      "branch": "main",
+      "head": "6d845e07f82ce924868ddac849ba92277150cfd9"
+    },
+    {
+      "repo": "uChiron/hfhe-challenge",
+      "branch": "main",
+      "head": "0d08e9622921e5930175a660df0061a65548972f"
+    },
+    {
+      "repo": "Wezix/hfhe-challenge-test",
+      "branch": "main",
+      "head": "0d08e9622921e5930175a660df0061a65548972f"
+    },
+    {
+      "repo": "Instant-Futures-Trading/hfhe-challenge",
+      "branch": "main",
+      "head": "0d08e9622921e5930175a660df0061a65548972f"
+    },
+    {
+      "repo": "benevolentcyka/hfhe-challenge",
+      "branch": "main",
+      "head": "0d08e9622921e5930175a660df0061a65548972f"
+    },
+    {
+      "repo": "Instantfutures/hfhe-challenge",
+      "branch": "main",
+      "head": "25ab0aaee0f53438c999ac46799fb02fdbc0bacf"
+    },
+    {
+      "repo": "syt4sh1/hfhe-challenge",
+      "branch": "main",
+      "head": "900255d11fabe64292b1626f1c681bd2d6044136"
+    },
+    {
+      "repo": "Naazj/hfhe-challenge",
+      "branch": "main",
+      "head": "900255d11fabe64292b1626f1c681bd2d6044136"
+    },
+    {
+      "repo": "Olisehgenesis/hfhe-challenge",
+      "branch": "main",
+      "head": "900255d11fabe64292b1626f1c681bd2d6044136"
+    },
+    {
+      "repo": "zh469525-sudo/hfhe-challenge",
+      "branch": "main",
+      "head": "900255d11fabe64292b1626f1c681bd2d6044136"
+    },
+    {
+      "repo": "talented634/challenge",
+      "branch": "main",
+      "head": "900255d11fabe64292b1626f1c681bd2d6044136"
+    },
+    {
+      "repo": "gunksd/hfhe-challenge",
+      "branch": "main",
+      "head": "900255d11fabe64292b1626f1c681bd2d6044136"
+    },
+    {
+      "repo": "debbiesempert/hfhe-challenge",
+      "branch": "main",
+      "head": "900255d11fabe64292b1626f1c681bd2d6044136"
+    },
+    {
+      "repo": "harf101/hfhe-challenge",
+      "branch": "main",
+      "head": "900255d11fabe64292b1626f1c681bd2d6044136"
+    }
+  ],
+  "org_repos": [
+    {
+      "full_name": "octra-labs/lite_node",
+      "pushed_at": "2026-07-19T03:15:50Z",
+      "updated_at": "2026-07-19T03:15:54Z"
+    },
+    {
+      "full_name": "octra-labs/webcli",
+      "pushed_at": "2026-06-09T22:40:50Z",
+      "updated_at": "2026-07-16T14:09:09Z"
+    },
+    {
+      "full_name": "octra-labs/hfhe-challenge",
+      "pushed_at": "2026-07-11T08:49:01Z",
+      "updated_at": "2026-07-16T14:08:35Z"
+    },
+    {
+      "full_name": "octra-labs/pvac_hfhe_cpp",
+      "pushed_at": "2026-07-09T18:30:07Z",
+      "updated_at": "2026-07-16T14:08:31Z"
+    },
+    {
+      "full_name": "octra-labs/circle_examples",
+      "pushed_at": "2026-05-23T19:49:56Z",
+      "updated_at": "2026-07-14T15:21:01Z"
+    },
+    {
+      "full_name": "octra-labs/program-examples",
+      "pushed_at": "2026-05-13T16:31:49Z",
+      "updated_at": "2026-07-14T15:00:02Z"
+    },
+    {
+      "full_name": "octra-labs/wallet-gen",
+      "pushed_at": "2025-07-18T07:10:24Z",
+      "updated_at": "2026-06-14T06:25:04Z"
+    },
+    {
+      "full_name": "octra-labs/ocs01-test",
+      "pushed_at": "2025-07-27T20:07:49Z",
+      "updated_at": "2026-06-02T20:18:08Z"
+    }
+  ],
+  "code_search": [
+    {
+      "query": "octC5eR9pLGKbpzTbDgHowkFt8HW7LZYb2gzehzxHamxuAZ",
+      "total_count": 1,
+      "items": [
+        {
+          "repo": "octra-labs/hfhe-challenge",
+          "path": "README.md",
+          "html_url": "https://github.com/octra-labs/hfhe-challenge/blob/019380c97543620091409b0fbf73a8a773a9a0da/README.md"
+        }
+      ]
+    },
+    {
+      "query": "\"HFHE Challenge v2\" \"plaintext\"",
+      "total_count": 1,
+      "items": [
+        {
+          "repo": "octra-labs/hfhe-challenge",
+          "path": "README.md",
+          "html_url": "https://github.com/octra-labs/hfhe-challenge/blob/019380c97543620091409b0fbf73a8a773a9a0da/README.md"
+        }
+      ]
+    },
+    {
+      "query": "\"secret.ct\" \"octra\" \"hfhe\"",
+      "total_count": 3,
+      "items": [
+        {
+          "repo": "octra-labs/hfhe-challenge",
+          "path": "source/hfhe_bounty_artifact.cpp",
+          "html_url": "https://github.com/octra-labs/hfhe-challenge/blob/019380c97543620091409b0fbf73a8a773a9a0da/source/hfhe_bounty_artifact.cpp"
+        },
+        {
+          "repo": "octra-labs/hfhe-challenge",
+          "path": "README.md",
+          "html_url": "https://github.com/octra-labs/hfhe-challenge/blob/019380c97543620091409b0fbf73a8a773a9a0da/README.md"
+        },
+        {
+          "repo": "octra-labs/hfhe-challenge",
+          "path": "manifest.json",
+          "html_url": "https://github.com/octra-labs/hfhe-challenge/blob/019380c97543620091409b0fbf73a8a773a9a0da/manifest.json"
+        }
+      ]
+    },
+    {
+      "query": "\"pk.bin\" \"secret.ct\" \"octra\"",
+      "total_count": 3,
+      "items": [
+        {
+          "repo": "octra-labs/hfhe-challenge",
+          "path": "README.md",
+          "html_url": "https://github.com/octra-labs/hfhe-challenge/blob/019380c97543620091409b0fbf73a8a773a9a0da/README.md"
+        },
+        {
+          "repo": "octra-labs/hfhe-challenge",
+          "path": "source/hfhe_bounty_artifact.cpp",
+          "html_url": "https://github.com/octra-labs/hfhe-challenge/blob/019380c97543620091409b0fbf73a8a773a9a0da/source/hfhe_bounty_artifact.cpp"
+        },
+        {
+          "repo": "octra-labs/hfhe-challenge",
+          "path": "manifest.json",
+          "html_url": "https://github.com/octra-labs/hfhe-challenge/blob/019380c97543620091409b0fbf73a8a773a9a0da/manifest.json"
+        }
+      ]
+    },
+    {
+      "query": "\"PRF_R2\" hfhe",
+      "total_count": 12,
+      "items": [
+        {
+          "repo": "octra-labs/webcli",
+          "path": "pvac/include/pvac/crypto/lpn.hpp",
+          "html_url": "https://github.com/octra-labs/webcli/blob/d1e4589717de07507c82574b133217127a230687/pvac/include/pvac/crypto/lpn.hpp"
+        },
+        {
+          "repo": "mintlify-atlas/docs-atlas-2fd87a37",
+          "path": "api/crypto/lpn.mdx",
+          "html_url": "https://github.com/mintlify-atlas/docs-atlas-2fd87a37/blob/3837ee716fde18e336ea55a5b221c7eeaa146dd6/api/crypto/lpn.mdx"
+        },
+        {
+          "repo": "mintlify-atlas/docs-atlas-2fd87a37",
+          "path": "concepts/security.mdx",
+          "html_url": "https://github.com/mintlify-atlas/docs-atlas-2fd87a37/blob/3837ee716fde18e336ea55a5b221c7eeaa146dd6/concepts/security.mdx"
+        },
+        {
+          "repo": "mintlify-atlas/docs-atlas-2fd87a37",
+          "path": "api/core/types.mdx",
+          "html_url": "https://github.com/mintlify-atlas/docs-atlas-2fd87a37/blob/3837ee716fde18e336ea55a5b221c7eeaa146dd6/api/core/types.mdx"
+        },
+        {
+          "repo": "octra-labs/pvac_hfhe_cpp",
+          "path": "include/pvac/crypto/lpn.hpp",
+          "html_url": "https://github.com/octra-labs/pvac_hfhe_cpp/blob/071b0e909c119de815e284b347c4bd979cb59ef3/include/pvac/crypto/lpn.hpp"
+        },
+        {
+          "repo": "chimmykk/hfhe-poc",
+          "path": "include/pvac/crypto/lpn.hpp",
+          "html_url": "https://github.com/chimmykk/hfhe-poc/blob/934d8c246f440e01e90d4e9678538572834d7ae8/include/pvac/crypto/lpn.hpp"
+        }
+      ]
+    },
+    {
+      "query": "\"PRF_R3\" hfhe",
+      "total_count": 12,
+      "items": [
+        {
+          "repo": "octra-labs/webcli",
+          "path": "pvac/include/pvac/crypto/lpn.hpp",
+          "html_url": "https://github.com/octra-labs/webcli/blob/d1e4589717de07507c82574b133217127a230687/pvac/include/pvac/crypto/lpn.hpp"
+        },
+        {
+          "repo": "mintlify-atlas/docs-atlas-2fd87a37",
+          "path": "api/crypto/lpn.mdx",
+          "html_url": "https://github.com/mintlify-atlas/docs-atlas-2fd87a37/blob/3837ee716fde18e336ea55a5b221c7eeaa146dd6/api/crypto/lpn.mdx"
+        },
+        {
+          "repo": "mintlify-atlas/docs-atlas-2fd87a37",
+          "path": "concepts/security.mdx",
+          "html_url": "https://github.com/mintlify-atlas/docs-atlas-2fd87a37/blob/3837ee716fde18e336ea55a5b221c7eeaa146dd6/concepts/security.mdx"
+        },
+        {
+          "repo": "mintlify-atlas/docs-atlas-2fd87a37",
+          "path": "api/core/types.mdx",
+          "html_url": "https://github.com/mintlify-atlas/docs-atlas-2fd87a37/blob/3837ee716fde18e336ea55a5b221c7eeaa146dd6/api/core/types.mdx"
+        },
+        {
+          "repo": "octra-labs/pvac_hfhe_cpp",
+          "path": "include/pvac/crypto/lpn.hpp",
+          "html_url": "https://github.com/octra-labs/pvac_hfhe_cpp/blob/071b0e909c119de815e284b347c4bd979cb59ef3/include/pvac/crypto/lpn.hpp"
+        },
+        {
+          "repo": "chimmykk/hfhe-poc",
+          "path": "include/pvac/crypto/lpn.hpp",
+          "html_url": "https://github.com/chimmykk/hfhe-poc/blob/934d8c246f440e01e90d4e9678538572834d7ae8/include/pvac/crypto/lpn.hpp"
+        }
+      ]
+    },
+    {
+      "query": "\"sk.prf_k\" hfhe",
+      "total_count": 12,
+      "items": [
+        {
+          "repo": "octra-labs/webcli",
+          "path": "pvac/include/pvac/crypto/lpn.hpp",
+          "html_url": "https://github.com/octra-labs/webcli/blob/d1e4589717de07507c82574b133217127a230687/pvac/include/pvac/crypto/lpn.hpp"
+        },
+        {
+          "repo": "octra-labs/pvac_hfhe_cpp",
+          "path": "examples/basic_usage.cpp",
+          "html_url": "https://github.com/octra-labs/pvac_hfhe_cpp/blob/071b0e909c119de815e284b347c4bd979cb59ef3/examples/basic_usage.cpp"
+        },
+        {
+          "repo": "mintlify-atlas/docs-atlas-2fd87a37",
+          "path": "guides/key-generation.mdx",
+          "html_url": "https://github.com/mintlify-atlas/docs-atlas-2fd87a37/blob/3837ee716fde18e336ea55a5b221c7eeaa146dd6/guides/key-generation.mdx"
+        },
+        {
+          "repo": "chimmykk/hfhe-poc",
+          "path": "examples/basic_usage.cpp",
+          "html_url": "https://github.com/chimmykk/hfhe-poc/blob/934d8c246f440e01e90d4e9678538572834d7ae8/examples/basic_usage.cpp"
+        },
+        {
+          "repo": "mintlify-atlas/docs-atlas-2fd87a37",
+          "path": "concepts/security.mdx",
+          "html_url": "https://github.com/mintlify-atlas/docs-atlas-2fd87a37/blob/3837ee716fde18e336ea55a5b221c7eeaa146dd6/concepts/security.mdx"
+        },
+        {
+          "repo": "chimmykk/hfhe-poc",
+          "path": "include/pvac/crypto/lpn.hpp",
+          "html_url": "https://github.com/chimmykk/hfhe-poc/blob/934d8c246f440e01e90d4e9678538572834d7ae8/include/pvac/crypto/lpn.hpp"
+        }
+      ]
+    },
+    {
+      "query": "\"octra\" \"hfhe\" \"private key\"",
+      "total_count": 24,
+      "items": [
+        {
+          "repo": "iopo545454-del/project-watchlist",
+          "path": "projects/19-octra.md",
+          "html_url": "https://github.com/iopo545454-del/project-watchlist/blob/a8f32776b9d660bc28ed109fc1b0e86fdf38a9cb/projects/19-octra.md"
+        },
+        {
+          "repo": "octra-labs/hfhe-challenge",
+          "path": "README.md",
+          "html_url": "https://github.com/octra-labs/hfhe-challenge/blob/019380c97543620091409b0fbf73a8a773a9a0da/README.md"
+        },
+        {
+          "repo": "lamafab/octra-hfhe-lean",
+          "path": "Octra/Hypergraph/LogicGates.lean",
+          "html_url": "https://github.com/lamafab/octra-hfhe-lean/blob/1c5e4ff1cbee0c2101f565263e178888625b76f5/Octra/Hypergraph/LogicGates.lean"
+        },
+        {
+          "repo": "androolloyd/octravpn",
+          "path": "crates/octravpn-node/src/hub/boot.rs",
+          "html_url": "https://github.com/androolloyd/octravpn/blob/84fe8b20b28fde7e0b6b8e5a719d786b32e22411/crates/octravpn-node/src/hub/boot.rs"
+        },
+        {
+          "repo": "0xgetz/octrashield-dex",
+          "path": "sdk/src/hooks/useOctraShield.ts",
+          "html_url": "https://github.com/0xgetz/octrashield-dex/blob/5e6edf1ec2a6c846dea941426ec0b7db3bfc4012/sdk/src/hooks/useOctraShield.ts"
+        },
+        {
+          "repo": "octra-labs/webcli",
+          "path": "main.cpp",
+          "html_url": "https://github.com/octra-labs/webcli/blob/d1e4589717de07507c82574b133217127a230687/main.cpp"
+        }
+      ]
+    },
+    {
+      "query": "\"Octra HFHE v2\" \"Day 7\"",
+      "total_count": 0,
+      "items": []
+    },
+    {
+      "query": "\"Octra HFHE\" \"solved\" \"secret.ct\"",
+      "total_count": 0,
+      "items": []
+    }
+  ],
+  "fork_head_diff": {
+    "checked": 33,
+    "unique": 9,
+    "baseline_size": 14,
+    "new": []
+  }
+}
