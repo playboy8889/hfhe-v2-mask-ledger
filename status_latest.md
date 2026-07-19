@@ -1,4 +1,4 @@
-# HFHE Challenge v2 heartbeat status 20260719_182505 UTC
+# HFHE Challenge v2 heartbeat status 20260719_185248 UTC
 
 ## Current result
 - Plaintext/private key: **not recovered**.
@@ -6,14 +6,8 @@
 - Official GitHub/forks/PR/issues and public web/X fallback refreshed; no target-specific solved/plaintext/private-key/material leak parsed.
 
 ## Evidence paths
-- `/Users/koala/hfhe_challenge_v2/auth_full_refresh_20260719_182505.out` and `.json`
-- `/Users/koala/hfhe_challenge_v2/github_repo_search_20260719_182505.out`
-- `/Users/koala/hfhe_challenge_v2/official_issue_pr_refresh_20260719_182505.out`
-- `/Users/koala/hfhe_challenge_v2/fork_delta_triage_20260719_182505.out`
-- `/Users/koala/hfhe_challenge_v2/public_web_search_20260719_182505.out`
-- `/Users/koala/hfhe_challenge_v2/web_search_api_20260719_182505.out`
-- `/Users/koala/hfhe_challenge_v2/twitter_public_search_refresh_20260719_182505.out`
-- `/Users/koala/hfhe_challenge_v2/x_candidate_triage_20260719_182505.out`
+- `auth_full_refresh_20260719_185248.out/.json`, `github_repo_search_20260719_185248.out`, `official_issue_pr_refresh_20260719_185248.out`, `fork_delta_triage_20260719_185248.out`
+- `public_web_search_20260719_185248.out`, `web_search_api_20260719_185248.out`, `twitter_public_search_refresh_20260719_185248.out`, `x_candidate_triage_20260719_185248.out`
 
 ## Blocker / excluded routes
 No `sk.prf_k`, R2/R3, Toeplitz stream, Rku/recrypt/eval-key, PC opening, same-key second ciphertext, plaintext, or private key found this sweep.
