@@ -1,0 +1,9 @@
+"octC5eR9pLGKbpzTbDgHowkFt8HW7LZYb2gzehzxHamxuAZ": bytes=14326
+"HFHE Challenge v2" solved: bytes=14287
+"PRF_R2" "Octra": bytes=14268
+"PRF_R3" "Octra": bytes=14275
+"sk.prf_k" "Octra": bytes=14273
+"Rku" "Octra" "HFHE": bytes=14291
+"recrypt" "Octra" "HFHE": bytes=14305
+"Toeplitz" "Octra" "HFHE": bytes=14301
+"secret.ct" "pk.bin" "Octra": bytes=14306

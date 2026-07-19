@@ -1,20 +1,19 @@
-# HFHE Challenge v2 heartbeat status 20260719_175307 UTC
+# HFHE Challenge v2 heartbeat status 20260719_182505 UTC
 
 ## Current result
 - Plaintext/private key: **not recovered**.
 - Target stable state remains balance `500001.000001`, nonce `0`, has_public_key `False`, tx_count `5`; fresh account attempts saved separately.
-- Official GitHub/forks/PR/issues refreshed; public web/X fallback refreshed; no target-specific solved/plaintext/private-key/material leak parsed.
+- Official GitHub/forks/PR/issues and public web/X fallback refreshed; no target-specific solved/plaintext/private-key/material leak parsed.
 
 ## Evidence paths
-- `/Users/koala/hfhe_challenge_v2/auth_full_refresh_20260719_175307.out`
-- `/Users/koala/hfhe_challenge_v2/auth_full_refresh_20260719_175307.json`
-- `/Users/koala/hfhe_challenge_v2/github_repo_search_20260719_175307.out`
-- `/Users/koala/hfhe_challenge_v2/official_issue_pr_refresh_20260719_175307.out`
-- `/Users/koala/hfhe_challenge_v2/fork_delta_triage_20260719_175307.out`
-- `/Users/koala/hfhe_challenge_v2/public_web_search_20260719_175307.out`
-- `/Users/koala/hfhe_challenge_v2/web_search_api_20260719_175307.out`
-- `/Users/koala/hfhe_challenge_v2/twitter_public_search_refresh_20260719_175307.out`
-- `/Users/koala/hfhe_challenge_v2/x_candidate_triage_20260719_175307.out`
+- `/Users/koala/hfhe_challenge_v2/auth_full_refresh_20260719_182505.out` and `.json`
+- `/Users/koala/hfhe_challenge_v2/github_repo_search_20260719_182505.out`
+- `/Users/koala/hfhe_challenge_v2/official_issue_pr_refresh_20260719_182505.out`
+- `/Users/koala/hfhe_challenge_v2/fork_delta_triage_20260719_182505.out`
+- `/Users/koala/hfhe_challenge_v2/public_web_search_20260719_182505.out`
+- `/Users/koala/hfhe_challenge_v2/web_search_api_20260719_182505.out`
+- `/Users/koala/hfhe_challenge_v2/twitter_public_search_refresh_20260719_182505.out`
+- `/Users/koala/hfhe_challenge_v2/x_candidate_triage_20260719_182505.out`
 
 ## Blocker / excluded routes
 No `sk.prf_k`, R2/R3, Toeplitz stream, Rku/recrypt/eval-key, PC opening, same-key second ciphertext, plaintext, or private key found this sweep.
