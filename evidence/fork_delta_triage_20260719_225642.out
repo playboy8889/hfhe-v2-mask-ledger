@@ -1,0 +1,11 @@
+# fork delta triage 20260719_225946 UTC
+source=auth_full_refresh_20260719_225642.json
+checked=33 unique=9 baseline_size=14 new_count=0
+code_signal octC5eR9pLGKbpzTbDgHowkFt8HW7LZYb2gzehzxHamxuAZ total= 1 err= None
+code_signal "HFHE Challenge v2" "plaintext" total= 3 err= None
+code_signal "secret.ct" "octra" "hfhe" total= 3 err= None
+code_signal "pk.bin" "secret.ct" "octra" total= 3 err= None
+code_signal "PRF_R2" hfhe total= 12 err= None
+code_signal "PRF_R3" hfhe total= 12 err= None
+code_signal "sk.prf_k" hfhe total= 12 err= None
+code_signal "octra" "hfhe" "private key" total= 25 err= None
