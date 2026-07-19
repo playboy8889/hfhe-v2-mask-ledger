@@ -1,0 +1,86 @@
+# External pvac/private-key code-search hit triage 20260719_082128 UTC
+
+## https://raw.githubusercontent.com/androolloyd/octravpn/84fe8b20b28fde7e0b6b8e5a719d786b32e22411/docs/operators/pvac-rotation.md
+bytes 14292
+term_hits=["hfhe", "pk.bin", "private key", "pvac"]
+# PVAC pubkey rotation runbook
+This runbook covers rotation of an operator's **lattice PVAC pubkey** —
+off-chain RPC `octra_registerPvacPubkey`. The PVAC pubkey is the
+public half of a PVAC (Plaintext-Verified-Against-Ciphertext) lattice
+[`pvac-sidecar/`](../../pvac-sidecar/) and consumed by every
+> purpose (non-repudiation of receipts, not encryption). PVAC pubkey
+> rotation lives in the off-chain `octra_pvacPubkey` map keyed by
+swap → observe). PVAC differs in two ways: the new pubkey blob is
+   at `${state_dir}/pvac/sk.enc` leaked, an operator container image
+   `pvac_default_params` (typically: ring degree or modulus chain) in
+   PVAC pubkey per region so that compromise of one region does not
+   operating conditions. The PVAC keypair lives in a sealed envelope
+   [`tls-rotation.md`](tls-rotation.md) doubled, because PVAC pubkey
+   does not leave the host on TLS errors the way a TLS private key
+| Sealed PVAC secret key | `${state_dir}/pvac/sk.enc` | operator (0600) | `octra_core::wallet_enc` envelope wrapping `hfhe_v1\|<base64-pvac-sk>` |
+| PVAC pubkey blob | `${state_dir}/pvac/pk.bin` | operator (0644) | `hfhe_v1\|<base64-pvac-pk>` (the line the sidecar's `keygen` returns under `pk`) |
+| AES KAT vector | `${state_dir}/pvac/kat.json` | operator (0644) | Reference plaintext + expected ciphertext under the new pubkey; used by step 3 of the script |
+| Registered pubkey hash | `${state_dir}/pvac/registered.sha256` | operator (0644) | sha256 of the last blob submitted to `octra_registerPvacPubkey`, kept so the operator can detect drift between on-chain state and local
+(`[control].tailscale_wire_state_dir` in `node.toml`); the `pvac/`
+subdirectory is created by `rotate-pvac.sh` if absent.
+(`pvac-sidecar/src/main.cpp:263`) over JSON-over-stdio (see
+`pvac-sidecar/ipc-tests/src/lib.rs` for the protocol). The script
+  | "$PVAC_SIDECAR_BIN")
+PK=$(jq -r '.pk' <<<"$RESP")   # "hfhe_v1|<base64>"
+SK=$(jq -r '.sk' <<<"$RESP")   # "hfhe_v1|<base64>"
+# (in production this happens via the `octravpn-node pvac seal` CLI
+continue producing receipts under the **old** PVAC pubkey.
+Run `scripts/operators/rotate-pvac.sh --state-dir <dir>` (dry-run by
+5. Prints the `octra_registerPvacPubkey` tx envelope to stdout.
+`${state_dir}/pvac/sk.enc.new` and the new pubkey lives at
+`${state_dir}/pvac/pk.bin.new` so the operator can inspect them.
+### Step 3 — submit `octra_registerPvacPubkey` (T+0)
+1. Submits `octra_registerPvacPubkey(<wallet>, <new_pk>, <sig>)` to the
+2. Polls `octra_pvacPubkey(<wallet>)` until it returns the new blob
+3. Atomically renames `sk.enc.new` → `sk.enc` and `pk.bin.new` →
+   `pk.bin`. The old `sk.enc` is moved to
+   `${state_dir}/pvac/backup/<ts>/sk.enc` and kept for the dual-
+**Important:** `octra_registerPvacPubkey` **overwrites** the previous
+- The chain's `octra_pvacPubkey` map only knows about the new key.
+  the receipt's `pvac_pk_hash` field (the hash committed at receipt
+- The old sidecar (`octra-pvac-sidecar-prev` on disk) serves any
+  decrypt request for a receipt whose `pvac_pk_hash` matches the
+  carries the `pvac_pk_hash` per receipt so the dispatcher can route.
+scripts/operators/rotate-pvac.sh --state-dir <dir> --archive-old
+which moves `${state_dir}/pvac/backup/<rotation-ts>/sk.enc` to cold
+# 1. On-chain pubkey matches local pk.bin
+LOCAL=$(sha256sum "${state_dir}/pvac/pk.bin" | cut -d' ' -f1)
+CHAIN=$(curl -s "$RPC/?method=octra_pvacPubkey&wallet=$WALLET" \
+octravpn-node pvac self-test --state-dir "${state_dir}"
+octravpn-node pvac decrypt-test --state-dir "${state_dir}" \
+    --sidecar-bin "${state_dir}/pvac/octra-pvac-sidecar-prev" \
+| `octra_registerPvacPubkey` returns "tx already in mempool" | duplicate broadcast | wait for the first to confirm; the script's poll loop handles this |
+| `octra_registerPvacPubkey` confirms, but `octra_pvacPubkey` still returns the old blob | RPC node lag | wait 1-2 blocks and re-query; if persistent after 60 s, file an RPC bug — the script exits 50 in this case |
+| KAT fails after a successful `keygen` | sidecar param drift between mint and decrypt | confirm `PVAC_SIDECAR_BIN` points at the same binary across mint + KAT; rebuild if the binary changed mid-flight |
+| Sealed-sk envelope decrypt fails after rotation | wrong passphrase staged | restore from `${state_dir}/pvac/backup/<latest>/sk.enc` and reseal with the correct passphrase before re-running |
+  operator — the dispute path needs a stable PVAC pubkey to verify the
+- DO NOT submit `octra_registerPvacPubkey` without having first sealed
+- Sidecar IPC protocol — `pvac-sidecar/ipc-tests/src/lib.rs`,
+  `pvac-sidecar/src/main.cpp:263` (`op_keygen`).
+- AML host-call bridge status (PVAC pubkey is registered but
+
+## https://raw.githubusercontent.com/androolloyd/octravpn/84fe8b20b28fde7e0b6b8e5a719d786b32e22411/crates/octravpn-node/src/hub/boot.rs
+bytes 14324
+term_hits=["HFHE", "hfhe", "private key", "pvac"]
+//! receipt-journal open, sealed-passphrase resolution, and the PVAC
+    // PVAC sidecar wiring. Opt-in (operator must set `[pvac].enabled
+    // and run without HFHE. Behaviour rationale:
+    //   - The HFHE path is still optional in v1.1/v2/v3 (placeholder
+    //     `hfhe_pubkey_placeholder` above).
+    //     the real PVAC, a no-op service.
+    let pvac = if cfg.pvac.enabled {
+        match crate::pvac::PvacClient::spawn(cfg.pvac.to_runtime()).await {
+                    "pvac sidecar spawned (HFHE path enabled)"
+                    binary = %cfg.pvac.binary_path,
+                    "pvac sidecar disabled: spawn failed — running without HFHE. \
+                     Check `[pvac].binary_path` and that the binary is built \
+                     (`cd pvac-sidecar && make`).",
+    // The kernel backend needs the WG private key as base64. The
+        pvac,
+
+triage=generic Octra/PVAC rotation or boot code; no current HFHE v2 target wallet, secret.ct/pk.bin, PRF, Rku, plaintext, or private-key material.
