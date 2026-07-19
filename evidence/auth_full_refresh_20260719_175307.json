@@ -1,0 +1,18 @@
+{
+  "target": "octC5eR9pLGKbpzTbDgHowkFt8HW7LZYb2gzehzxHamxuAZ",
+  "attempts": [
+    {
+      "url": "https://octra.org/api/account/octC5eR9pLGKbpzTbDgHowkFt8HW7LZYb2gzehzxHamxuAZ",
+      "kind": "str",
+      "result": "<!doctype html>\n<html lang=\"en\">\n\t<head>\n\t\t<meta charset=\"utf-8\" />\n\t\t<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" />\n\t\t\n\t\t<link href=\"./_app/immutable/assets/0.Dubq7KsT.css\" rel=\"stylesheet\">\n\t\t<link href=\"./_app/immutable/assets/2.Db0oMj6f.css\" rel=\"stylesheet\">\n\t\t<link rel=\"modulepreload\" href=\"./_app/immutable/entry/start.HauN56MB.js\">\n\t\t<link rel=\"modulepreload\" href=\"./_app/immutable/chunks/Bp37PHUF.js\">\n\t\t<link rel=\"modulepreload\" href=\"./_app/immutable/chunks/pU5aFSdL.js\">\n\t\t<link rel=\"modulepreload\" href=\"./_app/immutable/chunks/_9abQyAi.js\">\n\t\t<link rel=\"modulepreload\" href=\"./_app/immutable/entry/app.Cu9CoiDI.js\">\n\t\t<link rel=\"modulepreload\" href=\"./_app/immutable/chunks/DD1EV2e_.js\">\n\t\t<link rel=\"modulepreload\" href=\"./_app/immutable/chunks/CB1vtymL.js\">\n\t\t<link rel=\"modulepreload\" href=\"./_app/immutable/chunks/CbR7bhwZ.js\">\n\t\t<link rel=\"modulepreload\" href=\"./_app/immutable/chunks/CtVi07nk.js\">\n\t\t<link rel=\"modulepreload\" href=\"./_app/immutable/nodes/0.BBsfUi3J.js\">\n\t\t<link rel=\"modulepreload\" href=\"./_app/immutable/chunks/ltVm9rcQ.js\">\n\t\t<link rel=\"modulepreload\" href=\"./_app/immutable/nodes/2._wyiFGuN.js\">\n\t\t<link rel=\"modulepreload\" href=\"./_app/immutable/chunks/vTi5sJ0X.js\"><!--12qhfyh--><link rel=\"icon\" href=\"/images/logo.svg\"/><!----><!--1uha8ag--><meta name=\"description\" content=\"octra is universal encrypted compute for blockchain, ai and apps powering future economies\"/> <meta property=\"og:type\" content=\"website\"/> <meta property=\"og:url\" content=\"https://octra.org\"/> <meta property=\"og:title\" content=\"octra | general purpose FHE network\"/> <meta property=\"og:description\" content=\"octra is universal encrypted compute for blockchain, ai and apps powering future economies\"/> <meta property=\"og:image\" content=\"https://octra.org/i"
+    },
+    {
+      "url": "https://octrascan.io/api/account/octC5eR9pLGKbpzTbDgHowkFt8HW7LZYb2gzehzxHamxuAZ",
+      "error": "HTTPError: HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://octrascan.io/address/octC5eR9pLGKbpzTbDgHowkFt8HW7LZYb2gzehzxHamxuAZ",
+      "error": "HTTPError: HTTP Error 404: Not Found"
+    }
+  ]
+}
