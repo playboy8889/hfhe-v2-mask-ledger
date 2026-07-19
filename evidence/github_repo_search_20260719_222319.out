@@ -1,0 +1,8 @@
+"octC5eR9pLGKbpzTbDgHowkFt8HW7LZYb2gzehzxHamxuAZ": total=0 names=[]
+"HFHE Challenge v2" solved: total=0 names=[]
+"PRF_R2" "Octra": total=0 names=[]
+"PRF_R3" "Octra": total=0 names=[]
+"sk.prf_k" "Octra": total=0 names=[]
+"Rku" "Octra" "HFHE": total=0 names=[]
+"recrypt" "Octra" "HFHE": total=1 names=['loperanger7/pvac-bench-harness']
+"Toeplitz" "Octra" "HFHE": total=0 names=[]
