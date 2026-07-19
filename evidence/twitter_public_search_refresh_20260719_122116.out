@@ -1,0 +1,8 @@
+# Public Twitter/X search via web-search fallback 20260719_122116 UTC
+local_ddg_status=skipped due repeated SSL/handshake stalls; web-search fallback used.
+# unique candidate X URLs/snippets
+- https://x.com/octra/status/2075336875322032268 (official challenge; no solved/private-key material)
+- https://x.com/octralex/status/2075338455639364025 (official repo repost/snippet; no solved/private-key material)
+- https://x.com/Kubo100x/status/2075388207882256852 (known negative audit snippet)
+- https://x.com/Quabnation and https://x.com/eienel_eth profile/writeup snippets (method references only)
+candidate_urls=known official/repost/profile/audit snippets only; no target material.

@@ -1,0 +1,11 @@
+# Web search API refresh 20260719_122116 UTC
+queries=["Octra HFHE Challenge v2 solved private key plaintext secret.ct pk.bin", "site:x.com octra HFHE challenge v2 solved private key", "octC5eR9pLGKbpzTbDgHowkFt8HW7LZYb2gzehzxHamxuAZ", "PRF_R2 PRF_R3 sk.prf_k Octra HFHE", "Octra HFHE Challenge v2 github writeup solver", "Octra HFHE v2 PRF_R2 PRF_R3", "secret.ct pk.bin Octra"]
+results_summary:
+- Official octra-labs/hfhe-challenge README/release/activity/manifest resurfaced; repo still shows 33 forks, 30 stars in authenticated refresh and no solved disclosure.
+- Octrascan target address page resurfaced with balance 500001.000001 oct and nonce 0, matching RPC refresh; no key material.
+- Official Octra and octralex X challenge snippets resurfaced; no new solved/claim text.
+- startkey public audit and smoke-ui security assessment/lab-log resurfaced; both are negative-result/method references only, no plaintext/private key.
+- Eienel/Quab public method reference resurfaced through t.co/X; already fetched in previous heartbeat and still no candidate values.
+- Generic Octra docs, sandbox, trend/market/docs pages, and unrelated OCR/old validator/config pages ignored.
+triage=no plaintext/private-key/PRF_R2/PRF_R3/sk.prf_k/Rku/recrypt-key/eval-key target material found.
+notable_urls=["https://github.com/octra-labs/hfhe-challenge", "https://lite.octrascan.io/address.html?addr=octC5eR9pLGKbpzTbDgHowkFt8HW7LZYb2gzehzxHamxuAZ", "https://x.com/octra/status/2075336875322032268", "https://github.com/startkey/octra-hfhe-v2-public-audit", "https://github.com/smoke-ui/octra-hfhe-v2-security-assessment", "https://t.co/QWPCBKctik"]

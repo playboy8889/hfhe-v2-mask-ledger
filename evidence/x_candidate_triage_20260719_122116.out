@@ -1,0 +1,5 @@
+# X candidate triage 20260719_122116 UTC
+source=twitter_public_search_refresh_20260719_122116.out
+source_status=web-search fallback; local DDG skipped after repeated stalls
+candidate_urls=official/repost/profile/audit snippets only; no target material
+new_check=no new X leak; repeated official challenge and known negative-audit/method references only.
