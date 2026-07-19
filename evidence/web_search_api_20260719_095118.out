@@ -1,0 +1,9 @@
+# Web search API refresh 20260719_095118 UTC
+queries=["Octra HFHE Challenge v2 solved private key plaintext secret.ct pk.bin", "site:x.com octra HFHE challenge v2 solved private key", "octC5eR9pLGKbpzTbDgHowkFt8HW7LZYb2gzehzxHamxuAZ", "PRF_R2 PRF_R3 sk.prf_k Octra HFHE"]
+results_summary:
+- known startkey negative public audit surfaced again; it remains an unsolved/no-recovery audit log.
+- official Octra X challenge and repost/profile snippets surfaced (zbc88, Eienel, SyedGhufranHas1, CamilleWanyan, octraintern); these repeat target wallet/reward text or generic Octra context only.
+- octrascan target view surfaced with unchanged balance/nonce/public-key state.
+- Kubo public investigation snippet surfaced again; it is a known negative public-artifact investigation, not a solved disclosure.
+- official user docs/private-key docs, unrelated Bitcoin/private-key puzzle pages, and ski false positives ignored.
+triage=no plaintext/private-key/PRF_R2/PRF_R3/sk.prf_k/Rku/recrypt-key/eval-key target material found.
