@@ -1,53 +1,30 @@
-# HFHE Challenge v2 heartbeat status 20260719_135156 UTC
+# HFHE Challenge v2 heartbeat status 20260719_142118 UTC
 
 ## Current result
 - Plaintext/private key: **not recovered**.
-- Target/account refresh (`auth_full_refresh_20260719_135156.out` / `.json`): balance `500001.000001`, nonce `0`, has_public_key `false`, tx_count `5`; account state unchanged.
-- Official HFHE repo metadata remains: pushed_at `2026-07-11T08:49:01Z`, updated_at `2026-07-16T14:08:35Z`, forks `33`, stars `30`; Octra org public repos `8`.
-- Official org state: `octra-labs/lite_node` pushed_at `2026-07-19T03:15:50Z`, updated_at `2026-07-19T03:15:54Z`; no newer HFHE-related official update.
-- Fork-head diff (`fork_delta_triage_20260719_135156.out`): `33` branch heads checked, `9` unique heads, `0` new head SHAs; no added/removed fork repos.
-- Official PR/issues refresh (`official_issue_pr_refresh_20260719_135156.out`): PR numbers `[4, 3, 2, 1]`, issue numbers `[4, 3, 2, 1]`, no changes.
-- GitHub repo/code searches (`auth_full_refresh_20260719_135156.out`, `github_repo_search_20260719_135156.out`): target-wallet exact match remains official README only; no solved/plaintext/private-key/material repo; `Rku`/recrypt/eval-key/Toeplitz queries returned no new target material.
-- Public X/web refresh (`twitter_public_search_refresh_20260719_135156.out`, `public_web_search_20260719_135156.out`, `web_search_api_20260719_135156.out`, `x_candidate_triage_20260719_135156.out`): official/repost snippets, octrascan state, and known negative-audit/method references only; no plaintext/private-key/PRF/Rku/recrypt material.
+- Target/account: balance `500001.000001`, nonce `0`, has_public_key `false`, tx_count `5`; unchanged.
+- Official HFHE repo: pushed_at `2026-07-11T08:49:01Z`, updated_at `2026-07-16T14:08:35Z`, forks `33`, stars `30`; Octra org repos `8`.
+- Official `lite_node`: pushed_at `2026-07-19T03:15:50Z`, updated_at `2026-07-19T03:15:54Z`; no newer HFHE-related update.
+- Forks: `33` heads checked, `9` unique, `0` new SHAs; no repo changes.
+- PR/issues: PR `[4, 3, 2, 1]`, issues `[4, 3, 2, 1]`; unchanged.
+- GitHub/X/web refresh: no solved/plaintext/private-key/material leak; only known official/context/negative-audit references.
 
-## Work performed this heartbeat
-1. Re-read `status_latest.md`, `monitor_state.json`, and latest logs, then ran a fresh authenticated target-wallet/GitHub/fork/PR/issues/org refresh.
-2. Refreshed GitHub repository search for solved/plaintext/private-key, target wallet, `secret.ct`/`pk.bin`, `PRF_R2`/`PRF_R3`, `sk.prf_k`, writeup/method, `Rku`/recrypt/eval-key, and Toeplitz routes.
-3. Refreshed public web/X searches for new leakage, solved claims, and current target-wallet activity.
-4. Applied the learned negative-audit method filter: only treat a new artifact as actionable if it contains target-specific `sk.prf_k`, R2/R3/Toeplitz stream, second-ciphertext key reuse, or recrypt/eval-key material.
+## Work performed
+Fresh account/official GitHub/fork/PR/issues/org search, repository/code searches for target wallet, `secret.ct`/`pk.bin`, `PRF_R2`, `PRF_R3`, `sk.prf_k`, `Rku`, recrypt/eval-key, Toeplitz, writeups and methods; plus X/public web fallback search.
 
-## Current blocker
-Public artifacts still do not expose target-specific `PRF_R2`, `PRF_R3`, `sk.prf_k`, Toeplitz secret stream material, public `Rku`/recrypt-key/eval-key observations, PC openings/blinds, second ciphertext/key reuse, plaintext, or the target wallet private key. No locally checkable plaintext/private-key candidate exists.
-
-## Newly refreshed / excluded leads
-- No new official HFHE commits, PRs, issues, forks, fork head SHAs, or org repo pushes relevant to recovery.
-- GitHub solved/private-key/plaintext/target wallet/writeup/method/`Rku`/recrypt/Toeplitz searches produced no new target material.
-- Public web/X resurfaced only known official posts, octrascan state, and negative audit/method references from startkey/smoke-ui/Eienel/Quab/Kubo; none is a candidate plaintext or key.
-- Local DDG remains skipped due repeated stalls; web-search fallback covered public web/X for this heartbeat.
+## Blocker / excluded routes
+No target-specific `PRF_R2`, `PRF_R3`, `sk.prf_k`, Toeplitz stream, Rku/recrypt/eval-key, PC openings, second ciphertext/key reuse, plaintext, or private key. Public audits from Eienel/startkey/smoke-ui/Kubo remain method/negative references only.
 
 ## Evidence paths
-- `/Users/koala/hfhe_challenge_v2/auth_full_refresh_20260719_135156.out`
-- `/Users/koala/hfhe_challenge_v2/auth_full_refresh_20260719_135156.json`
-- `/Users/koala/hfhe_challenge_v2/twitter_public_search_refresh_20260719_135156.out`
-- `/Users/koala/hfhe_challenge_v2/github_repo_search_20260719_135156.out`
-- `/Users/koala/hfhe_challenge_v2/official_issue_pr_refresh_20260719_135156.out`
-- `/Users/koala/hfhe_challenge_v2/fork_delta_triage_20260719_135156.out`
-- `/Users/koala/hfhe_challenge_v2/public_web_search_20260719_135156.out`
-- `/Users/koala/hfhe_challenge_v2/web_search_api_20260719_135156.out`
-- `/Users/koala/hfhe_challenge_v2/x_candidate_triage_20260719_135156.out`
-
-## Public references checked
-- `https://github.com/octra-labs/hfhe-challenge`
-- `https://github.com/octra-labs/lite_node`
-- `https://lite.octrascan.io/address.html?addr=octC5eR9pLGKbpzTbDgHowkFt8HW7LZYb2gzehzxHamxuAZ`
-- `https://x.com/octra/with_replies`
-- `https://x.com/octralex`
-- `https://github.com/startkey/octra-hfhe-v2-public-audit`
-- `https://github.com/smoke-ui/octra-hfhe-v2-security-assessment`
-- `https://eienel.github.io/hfhe-challenge-eienel/`
-
-## Publishing note
-The active publication repository remains `https://github.com/playboy8889/hfhe-v2-mask-ledger`.
+- `/Users/koala/hfhe_challenge_v2/auth_full_refresh_20260719_142118.out`
+- `/Users/koala/hfhe_challenge_v2/auth_full_refresh_20260719_142118.json`
+- `/Users/koala/hfhe_challenge_v2/github_repo_search_20260719_142118.out`
+- `/Users/koala/hfhe_challenge_v2/official_issue_pr_refresh_20260719_142118.out`
+- `/Users/koala/hfhe_challenge_v2/fork_delta_triage_20260719_142118.out`
+- `/Users/koala/hfhe_challenge_v2/twitter_public_search_refresh_20260719_142118.out`
+- `/Users/koala/hfhe_challenge_v2/public_web_search_20260719_142118.out`
+- `/Users/koala/hfhe_challenge_v2/web_search_api_20260719_142118.out`
+- `/Users/koala/hfhe_challenge_v2/x_candidate_triage_20260719_142118.out`
 
 ## Next
-Continue monitoring for public `sk.prf_k`, R2/R3, Toeplitz, `Rku`, recrypt-key, eval-key, second ciphertext/key reuse, or explicit official v2 cancellation/claim. If official `lite_node` changes again, diff PVAC serialization/recrypt paths first; validate any candidate against `secret.ct`, `pk.bin`, and the target wallet before reporting.
+Watch for `sk.prf_k`, R2/R3, Toeplitz, Rku/recrypt/eval-key, second ciphertext/key reuse, or official solved/cancellation disclosure. Validate any candidate against `secret.ct`, `pk.bin`, and the target wallet before reporting.
