@@ -11,6 +11,9 @@
 - `github_repo_search_20260719_225642.out`, `official_issue_pr_refresh_20260719_225642.out`, `fork_delta_triage_20260719_225642.out`
 - `public_web_search_20260719_225642.out`, `web_search_api_20260719_225642.out`, `twitter_public_search_refresh_20260719_225642.out`, `x_candidate_triage_20260719_225642.out`
 
+## New method triage
+- `nxpath_method_triage_20260719_225642.out` (new fork method triage; method-only, no target PRF/Rku/plaintext/private-key material)
+
 ## Blocker / excluded this sweep
 No public `sk.prf_k`, `PRF_R2`/`PRF_R3`, Toeplitz stream, `Rku`/recrypt/eval-key material, PC opening, same-key second ciphertext, plaintext, or wallet private key found. Current public evidence still leaves only known non-actionable R1/LPN/context material.
 

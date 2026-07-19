@@ -1,0 +1,93 @@
+# nxpath method triage 20260719_230114 UTC
+repo=nxpath/hfhe-challenge
+
+## README_RECOVERY.md
+bytes=5635
+term_hits=["secret.ct", "pk.bin", "plaintext", "private key", "syndrome", "lpn"]
+# HFHE Challenge v2 - Plaintext Recovery Guide
+This repository contains tools to analyze and attempt plaintext recovery for the HFHE Challenge v2.
+**Challenge Goal**: Recover plaintext from `secret.ct` using only public artifacts (`pk.bin`, `params.json`).
+- **LPN parameters**: n=4096, t=16384
+- **LPN (Learning Parity with Noise)** problem
+- **Hypergraph-based syndrome decoder** construction
+3. Compute syndrome s = H·x + e (mod 2)
+4. Encrypt plaintext by wrapping in polynomial layers
+### 3. plaintext-recovery
+Attempts plaintext recovery using multiple attack vectors:
+./plaintext-recovery
+- LPN parameter assessment
+### 4. attack-pubkey
+./attack-pubkey
+### 5. attack-syndrome
+Syndrome structure analysis:
+./attack-syndrome
+- Syndrome weight statistics
+## Known Attack Vectors
+### A1: Syndrome Decoding
+The core security relies on the hardness of the LPN syndrome decoding problem:
+- **Input**: H (public), syndrome s = H·x + e (computed from ciphertext)
+- **Problem**: Recover x (private key) or e (error)
+- Syndrome space is reduced
+**Check**: `attack-pubkey` detects this
+- May enable statistical attacks
+**Check**: Look for parities not ~50% even/odd
+- Bootstrapping might not amplify security
+- Could enable feedback attacks
+### 1. Syndrome Decoding Algorithms
+- Study Fast Walsh-Hadamard Transform (FWHT) attacks on LPN
+### 2. Algebraic Attacks
+- Check for bias in Fp arithmetic results
+./attack-pubkey            # Find weaknesses
+- `tools/plaintext_recovery.cpp` - add specific recovery logic
+- `tools/attack_*.cpp` - extend analysis
+- Add new `tools/custom_attack.cpp` - implement novel idea
+./build/plaintext-recovery
+4. **Document findings** in `RESULTS.md`
+## Important Notes
+- Plaintext is wrapped with "pvac-text-wrapped" encoding (see artifact code)
+- Success requires recovering either:
+1. The private key (sk.bin)
+- LPN Problem: https://en.wikipedia.org/wiki/Learning_parity_with_noise
+- Syndrome Decoding: [Finiasz & Sendrier 2009]
+1. Recovering plaintext from `secret.ct`
+2. Demonstrating the plaintext decodes to valid instructions
+3. Publishing your cryptanalytic method
+
+## tools/plaintext_recovery.cpp
+bytes=6732
+term_hits=["secret.ct", "pk.bin", "plaintext", "private key", "syndrome", "lpn", "R_com"]
+if (!file) throw std::runtime_error("Cannot open: " + path);
+std::cout << "=== HFHE Plaintext Recovery Utility ===\n\n";
+// ATTACK VECTOR 1: Check for structural weaknesses
+std::cout << "[*] Testing Attack Vectors...\n";
+std::cout << "\n  [A3] LPN Parameter Analysis...\n";
+std::cout << "    - LPN n: " << pk.prm.lpn_n << "\n";
+std::cout << "    - LPN t: " << pk.prm.lpn_t << "\n";
+std::cout << "    - Ratio t/n: " << (double)pk.prm.lpn_t / pk.prm.lpn_n << "\n";
+std::cout << "\n[NOTE] To decrypt: need to recover private key or find weakness in:\n";
+std::cout << "  1. LPN syndrome decoding from public key structure\n";
+
+## tools/attack_syndrome_decoder.cpp
+bytes=6201
+term_hits=["secret.ct", "pk.bin", "private key", "syndrome", "lpn"]
+if (!file) throw std::runtime_error("Cannot open: " + path);
+std::cout << "=== HFHE Syndrome Decoder Analysis ===\n\n";
+std::cout << "[*] Analyzing Syndrome Structure\n";
+std::cout << "    Expected syndrome weight: " << pk.prm.err_wt << "\n\n";
+// Extract edges and analyze syndrome patterns
+std::cout << "[*] Edge Syndrome Analysis (Cipher 0)\n";
+// Analyze syndrome weights
+std::vector<int> syndrome_weights;
+syndrome_weights.push_back(ones);
+if (!syndrome_weights.empty()) {
+std::sort(syndrome_weights.begin(), syndrome_weights.end());
+int min_wt = syndrome_weights.front();
+int max_wt = syndrome_weights.back();
+int median_wt = syndrome_weights[syndrome_weights.size()/2];
+std::cout << "    Syndrome weight statistics:\n";
+std::cout << "\n[*] Attack Surface Analysis\n";
+std::cout << "    [A1] Syndrome Decoding Problem (LPN-based)\n";
+std::cout << "         - Recover private key from H via syndrome decoding\n";
+
+## BUILD.md
+ERR URLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1082)'))
