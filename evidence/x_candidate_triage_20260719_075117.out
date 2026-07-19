@@ -1,0 +1,4 @@
+# X candidate triage 20260719_075117 UTC
+source=twitter_public_search_refresh_20260719_075201.out
+source_status=partial/interrupted after SSL stall; web_search_api fallback also checked X/public results
+candidate_urls=none returned
