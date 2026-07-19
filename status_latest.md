@@ -28,3 +28,4 @@ No target-specific `PRF_R2`, `PRF_R3`, `sk.prf_k`, Toeplitz stream, Rku/recrypt/
 
 ## Next
 Watch for `sk.prf_k`, R2/R3, Toeplitz, Rku/recrypt/eval-key, second ciphertext/key reuse, or official solved/cancellation disclosure. Validate any candidate against `secret.ct`, `pk.bin`, and the target wallet before reporting.
+- Public audit package: whitelist-only evidence committed and pushed as `7616f3b`; credential-pattern scan clean.
