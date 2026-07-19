@@ -1,0 +1,4 @@
+# Public web search 20260719_090342 UTC
+local_ddg_status=skipped due repeated SSL/handshake stalls in prior sweeps; public web coverage supplied by web_search_api_20260719_090342.out.
+# triage
+candidate_urls=[]

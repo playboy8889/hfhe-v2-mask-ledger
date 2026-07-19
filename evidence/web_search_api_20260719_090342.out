@@ -1,0 +1,8 @@
+# Web search API refresh 20260719_090342 UTC
+queries=["Octra HFHE Challenge v2 solved private key plaintext secret.ct pk.bin", "site:x.com octra HFHE challenge v2 solved private key", "octC5eR9pLGKbpzTbDgHowkFt8HW7LZYb2gzehzxHamxuAZ", "PRF_R2 PRF_R3 sk.prf_k Octra HFHE"]
+results_summary:
+- official Octra X/GitHub challenge context and repost/profile snippets surfaced; these repeat target wallet/reward text only.
+- project-watchlist Octra page surfaced and was separately triaged; it is generic timeline/context only.
+- old pvac_hfhe_cpp Bounty 2 / seed-R_com context may surface but remains historical/non-target.
+- unrelated generic private-key/pRF pages ignored.
+triage=no plaintext/private-key/PRF_R2/PRF_R3/sk.prf_k/Rku/recrypt-key/eval-key target material found.
