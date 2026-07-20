@@ -1,0 +1,21 @@
+# public web quick 20260720_032331 UTC
+
+## query: "Octra HFHE" "private key"
+
+## query: "HFHE Challenge v2" plaintext
+
+## query: "secret.ct" "pk.bin" octra
+
+## query: "sk.prf_k" hfhe
+
+## query: "PRF_R2" "Octra"
+
+## query: "PRF_R3" "Octra"
+
+## query: "Rku" "hfhe" octra
+
+## query: "Octra HFHE" solved
+
+## query: "Octra HFHE" "eval-key"
+
+## query: "Octra HFHE" "same-key"
