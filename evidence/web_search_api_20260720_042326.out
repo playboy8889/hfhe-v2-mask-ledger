@@ -1,0 +1,18 @@
+# public web quick 20260720_042326 UTC
+
+## query: "Octra HFHE" "private key"
+
+## query: "HFHE Challenge v2" plaintext
+
+## query: "secret.ct" "pk.bin" octra
+
+## query: "sk.prf_k" hfhe
+
+## query: "PRF_R2" "Octra"
+
+## query: "Rku" "hfhe" octra
+
+## query: "Octra HFHE" solved
+ERR URLError(TimeoutError('_ssl.c:1064: The handshake operation timed out'))
+
+## query: "Octra HFHE" "eval-key"
