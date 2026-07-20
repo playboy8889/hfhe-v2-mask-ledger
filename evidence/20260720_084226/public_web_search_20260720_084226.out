@@ -1,0 +1,13 @@
+# Public web search refresh 20260720_084226 UTC
+Queries checked:
+- Octra HFHE Challenge v2 Rku rk.sec NatKey eval key recrypt bundle FURY
+- "octra" "HFHE" "Rku"
+- "octra" "rk.sec" OR "NatKey"
+- "octC5eR9pLGKbpzTbDgHowkFt8HW7LZYb2gzehzxHamxuAZ"
+- "octra-labs/pvac_hfhe_cpp" "Rku"
+- "Et tu Octra" FURY HFHE
+- "FURY" "Octra" "HFHE"
+- "octra" "NatKey"
+
+Result:
+No target-specific plaintext, wallet private key/mnemonic, Rku, rk.sec, NatKey, eval-key, or recrypt bundle found. Relevant resurfaced hits were known PVAC issue #502 / PR #499/#500 and a separate Iamknownasfesal seed-challenge recovery repo. Both were triaged separately in pvac_issue_502_triage_20260720_084226.out and external_repo_candidate_verify_20260720_084226.out.

@@ -1,0 +1,32 @@
+local_files
+pk.bin 3042901 1e788edff9dea19a782defae053f3757ccf5edd41cd3e24ae44e1496045e9410
+secret.ct 1963107 5da7f82724838bf7a8c4fe95fbf6d573b621c04c9b2f7ae849545cf60223fbab
+seed.ct missing
+remote pk.bin size 3088278 sha256 580b6fcf02b08c34277f6329d6ec125ad0bf0f22868bf24de525c95c57076b0f
+remote seed.ct size 235783 sha256 2a1dbebd1754a095485d34121566575c04b5a44eb99fdde7a0c70f26823c9bae
+remote manifest.json size 1330 sha256 e4c4365568f7dee437539bdf1eb4dd769618168453d957a24da4bc66cda1adf9
+json_scrub {"format": "<redacted-string>", "status": "active", "network": "octra-mainnet", "funded_wallet": {"address": "<redacted-string>", "initial_funding_oct": "500000", "funding_transaction": "<redacted-string>"}, "encrypted_plaintext": {"type": "<redacted-string>", "plaintext_bytes": 79, "cipher_objects": 7}, "cryptography": {"implementation": "pvac-hfhe-cpp", "repository": "<redacted-string>", "commit": "<redacted-string>", "field": "2^127-1", "parameter_B": 337, "H_dimensions": {"rows": 8192, "columns": 16384}}, "public_artifacts": {"ciphertext": "seed.ct", "public_key": "pk.bin", "parameters": "params.json"}, "private_artifacts_not_published": ["sk.bin", "wallet mnemonic", "wallet files"], "winning_condition": "<redacted-string>", "notes": ["<redacted-string>", "<redacted-string>"]}
+remote params.json size 536 sha256 3e63c2ec1fe4ed1e47b47bc7a8f537122ea04475509aec9ab70efa41ceedf228
+json_scrub {"format": "<redacted-string>", "text_encoding": "<redacted-string>", "pubkey_encoding": "<redacted-string>", "cipher_encoding": "<redacted-string>", "plaintext_bytes": 79, "cipher_objects": 7, "B": 337, "m_bits": 8192, "n_bits": 16384, "h_col_wt": 192, "x_col_wt": 128, "err_wt": 128, "noise_entropy_bits": 128, "tuple2_fraction": 0.55, "depth_slope_bits": 16, "edge_budget": 1200000, "lpn_n": 4096, "lpn_t": 16384, "lpn_tau_num": 1, "lpn_tau_den": 8}
+README:3:This repository recovers the 12-word wallet mnemonic behind the Octra "HFHE" seed challenge
+README:4:using **only the public artifacts** (`pk.bin`, `seed.ct`, `params.json`). The secret key
+README:8:- Funded wallet: `<redacted>`
+README:10:- Result: full mnemonic recovered on a laptop in a few minutes, verified against the wallet address and BIP39 checksum.
+README:12:> Security note: the method here reproduces the live seed of a funded wallet. Anyone who
+README:14:> balance in that wallet, move it out first. This repo documents a break in a public
+README:34:message   : octra-hfhe-challenge: I recovered wallet <redacted> ciphertext-only from pk.bin+seed.ct (no sk). date=2026-07-07
+README:74:`ztag` and `nonce` (public, stored in every layer of `seed.ct`), the constant slot count `1`,
+README:79:3. compare to the `R_com` stored in `seed.ct`
+README:99:1. Confirm structure: `seed.ct` holds 7 ciphertexts, `ct[0]` is the length (value 79), `ct[1..6]`
+README:111:crypto extensions), `git`, and Python 3 with `pynacl` for the wallet checks
+README:139:Verify the recovered phrase maps to the funded wallet and passes the BIP39 checksum:
+README:144:#   address : <redacted>
+README:177:<redacted>  pk.bin
+README:178:<redacted>  seed.ct
+README:183:## How the wallet address is derived (for the checks above)
+README:185:Octra key derivation (matches `octra-labs/wallet-gen` and `octra-labs/webcli`):
+README:191:address  = "oct" + base58(SHA256(pubkey))
+README:194:This PBKDF2 is standard BIP39 key derivation used only to check the address. It is not a layer
+README:208:pk.bin, seed.ct, params.json, manifest.json, SHA256SUMS, pvac_commit.txt   challenge artifacts
+README:216:solver/verify_addr.py       derives the Octra address and checks the BIP39 checksum
+README:223:The `pk.bin`, `seed.ct`, `params.json`, `manifest.json`, `SHA256SUMS`, `pvac_commit.txt`, and

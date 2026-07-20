@@ -1,0 +1,135 @@
+REPO Iamknownasfesal/octra-hfhe-challenge-recovery
+{"html_url": "https://github.com/Iamknownasfesal/octra-hfhe-challenge-recovery", "created_at": "2026-07-07T11:29:58Z", "updated_at": "2026-07-14T13:53:33Z", "pushed_at": "2026-07-07T11:30:44Z", "default_branch": "main", "fork": false, "parent": null, "source": null}
+file_count 19
+path README.md size 10382
+path pk.bin size 3088278
+path seed.ct size 235783
+path solver/analyze.cpp size 5071
+path solver/attack_block.cpp size 3541
+path solver/bip39_en.txt size 13116
+path solver/build.sh size 876
+path solver/facts.cpp size 2147
+path solver/phase1.cpp size 5768
+path solver/sign_msg.py size 1522
+path solver/solve2.cpp size 8349
+path solver/verify_addr.py size 1913
+path source/hfhe_seed_artifact.cpp size 9001
+path source/pvac_artifact_serialize.hpp size 14767
+kw_hits README.md ['plaintext', 'mnemonic', 'pk.bin', 'seed'] len 10382
+kw_hits manifest.json ['private', 'plaintext', 'mnemonic', 'pk.bin', 'seed'] len 1330
+kw_hits params.json ['plaintext', 'seed'] len 536
+kw_hits solver/attack_block.cpp ['pk.bin', 'seed'] len 3541
+kw_hits solver/bip39_en.txt ['private', 'seed'] len 13116
+kw_hits solver/facts.cpp ['plaintext', 'pk.bin', 'seed'] len 2147
+kw_hits solver/phase1.cpp ['plaintext', 'pk.bin', 'seed'] len 5768
+kw_hits solver/sign_msg.py ['mnemonic', 'pk.bin', 'seed'] len 1522
+kw_hits solver/solve2.cpp ['plaintext', 'mnemonic', 'pk.bin', 'seed'] len 8349
+kw_hits solver/verify_addr.py ['mnemonic', 'seed'] len 1913
+kw_hits source/hfhe_seed_artifact.cpp ['private', 'plaintext', 'mnemonic', 'pk.bin', 'seed'] len 9001
+kw_hits source/pvac_artifact_serialize.hpp ['recrypt', 'sk.prf_k', 'seed'] len 14767
+REPO Iamknownasfesal/pvac_hfhe_cpp
+{"html_url": "https://github.com/Iamknownasfesal/pvac_hfhe_cpp", "created_at": "2026-07-07T18:12:58Z", "updated_at": "2026-07-07T18:12:58Z", "pushed_at": "2026-07-07T18:49:11Z", "default_branch": "main", "fork": true, "parent": {"id": 1107938436, "node_id": "R_kgDOQgnMhA", "name": "pvac_hfhe_cpp", "full_name": "octra-labs/pvac_hfhe_cpp", "private": false, "owner": {"login": "octra-labs", "id": 117525754, "node_id": "O_kgDOBwFM-g", "avatar_url": "https://avatars.githubusercontent.com/u/117525754?v=4", "gravatar_id": "", "url": "https://api.github.com/users/octra-labs", "html_url": "https://github.com/octra-labs", "followers_url": "https://api.github.com/users/octra-labs/followers", "following_url": "https://api.github.com/users/octra-labs/following{/other_user}", "gists_url": "https://api.g
+file_count 112
+path README.md size 2248
+path benchmarks/README.md size 17041
+path bounty2_data/README.md size 2751
+path bounty2_data/a.ct size 42154
+path bounty2_data/b.ct size 42154
+path bounty2_data/pk.bin size 16913820
+path bounty2_data/sum.ct size 84284
+path bounty3_data/README.md size 2065
+path bounty3_data/pk.bin size 16913820
+path bounty3_data/seed.ct size 291742
+path bounty_data/README.md size 3135
+path examples/ml/README.md size 1973
+path examples/recrypt_usage.cpp size 1155
+path include/pvac/core/ct_safe.hpp size 9729
+path include/pvac/core/seedable_rng.hpp size 737
+path include/pvac/crypto/keygen.hpp size 6930
+path include/pvac/ops/recrypt.hpp size 5549
+path include/pvac/ops/recrypt_arith_proof.hpp size 2247
+path include/pvac/ops/recrypt_chosen_privacy.hpp size 18485
+path include/pvac/ops/recrypt_com.hpp size 9805
+path include/pvac/ops/recrypt_com_reset.hpp size 12903
+path include/pvac/ops/recrypt_eval.hpp size 10841
+path include/pvac/ops/recrypt_fold.hpp size 3086
+path include/pvac/ops/recrypt_hidden_coeff.hpp size 7895
+path include/pvac/ops/recrypt_layer_proof.hpp size 6155
+path include/pvac/ops/recrypt_native_cert.hpp size 138446
+path include/pvac/ops/recrypt_proof_profile.hpp size 6351
+path include/pvac/ops/recrypt_ru.hpp size 21606
+path include/pvac/ops/recrypt_runtime_eval.hpp size 65392
+path include/pvac/ops/recrypt_src.hpp size 2623
+path include/pvac/ops/recrypt_src_core.hpp size 2556
+path include/pvac/ops/recrypt_stage_eval.hpp size 6405
+path include/pvac/ops/recrypt_stage_link.hpp size 5042
+path tests/bench_recrypt_deep_api.cpp size 12557
+path tests/decode_ct.cpp size 8825
+path tests/test_aes_ctr.cpp size 1819
+path tests/test_compactness.cpp size 3750
+path tests/test_ct.cpp size 7015
+path tests/test_ct_fuzz.cpp size 2577
+path tests/test_ct_safe.cpp size 5398
+path tests/test_noise_struct.cpp size 2769
+path tests/test_recrypt_api.cpp size 4369
+path tests/test_recrypt_nat.cpp size 15705
+path tests/test_struct.cpp size 1607
+path tests/test_struct_v2.cpp size 14099
+kw_hits README.md ['recrypt'] len 2248
+kw_hits benchmarks/README.md ['private', 'plaintext', 'bounty'] len 17040
+kw_hits benchmarks/bench_bfv.hpp ['plaintext'] len 12738
+kw_hits benchmarks/bench_bgv.hpp ['plaintext'] len 6210
+kw_hits benchmarks/bench_binfhe.hpp ['private'] len 1501
+kw_hits benchmarks/bench_ckks.hpp ['plaintext'] len 8886
+kw_hits benchmarks/bench_fhew.hpp ['private'] len 1476
+kw_hits benchmarks/bench_tfhe.hpp ['private', 'plaintext'] len 2490
+kw_hits bounty2_data/README.md ['pk.bin', 'bounty'] len 2749
+kw_hits bounty3_data/README.md ['mnemonic', 'pk.bin', 'bounty', 'seed'] len 2063
+kw_hits bounty_data/README.md ['pk.bin', 'bounty', 'seed'] len 3117
+kw_hits examples/basic_usage.cpp ['sk.prf_k'] len 11145
+kw_hits examples/ml/README.md ['private'] len 1973
+kw_hits examples/recrypt_usage.cpp ['recrypt'] len 1155
+kw_hits include/pvac/core/hash.hpp ['seed'] len 10503
+kw_hits include/pvac/core/seedable_rng.hpp ['seed'] len 737
+kw_hits include/pvac/core/types.hpp ['recrypt', 'PRF_R2', 'PRF_R3', 'seed'] len 5340
+kw_hits include/pvac/crypto/keygen.hpp ['sk.prf_k', 'seed'] len 6930
+kw_hits include/pvac/crypto/lpn.hpp ['PRF_R2', 'PRF_R3', 'sk.prf_k', 'seed'] len 11714
+kw_hits include/pvac/crypto/matrix.hpp ['seed'] len 6731
+kw_hits include/pvac/ops/arithmetic.hpp ['seed'] len 16166
+kw_hits include/pvac/ops/commit.hpp ['seed'] len 2446
+kw_hits include/pvac/ops/decrypt.hpp ['recrypt', 'seed'] len 3752
+kw_hits include/pvac/ops/encrypt.hpp ['sk.prf_k', 'seed'] len 34632
+kw_hits include/pvac/ops/recrypt.hpp ['Rku', 'NatKey', 'recrypt', 'seed'] len 5549
+kw_hits include/pvac/ops/recrypt_chosen_privacy.hpp ['recrypt'] len 18485
+kw_hits include/pvac/ops/recrypt_com_reset.hpp ['recrypt'] len 12903
+kw_hits include/pvac/ops/recrypt_eval.hpp ['Rku', 'NatKey', 'recrypt', 'seed'] len 10841
+kw_hits include/pvac/ops/recrypt_fold.hpp ['seed'] len 3086
+kw_hits include/pvac/ops/recrypt_layer_proof.hpp ['recrypt'] len 6155
+kw_hits include/pvac/ops/recrypt_native_cert.hpp ['recrypt', 'seed'] len 138446
+kw_hits include/pvac/ops/recrypt_ru.hpp ['Rku', 'rk.sec', 'NatKey', 'recrypt', 'sk.prf_k', 'seed'] len 21606
+kw_hits include/pvac/ops/recrypt_runtime_eval.hpp ['recrypt', 'sk.prf_k', 'seed'] len 65392
+kw_hits include/pvac/ops/recrypt_src.hpp ['Rku', 'rk.sec', 'NatKey', 'recrypt', 'seed'] len 2623
+kw_hits include/pvac/ops/recrypt_src_core.hpp ['sk.prf_k', 'seed'] len 2556
+kw_hits include/pvac/ops/recrypt_stage_eval.hpp ['recrypt'] len 6405
+kw_hits include/pvac/ops/recrypt_stage_link.hpp ['recrypt'] len 5042
+kw_hits include/pvac/pvac.hpp ['recrypt'] len 889
+kw_hits include/pvac/pvac_native.hpp ['recrypt'] len 416
+kw_hits tests/add.cpp ['pk.bin', 'sk.prf_k', 'bounty', 'seed'] len 6828
+kw_hits tests/bench_enc.cpp ['seed'] len 1122
+kw_hits tests/bench_recrypt_deep_api.cpp ['NatKey', 'recrypt'] len 12557
+kw_hits tests/bounty2_test.cpp ['pk.bin', 'sk.prf_k', 'bounty', 'seed'] len 9004
+kw_hits tests/bounty3_test.cpp ['mnemonic', 'pk.bin', 'sk.prf_k', 'bounty', 'seed'] len 8308
+kw_hits tests/bounty_r2_attack.cpp ['plaintext', 'seed'] len 3502
+kw_hits tests/bounty_test.cpp ['pk.bin', 'sk.prf_k', 'bounty', 'seed'] len 9218
+kw_hits tests/decode_ct.cpp ['pk.bin', 'sk.prf_k', 'bounty', 'seed'] len 8825
+kw_hits tests/test_ct_safe.cpp ['seed'] len 5398
+kw_hits tests/test_hfhe_depth.cpp ['recrypt'] len 3076
+kw_hits tests/test_main.cpp ['recrypt'] len 13319
+kw_hits tests/test_plain_text.cpp ['seed'] len 3108
+kw_hits tests/test_prf.cpp ['PRF_R2', 'seed'] len 2263
+kw_hits tests/test_prf_ext.cpp ['seed'] len 1988
+kw_hits tests/test_recrypt_api.cpp ['recrypt', 'bounty'] len 4369
+kw_hits tests/test_recrypt_nat.cpp ['Rku', 'rk.sec', 'NatKey', 'recrypt', 'sk.prf_k', 'seed'] len 15705
+kw_hits tests/test_simd_attack.cpp ['plaintext', 'seed'] len 24412
+kw_hits tests/test_struct_v2.cpp ['seed'] len 14099
+kw_hits tests/test_zero_sk.cpp ['plaintext'] len 1767
