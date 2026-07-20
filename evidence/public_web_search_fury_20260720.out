@@ -1,0 +1,4 @@
+# FURY route triage, sourced from public web search on 2026-07-20
+Lead: te.mpe.st Et tu, Octra? describes a FURY route against the native quadratic PRF in pvac_hfhe_cpp commit e2835df. It claims public Rku encodes each sk.prf_k[i] as G_i = k_i/(a_i^2+1), with a_i linear in the four k_i, yielding four quadratic equations and possible resultant elimination.
+Status: this is not yet actionable for the current v2 workspace because no target-specific Rku/rk.sec bundle has been located in local artifacts or the official challenge artifact set; the current challenge account has no public key. Treat as a concrete conditional route, not a recovered candidate.
+No secret values or personal OSINT copied here.
