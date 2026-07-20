@@ -1,0 +1,15 @@
+# Public web search refresh 20260720_092505 UTC
+Queries checked:
+- "Octra HFHE Challenge v2" "Rku" "rk.sec"
+- "Octra" "HFHE" "NatKey" "recrypt"
+- "octC5eR9pLGKbpzTbDgHowkFt8HW7LZYb2gzehzxHamxuAZ"
+- "ct00_l0_s0_pvac_prf_r_1"
+
+Visible relevant results:
+- Official/X challenge announcement and mirrors.
+- Octrascan target address page: balance/nonce still match local RPC refresh.
+- octra-labs/pvac_hfhe_cpp issue #502: repeats known conclusion that forged NatKey/recrypt soundness gaps do not recover plaintext and do not compromise secret.ct.
+- Trendshift/GitHub references to Iamknownasfesal seed-challenge recovery: already excluded because remote artifacts do not match this target v2 secret.ct/pk.bin.
+
+Result:
+No new actionable public leak found. No target-specific plaintext, private key, mnemonic, Rku, rk.sec, NatKey, eval-key, or recrypt bundle surfaced.
